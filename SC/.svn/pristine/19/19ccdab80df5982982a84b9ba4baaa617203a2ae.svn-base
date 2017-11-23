@@ -1,0 +1,19 @@
+{
+    "BQInfos": [
+        {
+            "BQDM": "0001",
+            "BQName": "A病区",
+            "HOSName":"上海XX医院"
+        },
+        {
+            "BQDM": "0002",
+            "BQName": "B病区",
+            "HOSName":"上海XX医院"
+        },
+        {
+            "BQDM": "0003",
+            "BQName": "C病区",
+            "HOSName":"上海XX医院"
+        }
+    ]
+}

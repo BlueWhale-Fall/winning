@@ -1,0 +1,61 @@
+<template>
+  <div class="a">
+    <dp-header></dp-header>
+    <!--<div class="d">{{msg}}-->
+      <!--<button @click="changeMsg()" >123</button>-->
+    <!--</div>-->
+
+    <dp-footer></dp-footer>
+  </div>
+</template>
+
+<script>
+  import dpHeader from '@/components/Header.vue'
+  import dpFooter from '@/components/Footer.vue'
+    export default {
+        data() {
+            return {
+              msg:'123',
+            };
+        },
+        computed: {},
+        watch: {},
+        methods: {
+          changeMsg(){
+            this.msg = '666';
+          }
+        },
+        created() {
+            //console.log('Component createda'),
+           this.msg = '456';
+          setTimeout(_ => {
+            this.msg = '789';
+            console.log(this.msg)
+          },1000)
+        },
+        mounted() {
+            console.log('Component mounteda');
+        },
+      components: {
+        dpHeader,
+        dpFooter
+      }
+    }
+</script>
+
+<style>
+
+  html,body{
+    width:100%;
+    height:100%;
+    position: relative;
+  }
+.a{ width: 100%;
+    height:100%;
+}
+.d{
+  width: 100%;
+  height:calc(100vh - 90px);
+  background: red;
+}
+</style>

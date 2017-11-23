@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>大屏展示系统</title>
+		<meta name="keywords" content="XXXX">
+		<meta name="description" content="XXXX">
+		<meta name="autdor" content="autdor">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/aside.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/loading.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+
+	<body>
+		<div id="loadWrap" class="loading">
+			<div class="showresult">
+				正在更新数据，请稍后......
+			</div>
+		</div>
+		<iframe name="header" style="width:100%;height:169px;" scrolling="no" src="header.html"></iframe>
+		<!--content-->
+		<section class="databody">
+			<!--出院-->
+			<article id="leavehospital" class="databox margin-right-20">
+				<div class="dataTitle"></div>
+				<div id="tdOut" class="leavedetail">
+					<div class="detailtitle"></div>
+					<div class="numbox">
+						
+					</div>
+				</div>
+				<div id="tmOut" class="leavedetail">
+					<div class="detailtitle"></div>
+					<div class="numbox">
+						
+					</div>
+				</div>
+			</article>
+			<!--生命体征-->
+			<article id="VS" class="databox margin-right-20">
+				<div class="dataTitle"></div>
+				<div class="dbline">
+					<div id="BPqd">
+						<div class="secTitle"></div>
+						<div class="numbox">
+						
+						</div>
+					</div>
+					<div id="BPbid">
+						<div class="secTitle"></div>
+						<div class="numbox">
+						
+						</div>
+					</div>
+					<div id="BPtid">
+						<div class="secTitle"></div>
+						<div class="numbox">
+						
+						</div>
+					</div>
+				</div>
+				<div class="line">
+					<div id="R">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+							
+						</div>
+					</div>
+					<div id="observe">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+							
+						</div>
+					</div>
+					<div id="pup">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+							
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--快速血糖-->
+			<article id="fastBS" class="databox margin-right-20">
+				<div class="dataTitle">快速血糖</div>
+				<div class="taskname">
+					<ul>
+						<li>床号</li>
+						<li>早餐前</li>
+						<li>中晚餐前</li>
+						<li class="fontover">三餐后<br/>2H</li>
+						<li class="fontover">睡前<br/>9PM</li>
+					</ul>
+				</div>
+				<div class="taskBox">
+					
+				</div>
+			</article>
+			<!--检查项目-->
+			<article class="databox margin-right-20">
+				<div id="special">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="GPAP">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="finger">
+					<div class="dataTitle">指脉氧</div>
+					<div class="fingerNum">
+						<ul>
+
+						</ul>
+					</div>
+				</div>
+			</article>
+			<!--值班医生-->
+			<div id="doctor" class="rightdatabox">
+				<div class="dataTitle">值班医生</div>
+				<div class="group">
+					<ul>
+						<li>耳组</li>
+						<li>鼻组</li>
+						<li>咽喉组</li>
+					</ul>
+				</div>
+				<div class="doctorbox">
+					<div class="ear">
+						
+					</div>
+					<div class="nose">
+						
+					</div>
+					<div class="guttur">
+						
+					</div>
+				</div>
+			</div>
+			<!--基础专科护理-->
+			<article id="tend" class="databox margin-right-20">
+				<div class="dataTitle"></div>
+				<div class="dbline">
+					<div id="qdsh">
+						<div class="secTitle"></div>
+						<div class="numbox">
+							
+						</div>
+					</div>
+					<div id="whxr">
+						<div class="secTitle"></div>
+						<div class="numbox">
+							
+						</div>
+					</div>
+					<div id="qxtg">
+						<div class="secTitle"></div>
+						<div class="numbox">
+							
+						</div>
+					</div>
+					<div id="jbcx">
+						<div class="secTitle"></div>
+						<div class="numbox">
+							
+						</div>
+					</div>
+					<div id="kqcx">
+						<div class="secTitle"></div>
+						<div class="numbox">
+							
+						</div>
+					</div>
+				</div>
+				<div class="line">
+					<div id="wwhl">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+							
+						</div>
+					</div>
+					<div id="bwb">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+							
+						</div>
+					</div>
+					<div id="ewb">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+							
+						</div>
+					</div>
+				</div>
+			</article>
+			<article id="allergy" class="databox margin-right-20">
+				<!--药物过敏-->
+				<div id="guoM">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="spSlide1">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="spSlide2">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="spSlide3">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--特殊治疗-->
+				<div id="Tes">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="spSlide4">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="spSlide5">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="spSlide6">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<!--安全管理和治疗-->
+			<article class="databox margin-right-20">
+				<div id="security">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="dg">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+								
+							</div>
+						</div>
+						<div id="yc">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+								
+							</div>
+						</div>
+						<div id="dd">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+								
+							</div>
+						</div>
+						<!--<div id="VTE">-->
+							<!--<div class="detailtitle"></div>-->
+							<!--<div class="detaildata">-->
+								<!---->
+							<!--</div>-->
+						<!--</div>-->
+					</div>
+				</div>
+				<div id="cure">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="jwt">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+								
+							</div>
+						</div>
+						<div id="rd">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+								
+							</div>
+						</div>
+						<div id="yds">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--心电监护＋导管＋24H-->
+			<article class="databox margin-right-20">
+				<div id="ward">
+					<div class="dataTitle">心电监护</div>
+					<div class="box">
+						<div class="leftBox">
+							<div class="secTitle">移动器械</div>
+							<div class="movehic">
+								<ul>
+
+								</ul>
+							</div>
+						</div>
+						<div class="rightBox">
+							<div class="secTitle">固定器械</div>
+							<div class="fixedhic">
+								<ul>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottomBox">
+					<div class="leftBox">
+						<div id="canal">
+							<div class="dataTitle"></div>
+							<div class="dbline">
+								<div id="fx">
+									<div class="secTitle"></div>
+									<div class="numbox">
+										
+									</div>
+								</div>
+								<div id="wg">
+									<div class="secTitle"></div>
+									<div class="numbox">
+										
+									</div>
+								</div>
+								<div id="ng">
+									<div class="secTitle"></div>
+									<div class="numbox">
+										
+									</div>
+								</div>
+								<div id="bs">
+									<div class="secTitle"></div>
+									<div class="numbox">
+
+									</div>
+								</div>
+								<div id="PICC">
+									<div class="secTitle"></div>
+									<div class="numbox">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="rightBox">
+						<div id="allday">
+							<div class="dataTitle border-left"></div>
+							<div class="dbline">
+								<div id="crl">
+									<div class="secTitle font-14"></div>
+									<div class="numbox">
+										
+									</div>
+								</div>
+								<div id="nl">
+									<div class="secTitle"></div>
+									<div class="numbox">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--责任护士-->
+			<article id="nurse" class="topic databox rightdatabox margin-top-20 ">
+				<div class="boxline"></div>
+				<div class="dataTitle">责任护士</div>
+				<div id="topic" class="textWrap">
+					<!--<div class="dutynurse">
+						<div class="nursename">沈月苛</div>
+						<div class="nurseduty">
+							<ul>
+								<li>
+									<span>1-7</span>
+								</li>
+								<li>
+									<span>101-103</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="dutynurse">
+						<div class="nursename">罗玉亮</div>
+						<div class="nurseduty">
+							<ul>
+								<li>
+									<span>244</span>
+								</li>
+								<li>
+									<span>28</span>
+								</li>
+								<li>
+									<span>30</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="dutynurse">
+						<div class="nursename">彭翠翠</div>
+						<div class="nurseduty">
+							<ul>
+								<li>
+									<span>1-7</span>
+								</li>
+								<li>
+									<span>101-103</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="dutynurse">
+						<div class="nursename">罗亦雯</div>
+						<div class="nurseduty">
+							<ul>
+								<li>
+									<span>1-7</span>
+								</li>
+								<li>
+									<span>101-103</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="dutynurse">
+						<div class="nursename">罗亦雯</div>
+						<div class="nurseduty">
+							<ul>
+								<li>
+									<span>1-7</span>
+								</li>
+								<li>
+									<span>101-103</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="dutynurse">
+						<div class="nursename">罗亦雯</div>
+						<div class="nurseduty">
+							<ul>
+								<li>
+									<span>1-7</span>
+								</li>
+								<li>
+									<span>101-103</span>
+								</li>
+							</ul>
+						</div>
+					</div>-->
+				</div>
+			</article>
+			<div class="changepage">
+				<ul>
+					<li>
+						<a data-id="1">出入转</a>
+					</li>
+					<li>
+						<a data-id="2">生命体征</a>
+					</li>
+					<li>
+						<a href="fastBS.html">快速血糖</a>
+					</li>
+					<li>
+						<a data-id="3">特殊检查项目</a>
+					</li>
+					<li>
+						<a data-id="4">基础/专科护理</a>
+					</li>
+					<li>
+						<a data-id="5">药物过敏</a>
+					</li>
+					<li>
+						<a data-id="6">特殊治疗</a>
+					</li>
+					<li>
+						<a data-id="7">安全管理</a>
+					</li>
+					<li>
+						<a data-id="8">治疗</a>
+					</li>
+					<li>
+						<a data-id="9">导管</a>
+					</li>
+					<li>
+						<a data-id="10">24H</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<aside class="asideBox">
+			<div class="topwrap">
+			</div>
+			<a id="asdClose">关&nbsp;闭</a>
+		</aside>
+		<iframe name="footer" style="width:100%;height:32px;" scrolling="no" src="footer.html"></iframe>
+		<!--JavaScript-->
+		<script src="js/jquery.1.42.min.js"></script>
+		<script src="js/jquery.SuperSlide.2.1.js"></script>
+		<script src="js/index.js"></script>
+
+		<script>
+			$(function() {
+				//主页加载
+				indexInit();
+				secondInit();
+                setInterval(function () {
+                    /*指脉氧*/
+                    infosInit('1', 10, '.fingerNum ul');
+                    /*移动器械*/
+                    infosInit('2', 3, '.movehic ul');
+                    /*固定器械*/
+                    infosInit('3', 4, '.fixedhic ul');
+                }, 15000);
+				$('.changepage a').click(function () {
+                    var url = 'js/data.json',
+						num = $(this).attr('data-id'),
+						BQDM = '2000';
+                    localStorage.setItem('url', url);
+                    localStorage.setItem('num', num);
+                    localStorage.setItem('bqdm', BQDM);
+                    window.location.href = 'subpage.html';
+				})
+			})
+		</script>
+		<script src="js/script.js"></script>
+	</body>
+
+</html>

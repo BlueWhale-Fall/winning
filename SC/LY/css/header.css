@@ -1,0 +1,135 @@
+.head {
+    height: 89px;
+    line-height: 89px;
+    width: 100%;
+    background: #085DFF;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+}
+
+.head .headtime {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    left: 20px;
+}
+
+.head .nurse {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 29px;
+    top: 0;
+}
+
+.headbody {
+    width: 100%;
+    height: 110px;
+    background: #fff;
+    -moz-box-shadow: 0px 3px 3px #e0e0e0;
+    -webkit-box-shadow: 0px 3px 3px #e0e0e0;
+    box-shadow: 0px 3px 3px #e0e0e0;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+}
+
+.headmain {
+    position: absolute;
+    left: 75px;
+    height: 110px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.headboxright {
+    width: 305px;
+    float: left;
+}
+
+.headbox {
+    height: 100px;
+    float: left;
+    padding: 0px;
+}
+
+.headborder {
+    -moz-border-right: 1px solid #DEDEDE;
+    -webkit-border-right: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    padding-right: 10px;
+}
+
+.headtextbox {
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    width: 300px;
+}
+
+.headtext {
+    min-width: 72px;
+    float: left;
+    text-align: right;
+}
+
+.leftimg {
+    background: url('../img/people.png') center center no-repeat;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.middleimg {
+    width: 70px;
+    background: url(../img/hosin.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.rightimg {
+    width: 70px;
+    background: url(../img/follow.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.headline {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+.headhighline {
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.lefttext {
+    font-size: 24px;
+    color: #3D414A;
+    float: left;
+}
+
+.righttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.lefttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.headnum {
+    font-size: 28px;
+    color: #1463F0;
+    float: left;
+    min-width: 40px;
+}
+
+.font-red {
+    color: #FF2A21;
+}

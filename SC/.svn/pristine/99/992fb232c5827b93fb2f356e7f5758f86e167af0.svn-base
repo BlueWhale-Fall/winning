@@ -1,0 +1,91 @@
+/*aside*/
+
+.databody {
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#surgeryDetails {
+    width: 1630px;
+    height: 814px;
+}
+
+#surgeryDetails h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+.surgeryIcon {
+    display: inline-block;
+    margin: 0 10px 0 40px;
+    width: 22px;
+    height: 55px;
+    line-height: 55px;
+    background: url(../img/operation.png) no-repeat center center;
+}
+
+#surgeryDetails .title {
+    height: 55px;
+    line-height: 55px;
+}
+
+#surgeryDetails .title li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: #333;
+    float: left;
+}
+
+#surgeryDetails .font-2 {
+    width: 300px;
+}
+
+#surgeryDetails .font-3 {
+    width: 330px;
+}
+
+#surgeryDetails .font-4 {
+    width: 350px;
+}
+
+#surgeryDetails .infoList li span {
+    display: inline-block;
+    color: #666;
+}
+
+.infoList > li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#surgeryDetails .infoList li .slide {
+    height: 55px!important;
+    float: left;
+    cursor: default;
+}
+
+#surgeryDetails .infoList {
+    height: 55px;
+    float: left;
+}
+
+#surgeryDetails .infoList:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#surgeryDetails .infoList li .num {
+    color: #166AFF;
+}
+
+#surgeryDetails .infoList .mark {
+    width: 24px;
+    height: 24px;
+}
+
+#surgeryDetails {
+    position: relative;
+}

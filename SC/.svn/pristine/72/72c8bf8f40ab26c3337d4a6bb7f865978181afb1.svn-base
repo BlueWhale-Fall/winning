@@ -1,0 +1,1061 @@
+{
+	"BQDM": "2918",
+	"BQTitle": "ICU综合信息平台",
+	"DateWeek": "2017-4-20 星期四",
+	"DBHS": "",
+	"HZInfos":[
+		{
+			"XSNR":"病人总数",
+			"RS":"50"
+		},
+		{
+			"XSNR":"新入院",
+			"RS":"2"
+		},
+		{
+			"XSNR":"出院",
+			"RS":"1"
+		},
+		{
+			"XSNR":"转入",
+			"RS":"3"
+		},
+		{
+			"XSNR":"转出",
+			"RS":"4"
+		},
+		{
+			"XSNR":"手术",
+			"RS":"1"
+		},
+		{
+			"XSNR":"压疮",
+			"RS":"6"
+		},
+		{
+			"XSNR":"跌倒",
+			"RS":"12"
+		},
+		{
+			"XSNR":"导管",
+			"RS":"12"
+		},
+		{
+			"XSNR":"死亡",
+			"RS":"12"
+		}
+	],
+	"FZinfos": [
+		{
+			"FZXH": 9,
+			"FZName": "出院",
+			"FZPX": 1,
+			"RWinfos": [
+				{
+					"RWXH": 11,
+					"RWName": "今日出院(下午)",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "002"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "015"
+						}, {
+							"CWDM": "108"
+						}, {
+							"CWDM": "110"
+						}
+					]
+				}, {
+					"RWXH": 12,
+					"RWName": "明日出院(上午)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "029"
+						}, {
+							"CWDM": "102"
+						}, {
+							"CWDM": "109"
+						}, {
+							"CWDM": "112"
+						},
+						{
+							"CWDM": "029"
+						}, {
+							"CWDM": "102"
+						}, {
+							"CWDM": "109"
+						}, {
+							"CWDM": "112"
+						}
+					]
+				}, {
+					"RWXH": 83,
+					"RWName": "今日出院(上午)",
+					"RWPX": 3,
+					"CWinfos": [
+						{
+							"CWDM": "030"
+						}, {
+							"CWDM": "031"
+						}, {
+							"CWDM": "032"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 13,
+			"FZName": "测血糖",
+			"FZPX": 2,
+			"RWinfos": [
+				{
+					"RWXH": 143,
+					"RWName": "QD",
+					"RWPX": 1,
+					"CWinfos": []
+				}, {
+					"RWXH": 144,
+					"RWName": "Q2H",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "019"
+						}
+					]
+				}, {
+					"RWXH": 145,
+					"RWName": "Q4H",
+					"RWPX": 3,
+					"CWinfos": []
+				}, {
+					"RWXH": 146,
+					"RWName": "Q6H",
+					"RWPX": 4,
+					"CWinfos": []
+				}, {
+					"RWXH": 147,
+					"RWName": "Q8H",
+					"RWPX": 5,
+					"CWinfos": []
+				}, {
+					"RWXH": 148,
+					"RWName": "特殊",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "035"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 14,
+			"FZName": "尿量",
+			"FZPX": 3,
+			"RWinfos": [
+				{
+					"RWXH": 141,
+					"RWName": "尿量",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "035"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "035"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "035"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 15,
+			"FZName": "药物过敏",
+			"FZPX": 4,
+			"RWinfos": [
+				{
+					"RWXH": 153,
+					"RWName": "青霉素",
+					"RWPX": 1,
+					"CWinfos": []
+				}, {
+					"RWXH": 33,
+					"RWName": "头孢类",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 155,
+					"RWName": "硫胺类",
+					"RWPX": 3,
+					"CWinfos": []
+				}, {
+					"RWXH": 156,
+					"RWName": "银杏叶",
+					"RWPX": 4,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 157,
+					"RWName": "洁霉素",
+					"RWPX": 5,
+					"CWinfos": []
+				}, {
+					"RWXH": 158,
+					"RWName": "苯巴比妥",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 16,
+			"FZName": "特殊治疗",
+			"FZPX": 5,
+			"RWinfos": [
+				{
+					"RWXH": 38,
+					"RWName": "注射RI",
+					"RWPX": 1,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "肠内营养",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						},
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						},{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						},
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}
+					]
+				}, {
+					"RWXH": 39,
+					"RWName": "雾化吸入",
+					"RWPX": 3,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 100,
+					"RWName": "微波",
+					"RWPX": 4,
+					"CWinfos": []
+				}, {
+					"RWXH": 166,
+					"RWName": "气压",
+					"RWPX": 5,
+					"CWinfos": []
+				}, {
+					"RWXH": 126,
+					"RWName": "冲洗腹腔",
+					"RWPX": 6,
+					"CWinfos": []
+				}, {
+					"RWXH": 167,
+					"RWName": "冲洗膀胱",
+					"RWPX": 7,
+					"CWinfos": []
+				}
+			]
+		}, {
+			"FZXH": 17,
+			"FZName": "导管",
+			"FZPX": 6,
+			"RWinfos": [
+				{
+					"RWXH": 136,
+					"RWName": "胃管",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 134,
+					"RWName": "尿管",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 135,
+					"RWName": "胸球",
+					"RWPX": 3,
+					"CWinfos": []
+				}, {
+					"RWXH": 165,
+					"RWName": "负球",
+					"RWPX": 4,
+					"CWinfos": []
+				}, {
+					"RWXH": 136,
+					"RWName": "鼻肠管",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 134,
+					"RWName": "造瘘管",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 135,
+					"RWName": "腹腔引流",
+					"RWPX": 3,
+					"CWinfos": []
+				}, {
+					"RWXH": 165,
+					"RWName": "肛管引流",
+					"RWPX": 4,
+					"CWinfos": []
+				}, {
+					"RWXH": 136,
+					"RWName": "VSD",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 134,
+					"RWName": "气管插管",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 135,
+					"RWName": "气管切开",
+					"RWPX": 3,
+					"CWinfos": []
+				}, {
+					"RWXH": 165,
+					"RWName": "血透管",
+					"RWPX": 4,
+					"CWinfos": []
+				}
+			]
+		}, {
+			"FZXH": 1,
+			"FZName": "入出转",
+			"FZPX": 7,
+			"RWinfos": [
+				{
+					"RWXH": 75,
+					"RWName": "新入院",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "x01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "015"
+						}, {
+							"CWDM": "016"
+						}, {
+							"CWDM": "017"
+						}, {
+							"CWDM": "018"
+						}, {
+							"CWDM": "019"
+						}, {
+							"CWDM": "020"
+						}, {
+							"CWDM": "021"
+						}, {
+							"CWDM": "022"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "024"
+						}, {
+							"CWDM": "025"
+						}, {
+							"CWDM": "026"
+						}, {
+							"CWDM": "027"
+						}, {
+							"CWDM": "028"
+						}, {
+							"CWDM": "029"
+						}, {
+							"CWDM": "x30"
+						}
+					]
+				}, {
+					"RWXH": 77,
+					"RWName": "转入",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 76,
+					"RWName": "出院",
+					"RWPX": 3,
+					"CWinfos": [
+						{
+							"CWDM": "c01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "c15"
+						}
+					]
+				}, {
+					"RWXH": 78,
+					"RWName": "转出",
+					"RWPX": 4,
+					"CWinfos": [
+						{
+							"CWDM": "z01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "z15"
+						}
+					]
+				}, {
+					"RWXH": 79,
+					"RWName": "压疮",
+					"RWPX": 5,
+					"CWinfos": [
+						{
+							"CWDM": "t01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "t15"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "跌倒",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "Ⅰ01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "Ⅰ03"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "导管",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}
+			]
+		}
+	],
+	"SSinfos": [
+		{
+			"Name": "手术",
+			"CWDM": "床号",
+			"SSName": "手术名称",
+			"GC": "灌肠",
+			"TBJ": "通便剂",
+			"ZDYS": "主刀医生",
+			"SSTime": "手术安排时间",
+			"SSpos": "手术地点",
+			"Infos": [
+				{
+					"CWDM": "006",
+					"SSMC": "胆囊",
+					"GC": "0",
+					"TBJ": "1",
+					"BX": "0",
+					"BP": "0",
+					"ZDYS": "袁周",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "1号"
+				}, {
+					"CWDM": "006",
+					"SSMC": "甲状腺",
+					"GC": "0",
+					"TBJ": "1",
+					"BX": "0",
+					"BP": "0",
+					"ZDYS": "哈哈",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "32号"
+				}, {
+					"CWDM": "006",
+					"SSMC": "肠胃",
+					"GC": "0",
+					"TBJ": "0",
+					"BX": "0",
+					"BP": "1",
+					"ZDYS": "哈哈",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "5号"
+				}, {
+					"CWDM": "006",
+					"SSMC": "骨科",
+					"GC": "1",
+					"TBJ": "1",
+					"BX": "0",
+					"BP": "1",
+					"ZDYS": "哈哈",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "7号"
+				},
+				{
+					"CWDM": "006",
+					"SSMC": "胆囊",
+					"GC": "0",
+					"TBJ": "1",
+					"BX": "0",
+					"BP": "0",
+					"ZDYS": "袁周",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "1号"
+				}, {
+					"CWDM": "006",
+					"SSMC": "甲状腺",
+					"GC": "0",
+					"TBJ": "1",
+					"BX": "0",
+					"BP": "0",
+					"ZDYS": "哈哈",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "32号"
+				}, {
+					"CWDM": "006",
+					"SSMC": "肠胃",
+					"GC": "0",
+					"TBJ": "0",
+					"BX": "0",
+					"BP": "1",
+					"ZDYS": "哈哈",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "5号"
+				}, {
+					"CWDM": "006",
+					"SSMC": "骨科",
+					"GC": "1",
+					"TBJ": "1",
+					"BX": "0",
+					"BP": "1",
+					"ZDYS": "哈哈",
+					"SSSJ": "2016111708:00:00",
+					"SSDD": "7号"
+				}
+			]
+		}
+	],
+	"YYJCinfos": [
+		{
+			"RWXH": 30,
+			"RWName": "预约检查",
+			"RWPX": 1,
+			"Infos": [
+				{
+					"CWDM": "001",
+					"Content": "常规心脏超声检查<br><br>动态心电图<br><br>",
+					"CheckTime": "2016-11-23"
+				},
+				{
+					"CWDM": "002",
+					"Content": "常规心脏超声检查<br><br>动态心电图<br><br>上腹部MRI增强<br><br>",
+					"CheckTime": "2016-11-23"
+				},
+				{
+					"CWDM": "003",
+					"Content": "MRCP平扫<br><br>常规心脏超声检查<br><br>动态心电图<br><br>",
+					"CheckTime": "2016-11-26"
+				},
+				{
+					"CWDM": "004",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": "2016-11-23"
+				},
+				{
+					"CWDM": "005",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": "2016-11-23"
+				},
+				{
+					"CWDM": "006",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": "2016-11-23"
+				},
+				{
+					"CWDM": "007",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "008",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "009",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "010",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "011",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "012",
+					"Content": "电子十二指肠镜<br><br>经内镜逆行胰胆管造影(ERCP)<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "013",
+					"Content": "上腹部CT增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "014",
+					"Content": "12导联电脑心电图<br><br>胸部正位<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "015",
+					"Content": "常规心脏超声检查<br><br>动态心电图<br><br>动态血压<br><br>腹部超声常规(含肾)<br><br>乳腺高频彩超常规<br><br>锁骨下淋巴结<br><br>胸廓内动脉旁淋巴结<br><br>腋下肿块及周围淋巴结<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "016",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "017",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "018",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "019",
+					"Content": "电子十二指肠镜<br><br>经内镜逆行胰胆管造影(ERCP)<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "020",
+					"Content": "上腹部CT增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "021",
+					"Content": "12导联电脑心电图<br><br>胸部正位<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "022",
+					"Content": "常规心脏超声检查<br><br>动态心电图<br><br>动态血压<br><br>腹部超声常规(含肾)<br><br>乳腺高频彩超常规<br><br>锁骨下淋巴结<br><br>胸廓内动脉旁淋巴结<br><br>腋下肿块及周围淋巴结<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "023",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "024",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "025",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "026",
+					"Content": "电子十二指肠镜<br><br>经内镜逆行胰胆管造影(ERCP)<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "027",
+					"Content": "上腹部CT增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "028",
+					"Content": "12导联电脑心电图<br><br>胸部正位<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "029",
+					"Content": "常规心脏超声检查<br><br>动态心电图<br><br>动态血压<br><br>腹部超声常规(含肾)<br><br>乳腺高频彩超常规<br><br>锁骨下淋巴结<br><br>胸廓内动脉旁淋巴结<br><br>腋下肿块及周围淋巴结<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "030",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "031",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "032",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "033",
+					"Content": "电子十二指肠镜<br><br>经内镜逆行胰胆管造影(ERCP)<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "034",
+					"Content": "上腹部CT增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "035",
+					"Content": "12导联电脑心电图<br><br>胸部正位<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "036",
+					"Content": "常规心脏超声检查<br><br>动态心电图<br><br>动态血压<br><br>腹部超声常规(含肾)<br><br>乳腺高频彩超常规<br><br>锁骨下淋巴结<br><br>胸廓内动脉旁淋巴结<br><br>腋下肿块及周围淋巴结<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "037",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "038",
+					"Content": "上腹部MRI增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "039",
+					"Content": "MRCP平扫<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "040",
+					"Content": "电子十二指肠镜<br><br>经内镜逆行胰胆管造影(ERCP)<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "041",
+					"Content": "上腹部CT增强<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "042",
+					"Content": "12导联电脑心电图<br><br>胸部正位<br><br>",
+					"CheckTime": ""
+				},
+				{
+					"CWDM": "043",
+					"Content": "常规心脏超声检查<br><br>动态心电图<br><br>动态血压<br><br>腹部超声常规(含肾)<br><br>乳腺高频彩超常规<br><br>锁骨下淋巴结<br><br>胸廓内动脉旁淋巴结<br><br>腋下肿块及周围淋巴结<br><br>",
+					"CheckTime": ""
+				}
+			]
+		}
+	]
+}

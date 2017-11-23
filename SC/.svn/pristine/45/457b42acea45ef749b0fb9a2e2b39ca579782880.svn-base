@@ -1,0 +1,121 @@
+/*aside*/
+
+.databody {
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#fastBSDetails {
+    width: 1880px;
+    height: 861px;
+}
+
+#fastBSDetails h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+#fastBSDetails .title {
+    height: 55px;
+    line-height: 55px;
+}
+
+#fastBSDetails .title li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: #333;
+    float: left;
+    width: 376px;
+}
+
+#fastBSSlide>li>span {
+    width: 376px;
+}
+
+#fastBSDetails .infoList li span {
+    display: inline-block;
+    color: #666;
+}
+
+.infoList > li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#fastBSDetails .infoList li .slide {
+    height: 55px!important;
+    float: left;
+    cursor: default;
+}
+
+#fastBSDetails .infoList {
+    height: 55px;
+    float: left;
+}
+
+#fastBSDetails .infoList:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#fastBSDetails .infoList li .num {
+    color: #166AFF;
+}
+
+#fastBSDetails .infoList .mark {
+    width: 24px;
+    height: 24px;
+}
+
+#fastBSDetails {
+    position: relative;
+}
+
+#screen {
+    width: 400px;
+    height: 32px;
+    right: 105px;
+    bottom: 0px;
+    text-align: right;
+    position: absolute;
+}
+
+#fastBSDetails>a {
+    width: 80px;
+    height: 32px;
+    color: #666;
+    bottom: 24px;
+    font-size: 20px;
+    line-height: 31px;
+    position: absolute;
+    display: inline-block;
+    background: #FAFAFA;
+    border-radius: 70px;
+    text-align: center;
+    font-weight: normal;
+    text-decoration:none;
+    border: 1px solid #E1E1E1;
+}
+
+#return1 {
+    left: 40px;
+}
+
+#return2 {
+    right: 40px;
+}
+
+
+#fastBSDetails>a:hover {
+    color: #518DFF;
+    border-color: #518DFF;
+}
+
+#fastBSDetails>a:active {
+    color: #F9F9F9;
+    border-color: #6d6d6d;
+    background-color: #6d6d6d;
+}

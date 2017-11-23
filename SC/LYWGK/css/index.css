@@ -1,0 +1,632 @@
+body {
+    font-family: "Microsoft YaHei";
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 18px !important;
+    direction: ltr;
+    cursor: default;
+    min-width: 1920px;
+    overflow-x: hidden;
+}
+
+.databody {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    box-sizing: border-box;
+    background: #F1F2F7;
+    padding: 0 20px 20px 20px;
+}
+
+.databox {
+    width: 392px;
+    height: 405px;
+    float: left;
+    background: #fff;
+    margin-top: 12px;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.rightdatabox {
+    width: 228px;
+    margin-top: 12px;
+    float: left;
+    background-color: #fff;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+#doctor {
+	height: 405px;
+}
+#nurse {
+	height: 300px;
+	position: relative;
+}
+
+/*通用样式*/
+.fontover {
+	line-height: 30px !important;
+}
+
+.detaildata ul {
+	overflow: hidden;
+}
+
+.detaildata ul li {
+	float: left;
+	margin-right: 4px;
+}
+
+.dataTitle {
+	font-size: 22px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #4688FF;
+}
+
+.secTitle,
+.detailtitle {
+	font-size: 17px;
+}
+
+.dbline>div:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+/*出院*/
+#leavehospital .numbox ul li .num {
+	margin: 10px 7px 7px 15px;
+}
+
+#leavehospital .detailtitle {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #F8F8F8;
+}
+
+#leavehospital .numbox {
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+#leavehospital .numbox ul li {
+	float: left;
+	width: 63.33px;
+	height: 50px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*生命体征*/
+#VS .numbox {
+	width: 100%;
+	height: 163px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+#VS .numbox ul li .num {
+	margin: 9px 7px 7px 15px;
+}
+
+#VS .numbox ul li {
+	float: left;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+}
+
+#VS .detaildata ul,
+#tend .detaildata ul,
+#special .detaildata ul,
+#allergy .detaildata ul {
+	height: 54px;
+}
+
+#VS .dbline ul {
+	width: 120px;
+}
+
+.dbline {
+	width: 100%;
+	overflow: hidden;
+}
+
+#VS .dbline>div:nth-child(2) {
+	background-color: #F8F8F8;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+}
+
+#VS .dbline .secTitle {
+	height: 24px;
+	line-height: 24px;
+}
+
+.secTitle {
+	text-align: center;
+}
+
+.dbline .detaildata {
+	padding: 0px 0px 0px 10px;
+}
+
+#BPqd,
+#BPbid,
+#BPtid {
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+}
+
+#VS .line ul,
+#special .line ul,
+#tend .line ul,
+#allergy .line ul,
+#security .line ul,
+#cure .line ul {
+	width: 240px;
+}
+
+.line {
+	width: 100%;
+	overflow: hidden;
+}
+
+.line>div:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.line>div {
+	overflow: hidden;
+	border-top: 1px solid #E5E5E5;
+}
+
+.line .detaildata,
+#special .detaildata {
+	float: left;
+	box-sizing: border-box;
+	padding: 4px 0px 0px 8px;
+	box-sizing: border-box;
+}
+
+.line .detailtitle {
+	float: left;
+	width: 95px;
+	height: 57px;
+	line-height: 57px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+/*特殊检查*/
+#special>div.line {
+	overflow: hidden;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+/*指脉氧*/
+#finger .fingerNum ul li .num {
+	margin: 24px 7px 7px 7px;
+}
+
+.fingerNum {
+	width: 100%;
+	height: 265px;
+	overflow: hidden;
+}
+
+.fingerNum ul {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.fingerNum ul li {
+	float: left;
+	width: 20%;
+	height: 132px;
+	text-align: center;
+	border-top: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	box-sizing: border-box;
+}
+
+.fingerNum ul li div:first-child {
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	background-color: #F8F8F8;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+/*基本\专科护理*/
+#tend .numbox {
+	height: 121px;
+}
+
+#tend .numbox ul li .num {
+	margin: 11px 7px 7px 20px;
+}
+
+#qdsh,
+#whxr,
+#qxtg,
+#jbcx,
+#kqcx {
+	width: 20%;
+	float: left;
+	box-sizing: border-box;
+}
+
+#tend .secTitle {
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	padding: 0 5px 0 5px;
+}
+
+#tend .line .detailtitle {
+	height: 63px;
+	line-height: 63px;
+}
+
+#tend .line .detaildata {
+	padding-top: 5px;
+}
+
+#tend .dbline .detaildata {
+	height: 62px;
+	padding-left: 12px;
+}
+
+#tend .dbline>div {
+	border-left: 1px solid #E5E5E5;
+}
+
+/*药物过敏*/
+
+#allergy .detaildata ul li .num {
+	margin: 4px 7px 7px 7px;
+}
+
+#allergy .line>div {
+	height: 53.5px;
+}
+
+#allergy .line>div,
+#cure .line>div,
+#security .line>div {
+	border-top: 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+/*安全管理和治疗*/
+
+#cure .line>div,
+#security .line>div {
+	height: 53.5px;
+}
+
+#cure .line .detailtitle,
+#security .line .detailtitle {
+	height: 46px;
+	line-height: 51px;
+}
+
+#security .detaildata ul,
+#cure .detaildata ul {
+	height: 46px;
+}
+
+#security .detaildata ul .num,
+#cure .detaildata ul .num {
+	margin: 2px 7px 2px 7px;
+}
+
+/*移动器械和固定器械*/
+#ward .box ul li .num {
+	margin: 10px 7px 7px 7px;
+}
+
+.box,
+.bottomBox {
+	width: 100%;
+	overflow: hidden;
+}
+
+.box ul li {
+	float: left;
+	width: 56px;
+	height: 85px;
+    text-align: center;
+	box-sizing: border-box;
+	border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.box .leftBox ul li:nth-child(odd) {
+	background-color: #F8F8F8;
+}
+
+.box .rightBox ul li:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.box .secTitle {
+	border-right: 1px solid #E5E5E5;
+}
+
+.leftBox {
+	width: 224px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.rightBox {
+	width: 168px;
+	float: left;
+	box-sizing: border-box;
+}
+.box .leftBox {
+	width: 168px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.box .rightBox {
+	width: 224px;
+	float: left;
+	box-sizing: border-box;
+}
+/*导管*/
+#canal .numbox,
+#allday .numbox {
+	height: 154px;
+}
+
+#canal .numbox ul li .num,
+#allday .numbox ul li .num {
+	margin: 22px 7px 7px 3px;
+}
+
+#canal .secTitle,
+#allday .secTitle {
+	height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+#canal .dbline .detaildata,
+#allday .dbline .detaildata {
+	height: 77px;
+	padding-left: 1px;
+}
+
+#canal .detaildata ul,
+#allday .detaildata ul {
+	height: 60px;
+}
+
+#canal .dbline .detaildata ul .num,
+#allday .dbline .detaildata ul .num {
+	margin: 20px 7px 0px 7px;
+}
+
+#canal .dbline>div,
+#allday .dbline>div {
+	border-left: 1px solid #E5E5E5;
+}
+
+#fx,
+#wg,
+#ng,#bs,
+#PICC {
+	width: 20%;
+	float: left;
+	box-sizing: border-box;
+}
+
+/*24H*/
+#crl,
+#nl {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+
+/*值班医生*/
+
+#doctor .dataTitle {
+	color: #fff;
+	background-color: #FFAE1F;
+	border: none;
+}
+
+.group ul {
+	width: 100%;
+	overflow: hidden;
+}
+
+.group ul li {
+	float: left;
+	width: 33.33%;
+	height: 62px;
+	line-height: 62px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #fff3dd;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.doctorbox>div {
+	float: left;
+	width: 33.33%;
+	height: 303px;
+	font-size: 18px;
+	text-align: center;
+	box-sizing: border-box;
+	border-right: 1px solid #E5E5E5;
+}
+
+.doctorbox>div>div {
+	width: 100%;
+	height: 61px;
+	line-height: 61px;
+	text-align: center;
+	box-sizing: border-box;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.doctorbox>div>div:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+/*责任护士*/
+#topic>div:nth-child(odd) {
+	background-color: #F8F8F8;
+}
+
+.dutynurse {
+	width: 100%;
+	height: 42.5px;
+	overflow: hidden;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.nursename {
+	float: left;
+	width: 76px;
+	height: 42.5px;
+	color: #3D414A;
+	font-size: 18px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.nurseduty {
+	float: left;
+	width: 150px;
+}
+
+.nurseduty ul li {
+	float: left;
+	width: 100px;
+	height: 42.5px;
+	color: #3D414A;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 10px;
+}
+
+.boxline {
+	top: 40px;
+	left: 76px;
+	width: 1px;
+	height: 365px;
+	position: absolute;
+	border-left: 1px solid #E5E5E5;
+}
+
+/*快速血糖*/
+.taskname ul {
+	width: 100%;
+	overflow: hidden;
+}
+
+.taskname ul li:nth-child(even),
+.taskBox div ul li:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.taskname ul li {
+	float: left;
+	width: 20%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	text-align: center;
+	box-sizing: border-box;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.taskBox {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 305px !important;
+}
+
+.taskBox div ul {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.taskBox div ul li {
+	float: left;
+	width: 20%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	box-sizing: border-box;
+	border-right: 1px solid #E5E5E5;
+
+}
+
+/*预约检查背景颜色*/
+#order{
+	background-color: #F7F7F7;
+}
+
+/*切换子页面按钮*/
+.changepage {
+	bottom: 6px;
+	left: 22px;
+	position: absolute;
+}
+
+.changepage ul li a {
+	width: 151px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 13px;
+	color: #085DFF;
+	text-decoration: none;
+	display: inline-block;
+	background: #FBFBFB;
+	border: 1px solid #DBDFE6;
+	border-radius: 8px;
+}
+
+.changepage ul li:last-child a {
+	margin-right: 0;
+}
+
+.changepage ul li a:active {
+	color: #FAFAFA;
+	background: #085DFF;
+}
+
+.changepage ul li a.prohibit {
+	cursor: default;
+	color: #BDBDBD;
+	background: #E8E8E8;
+}

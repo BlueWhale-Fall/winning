@@ -1,0 +1,214 @@
+#kf,
+#bf_2h,
+#af_2h,
+#pm9,
+#pm10,
+#am3,
+#Q2H,
+#Q4H,
+#Q6H,
+#Q8H,
+#bp_qd,
+#bp_bid,
+#bp_q2h,
+#bp_q4h,
+#bp_q6h,
+#bp_q8h,
+#tmp_qd,
+#tmp_bid,
+#tmp_q2h,
+#tmp_q4h,
+#tmp_q6h,
+#tmp_q8h
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 123px;
+}
+#tmp_qd,
+#tmp_bid,
+#tmp_q2h,
+#tmp_q4h,
+#tmp_q6h,
+#tmp_q8h
+{
+    width: 101px;
+}
+#bp_qd,
+#bp_bid,
+#bp_q2h,
+#bp_q4h,
+#bp_q6h,
+#bp_q8h
+{
+    width: 101px;
+}
+#oa_in,
+#oa_out,
+#oa_urine
+{
+	width: 126px;
+	box-sizing: border-box;
+}
+.databody {
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#signsDetails {
+    width: 1630px;
+    height: 814px;
+}
+
+#signsDetails h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+.databox {
+    height: 394px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.cxt {
+    width: 1230px;
+}
+
+.xdjh {
+    width: 378px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.cxy {
+    width: 606px;
+}
+
+.ctw {
+    width: 606px;
+    margin-left: 18px;
+}
+
+.crl {
+	width: 378px;
+}
+
+.signsIcon,
+.heartIcon,
+.bloodPressureIcon,
+.tmpIcon {
+    display: inline-block;
+    margin: 0 10px 0 15px;
+    width: 26px;
+    height: 55px;
+    line-height: 55px;
+}
+
+#bsTitle>li:nth-child(2n),
+#bsdata>div:nth-child(2n),
+#bpTitle>li:nth-child(2n),
+#bpdata>div:nth-child(2n),
+#tmpTitle>li:nth-child(2n),
+#tmpdata>div:nth-child(2n),
+#amountTitle>li:nth-child(2n),
+#amountdata>div:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+.signsIcon {
+    background: url(../img/bloodSugar.png) no-repeat center;
+}
+
+.heartIcon {
+    background: url(../img/heart.png) no-repeat center;
+}
+
+.bloodPressureIcon {
+    background: url(../img/bloodPressure.png) no-repeat center;
+}
+
+.tmpIcon {
+    background: url(../img/tmp.png) no-repeat center;
+}
+
+.cxt li {
+    width: 123px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.bsslide,
+.bsList {
+    width: 123px;
+}
+
+.bsList {
+    box-sizing: border-box;
+    /* border-right: 1px solid #E5E5E5;*/
+    border-top: none;
+    height: 310px;
+    padding-left: 9px;
+}
+
+.bsList li,
+.bpressList li,
+.tmpList li,
+.amountList li{
+    float: left;
+    width: 50px;
+}
+
+.cxy .bpressName {
+    width: 101px;
+    box-sizing: border-box;
+}
+
+.bpressList {
+    width: 101px;
+    height: 310px;
+    margin-left: -2px;
+}
+
+.amountList {
+    width: 126px;
+    height: 310px;
+    padding-left: 11px;
+}
+
+#heartCare {
+    padding: 10px 27px;
+    float: left;
+}
+
+.hCList {
+    width: 100%;
+}
+
+.ctw .bpressName {
+    width: 101px;
+    box-sizing: border-box;
+}
+
+.crl .bpressName {
+	width: 126px;
+	box-sizing: border-box;
+}
+
+.tmpList {
+    width: 101px;
+    height: 310px;
+    margin-left: -2px;
+}
+.databody h2:first-child
+{
+    padding-left: 20px;
+}

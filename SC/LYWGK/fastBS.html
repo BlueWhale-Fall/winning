@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>快速血糖</title>
+    <meta name="keywords" content="XXXX">
+    <meta name="description" content="XXXX">
+    <meta name="autdor" content="autdor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/aside.css">
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/fastBS.css">
+</head>
+
+<body>
+    <div id="loadWrap" class="loading"></div>
+    <iframe name="header" style="width:100%;height:169px;" scrolling="no" src="header.html"></iframe>
+    <section class="databody">
+        <article id="fastBSDetails" class="boxshadow floatL text-align-c">
+            <h2 class="border-bottom text-align-l">快速血糖</h2>
+            <ul class="title border-bottom">
+                <li class="font-2">床号</li>
+                <li class="font-2">早餐前</li>
+                <li class="font-4">中晚餐前</li>
+                <li class="font-2">三餐后2H</li>
+                <li class="font-3">睡前9PM</li>
+            </ul>
+            <article class="txtScroll-top">
+                <article class="hd">
+                    <ul id="screen" class="screens">
+                    </ul>
+                </article>
+                <article id="operation" class="bd">
+                    <ul id="fastBSSlide" class="infoList">
+                    </ul>
+                </article>
+            </article>
+            <a id="return1" href="javascript:history.go(-1);">返回</a>
+            <a id="return2" href="javascript:history.go(-1);">返回</a>
+        </article>
+        
+
+
+    </section>
+
+    <iframe name="footer" style="width:100%;height:32px;" scrolling="no" src="footer.html"></iframe>
+    <!--JavaScript-->
+    <script src="js/jquery.1.42.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js"></script>
+    <script src="js/secondData.js"></script>
+    <script>
+        $(function () {
+            var url = localStorage.getItem('url'),
+                bqdm = localStorage.getItem('bqdm')
+            _subpage.fastBSInit(url,bqdm);
+        })
+    </script>
+</body>
+
+</html>

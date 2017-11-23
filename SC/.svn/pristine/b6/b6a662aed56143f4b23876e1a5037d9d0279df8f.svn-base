@@ -1,0 +1,287 @@
+<template>
+  <!--init模块-->
+  <article class="init">
+    <nav>
+      <span class="init_logo"></span>
+      <h1>可视化护理综合信息平台</h1>
+      <h2>VISUAL NURSING INTEGRATED INFORMATION PLATFORM</h2>
+    </nav>
+    <header>
+      <h2>可视化护理综合信息平台</h2>
+      <p>VISUAL NURSING INTEGRATED INFORMATION PLATFORM</p>
+    </header>
+    <div class="initbox">
+      <input
+        class="bradius-100"
+        type="text"
+        name="zoomname"
+        placeholder="请选择病区名称"
+        @click="toggleShowList"
+        :value="selectedZoomName"
+      >
+      <button id="initbtn"
+              class="bradius-100"
+              type="button"
+              name="init"
+              @click="setCurrentZoom"
+      >确定
+      </button>
+      <div class="listwrap" v-show="isShowList">
+        <ul class="zoomlist" >
+          <slot name="list">
+            <template v-for="(zoomName, index) in zooms">
+              <li :key="index"
+                  v-text="zoomName.BQName"
+                  @click="selectZoom(index)"
+              ></li>
+            </template>
+          </slot>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <span class="hosname">上海二华医院</span>
+      <span class="copyright">© 2016 Winning Health 版权所有</span>
+    </footer>
+  </article>
+</template>
+
+<script>
+  import { mapState } from 'vuex'
+  export default {
+    props: {
+      zooms: {
+        type: Array,
+        required: false
+      }
+    },
+    data() {
+      return {
+        isShowList: false,
+        selectedZoom: null,
+      };
+    },
+    computed: {
+      selectedZoomName() {
+        return this.selectedZoom ? this.selectedZoom.BQName : null
+      },
+      ...mapState([
+        'currentZoom'
+      ])
+    },
+    watch: {
+      currentZoom: function (value, oldValue) {
+        this.$router.push({name:'list'});
+      }
+    },
+    methods: {
+      toggleShowList() {
+        this.isShowList = !this.isShowList;
+      },
+      selectZoom(zoomIndex) {
+        this.selectedZoom = this.zooms[zoomIndex];
+        this.toggleShowList();
+      },
+      setCurrentZoom() {
+        if (!this.selectedZoom) {
+          return;
+        }
+        this.$store.commit('settingCurrentZoom',this.selectedZoom);
+      }
+    },
+    created() {
+      console.log('Component created');
+    },
+    mounted() {
+      console.log('Component mounted');
+    }
+  }
+</script>
+
+<style lang="less" scoped>
+  #app {
+    position: relative;
+    .init {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 20002;
+      background: url(../assets/img/bg.png) no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .init nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    border: 0;
+  }
+
+  .init nav .init_logo {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 60px;
+    margin: 10px 30px 10px 50px;
+    background: url(../assets/img/logo.png) no-repeat center center;
+    background-size: contain;
+  }
+
+  .init nav h1, .init nav h2 {
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 240px;
+  }
+
+  .init nav h1 {
+    top: 20px;
+  }
+
+  .init nav h2 {
+    top: 50px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.64);
+    font-weight: normal;
+  }
+
+  .init header {
+    position: absolute;
+    height: 508px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    margin-top: -240px;
+    left: 50%;
+    margin-left: -254px;
+  }
+
+  .init header h2 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    font-family: 黑体;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .init header p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.63);
+  }
+
+  .initbox {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    margin-left: -300px;
+    left: 50%;
+    margin-top: -10px;
+    z-index: 3;
+    input {
+      width: 402px;
+      height: 56px;
+      font-size: 16px;
+      padding: 5px 10px 5px 25px;
+      -webkit-border: 3px solid #FDE368;
+      -moz-border: 3px solid #FDE368;
+      border: 3px solid #FDE368;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+    .bradius-100 {
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+    }
+    button {
+      padding: 0 10px 0 28px;
+      width: 180px;
+      height: 56px;
+      text-align: center;
+      line-height: 40px;
+      color: #A98400;
+      font-size: 20px;
+      background-color: #FFE88F;
+      cursor: pointer;
+      border: none;
+      letter-spacing: 0.8em;
+    }
+    button:focus {
+      background-color: #ffda2a;
+    }
+    .listwrap {
+      width: 440px;
+      max-height: 280px;
+      background-color: #fff;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      position: absolute;
+      top: 76px;
+      overflow: hidden;
+      -webkit-border: 1px solid #efefef;
+      -moz-border: 1px solid #efefef;
+      border: 1px solid #efefef;
+      border-top: none;
+    }
+    .zoomlist {
+      max-height: 224px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      li {
+        font-size: 14px;
+        color: #666;
+        width: 440px;
+        height: 56px;
+        color: #666;
+        text-align: center;
+        font-size: 20px;
+        line-height: 56px;
+        -webkit-border-bottom: 1px solid #efefef;
+        -moz-border-bottom: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;
+        cursor: pointer;
+      }
+      li:hover {
+        color: #4095eb;
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 56px;
+    font-size: 12px;
+    color: #929292;
+    line-height: 56px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 32px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default;
+    overflow: hidden;
+    border: 0;
+    box-shadow: none;
+    background: #fff;
+    .hosname {
+      float: left;
+    }
+    .copyright {
+      float: right;
+    }
+  }
+</style>

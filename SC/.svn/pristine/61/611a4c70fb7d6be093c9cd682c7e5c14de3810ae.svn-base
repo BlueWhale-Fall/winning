@@ -1,0 +1,59 @@
+.databody {
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+#ductDetails {
+    width: 1630px;
+    height: 812px;
+    position: relative;
+}
+
+#ductDetails h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+#ductTitles {
+    width: 170px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+#ductDetails .infoList .slide {
+    float: left;
+    width: 1460px;
+    height: 55px;
+    overflow:hidden;
+}
+
+#ductSlide .infoList>li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#ductTitles li {
+    width: 170px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    font-size: 22px;
+    padding-left: 18px;
+}
+
+.ductList {
+    width: 1460px;
+    float: left;
+}
+
+#ductSlide {
+    width: 100%;
+    overflow: auto;
+    line-height: 55px;
+    float: left;
+}
+#ductSlide .infoList
+{
+    overflow: auto;
+}

@@ -1,0 +1,586 @@
+{
+  "FZinfos": [
+    {
+      "FZXH": 1,
+      "FZName": "测血压",
+      "FZPX": 1,
+      "RWinfos": [
+        {
+          "RWXH": 38,
+          "RWName": "测血压QD",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "05",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "12",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "14",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "18",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "26",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "34",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 37,
+          "RWName": "测血压BID",
+          "RWPX": 2,
+          "CWinfos": [
+            {
+              "CWDM": "+03",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+04",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+05",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+07",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+09",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+14",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+15",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+19",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "02",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "08",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "09",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "10",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "13",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "15",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "17",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "19",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "20",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "21",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "22",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "24",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "25",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "27",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "28",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "30",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "35",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "38",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "39",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "40",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 43,
+          "RWName": "测血压Q8H",
+          "RWPX": 5,
+          "CWinfos": [
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 42,
+          "RWName": "测血压Q6H",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "29",
+              "STATUS": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 2,
+      "FZName": "测血糖",
+      "FZPX": 2,
+      "RWinfos": [
+        {
+          "RWXH": 48,
+          "RWName": "早餐前",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "+11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "20",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "22",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "27",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "28",
+              "STATUS": 5
+            }
+          ]
+        },
+        {
+          "RWXH": 52,
+          "RWName": "晚餐前",
+          "RWPX": 2,
+          "CWinfos": [
+            {
+              "CWDM": "+11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "20",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "22",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "27",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "28",
+              "STATUS": 5
+            }
+          ]
+        },
+        {
+          "RWXH": 53,
+          "RWName": "晚餐后",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "20",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "27",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "28",
+              "STATUS": 5
+            }
+          ]
+        },
+        {
+          "RWXH": 54,
+          "RWName": "睡前",
+          "RWPX": 4,
+          "CWinfos": [
+            {
+              "CWDM": "+11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "11",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "22",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "27",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "28",
+              "STATUS": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 3,
+      "FZName": "引流管",
+      "FZPX": 3,
+      "RWinfos": [
+        {
+          "RWXH": 169,
+          "RWName": "肠内营养管",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "24",
+              "STATUS": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 4,
+      "FZName": "特殊治疗",
+      "FZPX": 4,
+      "RWinfos": [
+        {
+          "RWXH": 60,
+          "RWName": "心电监护",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "+16",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "07",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "37",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "42",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 77,
+          "RWName": "体液隔离",
+          "RWPX": 4,
+          "CWinfos": [
+            {
+              "CWDM": "41",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 59,
+          "RWName": "微量泵",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "42",
+              "STATUS": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 5,
+      "FZName": "基础/专科护理",
+      "FZPX": 5,
+      "RWinfos": [
+        {
+          "RWXH": 98,
+          "RWName": "口腔护理",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 78,
+          "RWName": "氧气吸入",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "+07",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "+16",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "+19",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "04",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "07",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "15",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "24",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "25",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "30",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "32",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "37",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "41",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "42",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 79,
+          "RWName": "雾化吸入",
+          "RWPX": 4,
+          "CWinfos": [
+            {
+              "CWDM": "+03",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "24",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "肠内营养",
+          "RWPX": 5,
+          "CWinfos": [
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "24",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 81,
+          "RWName": "吸痰",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "+16",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "07",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "24",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "37",
+              "STATUS": 5
+            }
+          ]
+        },
+        {
+          "RWXH": 82,
+          "RWName": "物理降温",
+          "RWPX": 7,
+          "CWinfos": [
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": 108,
+          "RWName": "绝对卧床",
+          "RWPX": 9,
+          "CWinfos": [
+            {
+              "CWDM": "37",
+              "STATUS": 5
+            },
+            {
+              "CWDM": "41",
+              "STATUS": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 7,
+      "FZName": "输液",
+      "FZPX": 7,
+      "RWinfos": [
+        {
+          "RWXH": 154,
+          "RWName": "输液Q8H",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "23",
+              "STATUS": 2
+            },
+            {
+              "CWDM": "41",
+              "STATUS": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 8,
+      "FZName": "药物过敏",
+      "FZPX": 8,
+      "RWinfos": [
+
+      ]
+    }
+  ]
+}

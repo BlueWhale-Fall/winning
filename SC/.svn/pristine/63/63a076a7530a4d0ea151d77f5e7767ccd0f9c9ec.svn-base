@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>大屏展示系统</title>
+		<meta name="keywords" content="XXXX">
+		<meta name="description" content="XXXX">
+		<meta name="autdor" content="autdor">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/change.css">
+		<link rel="stylesheet" type="text/css" href="css/aside.css">
+		<link rel="stylesheet" type="text/css" href="css/loading.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+
+	<body>
+		<div id="loadWrap" class="loading">
+			<div class="showresult">
+				正在更新数据，请稍后......
+			</div>
+		</div>
+		<iframe name="header" style="width:100%;height:194px;" scrolling="no" src="header.html"></iframe>
+		<!--content-->
+		<section class="databody">
+			<article id="checkOut" class="databox margin-right-20">
+				<div class="checkOut dataTitle"><span></span></div>
+				<div class="cOdetails">
+					<p></p>
+				</div>
+				<div id="cOnums_1" class="cOnums">
+					<div id="cOSlide1" class="slide">
+					</div>
+				</div>
+				<div class="cOdetails">
+					<p></p>
+				</div>
+				<div id="cOnums_2" class="cOnums">
+					<div id="cOSlide2" class="slide">
+					</div>
+				</div>
+				<div class="cOdetails">
+					<p></p>
+				</div>
+				<div id="cOnums_3" class="cOnums">
+					<div id="cOSlide3" class="slide">
+					</div>
+				</div>
+			</article>
+			<!--手术开始-->
+			<article class="operation databox margin-right-20">
+				<div class="dataTitle"><span></span></div>
+				<ul class="secTitle">
+				</ul>
+				<div id="operation">
+					<div id="operSlide" class="slide">
+					</div>
+				</div>
+			</article>
+			<!--手术结束-->
+
+			<!--测血糖开始-->
+			<article class="bloodSugar databox margin-right-20">
+				<div class="dataTitle"><span></span></div>
+				<ul class="secTitle">
+				</ul>
+				<div id="time" class="text-align-c">
+					<div id="kf" class="border-right border-bottom floatL">
+						<div id="bsSlide1" class="slide">
+						</div>
+					</div>
+					<div id="bf_2h" class="border-right border-bottom floatL">
+						<div id="bsSlide2" class="slide">
+						</div>
+					</div>
+					<div id="af_2h" class="border-right border-bottom floatL">
+						<div id="bsSlide3" class="slide">
+						</div>
+					</div>
+					<div id="pm9" class="border-right border-bottom floatL">
+						<div id="bsSlide4" class="slide">
+						</div>
+					</div>
+					<div id="pm10" class="border-right border-bottom floatL">
+						<div id="bsSlide5" class="slide">
+						</div>
+					</div>
+					<div id="am3" class="border-bottom floatL">
+						<div id="bsSlide6" class="slide">
+						</div>
+					</div>
+				</div>
+
+				<div id="QXH" class="text-align-c">
+					<ul class="secTitle floatL">
+					</ul>
+					<div class="rollWrap floatL">
+						<div id="bs_q2h" class="border-bottom">
+							<div id="bsSlide7" class="slide">
+							</div>
+						</div>
+						<div id="bs_q4h" class="border-bottom">
+							<div id="bsSlide8" class="slide">
+							</div>
+						</div>
+						<div id="bs_q6h" class="border-bottom">
+							<div id="bsSlide9" class="slide">
+							</div>
+						</div>
+						<div id="bs_q8h" class="border-bottom">
+							<div id="bsSlide10" class="slide">
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--测血糖结束-->
+
+			<!--测血压开始-->
+			<article class="databox margin-right-20 bloodPressure">
+				<div class=" dataTitle"><span></span></div>
+				<ul class="secTitle floatL">
+				</ul>
+				<div id="bloodPressure" class="text-align-c">
+					<!--top-->
+					<div class="topWrap">
+						<div id="bp_qd" class="floatL border-right border-bottom">
+							<div id="bpSlide1" class="slide">
+							</div>
+						</div>
+						<div id="bp_bid" class="floatL border-right border-bottom">
+							<div id="bpSlide2" class="slide">
+							</div>
+						</div>
+						<div id="bp_q2h" class="floatL border-right border-bottom">
+							<div id="bpSlide3" class="slide">
+							</div>
+						</div>
+						<div id="bp_q4h" class="floatL border-right border-bottom">
+							<div id="bpSlide4" class="slide">
+							</div>
+						</div>
+						<div id="bp_q6h" class="floatL border-right border-bottom">
+							<div id="bpSlide5" class="slide">
+							</div>
+						</div>
+						<div id="bp_q8h" class="floatL border-right border-bottom">
+							<div id="bpSlide6" class="slide">
+							</div>
+						</div>
+					</div>
+					<!--left-->
+					<div id="heartCare" class="heart-care floatL">
+						<h2 class=" border-bottom"></h2>
+						<div id="bpSlide7" class="slide">
+						</div>
+					</div>
+
+					<!--middle-->
+					<div id="order" class="order floatL border-left">
+						<h2 class=" border-bottom"></h2>
+						<div id="bpSlide8" class="slide">
+						</div>
+					</div>
+
+					<!--right-->
+					<div id="outIn" class="outIn floatL border-left">
+						<div class=" outInTitle border-right"><span></span></div>
+						<ul class="amountTitle floatL">
+						</ul>
+						<div id="outInAmount" class="text-align-c">
+							<div class="topWrap">
+								<div id="oa_in" class="floatL border-right border-bottom">
+									<div id="oaSlide1" class="slide">
+									</div>
+								</div>
+								<div id="oa_out" class="floatL border-right border-bottom">
+									<div id="oaSlide2" class="slide">
+									</div>
+								</div>
+								<div id="oa_urine" class="floatL border-right border-bottom">
+									<div id="oaSlide3" class="slide">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--值班医生开始-->
+			<article class="doctor databox rightdatabox">
+				<div class="dataTitle nurseTitle"><span></span></div>
+				<div id="doctor" class="dcDetails">
+				</div>
+			</article>
+			<!--值班医生结束-->
+
+			<!--特殊治疗开始-->
+			<article class="databox margin-right-20 margin-top-20 special">
+				<div class="dataTitle"><span></span></div>
+				<ul class="secTitle floatL">
+				</ul>
+				<div id="special" class="text-align-c">
+					<div id="zsRi" class="border-right floatL">
+						<div id="spSlide1" class="slide">
+						</div>
+					</div>
+					<div id="cnyy" class="border-right floatL">
+						<div id="spSlide2" class="slide">
+						</div>
+					</div>
+					<div id="whxx" class="border-right floatL">
+						<div id="spSlide3" class="slide">
+						</div>
+					</div>
+					<div id="wb" class="border-right floatL">
+						<div id="spSlide4" class="slide">
+						</div>
+					</div>
+					<div id="qy" class="border-right floatL">
+						<div id="spSlide5" class="slide">
+						</div>
+					</div>
+					<div id="cx" class="border-right floatL">
+						<ul class="wash secList border-right ">
+						</ul>
+						<div id="fq" class="border-right floatL">
+							<div id="spSlide6" class="slide">
+							</div>
+						</div>
+						<div id="pg" class="floatL">
+							<div id="spSlide7" class="slide">
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--特殊治疗结束-->
+
+			<!--药敏开始-->
+			<article class="databox margin-right-20 margin-top-20 allergy">
+				<div class="dataTitle"><span></span></div>
+				<ul class="secTitle floatL">
+				</ul>
+				<div id="allergy" class="text-align-c floatL">
+				</div>
+
+			</article>
+			<!--药敏结束-->
+
+			<!--各种导管开始-->
+			<article class="conduit databox bigdatabox margin-right-20 margin-top-20">
+				<div class=" dataTitle"><span></span></div>
+				<ul class="secTitle floatL">
+				</ul>
+				<div id="conduit" class="text-align-c">
+					<div id="wg" class="border-right floatL">
+						<div id="conSlide1" class="slide">
+						</div>
+					</div>
+					<div id="ng" class="border-right floatL">
+						<div id="conSlide2" class="slide">
+						</div>
+					</div>
+					<div id="tg" class="border-right floatL">
+						<div id="conSlide3" class="slide">
+						</div>
+					</div>
+					<div id="fqiu" class="border-right floatL">
+						<div id="conSlide4" class="slide">
+						</div>
+					</div>
+					<div id="bdg" class="border-right floatL">
+						<div id="conSlide5" class="slide">
+						</div>
+					</div>
+					<div id="bcg" class="border-right floatL">
+						<div id="conSlide6" class="slide">
+						</div>
+					</div>
+					<div id="gccg" class="border-right floatL">
+						<div id="conSlide7" class="slide">
+						</div>
+					</div>
+					<div id="fqyl" class="border-right floatL">
+						<div id="conSlide8" class="slide">
+						</div>
+					</div>
+					<div id="fx" class="border-right floatL">
+						<div id="conSlide9" class="slide">
+						</div>
+					</div>
+					<div id="vsd" class="border-right floatL">
+						<div id="conSlide10" class="slide">
+						</div>
+					</div>
+					<div id="cvc" class="border-right floatL">
+						<div id="conSlide11" class="slide">
+						</div>
+					</div>
+					<div id="picc" class="border-right floatL">
+						<div id="conSlide12" class="slide">
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--各种导管结束-->
+
+			<!--changeBtn-->
+			<article class="topic databox rightdatabox margin-top-20 ">
+				<div class="dataTitle"><span></span></div>
+				<div id="topic" class="textWrap">
+				</div>
+				<div class="btnWrap  margin-top-20">
+					<div class="refresh">
+						<a id="refreshBtn" class="refreshBtn"></a>
+					</div>
+					<div class="changePlatform">
+						<a id="changeBtn" class="changeBtn"></a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<nav id="changeContent" class="ease-in-out">
+		</nav>
+		<aside class="asideBox">
+			<div class="topwrap">
+			</div>
+			<a id="asdClose">关&nbsp;闭</a>
+		</aside>
+		<iframe name="footer" style="width:100%;height:32px;" scrolling="no" src="footer.html"></iframe>
+		<!--JavaScript-->
+		<script src="js/jquery.1.42.min.js"></script>
+		<script src="js/jquery.SuperSlide.2.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/rData.js"></script>
+		<script src="js/overflow.js"></script>
+		<script src="js/firstData.js"></script>
+		<script>
+			//indexData                         
+			indexInit();
+			//rData
+			rdataInit();
+		</script>
+	</body>
+
+</html>

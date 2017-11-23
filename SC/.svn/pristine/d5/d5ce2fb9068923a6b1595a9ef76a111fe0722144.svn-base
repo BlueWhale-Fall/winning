@@ -1,0 +1,591 @@
+body {
+    font-family: "Microsoft YaHei";
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 18px !important;
+    direction: ltr;
+    cursor: default;
+    min-width: 1920px;
+    overflow-x: hidden;
+}
+
+/*header.css*/
+.head {
+    height: 72px;
+    line-height: 72px;
+    width: 100%;
+    background: #085DFF;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+}
+
+.head .headtime {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    left: 20px;
+}
+
+.head .nurse {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 29px;
+    top: 0;
+}
+
+.headbody {
+    width: 100%;
+    height: 95px;
+    background: #fff;
+    -moz-box-shadow: 0px 3px 3px #e0e0e0;
+    -webkit-box-shadow: 0px 3px 3px #e0e0e0;
+    box-shadow: 0px 3px 3px #e0e0e0;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+}
+
+.headmain {
+    position: absolute;
+    left: 260px;
+    height: 110px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.headboxright {
+    width: 305px;
+    float: left;
+}
+
+.headbox {
+    height: 85px;
+    float: left;
+    padding: 0px;
+}
+
+.headborder {
+    -moz-border-right: 1px solid #DEDEDE;
+    -webkit-border-right: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    padding-right: 10px;
+}
+
+.headtextbox {
+    height: 43px;
+    float: left;
+    line-height: 45px;
+    width: 300px;
+}
+
+.headtext {
+    min-width: 72px;
+    float: left;
+    text-align: right;
+}
+
+.leftimg {
+    background: url('../img/people.png') center center no-repeat;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.middleimg {
+    width: 70px;
+    background: url(../img/hosin.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.rightimg {
+    width: 70px;
+    background: url(../img/follow.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.headline {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+.headhighline {
+    height: 85px;
+    line-height: 85px;
+    width: 100%;
+    float: left;
+}
+
+.lefttext {
+    font-size: 24px;
+    color: #3D414A;
+    float: left;
+}
+
+.righttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.lefttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.headnum {
+    font-size: 28px;
+    color: #1463F0;
+    float: left;
+    min-width: 40px;
+}
+
+.font-red {
+    color: #FF2A21;
+}
+
+/*header.css end*/
+
+.databody {
+    width: 100%;
+    height: 904px;
+    position: relative;
+    box-sizing: border-box;
+    background: #F1F2F7;
+    padding: 0 0px 20px 20px;
+}
+
+.databox,
+.longdatabox {
+    height: 405px;
+    float: left;
+    background: #fff;
+    margin-top: 12px;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.databox {
+    width: 392px;
+}
+
+.longdatabox {
+    width: 1056px;
+}
+
+/*通用样式*/
+.fontover {
+    line-height: 25px !important;
+}
+
+.detaildata ul {
+    overflow: hidden;
+}
+
+.detaildata ul li {
+    float: left;
+    margin-right: 4px;
+}
+
+.dataTitle {
+    font-size: 22px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #4688FF;
+}
+
+.secTitle,
+.detailtitle {
+    font-size: 18px;
+}
+
+.dbline > div:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.dbline {
+    width: 100%;
+    overflow: hidden;
+}
+
+.secTitle {
+    text-align: center;
+}
+
+.line {
+    width: 100%;
+    overflow: hidden;
+}
+
+.line > div:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.line > div {
+    overflow: hidden;
+    border-top: 1px solid #E5E5E5;
+}
+
+.line .detailtitle {
+    float: left;
+    width: 108px;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.line .numbox {
+    float: left;
+    width: 251px;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.dbline {
+    width: 100%;
+    overflow: hidden;
+}
+
+.dbline .detaildata {
+    padding: 0px 0px 0px 10px;
+}
+
+.line .detaildata {
+    float: left;
+    box-sizing: border-box;
+    padding: 1px 0px 0px 8px;
+    box-sizing: border-box;
+}
+
+/*出院*/
+#leavehospital .numbox ul li .num {
+    margin: 10px 7px 7px 15px;
+}
+
+/*手术*/
+.taskname ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+/*.taskname ul li:nth-child(even),*/
+/*.taskBox div ul li:nth-child(even) {*/
+    /*background-color: #F8F8F8;*/
+/*}*/
+
+.taskname ul li {
+    float: left;
+    width: 16.66%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.taskBox {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 305px !important;
+}
+
+.taskBox div ul {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5;
+}
+.taskBox div ul li:nth-child(1){
+     width: 41%;
+ }
+.taskBox div ul li:nth-child(2){
+    width: 58.5%;
+}
+.taskBox ul:nth-child(2n) > li{
+    background-color: #fff;
+}
+.taskBox div ul li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+
+}
+
+#allergy .dbline > div {
+    width: 16.66%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+#allergy .dbline .detailtitle {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+#allergy .detaildata {
+    width: 100%;
+    height: 158px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 5px;
+!important;
+}
+
+/*测血糖*/
+#testBL .dbline > div {
+    width: 16.66%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+#testBL .dbline .secTitle {
+    height: 45px;
+    line-height: 45px;
+}
+
+#testBL .numbox {
+    width: 100%;
+    height: 319px;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+#testBL .numbox ul li .num {
+    margin: 6px 7px 7px 13px;
+}
+
+/*尿量 + 预约检查*/
+#urineval .numbox ul li .num,
+#order .numbox ul li .num {
+    margin: 0px 7px 7px 17px;
+}
+
+#urineval .numbox {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#urineval .numbox,
+#order .numbox {
+    width: 100%;
+    /*height: 162.5px;*/
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-right: 1px solid #e5e5e5;
+}
+#urineval .numbox{
+    background-color: #F8F8F8;
+}
+#urineval .numbox ul li,
+#order .numbox ul li {
+    float: left;
+    width: 63.33px;
+    height: 41px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+/*药物过敏 + 特殊治疗*/
+#allergy .detaildata ul li .num,
+#treatment .detaildata ul li .num {
+    margin: 9px 7px 2px 7px;
+}
+
+/*导管*/
+#duct .numbox ul li .num {
+    margin: 7px 7px 7px 24px;
+}
+
+#duct .dbline .secTitle {
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px solid #E5E5E5;
+}
+
+#duct .dbline > div {
+    width: 8.333%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+#duct .numbox {
+    width: 100%;
+    height: 328px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/*预约检查背景颜色*/
+#order {
+    background-color: #F7F7F7;
+}
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 10px;
+    line-height: 10px;
+    float: left;
+    background: #1463F0;
+    color: #fff;
+}
+
+/*切换子页面按钮*/
+.changepage {
+    bottom: 8px;
+    left: 22px;
+    position: absolute;
+}
+
+.changepage ul li a {
+    width: 132px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 109.5px;
+    color: #085DFF;
+    text-decoration: none;
+    display: inline-block;
+    background: #FBFBFB;
+    border: 1px solid #DBDFE6;
+    border-radius: 8px;
+}
+
+.changepage ul li:last-child a {
+    margin-right: 0;
+}
+
+.changepage ul li a:active {
+    color: #FAFAFA;
+    background: #085DFF;
+}
+
+.changepage ul li a.prohibit {
+    cursor: default;
+    color: #BDBDBD;
+    background: #E8E8E8;
+}
+
+#operation,
+#urineval,
+#order {
+    float: left;
+}
+
+.databox {
+    overflow: hidden;
+}
+
+#operation {
+    width: 40%;
+}
+
+#urineval,
+#order {
+    width: 30%;
+}
+#urineval .numbox >div{
+    border-right: 1px solid #E5E5E5;
+}
+#operation .detailtitle1 {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    text-align: center;
+}
+#operation .detailtitle1:nth-child(1){
+    width: 39.99%;
+}
+#operation .detailtitle1:nth-child(2){
+    width: 58%;
+}
+.taskBox1 ul li{
+    float: left;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+.taskBox ul:nth-child(2n) li{
+    background-color: #fff;
+}
+.taskBox1 ul li:nth-child(1){
+    width: 39.99%;
+}
+.taskBox1 ul li:nth-child(2){
+    width: 58%;
+}
+.nursename {
+    float: left;
+    width: 92px;
+    height: 42.5px;
+    color: #3D414A;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+}
+.nurseduty {
+    float: left;
+    width: 300px;
+}
+.nurseduty ul li {
+    float: left;
+    width: 100px;
+    height: 42.5px;
+    color: #3D414A;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 10px;
+}
+.topic .textWrap {
+    font-size: 18px;
+    color: #666;
+}
+.topic .dataTitle {
+    color: #FFF;
+    background-color: #FFAE1F;
+    border: none;
+}
+.boxline {
+    top: 40px;
+    left: 92px;
+    width: 1px;
+    height: 365px;
+    position: absolute;
+    border-left: 1px solid #E5E5E5;
+}
+.rightdatabox {
+    /*width: 228px;*/
+    margin-top: 12px;
+    float: left;
+    background-color: #fff;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.dutynurse {
+    width: 100%;
+    height: 42.5px;
+    overflow: hidden;
+    border-bottom: 1px solid #E5E5E5;
+}

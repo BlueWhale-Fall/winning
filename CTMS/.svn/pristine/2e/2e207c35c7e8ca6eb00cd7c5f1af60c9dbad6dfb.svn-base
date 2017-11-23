@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>统一登录</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/login_style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/login_animation.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" title="首页">
+            <img src="assets/img/logo2.png" alt="logo img">
+            <h1>临床试验管理系统</h1>
+        </a>
+    </header>
+    <section class="mainbody">
+        <article class="left-ani">
+            <div class="ducts">
+                <span class="duct1"></span>
+                <span class="duct2"></span>
+                <span class="duct3"></span>
+                <span class="duct4"></span>
+            </div>
+            <div class="cw cWrap">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+                <span class="circle4"></span>
+                <span class="circle5"></span>
+            </div>
+            <div class="cw cWrap2">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+                <span class="circle4"></span>
+                <span class="circle5"></span>
+            </div>
+            <div class="cw cWrap3">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+                <span class="circle4"></span>
+                <span class="circle5"></span>
+            </div>
+            <div class="wWrap">
+                <div id="wave1" class="aniWrap">
+                </div>
+            </div>
+            <div class="wWrap">
+                <div id="wave2" class="aniWrap">
+                </div>
+            </div>
+            <div class="wWrap">
+                <div id="wave3" class="aniWrap">
+                </div>
+            </div>
+        </article>
+        <article class="right-login">
+            <form id="fm" method="post">
+                <span class="line"></span>
+                <h2>登录</h2>
+                <input id="username" class="easeborder" name="username" type="text" placeholder="用户名" autocomplete="off">
+                <input id="userpw" class="easeborder" name="userpw" type="password" placeholder="密码">
+                <span class="backtxt">&nbsp;</span>
+                <input id="submit" class="easebg" name="submit" type="button" value="登录">
+            </form>
+        </article>
+    </section>
+    <footer>
+        <span class="hosname">医院名称</span>
+        <span class="copyright">&copy; 2016 Winning health 版权所有</span>
+    </footer>
+    <script type="text/javascript" src="assets/scripts/wave.js"></script>
+    <script type="text/javascript" src="assets/scripts/login.js"></script>
+</body>
+
+</html>

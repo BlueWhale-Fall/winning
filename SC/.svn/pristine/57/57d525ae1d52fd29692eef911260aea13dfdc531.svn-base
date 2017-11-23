@@ -1,0 +1,22 @@
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10002;
+    background:url(../img/loading.gif) no-repeat center center rgb(254,254,254);
+    opacity: 1;
+    -moz-transition: all 0.85s ease-in-out;
+    -webkit-transition: all 0.85s ease-in-out;
+    transition: all 0.85s ease-in-out;
+}
+
+.showresult {
+    color: #00a4ff;
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 590px auto 0;
+}

@@ -1,0 +1,92 @@
+<!--
+* @author wining
+* @date 2017-11-20
+* @module 模板
+* @explain 模板文件，便于开发
+-->
+<template>
+  <div class="header">
+    <p>耳鼻喉头颈外科护理工作日志</p>
+    <time>
+      <p class="headtime">2017-10-10&nbsp15:23</p>
+    </time>
+  </div>
+</template>
+<script>
+  export default {
+    //数据
+    data() {
+      return {}
+    },
+    //创建实例调用
+    created() {
+    },
+    //方法
+    methods: {
+      newDay: function () {
+        // var now,year,mouth,date,day,hour,mintes;
+        now = new Date;
+        year = now.getFullYear();
+        mouth = now.getMonth() + 1;
+        date = now.getDate();
+        day = now.getDay();
+        hour = now.getHours();
+        mintes = now.getMinutes();
+
+        if (mouth < 10) {
+          mouth = '0' + mouth;
+        }
+        if (date < 10) {
+          date = '0' + date;
+        }
+        if (hour < 10) {
+          hour = '0' + hour;
+        }
+        if (mintes < 10) {
+          mintes = '0' + mintes;
+        }
+
+        today = year + '-' + mouth + '-' + date;
+//        $('header .headtime').html(today + '&nbsp' + hour + ':' + mintes);
+      },
+
+
+
+    },
+    //计算属性
+    computed: {},
+    //过滤器
+    filters: {},
+    //组件注册
+    components: {}
+  }
+</script>
+<!--CSS-PAGE-->
+<style lang="less" scoped>
+
+  /*1366*/
+  @media screen and (max-width: 1366px) {
+  }
+
+  /*1024*/
+  @media screen and (max-width: 1024px) {
+  }
+  .header{
+    width: 100%;
+    height: 60px;
+    background-color: #085DFF;
+
+  }
+  .header p{
+    font-size: 22px;
+    color: #fff;
+    line-height:60px;
+    text-align: center;
+  }
+  .headtime{
+    position: absolute;
+    right:60px;
+    line-height: 60px;
+    top:0;
+  }
+</style>

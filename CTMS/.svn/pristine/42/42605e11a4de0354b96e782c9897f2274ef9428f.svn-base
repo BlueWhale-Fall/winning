@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+	<!--<![endif]-->
+	<!-- BEGIN HEAD -->
+
+	<head>
+		<meta charset="utf-8" />
+		<title>临床质控表</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="" name="description" />
+		<meta content="" name="author" />
+		<meta name="MobileOptimized" content="320">
+		<!-- 字体库 -->
+		<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css" />
+		<!-- bootstrap -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<!-- 主要布局、主题样式 -->
+		<link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+		<!--下拉框样式-->
+		<link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet" />
+		<!--页头icon-->
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+	</head>
+	<!-- END HEAD -->
+	<!-- BEGIN BODY -->
+
+	<body>
+		<!-- 头部开始 -->
+
+		<!-- BEGIN TOP NAVIGATION BAR -->
+		<div class="header navbar navbar-inverse navbar-static-top">
+			<div class="header-inner" id="topmenu">
+
+				<!-- BEGIN LOGO -->
+
+				<!-- END LOGO -->
+
+				<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+
+				<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+
+				<!--菜单from:leftdata.js-->
+
+				<!-- 消息提示 -->
+
+			</div>
+			<!-- END TOP NAVIGATION BAR -->
+		</div>
+		<!-- 头部结束 -->
+		<div class="clearfix"></div>
+
+		<!-- 页面主体开始 -->
+		<div class="page-container">
+			<!-- 左侧菜单开始 -->
+			<div id="qualitymenu" class="page-sidebar navbar-collapse collapse">
+
+			</div>
+			<!-- 左侧菜单结束 -->
+			<!--右侧菜单开始-->
+			<div class="offsidebar closed ie" id="offsidebar">
+
+			</div>
+			<!--右侧菜单结束-->
+
+			<!-- 页面开始 -->
+			<div class="page-content project">
+				<!-- BEGIN PAGE HEADER-->
+				<div class="contenthead">
+					<div class="contenthead-title">临床质控表</div>
+
+					<div class="pull-left" style="padding:5px 0 15px 0">
+						<span class="contenthead-text pull-left">项目名称</span>
+						<input class="form-control pull-left w100" style="height: 28px;" placeholder="" type="text">
+						<span class="contenthead-text margin-left-20 pull-left">质控部门</span>
+						<input class="form-control pull-left w100" style="height: 28px;" placeholder="" type="text">
+
+						<button class="btn btn-primary btn-sm pull-left margin-left-20">
+                           <i class="fa fa-search"></i>
+                          查询
+                          </button>
+					</div>
+				</div>
+				<!-- END PAGE HEADER-->
+				<!-- BEGIN DASHBOARD STATS -->
+				<div class="date-main">
+					<div>
+						<button type="button" class="btn btn-default btn-sm" data-target="#add" data-toggle="modal">
+                        <i class="fa fa-plus"></i>
+                        <span>新增</span> 
+                        </button>
+						<button type="button" class="btn btn-default btn-sm margin-left-10" data-toggle="modal">
+                        <i class="fa fa-reply"></i>
+                        <span>撤回</span> 
+                        </button>
+						<button type="button" class="btn btn-default btn-sm margin-left-10" data-toggle="modal">
+                        <i class="fa fa-star-o"></i>
+                        <span>审核</span> 
+                        </button>
+						<button type="button" class="btn btn-default btn-sm margin-left-10" data-toggle="modal">
+                        <i class="fa fa-star"></i>
+                        <span>取消审核</span> 
+                        </button>
+						<button type="button" class="btn btn-default btn-sm margin-left-10" data-toggle="modal">
+                        <i class="fa  fa-trash-o"></i>
+                        <span>删除</span> 
+                        </button>
+					</div>
+
+					<div class="margin-right-20 margin-top-10 ">
+						<table class="table table-hover textalign-c tab1 ">
+							<thead>
+								<tr class="even">
+									<th>
+										<input type="checkbox">
+									</th>
+									<th>项目编号</th>
+									<th>项目名称</th>
+									<th>质控部门</th>
+									<th>共入组病例</th>
+									<th>共完成病例</th>
+									<th>共脱落病例</th>
+									<th>状态</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody id="abc">
+								<tr>
+									<td>
+										<div>
+											<input type="checkbox">
+										</div>
+									</td>
+									<td>1</td>
+									<td>2</td>
+									<td>4/6</td>
+									<td>4/6</td>
+									<td>5/5</td>
+									<td>8/8</td>
+									<td><span class="label label-success">已审核</span></td>
+									<td>
+										<i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+										<i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+									</td>
+								</tr>
+								<tr class="even">
+									<td>
+										<div>
+											<input type="checkbox">
+										</div>
+									</td>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+									<td>4/6</td>
+									<td>4</td>
+									<td>5</td>
+									<td><span class="label label-warning">未审核</span></td>
+									<td>
+										<i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+										<i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div>
+											<input type="checkbox">
+										</div>
+									</td>
+									<td>1</td>
+									<td>2</td>
+									<td>4/6</td>
+									<td>3</td>
+									<td>4</td>
+									<td>5</td>
+									<td>6</td>
+									<td>
+										<i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+										<i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+									</td>
+								</tr>
+								<tr class="even">
+									<td>
+										<div>
+											<input type="checkbox">
+										</div>
+									</td>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+									<td>4/6</td>
+									<td>4</td>
+									<td>5</td>
+									<td>6</td>
+									<td>
+										<i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+										<i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div>
+											<input type="checkbox">
+										</div>
+									</td>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+									<td>4</td>
+									<td>4/6</td>
+									<td>5</td>
+									<td>6</td>
+									<td>
+										<i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+										<i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+									</td>
+								</tr>
+								<tr class="even">
+									<td>
+										<div>
+											<input type="checkbox">
+										</div>
+									</td>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+									<td>4</td>
+									<td>4/6</td>
+									<td>5</td>
+									<td>6</td>
+									<td>
+										<i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+										<i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="margin-bottom-10" style="height:40px; float:right;">
+							<ul class="pagination" style="visibility: visible;">
+								<li class="prev disabled">
+									<a href="#" title="Prev">
+										<i class="fa fa-angle-left"></i>
+									</a>
+								</li>
+								<li class="active">
+									<a href="#">1</a>
+								</li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#">3</a>
+								</li>
+								<li>
+									<a href="#">4</a>
+								</li>
+								<li>
+									<a href="#">5</a>
+								</li>
+								<li>
+									<a href="#">6</a>
+								</li>
+								<li class="next">
+									<a href="#" title="Next"><i class="fa fa-angle-right"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!-- END BUTTONS PORTLET-->
+
+			</div>
+			<!-- END DASHBOARD STATS -->
+		</div>
+		<!-- 页面结束 -->
+		</div>
+		<!-- 页面主体结束 -->
+		<!-- 底部开始 -->
+		<div class="footer">
+			<span>医院名称</span>
+			<span class="pull-right">© 2016 Winning health 版权所有</span>
+		</div>
+		<!-- 底部结束 -->
+		<div class="modal" id="out" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog">
+			<div class="modal-dialog exitdialog">
+				<div class="modal-content exitcontent">
+					<div class="exitrow margin-top-20">
+						<p>受试者：XXX</p>
+						<p>受试者电话：XXXXXXXXXXX</p>
+					</div>
+					<div class="exitbtn">
+						<button class="btn btn-primary btn-sm pull-left margin-top-20">
+                               重新入组
+                        </button>
+						<button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">
+                               取消
+                        </button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<div class="modal" id="add" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog wp60">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+						<h4 class="modal-title">临床质控表</h4>
+					</div>
+					<div class="modal-body bgfb">
+						<div class="row editorbody">
+							<div class="scdj">
+								<div class="middle" id="scdScroll">
+									<!--临床质控表-->
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">科室</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<select class="form-control infoselect">
+														<option>神经外科</option>
+														<option>神经内科</option>
+													</select>
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">时间</div>
+														<div class="col-md-8">
+															<input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">项目名称</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">项目编号</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">质控部门</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<select class="form-control infoselect">
+														<option>000</option>
+														<option>111</option>
+													</select>
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共入组病例</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共完成病例</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共脱落病例</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共核对ICF</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共溯源病例</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共检查原始病历</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共检查CRF</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共核对住院病史</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-12 text-left">
+											<table class="table table-hover table-striped textalign-c tab1 ">
+												<thead>
+													<tr class="even">
+														<th>检查要点</th>
+														<th>内容</th>
+														<th>是/否</th>
+														<th>备注</th>
+													</tr>
+												</thead>
+												<tbody id="abc">
+													<tr>
+														<td>制度落实</td>
+														<td>
+															是否按SOP等相关制度执行
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr class="even">
+														<td>方案执行</td>
+														<td>
+															临床试验是否按方案执行
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="3">知情同意</td>
+														<td>
+															入组受试者本人签名+日期情况(关注是否在筛选访视研究相关检查前)
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr class="even">
+														<td>
+															受试者、研究者签字日期是否同一天
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															是否有更新版本的知情同意书
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr class="even">
+														<td>合并用药</td>
+														<td>
+															是否漏记？是否有明显伴随疾病却没有合并用药？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="2">严重不良事件</td>
+														<td>
+															严重不良事件是否24小时内及时上报相关部门
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															受试者出院小结是否保留
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="4">数据溯源</td>
+														<td>
+															检验、检查是否漏查？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															检验、检查单是否及时打印并粘贴
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															异常检查结果有无医学判断并处理？有无复查
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															异常检查判断为CS的是否记录为AE
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="5">文件记录和修改</td>
+														<td>
+															原始病历填写时间是否与访视、检验时间一致
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															原始病历和CRF填写、修改是否规范(及时、准确、完整，修改必须有签名和日期)
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															CRF记录内容与检验单和原始病历是否一致(关注AE、SAE、合并用药等)
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															住院病人是否有病程记录？是否开医嘱？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															受试者鉴认代码表和受试者筛选/入选表是否填写?
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>研究者姓名</td>
+														<td>
+															是否授权者？有无代签？有无与样张不一致？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="4">药物/器械管理</td>
+														<td>
+															交接单是否有机构与药品管理员签名
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															接收、分发和回收记录是否完整
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															有药物保存温湿度记录？日期是否覆盖整个研究过程？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															药物储存条件是否符合？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>业务学习</td>
+														<td>
+															是否每季一次业务学习？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>发现问题</td>
+														<td colspan="3">
+															<textarea class="pull-width" rows="4"></textarea>
+														</td>
+													</tr>
+													<tr>
+													</tr>
+													<tr>
+													</tr>
+													<tr>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+
+									<div class="margin-bottom-15 pull-left pull-width">
+										<div class="pull-left col-md-6 text-right">
+											<div class="col-md-6">填写时间：</div>
+											<div class="col-md-6 textalign-l">自动生成</div>
+										</div>
+										<div class="pull-left col-md-6 text-right">
+											<div class="col-md-6">填写人：</div>
+											<div class="col-md-6 textalign-l">自动生成</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn  btn-primary">保存</button>
+						<button type="button" class="btn  btn-default">提交</button>
+						<button type="button" class="btn  btn-default">撤回</button>
+						<button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+		</div>
+		
+		<div class="modal" id="infoeditor" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog wp60">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+						<h4 class="modal-title">临床质控表</h4>
+					</div>
+					<div class="modal-body bgfb">
+						<div class="row editorbody">
+							<div class="scdj">
+								<div class="middle" id="scdScroll">
+									<!--临床质控表-->
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">科室</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<select class="form-control infoselect">
+														<option>神经外科</option>
+														<option>神经内科</option>
+													</select>
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">时间</div>
+														<div class="col-md-8">
+															<input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">项目名称</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">项目编号</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">质控部门</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<select class="form-control infoselect">
+														<option>000</option>
+														<option>111</option>
+													</select>
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共入组病例</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共完成病例</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共脱落病例</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共核对ICF</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共溯源病例</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共检查原始病历</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+													<div class="row">
+														<div class="col-md-4 text-right">共检查CRF</div>
+														<div class="col-md-8">
+															<input class="form-control infoselect">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-2 text-right">共核对住院病史</div>
+										<div class="col-md-9">
+											<div class="row">
+												<div class="col-md-4">
+													<input class="form-control infoselect">
+												</div>
+												<div class="col-md-8">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-12 text-left">
+											<table class="table table-hover table-striped textalign-c tab1 ">
+												<thead>
+													<tr class="even">
+														<th>检查要点</th>
+														<th>内容</th>
+														<th>是/否</th>
+														<th>备注</th>
+													</tr>
+												</thead>
+												<tbody id="abc">
+													<tr>
+														<td>制度落实</td>
+														<td>
+															是否按SOP等相关制度执行
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr class="even">
+														<td>方案执行</td>
+														<td>
+															临床试验是否按方案执行
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="3">知情同意</td>
+														<td>
+															入组受试者本人签名+日期情况(关注是否在筛选访视研究相关检查前)
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr class="even">
+														<td>
+															受试者、研究者签字日期是否同一天
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															是否有更新版本的知情同意书
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr class="even">
+														<td>合并用药</td>
+														<td>
+															是否漏记？是否有明显伴随疾病却没有合并用药？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="2">严重不良事件</td>
+														<td>
+															严重不良事件是否24小时内及时上报相关部门
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															受试者出院小结是否保留
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="4">数据溯源</td>
+														<td>
+															检验、检查是否漏查？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															检验、检查单是否及时打印并粘贴
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															异常检查结果有无医学判断并处理？有无复查
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															异常检查判断为CS的是否记录为AE
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="5">文件记录和修改</td>
+														<td>
+															原始病历填写时间是否与访视、检验时间一致
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															原始病历和CRF填写、修改是否规范(及时、准确、完整，修改必须有签名和日期)
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															CRF记录内容与检验单和原始病历是否一致(关注AE、SAE、合并用药等)
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															住院病人是否有病程记录？是否开医嘱？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															受试者鉴认代码表和受试者筛选/入选表是否填写?
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>研究者姓名</td>
+														<td>
+															是否授权者？有无代签？有无与样张不一致？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="4">药物/器械管理</td>
+														<td>
+															交接单是否有机构与药品管理员签名
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															接收、分发和回收记录是否完整
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															有药物保存温湿度记录？日期是否覆盖整个研究过程？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>
+															药物储存条件是否符合？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>业务学习</td>
+														<td>
+															是否每季一次业务学习？
+														</td>
+														<td>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">是
+                                                            </label>
+															<label class="checkbox-inline">
+                                                              <input class="mtp9" type="checkbox">否
+                                                            </label>
+														</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="2">发现问题</td>
+														<td rowspan="2">
+															<textarea class="pull-width" rows="2"></textarea>
+														</td>
+														<td>质控员</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>日期</td>
+														<td></td>
+													</tr>
+													<tr>
+													</tr>
+													<tr>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+
+									<div class="margin-bottom-15 pull-left pull-width">
+										<div class="pull-left col-md-6 text-right">
+											<div class="col-md-6">填写时间：</div>
+											<div class="col-md-6 textalign-l">自动生成</div>
+										</div>
+										<div class="pull-left col-md-6 text-right">
+											<div class="col-md-6">填写人：</div>
+											<div class="col-md-6 textalign-l">自动生成</div>
+										</div>
+									</div>
+									
+									<div class="margin-bottom-10 clearfix">
+										<div class="col-md-12 text-left">
+											<table class="table table-hover table-striped textalign-c tab1 ">
+												<tbody id="abc">
+													<tr>
+														<td rowspan="4">处理措施</td>
+														<td rowspan="4">
+															<textarea class="pull-width" rows="4"></textarea>
+														</td>
+														<td>研究者</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>日期</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>PI</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>日期</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="4">处理措施</td>
+														<td rowspan="2">
+															<textarea class="pull-width" rows="4"></textarea>
+														</td>
+														<td>机构办</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>日期</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td rowspan="2">
+															<textarea class="pull-width" rows="4"></textarea>
+														</td>
+														<td>机构主任</td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>日期</td>
+														<td></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="margin-bottom-15 pull-left pull-width">
+										<div class="pull-left col-md-6 text-right">
+											<div class="col-md-6">审核时间：</div>
+											<div class="col-md-6 textalign-l">自动生成</div>
+										</div>
+										<div class="pull-left col-md-6 text-right">
+											<div class="col-md-6">审核人：</div>
+											<div class="col-md-6 textalign-l">自动生成</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn  btn-primary">保存</button>
+						<button type="button" class="btn  btn-default">提交</button>
+						<button type="button" class="btn  btn-default">审核</button>
+						<button type="button" class="btn  btn-default">取消审核</button>
+						<button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+		</div>
+		<!--修改密码-->
+		<div class="modal" id="revise" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+		<!--注销登录-->
+		<div class="modal" id="exit" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+		<!--邮件-->
+		<div class="modal" id="myModal" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+		</div>
+
+		<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+		<!-- BEGIN CORE PLUGINS -->
+		<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+		<script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+		<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+		<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+		<script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript"></script>
+		<!--下拉框插件-->
+		<script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+		<!-- END CORE PLUGINS -->
+		<!-- BEGIN PAGE LEVEL SCRIPTS -->
+		<script src="assets/scripts/app.js" type="text/javascript"></script>
+		<script src="assets/scripts/index.js" type="text/javascript"></script>
+		<script src="assets/scripts/tasks.js" type="text/javascript"></script>
+		<!--日期选择器-->
+		<script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+		<script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+
+		<!-- END PAGE LEVEL SCRIPTS -->
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				leftInit(); //加载菜单
+				App.init(); // initlayout and core plugins
+				Index.init();
+			});
+		</script>
+		<!-- END JAVASCRIPTS -->
+
+	</body>
+	<!-- END BODY -->
+
+</html>

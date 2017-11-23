@@ -1,0 +1,16 @@
+{
+  "BRCountInfo": [
+    {
+      "KSMC": "神内",
+      "Count": 22
+    },
+    {
+      "KSMC": "康复",
+      "Count": 33
+    },
+    {
+      "KSMC": "老年病二区",
+      "Count": 44
+    }
+  ]
+}

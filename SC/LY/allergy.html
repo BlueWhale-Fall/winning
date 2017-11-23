@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>药敏</title>
+    <meta name="keywords" content="XXXX">
+    <meta name="description" content="XXXX">
+    <meta name="autdor" content="autdor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/change.css">
+    <link rel="stylesheet" type="text/css" href="css/aside.css">
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/allergy.css">
+</head>
+
+<body>
+    <div id="loadWrap" class="loading"></div>
+    <iframe name="header" style="width:100%;height:194px;" scrolling="no" src="header.html"></iframe>
+    <section class="databody">
+        <article id="allergyDetails" class="boxshadow floatL text-align-c">
+            <h2 class="border-bottom text-align-l">药敏</h2>
+            <article class="txtScroll-top">
+                <article class="hd">
+                    <ul id="screen" class="screens">
+                    </ul>
+                </article>
+                <article id="allergy" class="bd">
+                    <ul class="infoList">
+                    </ul>
+                </article>
+            </article>
+        </article>
+        <aside class="floatR">
+            <article class="doctor boxshadow">
+                <div class="dataTitle nurseTitle"><span></span></div>
+                <div id="doctor" class="dcDetails">
+                </div>
+            </article>
+            <article class="topic boxshadow margin-top-20">
+                <div class="dataTitle">通知</div>
+                <div id="topic" class="textWrap">
+                </div>
+                <div class="btnWrap  margin-top-20">
+                    <div class="refresh">
+                        <a id="refreshBtn"  class="refreshBtn"></a>
+                    </div>
+                    <div class="changePlatform">
+                        <a id="changeBtn"  class="changeBtn"></a>
+                    </div>
+                </div>
+            </article>
+        </aside>
+    </section>
+
+    <nav id="changeContent" class=" ease-in-out">
+    </nav>
+    <aside class="asideBox">
+        <div class="topwrap">
+        </div>
+        <a id="asdClose">关&nbsp;闭</a>
+    </aside>
+    <iframe name="footer" style="width:100%;height:32px;" scrolling="no" src="footer.html"></iframe>
+    <!--JavaScript-->
+    <script src="js/jquery.1.42.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/rData.js"></script>
+    <script src="js/overflow.js"></script>
+    <script src="js/secondData.js"></script>
+    <script>
+        /*rdataInit*/
+        rdataInit();
+        allergyInit();
+    </script>
+</body>
+
+</html>

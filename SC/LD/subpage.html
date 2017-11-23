@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>明细页面</title>
+    <meta name="keywords" content="XXXX">
+    <meta name="description" content="XXXX">
+    <meta name="autdor" content="autdor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/aside.css">
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/subpage.css">
+</head>
+
+<body>
+<div id="loadWrap" class="loading">
+    <div class="showresult">
+        正在更新数据，请稍后......
+    </div>
+</div>
+<header id="header"></header>
+<section class="databody">
+    <article id="subpageDetails" class="boxshadow floatL text-align-c">
+        <h2 class="border-bottom text-align-l">
+
+        </h2>
+        <article class="txtScroll-top">
+            <article class="hd">
+                <ul id="screen" class="screens">
+                </ul>
+            </article>
+            <article id="subpage" class="bd">
+                <ul class="infoList">
+                </ul>
+            </article>
+        </article>
+        <a id="return" href="javascript:history.go(-1);">返回</a>
+    </article>
+</section>
+<footer>上海市宝山区罗店医院</footer>
+<!--JavaScript-->
+<script src="js/jquery.1.42.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.js"></script>
+<script src="js/firstData.js"></script>
+<script src="js/secondData.js"></script>
+<script>
+    $(function () {
+        var url = localStorage.getItem('url'),
+            num = localStorage.getItem('num'),
+            bqdm = localStorage.getItem('bqdm');
+        console.log(num);
+        _subpage.subpageInit(url, num, bqdm);
+        _subpage.load();
+    })
+</script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+.databody {
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#allergySlide div {
+    width: 1460px;
+    height: 55px;
+    overflow: hidden;
+}
+
+#allergyDetails {
+    width: 1630px;
+    height: 814px;
+    position: relative;
+}
+
+#allergyDetails h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+#allergyTitles {
+    width: 170px;
+    float: left;
+    overflow: hidden;
+}
+
+#allergy {
+    width: 1630px;
+    overflow: auto;
+}
+
+#allergy div {
+    height: 55px;
+}
+
+#allergy .infoList>li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#allergy li {
+    list-style: none;
+    float: left;
+    height:55px!important;
+}
+
+#allergy .slide {
+    float: left;
+    width: 1460px;
+}
+
+#allergyTitles li {
+    width: 170px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    font-size: 22px;
+    padding-left: 18px;
+}
+
+#allergyTitles>li:nth-child(2n),
+#allergySlide > div:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+.alList {
+    width: 1460px;
+    line-height: 55px;
+    float: left;
+}
+
+.alList li {
+    float: left;
+}

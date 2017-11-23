@@ -1,0 +1,118 @@
+/*aside*/
+
+.databody {
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#scheduleDetails {
+    width: 1630px;
+    height: 814px;
+}
+
+#scheduleDetails h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+.scheduleIcon {
+    display: inline-block;
+    margin: 0 10px 0 40px;
+    width: 22px;
+    height: 55px;
+    line-height: 55px;
+    background: url(../img/operation.png) no-repeat center center;
+}
+
+#scheduleDetails .title {
+    height: 55px;
+    line-height: 55px;
+}
+
+#scheduleDetails .title li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    float: left;
+}
+
+#scheduleDetails .bednum,
+#scheduleDetails .ordertime,
+#scheduleDetails .ckdetail {
+    float: left;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+}
+
+#scheduleDetails .bednum {
+    width: 190px;
+}
+
+#scheduleDetails .ordertime {
+    width: 340px;
+}
+
+#scheduleDetails .surList li span {
+    display: inline-block;
+    font-size: 20px;
+    color: #666;
+}
+
+#scheduleDetails .ckdetail {
+    text-align: left!important;
+    margin-left: 40px;
+    width: 1060px;
+}
+
+#scheduleDetails .infoList li {
+    float: left;
+    color: #666;
+    height: 55px!important;
+    cursor: default;
+}
+
+#scheduleDetails {
+    position: relative;
+}
+
+#schedule {
+    width: 100%;
+}
+
+.infoList {
+    width: 100%!important;
+}
+
+.htorderList {
+    width: 100%!important;
+}
+
+.htorderList li {
+    height: 55px;
+    float: left;
+}
+
+#scheduleSlide>li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+.xMarquee {
+    width: 1060px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.xMarquee ul {
+    width: 100000%;
+}
+
+.xMarquee ul li {
+    float: left;
+}

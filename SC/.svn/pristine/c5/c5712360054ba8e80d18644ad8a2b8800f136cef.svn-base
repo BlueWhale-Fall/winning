@@ -1,0 +1,33 @@
+<template>
+  <div class="">
+    <dp-header></dp-header>
+    <dp-footer></dp-footer>
+  </div>
+</template>
+
+<script>
+  import dpHeader from '@/components/Header.vue'
+  import dpFooter from '@/components/Footer.vue'
+    export default {
+        data() {
+            return {};
+        },
+        computed: {},
+        watch: {},
+        methods: {},
+        created() {
+            console.log('Component createda');
+        },
+        mounted() {
+            console.log('Component mounteda');
+        },
+      components: {
+        dpHeader,
+        dpFooter
+      }
+    }
+</script>
+
+<style scoped>
+
+</style>

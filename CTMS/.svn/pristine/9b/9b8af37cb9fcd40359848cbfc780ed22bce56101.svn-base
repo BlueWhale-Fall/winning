@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			label{display: block;color: red;}
+		</style>
+	</head>
+	<body>
+		<form action="" method="post" id="test">
+			<p><input type="text" name="user"/></p>
+			<input type="submit" value="提交" name=""/>
+		</form>
+		<script type="text/javascript">
+			$(function(){
+				 $("#test").validate({
+					rules: {
+						user: {
+							required: true,
+							minlength: 2
+						}
+					},
+					messages:  {
+						user: {
+							required: "请输入名字",
+							minlength: "最少输入两个字符！"
+						}
+					}
+					});
+			})
+		</script>
+	</body>
+</html>

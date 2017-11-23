@@ -1,0 +1,52 @@
+{
+  "drue_base": [
+    {
+      "materialType": "药品",
+      "serialNumber": "001",
+      "name": "阿昔洛韦",
+      "specifications": "12粒／盒",
+      "inventory": "12盒",
+      "storageAmout": "91盒",
+      "emissionAmout": "79盒",
+      "totalRecovery": "80粒",
+      "totalRefund": "80粒",
+      "warning": "已过期"
+    },
+    {
+      "materialType": "药品",
+      "serialNumber": "001",
+      "name": "阿昔洛韦",
+      "specifications": "12粒／盒",
+      "inventory": "12盒",
+      "storageAmout": "91盒",
+      "emissionAmout": "79盒",
+      "totalRecovery": "80粒",
+      "totalRefund": "80粒",
+      "warning": "即将过期"
+    },
+    {
+      "materialType": "药品",
+      "serialNumber": "001",
+      "name": "阿昔洛韦",
+      "specifications": "12粒／盒",
+      "inventory": "12盒",
+      "storageAmout": "91盒",
+      "emissionAmout": "79盒",
+      "totalRecovery": "80粒",
+      "totalRefund": "80粒",
+      "warning": "无"
+    },
+    {
+      "materialType": "药品",
+      "serialNumber": "001",
+      "name": "阿昔洛韦",
+      "specifications": "12粒／盒",
+      "inventory": "12盒",
+      "storageAmout": "91盒",
+      "emissionAmout": "79盒",
+      "totalRecovery": "80粒",
+      "totalRefund": "80粒",
+      "warning": "无"
+    }
+  ]
+}

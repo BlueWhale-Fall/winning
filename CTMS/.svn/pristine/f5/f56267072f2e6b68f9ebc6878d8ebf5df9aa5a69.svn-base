@@ -1,0 +1,135 @@
+/*
+* @ Description:CTMS迭代样式
+* @ Author jinxl
+* @ Data 2017.9.20
+*/
+@charset "utf-8";
+
+.date-main{
+}
+.index-page{
+    margin:0px 20px;
+    padding: 20px 0px;
+    border-bottom:1px dashed #e0e0e0;
+}
+.index-page-filter-top{
+    overflow: hidden;
+}
+.index-page-filter-top>button{
+    float: right;
+}
+.index-page-filter-top-left>li{
+    position: relative;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+}
+.index-page-filter-top-left .form-control{
+    width: 138px;
+}
+.index-page-filter-top-left>li i{
+    position: absolute;
+    right: 4px;
+    top: 8px;
+    cursor: pointer;
+}
+.index-page-filter-bottom{
+    position: relative;
+    margin-top: 16px;
+}
+#open{
+    position:absolute;
+    top:0px;
+    right: 0px;
+    cursor: pointer;
+}
+#open span{
+    margin-right: 10px;
+}
+#item-more{
+    height: auto;
+    margin-top: -14px;
+    margin-left: -32px;
+    transition: all 1s ease-in;
+}
+#item-more.more{
+    height: 88px;
+    overflow: hidden;
+}
+#item-more >li{
+    display: inline-block;
+    width: 138px;
+    height:24px ;
+    margin-top: 14px;
+    margin-left: 32px;
+    padding-left: 10px;
+    line-height: 24px;
+    color: #333333;
+    background: #efefef;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#item-more >li.active{
+    color: #1e90ff;
+    background: #d4f4ff;
+}
+/*资料交接单-药物*/
+.drug-dialog{
+    width: 50%;
+}
+.drug-control{
+    padding: 3px 4px;
+    color: #000;
+    font-size: 14px;
+    border:none;
+    outline:none;
+    background: #f7f7f7;
+    border-bottom: 1px solid #000;
+    vertical-align: middle;
+}
+.drug-control.no-border{
+    width: 100%;
+    border-bottom: none;
+}
+.textarea-control{
+    width: 100%;
+    height: 100px;
+    outline:none;
+    resize: none;
+    border:1px solid #000;
+    border-radius: 3px;
+}
+.label-width{
+    display: inline-block;
+    min-width: 80px;
+    vertical-align: bottom;
+}
+.drug-table{
+    width: 100%;
+}
+.drug-table tr,.drug-table td,.drug-table th{
+    height:30px;
+    padding: 5px 10px;
+    border:1px solid #666;
+}
+.label-width.w100{
+    min-width: 100px;
+}
+.label-width.w125{
+    min-width: 125px;
+}
+.font-bold{
+    font-weight: bold;
+}
+/*研究进展报告*/
+@media screen and (max-width: 1366px) {
+    .drug-control.md{
+        width: 50%!important;
+    }
+}
+@media print {
+    body{
+        color: red;
+        background: red;
+    }
+}

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>秘书质控表</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+        <!-- 头部开始 -->
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="header navbar navbar-inverse navbar-static-top">
+            <div class="header-inner" id="topmenu">
+            <!--leftdata.js-->
+            </div>
+            <!-- END TOP NAVIGATION BAR -->
+        </div>
+        <!-- 头部结束 -->
+        <div class="clearfix"></div>
+
+        <!-- 页面主体开始 -->
+        <div class="page-container" >
+             <!-- 左侧菜单开始 -->
+             <div id="qualitymenu" class="page-sidebar navbar-collapse collapse">
+
+            </div>
+            <!-- 左侧菜单结束 -->
+            <!--右侧菜单开始-->
+            <div class="offsidebar closed ie" id="offsidebar">
+
+            </div>
+            <!--右侧菜单结束-->
+           
+            <!-- 页面开始 -->
+            <div class="page-content project">
+            <!-- BEGIN PAGE HEADER-->
+                <div class="contenthead">
+                    <div class="contenthead-title">秘书质控表</div>
+                    <div class="pull-left" style="padding:5px 0 15px 0">
+                            <span class="contenthead-text pull-left">时间</span>
+                           <input class="form-control pull-left w70 Wdate" onclick="WdatePicker();" type="text"> 
+                           <span class="contenthead-text margin-left-40 pull-left">审核</span>
+                           <select name="drop2" class="ui-select pull-left w100">
+                             <option value="1">已审核</option>
+                             <option value="2">未审核</option>
+                           </select>   
+                           <button class="btn btn-primary btn-sm pull-left margin-left-20">
+                                <i class="fa fa-search"></i>
+                               查询
+                            </button>       
+   
+                    </div>
+                </div>
+            <!-- END PAGE HEADER-->
+                <!-- BEGIN DASHBOARD STATS -->
+                <div class="date-main">
+                    <div>
+                        <button type="button" class="btn btn-default btn-sm" data-target="#infoeditor" data-toggle="modal">
+                        <i class="fa fa-plus"></i>
+                        <span>新增</span> 
+                        </button>
+                        <button type="button" class="btn btn-default btn-sm margin-left-10"  data-toggle="modal">
+                        <i class="fa  fa-trash-o"></i>
+                        <span>删除</span> 
+                        </button>
+                    </div>
+
+
+                    <div class="margin-right-20 margin-top-10 ">
+                        <table class="table table-hover textalign-c tab1 comtable relative">
+                           <thead class="even">
+                             <tr>
+                                 <th rowspan="2"><input type="checkbox"></th>
+                                 <th rowspan="2">日期</th>
+                                 <th rowspan="2">SAE电话报告登记本</th>
+                                 <th colspan="3">档案资料室</th>
+                                 <th colspan="2">培训记录</th>
+                                 <th colspan="2">试验用药物</th>
+                                 <th colspan="2">临床试验质控表</th>
+                                 <th rowspan="2">填写人</th>
+                                 <th rowspan="2">审核状态</th>
+                                 <th rowspan="2">备注</th>
+                                 <th rowspan="2">操作</th>
+
+                             </tr>
+                             <tr>
+                                 <th>温湿度</th>
+                                 <th>档案管理</th>
+                                 <th>完成项目归档目录</th>
+                                 <th>机构</th>
+                                 <th>临床</th>
+                                 <th>交接单</th>
+                                 <th>抢救车登记</th>
+                                 <th>临床质控</th>
+                                 <th>机构质控</th>
+                             </tr>
+                             </thead>
+                           <tbody>
+                              <tr>
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>5</td>
+                                 <td>6</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                              </tr>
+                              <tr class="even">
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>3</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>5</td>
+                                 <td>6</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                               </tr>
+                                <tr>
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>3</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>5</td>
+                                 <td>6</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                              </tr>
+                              <tr class="even">
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>5</td>
+                                 <td>3</td>
+                                 <td>6</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                               </tr>
+                                <tr>
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>3</td>
+                                 <td>5</td>
+                                 <td>6</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                              </tr>
+                              <tr class="even">
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>5</td>
+                                 <td>6</td>
+                                 <td>3</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                               </tr>
+                                <tr>
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>3</td>
+                                 <td>5</td>
+                                 <td>6</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                              </tr>
+                              <tr class="even">
+                                 <td><input type="checkbox"></td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>1</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td>5</td>
+                                 <td>6</td>
+                                 <td>7</td>
+                                 <td>8</td>
+                                 <td>9</td>
+                                 <td>10</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                  <i  class="iconfont icon-delete font-22 color41" data-id="122"></i>
+                                 </td>
+                               </tr>
+                               
+
+                           </tbody>
+                        </table>
+                        <div class="margin-bottom-10" style="height:40px; float:right;">
+                        <ul class="pagination" style="visibility: visible;">
+                        <li class="prev disabled">
+                        <a href="#" title="Prev">
+                        <i class="fa fa-angle-left"></i>
+                        </a>
+                        </li>
+                        <li class="active">
+                        <a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+
+                </div>
+               <!-- END BUTTONS PORTLET-->      
+
+            </div>
+                <!-- END DASHBOARD STATS -->
+        </div>
+            <!-- 页面结束 -->
+        </div>
+        <!-- 页面主体结束 -->
+        <!-- 底部开始 -->
+        <div class="footer">
+            <span>医院名称</span>
+            <span class="pull-right">© 2016 Winning health 版权所有</span>
+        </div>
+        <!-- 底部结束 -->
+        <div class="modal" id="out" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog">
+            <div class="modal-dialog exitdialog">
+                <div class="modal-content exitcontent">
+                    <div class="exitrow margin-top-20">
+                        <p>受试者：XXX</p>
+                        <p>受试者电话：XXXXXXXXXXX</p>
+                    </div>
+                    <div class="exitbtn">
+                        <button class="btn btn-primary btn-sm pull-left margin-top-20">
+                               重新入组
+                        </button>
+                        <button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">
+                               取消
+                        </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <div class="modal" id="infoeditor" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" style="width:650px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title">秘书质控表</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row editorbody">
+                        <div class="scdj">
+                        <div class="middle" id="scdScroll">
+                          
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">SAE电话报告登记本</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>            
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">档案资料室</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">温湿度</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">档案管理</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">完成项目归档目录</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">培训记录</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">机构</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">临床</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">试验用药物</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">交接单</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">抢救车登记</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">临床试验质控表</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">临床质控</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">机构质控</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-6 text-right">
+                                  <div class="col-md-6">填写时间：</div>
+                                  <div class="col-md-6 textalign-l">自动生成</div>
+                                </div>
+                                <div class="pull-left col-md-6 text-right">
+                                    <div class="col-md-6">填写人：</div>
+                                    <div class="col-md-6 textalign-l">自动生成</div>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-6 text-right">
+                                  <div class="col-md-6">审核时间：</div>
+                                  <div class="col-md-6 textalign-l">自动生成</div>
+                                </div>
+                                <div class="pull-left col-md-6 text-right">
+                                    <div class="col-md-6">审核人：</div>
+                                    <div class="col-md-6 textalign-l">自动生成</div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="save">保存</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+            <!--修改密码-->
+            <div class="modal" id="revise" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+            <!--注销登录-->
+            <div class="modal" id="exit" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+            <!--邮件-->
+            <div class="modal" id="myModal" tabindex="-1"  aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+             </div>
+
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+     <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            leftInit(); //加载菜单
+            App.init(); // initlayout and core plugins
+            Index.init();
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+
+
+</body>
+<!-- END BODY -->
+</html>

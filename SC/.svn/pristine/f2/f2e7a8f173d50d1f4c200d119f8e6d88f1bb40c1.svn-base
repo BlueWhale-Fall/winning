@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>大屏展示系统</title>
+		<meta name="keywords" content="XXXX">
+		<meta name="description" content="XXXX">
+		<meta name="autdor" content="autdor">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/aside.css">
+		<link rel="stylesheet" type="text/css" href="css/loading.css">
+		<link rel="stylesheet" type="text/css" href="css/indexNFM.css">
+	</head>
+
+	<body>
+		<div id="loadWrap" class="loading">
+			<div class="showresult">
+				正在更新数据，请稍后......
+			</div>
+		</div>
+		<header id="header"></header>
+		<!--content-->
+		<section class="databody">
+			<!--出院-->
+			<article id="leavehospital" class="databox margin-right-20">
+				<div class="dataTitle"></div>
+				<div id="tdOut" class="leavedetail">
+					<div class="detailtitle"></div>
+					<div class="numbox">
+						
+					</div>
+				</div>
+				<div id="tmOut" class="leavedetail">
+					<div class="detailtitle"></div>
+					<div class="numbox">
+						
+					</div>
+				</div>
+			</article>
+			<!--手术准备和血糖-->
+			<article class="databox margin-right-20">
+				<div id="operation">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="operation1">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="operation2">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="bloodsugar">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="bloodsugar1">
+							<div class="detailtitle floatL">测血糖</div>
+							<div class="floatR">
+								<div class="numbox">
+
+								</div>
+							</div>
+						</div>
+						<div id="bloodsugar2">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--生命体征-->
+			<article id="VS" class="databox margin-right-20">
+				<div class="dataTitle"></div>
+				<div class="dbline">
+					<div id="BPqd">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="BPbid">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="BPtid">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+				</div>
+				<div class="line">
+					<div id="BP">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+
+						</div>
+					</div>
+					<div id="P">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+
+						</div>
+					</div>
+					<div id="R">
+						<div class="detailtitle"></div>
+						<div class="detaildata">
+
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--特殊检查-->
+			<article id="expecailcheck" class="databox margin-right-20">
+				<div class="dataTitle"></div>
+				<div class="dbline">
+					<div id="EL1">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="EL2">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="EL3">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="EL4">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="EL5">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="EL6">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="EL7">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="EL8">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--责任医生-->
+			<article id="doctor" class="databox rightdatabox margin-right-20">
+				<div class="boxline"></div>
+				<div class="dataTitle">责任医生</div>
+				<div id="group" class="textWrap">
+
+				</div>
+			</article>
+			<!--功能试验-->
+			<article id="funtrial" class="databox margin-right-20">
+				<div class="dataTitle"></div>
+				<div class="dbline">
+					<div id="funtrial1">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="funtrial2">
+						<div class="secTitle" style="font-size: 17px"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="funtrial3">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="funtrial4">
+						<div class="secTitle" style="padding: 0 5px;line-height: 22px"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="funtrial5">
+						<div class="secTitle" style="padding: 0 5px;line-height: 22px"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="funtrial6">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="funtrial7">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+					<div id="funtrial8">
+						<div class="secTitle"></div>
+						<div class="numbox">
+
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--药物过敏加安全管理-->
+			<article class="databox margin-right-20">
+				<div id="allergy">
+					<div class="dataTitle"></div>
+					<div class="dbline">
+						<div id="allergy1">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="allergy2">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="allergy3">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="allergy4">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="allergy5">
+							<div class="secTitle" style="font-size: 15px;"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="security">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="dg">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="yc">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="dd">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+						<div id="VTE">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--基础/专科护理假 + 治疗 + 体内植入物-->
+			<article class="databox margin-right-20">
+				<div id="tend">
+					<div class="dataTitle"></div>
+					<div class="dbline">
+						<div id="tend1">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="tend2">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="tend3">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="tend4">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="tend5">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="cure">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="cure1">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="implant">
+					<div class="dataTitle"></div>
+					<div class="line">
+						<div id="implant1">
+							<div class="detailtitle"></div>
+							<div class="detaildata">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--心电监护＋导管-->
+			<article class="databox margin-right-20">
+				<div id="ward">
+					<div class="dataTitle">心电监护</div>
+					<div class="box">
+						<div class="leftBox">
+							<div class="secTitle">移动器械</div>
+							<div class="movehic">
+								<ul>
+									<!--<li>
+										<div>1</div>
+										<div><span class="num">50</span></div>
+									</li>
+									<li>
+										<div>2</div>
+										<div><span class="num">50</span></div>
+									</li>
+									<li>
+										<div>3</div>
+										<div><span class="num">50</span></div>
+									</li>
+									<li>
+										<div>4</div>
+										<div><span class="num">50</span></div>
+									</li>-->
+								</ul>
+							</div>
+						</div>
+						<div class="rightBox">
+							<div class="secTitle">指脉氧</div>
+							<div class="fingerNum">
+								<ul>
+									<!--<li>
+										<div>1</div>
+										<div><span class="num">50</span></div>
+									</li>
+									<li>
+										<div>2</div>
+										<div><span class="num">50</span></div>
+									</li>-->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="duct">
+					<div class="dataTitle"></div>
+					<div class="dbline">
+						<div id="duct1">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="duct2">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="duct3">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="duct4">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+						<div id="duct5">
+							<div class="secTitle"></div>
+							<div class="numbox">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--责任护士-->
+			<article id="nurse" class="databox rightdatabox topic margin-right-20">
+				<div class="boxline"></div>
+				<div class="dataTitle">责任护士</div>
+				<div id="topic" class="textWrap">
+
+				</div>
+			</article>
+			<div class="changepage">
+				<ul>
+					<li>
+						<a data-id="13">出入院</a>
+					</li>
+					<li>
+						<a data-id="2">手术</a>
+					</li>
+					<li>
+						<a data-id="3">血糖</a>
+					</li>
+					<li>
+						<a data-id="4">生命体征</a>
+					</li>
+					<li>
+						<a data-id="5">特殊检查</a>
+					</li>
+					<li>
+						<a data-id="6">功能试验</a>
+					</li>
+					<li>
+						<a data-id="7">药物过敏</a>
+					</li>
+					<li>
+						<a data-id="8">安全管理</a>
+					</li>
+					<li>
+						<a data-id="9">基础专科护理</a>
+					</li>
+					<li>
+						<a data-id="10">治疗</a>
+					</li>
+					<li>
+						<a data-id="12">导管</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer></footer>
+		<!--JavaScript-->
+		<script src="js/jquery.1.42.min.js"></script>
+		<script src="js/jquery.SuperSlide.2.1.js"></script>
+		<script src="js/firstData.js"></script>
+		<script>
+			$(function() {
+				//主页加载
+				_init.NFMinit('js/dataNFM.json', '2928')
+				/*责任医生*/
+                _init.NFMstaffInit('js/NFMdoctor.json', '2928', '#group')
+				/*责任护士*/
+                _init.NFMstaffInit('js/NFMnurse.json', '2928', '#topic')
+				setInterval(function () {
+                    _init.secondInit('2928')
+                }, 15000)
+                $('.changepage a').click(function () {
+                    var url = 'js/dataNFM.json',
+                    	num = $(this).attr('data-id'),
+						bqdm = '2000';
+                    localStorage.setItem('url', url);
+                    localStorage.setItem('num', num);
+                    localStorage.setItem('bqdm', bqdm);
+                    window.location.href = 'subpage.html';
+                })
+			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,111 @@
+.databody {
+    height: 896px;
+    box-sizing: border-box;
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#subpageDetails {
+    width: 1880px;
+    height: 860px;
+    position: relative;
+}
+
+#subpageDetails>h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+#screen {
+    width: 200px;
+    height: 32px;
+    right: 105px;
+    bottom: 0px;
+    position: absolute;
+}
+
+#subpageDetails>a {
+	width: 80px;
+	height: 32px;
+	color: #666;
+	bottom: 24px;
+	font-size: 20px;
+	line-height: 31px;
+	position: absolute;
+	display: inline-block;
+	background: #FAFAFA;
+	border-radius: 70px;
+	text-align: center;
+	font-weight: normal;
+	text-decoration:none;
+	border: 1px solid #E1E1E1;
+}
+
+#return1 {
+    left: 40px;
+}
+
+#return2 {
+    right: 40px;
+}
+
+#subpageDetails>a:hover {
+	color: #518DFF;
+	border-color: #518DFF;
+}
+
+#subpageDetails>a:active {
+	color: #F9F9F9;
+	border-color: #6d6d6d;
+	background-color: #6d6d6d;
+}
+
+
+#subpage>div {
+    width: 100%;
+    height: 55px;
+    overflow: auto;
+}
+#subpage .infoList>li {
+    height:55px!important;
+}
+
+#subpage .infoList>li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#subpage {
+    width: 1880px;
+    overflow: hidden;
+    line-height: 55px;
+    float: left;
+}
+
+#subpage .infoList .slide {
+    float: left;
+    width: 1710px;
+    height: 55px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#subpage .infoList .slide li{
+	float: left;
+}
+
+.slide_section ul {
+    float: left;
+    width: 1460px;
+    text-align: left;
+}
+
+.slide_section ul li .num {
+    margin: 0 10px;
+}
+
+#scheduleDetails .scheduleList li:nth-child(2n) {
+    background-color: #F7F7F7;
+}

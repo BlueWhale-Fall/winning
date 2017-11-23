@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>试验前资料交接单</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="MobileOptimized" content="320">
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--迭代样式-->
+    <link href="assets/css/iteration.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style type="text/css">
+        .modal-body {
+            height: 600px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部开始 -->
+    <div class="header navbar navbar-inverse navbar-static-top clearfix">
+        <div class="header-inner" id="topmenu">
+        <!--leftdata.js-->
+        </div>
+    </div>
+    <!-- 页面主体开始 -->
+    <div class="page-container" >
+         <!-- 左侧菜单开始 -->
+         <div id="institution" class="page-sidebar navbar-collapse collapse">
+        </div>
+        <!--右侧菜单开始-->
+        <div class="offsidebar closed ie" id="offsidebar">
+        </div>
+        <!-- 页面开始 -->
+        <div class="page-content project">
+            <div class="contenthead">
+                <div class="contenthead-title">试验前资料交接</div>
+            </div>
+            <div class="date-main">
+                <button type="button" class="btn  btn-primary" data-target="#drug" data-toggle="modal">药物</button>
+                <button type="button" class="btn  btn-primary" data-target="#instrument" data-toggle="modal">器械</button>
+                <button type="button" class="btn  btn-primary" data-target="#diagnosis" data-toggle="modal">诊断试剂</button>
+            </div>
+        </div>
+    </div>
+    <!-- 底部开始 -->
+    <div class="footer">
+        <span>医院名称</span>
+        <span class="pull-right">© 2016 Winning health 版权所有</span>
+    </div>
+    <!--资料交接单-药物-->
+    <div class="modal fade" id="drug" tabindex="-1" role="dialog">
+        <div class="modal-dialog drug-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">试验前资料交接单</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <h3 class="text-center">药物临床试验前提供资料交接单</h3>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <label><span class="label-width">项目名称：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室负责人：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <th style="width: 50px">编号</th>
+                                    <th>资料</th>
+                                    <th style="width: 40px">是</th>
+                                    <th style="width: 40px">否</th>
+                                    <th style="width: 60px">不适用</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>申办方在外网填写信息</td>
+                                    <td><input type="radio" name="a1"/></td>
+                                    <td><input type="radio" name="a1"/></td>
+                                    <td><input type="radio" name="a1"/></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>药物临床试验登记和信息公示平台编号</td>
+                                    <td><input type="radio" name="a2"/></td>
+                                    <td><input type="radio" name="a2"/></td>
+                                    <td><input type="radio" name="a2"/></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>国家/省局备案号</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>伦理初始审查申请表</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>国家食品药品监督管理局药物临床试验批件（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>临床研究委托书（申办者、CRO、CRA，需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>临床研究委托书（申办者、CRO、CRA，需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>进口药品通关证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>对照品说明书（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>药品生产许可证；药品GMP证书（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>申办者及CRO企业法人营业执照（副本）、组织机构代码证、税务证明（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>组长单位伦理委员会药物临床试验批件及伦理委员会成员意见签署单（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>
+                                        <p>研究者手册（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p>
+                                    </td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>方案签字页</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td><p>临床试验方案（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td><p>原始记录表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td><p>病例报告表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td><p>受试者知情同意书（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>患者日记卡（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td><p>招募广告（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>实验室检测正常值范围（样表）（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td><p>临床研究受试者入组记录表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td><p>患者筛选/入选表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td><p>临床研究药物发放回收表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>主要研究者履历</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>保险合同</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>所有资料电子版</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>CRC管理费相关协议</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>其他</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">递交人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">联系方式：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">专业负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">接收人签收：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">复核人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">机构负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <h5>备注：</h5>
+                        <ol>
+                            <li>①上述资料一式两份，方案、知情同意书、招募广告另备十五份，伦理委员会每周二、四上午接受资料</li>
+                            <li>②所有试验用药物于周一～周五（8:00～10:30,13:00～16:00）（节假日除外）送至“上海市普陀区新村路389号上海同济医院甘泉楼2楼GCP药房”；</li>
+                            <li>③所有试验用物资请于周一～周五（8:00～11:30,13:00～17:00）（节假日除外）送至“上海市普陀区新村路389号上海同济医院甘泉楼11楼东”；</li>
+                            <li>④其余时间概不接收试验药物和物资，如因此发生意外责任自负；</li>
+                            <li>⑤除试验药和对照药外，如申办者或CRO另外提供辅助用药，需提交销售商的营业执照、药品销售许可证、GSP、生产商的营业执照、药品生产许可证、GMP、购买发票；如申办者或CRO另外提供辅助用器械，需提交销售商的营业执照、器械经营许可证、生产商授权书、生产商的营业执照、器械生产许可证、器械经营许可证、产品注册证、购买发票。
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-primary">保存</button>
+                    <button type="button" class="btn  btn-primary">提交</button>
+                    <button type="button" class="btn  btn-primary">撤回</button>
+                    <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--资料交接单-器械-->
+    <div class="modal fade" id="instrument" tabindex="-1" role="dialog">
+        <div class="modal-dialog drug-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">试验前资料交接单</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <h3 class="text-center">医疗器械临床试验前提供资料交接单</h3>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <label><span class="label-width">项目名称：</span><input type="text" class="drug-control"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室：</span><input type="text" class="drug-control"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室负责人：</span><input type="text" class="drug-control"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <th style="width: 50px">编号</th>
+                                    <th>资料</th>
+                                    <th style="width: 40px">是</th>
+                                    <th style="width: 40px">否</th>
+                                    <th style="width: 60px">不适用</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>申办方在外网填写信息</td>
+                                    <td><input type="radio" name="a1"/></td>
+                                    <td><input type="radio" name="a1"/></td>
+                                    <td><input type="radio" name="a1"/></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>伦理初始审查申请表</td>
+                                    <td><input type="radio" name="a2"/></td>
+                                    <td><input type="radio" name="a2"/></td>
+                                    <td><input type="radio" name="a2"/></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>国家食品药品监督管理局医疗器械临床试验批件（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>临床研究委托书（申办者、CRO、CRA，需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>医疗器械生产企业许可证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>企业法人营业执照、税务登记证、组织机构代码证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>试验用医疗器械研制符合适用的医疗器械生产质量管理规范声明</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>产品技术要求（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>第三方检测报告、自检报告和产品注册检验报告（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>对照器械注册证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td><p>研究者手册（版本号：<input type="text" class="drug-control"/>，版本日期: <input type="text" class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td><p>医疗器械临床试验方案及签字页（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text" class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td><p>观察表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td><p>受试者知情同意书（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>使用说明书（试验器械及对照器械）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>厂家简介（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>实验室检测正常值范围（样表）（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>临床研究受试者鉴认代码表（样表）（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td><p>患者筛选/入选表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</p></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>临床研究器械使用表（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>受试者编码目录（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>主要研究者履历</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>保险合同</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>科室综述</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>所有资料电子版</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>CRC管理费相关协议</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>其他</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">递交人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">联系方式：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">专业负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">接收人签收：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">复核人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">机构负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <h5>备注：</h5>
+                        <ol>
+                            <li>①上述资料一式两份，方案、知情同意书、招募广告另备十五份，伦理委员会每周二、四上午接受资料；</li>
+                            <li>②所有试验用物资请于周一～周五（8:00～11:30,13:00～17:00）（节假日除外）送至“上海市普陀区新村路389号上海同济医院甘泉楼11楼东”；</li>
+                            <li>③其余时间概不接收试验物资，如因此发生意外责任自负；</li>
+                            <li>④除试验器械和对照器械外，如申办者或CRO另外提供辅助用器械，需提交销售商的营业执照、器械经营许可证、生产商授权书、生产商的营业执照、器械生产许可证、器械经营许可证、产品注册证、购买发票。</li>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-primary">保存</button>
+                    <button type="button" class="btn  btn-primary">提交</button>
+                    <button type="button" class="btn  btn-primary">撤回</button>
+                    <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--资料交接单-诊断试剂-->
+    <div class="modal fade" id="diagnosis" tabindex="-1" role="dialog">
+        <div class="modal-dialog drug-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">试验前资料交接单</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <h3 class="text-center">诊断试剂临床试验前提供资料交接单</h3>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <label><span class="label-width">项目名称：</span><input type="text" class="drug-control"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室：</span><input type="text" class="drug-control"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室负责人：</span><input type="text" class="drug-control"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <th style="width: 50px">编号</th>
+                                    <th>资料</th>
+                                    <th style="width: 40px">是</th>
+                                    <th style="width: 40px">否</th>
+                                    <th style="width: 60px">不适用</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>申办方在外网填写信息</td>
+                                    <td><input type="radio" name="a1"/></td>
+                                    <td><input type="radio" name="a1"/></td>
+                                    <td><input type="radio" name="a1"/></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>伦理初始审查申请表</td>
+                                    <td><input type="radio" name="a2"/></td>
+                                    <td><input type="radio" name="a2"/></td>
+                                    <td><input type="radio" name="a2"/></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>国家食品药品监督管理局诊断试剂临床试验批件（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>临床研究委托书、CRA委托书（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>诊断试剂生产企业许可证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>企业法人营业执照、税务登记证、组织机构代码证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>研究者手册（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期:<input type="text" class="drug-control"/>）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>产品技术要求（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>第三方检测报告（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>考核试剂出厂检验单、对照试剂合格证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>考核仪器注册证、对照试剂注册证、对照仪器注册证、复核试剂注册证、复核仪器注册证（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>观察表（样表）（需盖章）（版本号：<input type="text" class="drug-control"/> ，版本日期：<input type="text" class="drug-control"/>）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>诊断试剂临床试验方案及签字页（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>受试者知情同意书（样表）（需盖章）（版本号：<input type="text" class="drug-control"/>，版本日期：<input type="text"  class="drug-control"/>）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>使用说明书（试验试剂、对照试剂、复核试剂、试验中仪器、SOP）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>厂家简介（需盖章）</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>主要研究者履历</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>所有资料电子版</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>其他</td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                    <td><input type="radio" name="a3"/></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">递交人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">联系方式：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">专业负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">接收人签收：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">复核人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w100">机构负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <h5>备注：</h5>
+                        <ol>
+                            <li>①上述资料一式两份，方案、知情同意书、招募广告另备十五份，伦理委员会每周二、四上午接受资料</li>
+                            <li>②所有试验用物资请于周一～周五（8:00～11:30,13:00～17:00）（节假日除外）送至“上海市普陀区新村路389号上海同济医院甘泉楼11楼东”； </li>
+                            <li>③其余时间概不接收试验药物和物资，如因此发生意外责任自负。</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-primary">保存</button>
+                    <button type="button" class="btn  btn-primary">提交</button>
+                    <button type="button" class="btn  btn-primary">撤回</button>
+                    <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+    <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            leftInit(); //加载菜单
+            App.init(); // initlayout and core plugins
+            Index.init();
+        });
+    </script>
+</body>
+</html>

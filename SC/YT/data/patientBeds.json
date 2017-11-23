@@ -1,0 +1,587 @@
+{
+  "BQName": "BII病区",
+  "HZInfos": [
+    {
+      "XSNR": "病人总数",
+      "RS": "149"
+    },
+    {
+      "XSNR": "入院",
+      "RS": "3"
+    },
+    {
+      "XSNR": "出院",
+      "RS": "1"
+    },
+    {
+      "XSNR": "转入",
+      "RS": "0"
+    },
+    {
+      "XSNR": "转出",
+      "RS": "0"
+    },
+    {
+      "XSNR": "手术",
+      "RS": "0"
+    },
+    {
+      "XSNR": "特级护理",
+      "RS": "0"
+    },
+    {
+      "XSNR": "I级护理",
+      "RS": "0"
+    },
+    {
+      "XSNR": "II级护理",
+      "RS": "0"
+    },
+    {
+      "XSNR": "分娩",
+      "RS": "123"
+    }
+  ],
+  "BRInfos": [
+    {
+      "CH": "+02",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病重"
+    },
+    {
+      "CH": "00",
+      "NAME": "王家卫",
+      "SEX": "女",
+      "AGE": "18",
+      "GRADE": "特",
+      "WZZT": ""
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "I",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "II",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "III",
+      "WZZT": "病重"
+    },
+    {
+      "CH": "+02",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "00",
+      "NAME": "jasmine",
+      "SEX": "女",
+      "AGE": "18",
+      "GRADE": "特",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "I",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "II",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "III",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "+02",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "00",
+      "NAME": "jasmine",
+      "SEX": "女",
+      "AGE": "18",
+      "GRADE": "特",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "I",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "II",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "III",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "+02",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "00",
+      "NAME": "jasmine",
+      "SEX": "女",
+      "AGE": "18",
+      "GRADE": "特",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "I",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "II",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "III",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "000",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "00",
+      "NAME": "sdaf",
+      "SEX": "",
+      "AGE": "12",
+      "GRADE": "特",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "+02",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "00",
+      "NAME": "jasmine",
+      "SEX": "女",
+      "AGE": "18",
+      "GRADE": "特",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "I",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "II",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "III",
+      "WZZT": "病危"
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "000",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "+02",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "jasmine",
+      "SEX": "女",
+      "AGE": "18",
+      "GRADE": "特",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "I",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "II",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "III",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "+02",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "jasmine",
+      "SEX": "女",
+      "AGE": "18",
+      "GRADE": "特",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "I",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "II",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "01",
+      "NAME": "jack",
+      "SEX": "男",
+      "AGE": "20",
+      "GRADE": "III",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "000",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "sdaf",
+      "SEX": "",
+      "AGE": "12",
+      "GRADE": "特",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "dhfg",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "特",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "0",
+      "NAME": "dasas",
+      "SEX": "男",
+      "AGE": "",
+      "GRADE": "III",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "01",
+      "NAME": "阿斯顿",
+      "SEX": "其他",
+      "AGE": "23",
+      "GRADE": "II",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "打算",
+      "SEX": "女",
+      "AGE": "",
+      "GRADE": "I",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "+02",
+      "NAME": "21",
+      "SEX": "",
+      "AGE": "12",
+      "GRADE": "特",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "III",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "特",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "I",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "000",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "II",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "特",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "00",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "I",
+      "WZZT": "病危",
+      "YEBZ": 0
+    },
+    {
+      "CH": "000",
+      "NAME": "",
+      "SEX": "",
+      "AGE": "",
+      "GRADE": "II",
+      "WZZT": "病危",
+      "YEBZ": 0
+    }
+  ]
+}

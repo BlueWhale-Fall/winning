@@ -1,0 +1,352 @@
+{
+  "HLTitles": [
+    {
+      "title": "责任护士"
+    },
+    {
+      "title": "护士等级"
+    },
+    {
+      "title": "特级护理"
+    },
+    {
+      "title": "一级护理"
+    },
+    {
+      "title": "二级护理"
+    },
+    {
+      "title": "三级护理"
+    },
+    {
+      "title": "病重"
+    }
+  ],
+  "HLInfos": [
+    {
+      "HSName": "李蓉蓉",
+      "HSDJ": "",
+      "RWInfos": [
+        {
+          "RWXH": "1",
+          "RWName": "特级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "1",
+          "RWName": "一级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "2",
+          "RWName": "二级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "3",
+          "RWName": "三级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "4",
+          "RWName": "病重",
+          "CWInfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "HSName": "丁彦青",
+      "HSDJ": "N3",
+      "RWInfos": [
+        {
+          "RWXH": "1",
+          "RWName": "特级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "1",
+          "RWName": "一级护理",
+          "CWInfos": [
+            {
+              "CH": "+05",
+              "STATUS": 2
+            },
+            {
+              "CH": "+06",
+              "STATUS": 2
+            },
+            {
+              "CH": "+09",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": "2",
+          "RWName": "二级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "3",
+          "RWName": "三级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "4",
+          "RWName": "病重",
+          "CWInfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "HSName": "丁彦青",
+      "HSDJ": "N3",
+      "RWInfos": [
+        {
+          "RWXH": "1",
+          "RWName": "特级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "1",
+          "RWName": "一级护理",
+          "CWInfos": [
+          ]
+        },
+        {
+          "RWXH": "2",
+          "RWName": "二级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "3",
+          "RWName": "三级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "4",
+          "RWName": "病重",
+          "CWInfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "HSName": "丁彦青",
+      "HSDJ": "N3",
+      "RWInfos": [
+        {
+          "RWXH": "1",
+          "RWName": "特级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "1",
+          "RWName": "一级护理",
+          "CWInfos": [
+            {
+              "CH": "+05",
+              "STATUS": 2
+            },
+            {
+              "CH": "+06",
+              "STATUS": 2
+            },
+            {
+              "CH": "+09",
+              "STATUS": 2
+            },
+            {
+              "CH": "+10",
+              "STATUS": 2
+            },
+            {
+              "CH": "21",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": "2",
+          "RWName": "二级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "3",
+          "RWName": "三级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "4",
+          "RWName": "病重",
+          "CWInfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "HSName": "丁彦青",
+      "HSDJ": "N3",
+      "RWInfos": [
+        {
+          "RWXH": "1",
+          "RWName": "特级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "1",
+          "RWName": "一级护理",
+          "CWInfos": [
+            {
+              "CH": "+05",
+              "STATUS": 2
+            },
+            {
+              "CH": "+06",
+              "STATUS": 2
+            },
+            {
+              "CH": "+09",
+              "STATUS": 2
+            },
+            {
+              "CH": "+10",
+              "STATUS": 2
+            },
+            {
+              "CH": "21",
+              "STATUS": 2
+            },
+            {
+              "CH": "22",
+              "STATUS": 2
+            },
+            {
+              "CH": "23",
+              "STATUS": 2
+            },
+            {
+              "CH": "24",
+              "STATUS": 2
+            },
+            {
+              "CH": "25",
+              "STATUS": 2
+            },
+            {
+              "CH": "26",
+              "STATUS": 2
+            },
+            {
+              "CH": "27",
+              "STATUS": 2
+            },
+            {
+              "CH": "28",
+              "STATUS": 2
+            },
+            {
+              "CH": "29",
+              "STATUS": 2
+            },
+            {
+              "CH": "30",
+              "STATUS": 2
+            },
+            {
+              "CH": "31",
+              "STATUS": 2
+            },
+            {
+              "CH": "32",
+              "STATUS": 2
+            },
+            {
+              "CH": "33",
+              "STATUS": 2
+            },
+            {
+              "CH": "34",
+              "STATUS": 2
+            },
+            {
+              "CH": "36",
+              "STATUS": 2
+            },
+            {
+              "CH": "37",
+              "STATUS": 2
+            },
+            {
+              "CH": "38",
+              "STATUS": 2
+            },
+            {
+              "CH": "39",
+              "STATUS": 2
+            },
+            {
+              "CH": "40",
+              "STATUS": 2
+            }
+          ]
+        },
+        {
+          "RWXH": "2",
+          "RWName": "二级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "3",
+          "RWName": "三级护理",
+          "CWInfos": [
+
+          ]
+        },
+        {
+          "RWXH": "4",
+          "RWName": "病重",
+          "CWInfos": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

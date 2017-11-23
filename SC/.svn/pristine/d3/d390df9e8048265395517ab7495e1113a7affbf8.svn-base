@@ -1,0 +1,586 @@
+@charset "utf-8";
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 18px !important;
+	direction: ltr;
+	cursor: default;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	background: url("../img/bg.png");
+}
+/*通用样式*/
+
+.width-24{
+	width: 24px;
+}
+.width-30{
+	width: 30px;
+}
+.margin-top-6{
+	margin-top: 6px;
+}
+.margin-top-7{
+	margin-top: 7px;
+}
+.margin-left-2{
+	margin-left: 2px;
+}
+
+/*头部部分header*/
+
+header {
+	width: 100%;
+	height: 80px;
+	padding: 0 45px;
+	position: relative;
+	background: rgba(0,0,0, .11);
+	box-sizing: border-box;
+}
+
+header h1 {
+	float: left;
+	color: #fff;
+	height: 80px;
+	position: relative;
+	line-height: 80px;
+	font-size: 32px;
+	font-weight: normal;
+	margin-right: 140px;
+}
+
+header>ul li {
+	float: left;
+	position: relative;
+	margin-right: 80px;
+}
+
+header>ul li.active a {
+	opacity: 1;
+	border-bottom: 4px solid #fff;
+}
+
+header>ul li a:hover:before {
+	left: 0;
+	right: 0;
+}
+
+header>ul li a:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: 0;
+	background: #fff;
+	height: 4px;
+	-webkit-transition-property: 'left, right';
+	transition-property: 'left, right';
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+header>ul li a:hover,
+header>ul li a:active,
+header>ul li a:focus{
+	color: #fff;
+}
+
+header>ul li a {
+	color: #fff;
+	width: 150px;
+	height: 72px;
+	opacity: .6;
+	font-size: 22px;
+	line-height: 80px;
+	text-align: center;
+	display: inline-block;
+}
+
+header time span {
+	color: #fff;
+	height: 80px;
+	line-height: 80px;
+	float: right;
+	font-size: 26px;
+	right: 246px;
+	position: absolute;
+}
+
+/*切换按钮*/
+.changePage a {
+	color: #fff;
+	width: 124px;
+	height: 42px;
+	opacity: .8;
+	float: right;
+	right: 100px;
+	line-height: 42px;
+	font-size: 18px;
+	margin-top: 19px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+/*页面主体*/
+
+#main {
+	width: 100%;
+	height: 992px !important;
+	padding: 20px;
+	overflow: hidden;
+	background: #F1F2F7;
+	box-sizing: border-box;
+}
+
+/*尾部footer*/
+
+footer {
+	width: 100%;
+	height: 8px;
+	background-color: #075DFF;
+}
+
+
+/*personnel页面*/
+.ward {
+	width: 100%;
+	height: 936px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 10px 0 rgba(8,92,255,0.20);
+	background-color: #fff;
+}
+
+.wardtitle {
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	color: #333;
+	font-size: 24px;
+	text-align: center;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.warddetail {
+	width: 100%;
+	height: 936px;
+	position: relative;
+	padding: 30px 0px 0px 30px;
+}
+
+.hd {
+	bottom: 30px;
+	right: 130px;
+	position: absolute;
+}
+
+.hd ul li {
+	float: left;
+	width: 64px;
+	height: 30px;
+	color: #848484;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	border-radius: 2px;
+	margin-left: 10px;
+	border: 1px solid #DCDCDC;
+	transition: all .5s;
+}
+
+.hd ul li.on,
+.hd ul li:hover {
+	color: #fff;
+	background-color: #085DFF;
+}
+
+.bd ul li>div {
+	float: left;
+	width: 340px;
+	height: 385px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	background: #FFFFFF;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0 2px 10px 0 rgba(8,92,255,0.20);
+}
+
+.bd ul li>div h1 {
+	color: #085DFF;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 38px;
+	margin-bottom: 15px;
+}
+
+.bd ul li>div h2 {
+	color: #999;
+	width: 280px;
+	height: auto;
+	font-size: 18px;
+	line-height: 32px;
+	margin: 60px auto 0;
+	text-align: center;
+}
+
+.sick {
+	width: 251px;
+	height: 35px;
+	margin: 34px auto 30px;
+	box-sizing: border-box;
+}
+
+.sick span {
+	width: 125px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #58a0ff;
+}
+
+.sick span:first-child {
+	color: #fff;
+	background-color: #57a1ff;
+}
+
+.sick span:last-child{
+	color: #58a0ff;
+	margin-left: -5px;
+	background-color: #fff;
+}
+
+.paramedic {
+	color: #999;
+	width: 245px;
+	height: 25px;
+	overflow: hidden;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+.paramedic .atwork {
+	color: #666;
+}
+
+.paramedic .leave {
+	color: #ff0000;
+}
+
+.paramedic div:first-child {
+	float: left;
+}
+
+.paramedic div:last-child {
+	float: right;
+}
+
+/*自动翻页*/
+.autopage {
+	position: absolute;
+	bottom: 30px;
+	right: 32px;
+	font-size: 14px;
+}
+
+.autopage .finaltime {
+	color: #085DFF;
+	letter-spacing: 0px;
+}
+
+/*personnel_end*/
+
+
+/*allprofiles页面*/
+.main {
+	position: relative;
+	/*padding: 45px;*/
+	height: 1000px;
+}
+
+/*定位边框*/
+.leftline,
+.rightline {
+	top: 86px;
+	width: 1px;
+	height: 120px;
+	position: absolute;
+	background-color: rgba(255, 255, 255, .23);
+}
+
+.leftline {
+	left: 583px;
+}
+
+.rightline {
+	left: 1085px;
+}
+
+.echarts-container {
+	top: 230px;
+	left: 95px;
+	width: 1480px;
+	height: 697px;
+	position: absolute;
+	background: rgba(255, 255, 255, .2);
+}
+.inPatients,
+.newAdmission,
+.todayout,
+.tomout,
+.todayOperation,
+.tomOperation,
+.Dying,
+.ill,
+.died {
+	width: 226px;
+	height: 160px;
+	position: absolute;
+	cursor: pointer;
+	padding: 30px 30px;
+	transition: background-color .5s;
+}
+.inPatients,
+.newAdmission,
+.todayout,
+.tomout,
+.todayOperation,
+.tomOperation,
+.Dying {
+	top: 70px;
+}
+.inPatients{
+	left: 95px;
+}
+.newAdmission{
+	left: 346px;
+}
+.todayout {
+	left: 597px;
+}
+
+.tomout {
+	left: 848px;
+}
+
+.todayOperation {
+	left: 1099px;
+}
+
+.tomOperation {
+	left: 1349px;
+}
+
+.Dying,
+.ill,
+.died {
+	width: 240px;
+	left: 1575px;
+}
+
+.Dying {
+	top: 230px;
+}
+
+.ill {
+	top: 498.5px;
+}
+
+.died {
+	top: 767px;
+}
+
+.current,
+.optional:hover {
+	background: rgba(255, 255, 255, .2);
+}
+
+.main div img {
+	float: left;
+	/*margin-right: 10px;*/
+}
+
+.main div .purnum {
+	font-size: 45px;
+	color: #FFFFFF;
+	float: left;
+	margin-top: -20px;
+	margin-right: 10px;
+}
+
+.main div .purple {
+	font-size: 27px;
+	color: #FFFFFF;
+	float: left;
+}
+
+.main div .title {
+	top: 80px;
+	left: 82px;
+	opacity: 0.5;
+	font-size: 20px;
+	color: #FFFFFF;
+	position: absolute;
+	display: inline-block;
+}
+
+#allprofiles-echarts {
+	margin: 10px auto;
+}
+
+/*坐标轴名称定位*/
+.xname,
+.yname,
+.keyxname,
+.keyyname {
+	color: #fff;
+	position: absolute;
+	opacity: .6;
+}
+
+.yname {
+	top: 80px;
+	left: 136px;
+	font-size: 22px;
+}
+
+.xname {
+	bottom: 22px;
+	right: 136px;
+	font-size: 22px;
+}
+
+.keyyname {
+	top: 65px;
+	left: 77px;
+	font-size: 22px;
+}
+
+.keyxname {
+	bottom: 22px;
+	right: 80px;
+	font-size: 22px;
+}
+
+/*allProfiles_end*/
+
+/*keyprofiles*/
+.keymain {
+	width: 100%;
+	height: 1000px;
+	padding: 0 45px;
+}
+
+.keyLeft {
+	width: 1361px;
+	height: 1000px;
+	padding-top: 50px;
+	float: left;
+	margin-left: 28px;
+}
+
+.keyRight {
+	width: 440px;
+	height: 1000px;
+	float: right;
+	position: relative;
+	padding-top: 50px;
+}
+
+.iconcontainer {
+	width: 100%;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.fall,
+.sore,
+.catheter,
+.pain,
+.quarant,
+.quarantine,
+.today {
+	width: 191px;
+	height: 98px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	padding: 20px 10px;
+	margin: 30px 130px 0 130px;
+	transition: background-color .5s;
+}
+
+.iconcontainer div img {
+	float: left;
+}
+
+.iconcontainer div .purnum {
+	font-size: 45px;
+	color: #FFFFFF;
+	float: left;
+	margin-top: -20px;
+	margin-right: 10px;
+
+}
+
+.iconcontainer div .purple {
+	color: #FFFFFF;
+	font-size: 27px;
+	float: left;
+
+}
+
+.iconcontainer div .title {
+	top: 60px;
+	left: 40px;
+	width: 120px;
+	opacity: 0.5;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+}
+
+.echartsContainer {
+	width: 1361px;
+	height: 642px;
+	position: relative;
+	background: #FFFFFF;
+	background: rgba(255, 255, 255, .2);
+}
+
+#nursing {
+	top: 150px;
+	left: 115px;
+	position: absolute;
+}
+
+#crisis {
+	top: 550px;
+	left: 115px;
+	position: absolute;
+}
+
+.imgContent {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/*keyprofiles_end*/

@@ -1,0 +1,1388 @@
+{
+	"BQDM": "2928",
+	"BQTitle": "内分泌科工作日志",
+	"DateWeek": "2017-4-20 星期四",
+	"DBHS": "123456",
+	"BRCount": 58,
+	"XRY": 0,
+	"CY": 9,
+	"ZR": 0,
+	"ZC": 0,
+	"SS": 5,
+	"TJHL": 0,
+	"BW": 0,
+	"YJHL": 12,
+	"EJHL": 30,
+	"TBGZ": 2,
+	"YC": 0,
+	"DG": 2,
+	"DD": 0,
+	"FZinfos": [
+		{
+			"FZXH": 9,
+			"FZName": "出院",
+			"FZPX": 1,
+			"RWinfos": [
+				{
+					"RWXH": 11,
+					"RWName": "今日出院(下午)",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "002"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "015"
+						}, {
+							"CWDM": "108"
+						}, {
+							"CWDM": "110"
+						}, {
+							"CWDM": "110"
+						}, {
+							"CWDM": "110"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "015"
+						}, {
+							"CWDM": "108"
+						}, {
+							"CWDM": "110"
+						}
+					]
+				}, {
+					"RWXH": 12,
+					"RWName": "明日出院(上午)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "029"
+						}, {
+							"CWDM": "102"
+						}, {
+							"CWDM": "109"
+						}, {
+							"CWDM": "112"
+						}, {
+							"CWDM": "102"
+						}, {
+							"CWDM": "109"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 13,
+			"FZName": "手术准备",
+			"FZPX": 2,
+			"RWinfos": [
+				{
+					"RWXH": 143,
+					"RWName": "备皮",
+					"RWPX": 1,
+					"CWinfos": []
+				}, {
+					"RWXH": 144,
+					"RWName": "肠道准备",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 14,
+			"FZName": "血糖",
+			"FZPX": 3,
+			"RWinfos": [
+				{
+					"RWXH": 141,
+					"RWName": "BG*1",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}
+					]
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*2",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}
+					]
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*3",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*4",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*5",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*6",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*7",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*8",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "BG*24",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "动态血糖监测",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 14,
+			"FZName": "生命体征",
+			"FZPX": 4,
+			"RWinfos": [
+				{
+					"RWXH": 141,
+					"RWName": "体温(QD)",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}
+					]
+				}, {
+					"RWXH": 142,
+					"RWName": "体温(BID)",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "体温(TID)",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "BP",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}
+					]
+				}, {
+					"RWXH": 142,
+					"RWName": "P",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 142,
+					"RWName": "R",
+					"RWPX": 2,
+					"CWinfos": []
+				}
+			]
+		}, {
+			"FZXH": 12,
+			"FZName": "特殊检查",
+			"FZPX": 5,
+			"RWinfos": [
+				{
+					"RWXH": 164,
+					"RWName": "胃镜(无痛)",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "胃镜(普通)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "胃镜(胶囊)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 164,
+					"RWName": "肠镜(无痛)",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "肠镜(普通)",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 51,
+					"RWName": "肠镜(胶囊)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "腹部CT(平扫)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "腹部CT(增强)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "胸部CT(平扫)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "胸部CT(增强)",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "冠脉CT",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "胰腺CT",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "胰腺MRI",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "支气管镜",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 51,
+					"RWName": "垂体MRI",
+					"RWPX": 2,
+					"CWinfos": []
+				}
+			]
+		}, {
+			"FZXH": 15,
+			"FZName": "功能试验",
+			"FZPX": 6,
+			"RWinfos": [
+				{
+					"RWXH": 153,
+					"RWName": "OGTT试验",
+					"RWPX": 1,
+					"CWinfos": []
+				}, {
+					"RWXH": 33,
+					"RWName": "禁水-加压素",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 155,
+					"RWName": "高钙抑制",
+					"RWPX": 3,
+					"CWinfos": []
+				}, {
+					"RWXH": 156,
+					"RWName": "胰岛素低血糖兴奋",
+					"RWPX": 4,
+					"CWinfos": []
+				}, {
+					"RWXH": 156,
+					"RWName": "胃复安兴奋prl",
+					"RWPX": 4,
+					"CWinfos": []
+				}, {
+					"RWXH": 157,
+					"RWName": "葡萄糖抑制",
+					"RWPX": 5,
+					"CWinfos": []
+				}, {
+					"RWXH": 158,
+					"RWName": "GpRH兴奋",
+					"RWPX": 6,
+					"CWinfos": []
+				}, {
+					"RWXH": 158,
+					"RWName": "精氨酸试验",
+					"RWPX": 6,
+					"CWinfos": []
+				}, {
+					"RWXH": 158,
+					"RWName": "饥饿试验",
+					"RWPX": 6,
+					"CWinfos": []
+				}, {
+					"RWXH": 158,
+					"RWName": "过夜1mg地塞米松抑制",
+					"RWPX": 6,
+					"CWinfos": []
+				}, {
+					"RWXH": 158,
+					"RWName": "标准小剂量地塞米松抑制",
+					"RWPX": 6,
+					"CWinfos": []
+				}, {
+					"RWXH": 158,
+					"RWName": "立卧位试验",
+					"RWPX": 6,
+					"CWinfos": []
+				}
+			]
+		}, {
+			"FZXH": 16,
+			"FZName": "药物过敏",
+			"FZPX": 7,
+			"RWinfos": [
+				{
+					"RWXH": 38,
+					"RWName": "青霉素",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 40,
+					"RWName": "硫胺",
+					"RWPX": 2,
+					"CWinfos": [
+						{
+							"CWDM": "003"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 40,
+					"RWName": "头孢",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "喹诺酮",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "大环内酯类",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "银杏叶",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "克林霉素",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "维生素C片",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "庆大霉素",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "红霉素",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 40,
+					"RWName": "苯巴比妥",
+					"RWPX": 2,
+					"CWinfos": []
+				}
+			]
+		}, {
+			"FZXH": 17,
+			"FZName": "安全管理",
+			"FZPX": 8,
+			"RWinfos": [
+				{
+					"RWXH": 136,
+					"RWName": "导管",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 136,
+					"RWName": "压疮",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 136,
+					"RWName": "跌倒",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 136,
+					"RWName": "VTE",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 18,
+			"FZName": "基础/专科护理",
+			"FZPX": 9,
+			"RWinfos": [
+				{
+					"RWXH": 161,
+					"RWName": "会阴护理",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 162,
+					"RWName": "膀胱冲洗",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 163,
+					"RWName": "雾化吸入",
+					"RWPX": 3,
+					"CWinfos": [
+						{
+							"CWDM": "033"
+						}, {
+							"CWDM": "033"
+						}, {
+							"CWDM": "033"
+						}, {
+							"CWDM": "033"
+						}, {
+							"CWDM": "033"
+						}
+					]
+				}, {
+					"RWXH": 162,
+					"RWName": "口腔护理",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 162,
+					"RWName": "卧位护理",
+					"RWPX": 2,
+					"CWinfos": []
+				}
+			]
+		}, {
+			"FZXH": 17,
+			"FZName": "治疗",
+			"FZPX": 10,
+			"RWinfos": [
+				{
+					"RWXH": 136,
+					"RWName": "胰岛素泵",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 17,
+			"FZName": "体内植入物",
+			"FZPX": 11,
+			"RWinfos": [
+				{
+					"RWXH": 136,
+					"RWName": "心脏起搏器",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}
+			]
+		}, {
+			"FZXH": 17,
+			"FZName": "导管",
+			"FZPX": 12,
+			"RWinfos": [
+				{
+					"RWXH": 136,
+					"RWName": "尿量",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 136,
+					"RWName": "出入量",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 136,
+					"RWName": "尿管",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 136,
+					"RWName": "胃管",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}, {
+					"RWXH": 136,
+					"RWName": "CVC",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "037"
+						}, {
+							"CWDM": "040"
+						}
+					]
+				}
+			]
+		},  {
+			"FZXH": 1,
+			"FZName": "入出转",
+			"FZPX": 13,
+			"RWinfos": [
+				{
+					"RWXH": 75,
+					"RWName": "新入院",
+					"RWPX": 1,
+					"CWinfos": [
+						{
+							"CWDM": "x01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "015"
+						}, {
+							"CWDM": "016"
+						}, {
+							"CWDM": "017"
+						}, {
+							"CWDM": "018"
+						}, {
+							"CWDM": "019"
+						}, {
+							"CWDM": "020"
+						}, {
+							"CWDM": "021"
+						}, {
+							"CWDM": "022"
+						}, {
+							"CWDM": "023"
+						}, {
+							"CWDM": "024"
+						}, {
+							"CWDM": "025"
+						}, {
+							"CWDM": "026"
+						}, {
+							"CWDM": "027"
+						}, {
+							"CWDM": "028"
+						}, {
+							"CWDM": "029"
+						}, {
+							"CWDM": "x30"
+						}
+					]
+				}, {
+					"RWXH": 77,
+					"RWName": "转入",
+					"RWPX": 2,
+					"CWinfos": []
+				}, {
+					"RWXH": 76,
+					"RWName": "出院",
+					"RWPX": 3,
+					"CWinfos": [
+						{
+							"CWDM": "c01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "c15"
+						}
+					]
+				}, {
+					"RWXH": 78,
+					"RWName": "转出",
+					"RWPX": 4,
+					"CWinfos": [
+						{
+							"CWDM": "z01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "z15"
+						}
+					]
+				}, {
+					"RWXH": 79,
+					"RWName": "特级护理",
+					"RWPX": 5,
+					"CWinfos": [
+						{
+							"CWDM": "t01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "006"
+						}, {
+							"CWDM": "007"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "t15"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "Ⅰ01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "Ⅰ03"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 80,
+					"RWName": "Ⅰ级护理",
+					"RWPX": 6,
+					"CWinfos": [
+						{
+							"CWDM": "001"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}
+					]
+				}, {
+					"RWXH": 81,
+					"RWName": "Ⅱ级护理",
+					"RWPX": 7,
+					"CWinfos": [
+						{
+							"CWDM": "Ⅱ01"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "015"
+						}, {
+							"CWDM": "002"
+						}, {
+							"CWDM": "003"
+						}, {
+							"CWDM": "004"
+						}, {
+							"CWDM": "005"
+						}, {
+							"CWDM": "008"
+						}, {
+							"CWDM": "009"
+						}, {
+							"CWDM": "010"
+						}, {
+							"CWDM": "011"
+						}, {
+							"CWDM": "012"
+						}, {
+							"CWDM": "013"
+						}, {
+							"CWDM": "014"
+						}, {
+							"CWDM": "Ⅱ15"
+						}
+					]
+				}
+			]
+		}
+	]
+}

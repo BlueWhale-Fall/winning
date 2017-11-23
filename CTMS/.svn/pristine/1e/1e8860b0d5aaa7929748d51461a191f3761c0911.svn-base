@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8"/>
+    <title>药物退还</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/ctms1.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!--[if IE 8]>
+    <style type=”text/css”>
+        .ch_t {
+            display: inline-block;
+        }
+
+        .ch_label {
+            display: none;
+        }
+
+        .clear {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: pink;
+            /*background-image: url("assets/img/查看1.png");*/
+        }
+    </style>
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+<!-- 头部开始 -->
+<!-- BEGIN TOP NAVIGATION BAR -->
+<div class="header navbar navbar-inverse navbar-static-top">
+    <div class="header-inner" id="topmenu">
+        <!--leftdata.js-->
+    </div>
+    <!-- END TOP NAVIGATION BAR -->
+</div>
+<!-- 头部结束 -->
+<div class="clearfix"></div>
+
+<!-- 页面主体开始 -->
+<div class="page-container">
+    <!-- 左侧菜单开始 -->
+    <div id="medicinemenu" class="page-sidebar navbar-collapse collapse">
+
+    </div>
+    <!-- 左侧菜单结束 -->
+    <!--右侧菜单开始-->
+    <div class="offsidebar closed ie" id="offsidebar">
+
+    </div>
+    <!--右侧菜单结束-->
+
+    <!-- 页面开始 -->
+    <div class="page-content project">
+        <!-- BEGIN PAGE HEADER-->
+        <!-- END PAGE HEADER-->
+        <!-- BEGIN DASHBOARD STATS -->
+        <div class="date-main">
+            <div>
+                <button type="button" class="btn btn-default btn-sm" data-target="#tmodify" data-toggle="modal">
+                    <span>已回收药物退换还</span>
+                </button>
+                <button type="button" class="btn btn-default btn-sm margin-left-10" data-toggle="modal"
+                        data-target="#returnDrug">
+                    <span>未发放物资退还</span>
+                </button>
+            </div>
+
+            <div class="margin-right-20 margin-top-10 ">
+                <table class="table  table-striped textalign-c tab1" width="100%" style="word-break:break-all;">
+                    <thead>
+                    <tr class="even">
+                        <th>
+                            <input type="checkbox">
+                        </th>
+                        <th>申请退还日期</th>
+                        <th>申请人</th>
+                        <th>类型</th>
+                        <th width="8%">备注</th>
+                        <th>状态</th>
+                        <th width="10%">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td>2017／12／23</td>
+                        <td>张三</td>
+                        <td>已回收药物</td>
+                        <td>
+                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                内容在鼠标移入显示内容内容在鼠标移入显示内容
+                            </div>
+                        </td>
+                        <td>未审核</td>
+                        <td>
+                            <i class="detail">1</i>
+                            <i class="star">2</i>
+                            <i class="withdraw">3</i>
+                            <!--<div class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="detail" data-toggle="modal" data-target="#returnDetail" ></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="check1" data-toggle="modal" data-target="#true"><i class="fa fa-star-o"></i></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="return" data-toggle="modal" data-target="#cancel"></span>-->
+                            <!--</div>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td>2017／12／23</td>
+                        <td>张三</td>
+                        <td>已回收药物</td>
+                        <td>
+                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                内容在鼠标移入显示内容内容在鼠标移入显示内容
+                            </div>
+                        </td>
+                        <td>未审核</td>
+                        <td>
+                            <i>
+                                <img src="assets/img/明细.png" alt="">
+                            </i>
+                            <i>
+                                <img src="assets/img/审核.png" alt="">
+                            </i>
+                            <i>
+                                <img src="assets/img/明细.png" alt="">
+                            </i>
+                            <!--<div class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="detail" data-toggle="modal" data-target="#returnDetail" ></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="check1" data-toggle="modal" data-target="#true"><i class="fa fa-star-o"></i></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="return" data-toggle="modal" data-target="#cancel"></span>-->
+                            <!--</div>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td>2017／12／23</td>
+                        <td>张三</td>
+                        <td>已回收药物</td>
+                        <td>
+                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                内容在鼠标移入显示内容内容在鼠标移入显示内容
+                            </div>
+                        </td>
+                        <td>未审核</td>
+                        <td class="row">
+                            <i>
+                                <img src="assets/img/明细.png" alt="">
+                            </i>
+                            <i>
+                                <img src="assets/img/审核.png" alt="">
+                            </i>
+                            <i>
+                                <img src="assets/img/明细.png" alt="">
+                            </i>
+                            <!--<div class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="detail" data-toggle="modal" data-target="#returnDetail" ></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="check1" data-toggle="modal" data-target="#true"><i class="fa fa-star-o"></i></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="return" data-toggle="modal" data-target="#cancel"></span>-->
+                            <!--</div>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td>2017／12／23</td>
+                        <td>张三</td>
+                        <td>已回收药物</td>
+                        <td>
+                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                内容在鼠标移入显示内容内容在鼠标移入显示内容
+                            </div>
+                        </td>
+                        <td>未审核</td>
+                        <td class="row">
+                            <i>
+                                <img src="assets/img/明细.png" alt="">
+                            </i>
+                            <i>
+                                <img src="assets/img/审核.png" alt="">
+                            </i>
+                            <i>
+                                <img src="assets/img/明细.png" alt="">
+                            </i>
+                            <!--<div class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="detail" data-toggle="modal" data-target="#returnDetail" ></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="check1" data-toggle="modal" data-target="#true"><i class="fa fa-star-o"></i></span>-->
+                            <!--</div>-->
+                            <!--<div  class="col-lg-4 col-md-4 col-sm-4">-->
+                                <!--<span class="return" data-toggle="modal" data-target="#cancel"></span>-->
+                            <!--</div>-->
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="margin-bottom-10" style="height:40px; float:right;">
+                    <ul class="pagination" style="visibility: visible;">
+                        <li class="prev disabled">
+                            <a href="#" title="Prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li>
+                            <a href="#">5</a>
+                        </li>
+                        <li>
+                            <a href="#">6</a>
+                        </li>
+                        <li class="next">
+                            <a href="#" title="Next"><i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- END BUTTONS PORTLET-->
+
+    </div>
+    <!-- END DASHBOARD STATS -->
+</div>
+<!-- 页面结束 -->
+</div>
+<!-- 页面主体结束 -->
+<!-- 底部开始 -->
+<div class="footer">
+    <span>医院名称</span>
+    <span class="pull-right">© 2016 Winning health 版权所有</span>
+</div>
+<!-- 底部结束 -->
+<div class="modal" id="out" tabindex="-1" aria-hidden="true"     role="dialog">
+    <div class="modal-dialog exitdialog">
+        <div class="modal-content exitcontent">
+            <div class="exitrow margin-top-20">
+                <p>受试者：XXX</p>
+                <p>受试者电话：XXXXXXXXXXX</p>
+            </div>
+            <div class="exitbtn">
+                <button class="btn btn-primary btn-sm pull-left margin-top-20">
+                    重新入组
+                </button>
+                <button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">
+                    取消
+                </button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+</div>
+
+<!--修改密码-->
+<div class="modal" id="revise" tabindex="-1" aria-hidden="true"     role="dialog"></div>
+<!--注销登录-->
+<div class="modal" id="exit" tabindex="-1" aria-hidden="true"     role="dialog"></div>
+<!--邮件-->
+<div class="modal" id="myModal" tabindex="-1" aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+</div>
+<!--退还申请-已回收药物-->
+<div class="modal" id="tmodify"  aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog wp92">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <div class="arrrow">
+                    <!--    popover.arrow的属性-->
+                </div>
+                <h4 class="modal-title">退还申请-已回收药物</h4>
+            </div>
+            <div class="modal-body bgfb" style="padding-bottom: 10px;">
+                <div class="row editorbody">
+                    <div class="scdj">
+                        <div class="expiryDate-middle">
+                            <!--药物基本信息-->
+                            <div class="teditorbody margin-bottom-10" id="detail">
+                                <table class="table table-striped textalign-c tab1 bor-3">
+                                    <thead>
+                                    <tr class="even">
+                                        <th>
+                                            <input type="checkbox">
+                                        </th>
+                                        <th>来源受试者</th>
+                                        <th>药物名称</th>
+                                        <th>规格</th>
+                                        <th>药盒／随机号</th>
+                                        <th>已回收总数</th>
+                                        <th>已退还总数</th>
+                                        <th>回收备注</th>
+                                        <th>本次退还数量</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>张三</td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>10粒</td>
+                                        <td>10粒</td>
+                                        <td width="8%">
+                                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                                内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容
+                                            </div>
+                                        </td>
+                                        <td>
+                                            2
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>张三</td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>10粒</td>
+                                        <td>10粒</td>
+                                        <td width="8%">
+                                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                                内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容
+                                            </div>
+                                        </td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>张三</td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>10粒</td>
+                                        <td>10粒</td>
+                                        <td width="8%">
+                                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                                内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容
+                                            </div>
+                                        </td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>张三</td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>10粒</td>
+                                        <td>10粒</td>
+                                        <td width="8%">
+                                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                                内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容
+                                            </div>
+                                        </td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>张三</td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>10粒</td>
+                                        <td>10粒</td>
+                                        <td width="8%">
+                                            <div style="width: 100px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                                                内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容内容在鼠标移入显示内容
+                                            </div>
+                                        </td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-1 text-left padLR0">发放人：</div>
+                                <div class="col-md-5">
+                                    <input class="form-control width-100">
+                                </div>
+                                <div class="col-md-1 text-left padLR0">货品状态：</div>
+                                <div class="col-md-5">
+                                    <input class="form-control width-100">
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="col-md-1 text-left padLR0">发放人：</div>
+                                <div class="col-md-11">
+                                    <textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn  btn-primary">提交</button>
+                <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--退还申请-未发放物资-->
+<div class="modal" id="returnDrug"  aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog wp92">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <div class="arrrow">
+                    <!--    popover.arrow的属性-->
+                </div>
+                <h4 class="modal-title">退还申请-未发放物资</h4>
+            </div>
+            <div class="modal-body bgfb" style="padding-bottom: 10px;">
+                <div class="row editorbody">
+                    <div class="scdj">
+                        <div class="expiryDate-middle">
+                            <!--药物基本信息-->
+                            <div class="teditorbody margin-bottom-10" id="detail1">
+                                <table class="table table-striped textalign-c tab1 bor-3">
+                                    <thead>
+                                    <tr class="even">
+                                        <th>
+                                            <input type="checkbox">
+                                        </th>
+                                        <th>药物名称</th>
+                                        <th>规格</th>
+                                        <th>药盒／随机号</th>
+                                        <th>当前库存数量</th>
+                                        <th>本次退还数量</th>
+                                        <th>单位</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-1 text-left padLR0">申请人：</div>
+                                <div class="col-md-5">
+                                    <input class="form-control width-100">
+                                </div>
+                                <div class="col-md-1 text-left padLR0">申请日期：</div>
+                                <div class="col-md-5">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="col-md-1 text-left padLR0">备注：</div>
+                                <div class="col-md-11">
+                                    <textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn  btn-primary">提交</button>
+                <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--退还物资明细-->
+<div class="modal" id="returnDetail"  aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog wp77">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <div class="arrrow">
+                    <!--    popover.arrow的属性-->
+                </div>
+                <h4 class="modal-title">退还申请-未发放物资</h4>
+            </div>
+            <div class="modal-body bgfb" style="padding-top: 10px">
+                <div class="row editorbody">
+                    <div class="scdj">
+                        <div class="expiryDate-middle">
+                            <!--药物基本信息-->
+                            <div class="margin-bottom-10">
+                                <div>
+                                    阿昔洛韦（12粒/盒）本次退还数量：6粒
+                                </div>
+                                <div>
+                                    阿昔洛韦（12粒/盒）本次退还数量：6粒
+                                </div>
+                            </div>
+                            <div class="teditorbody margin-bottom-10" id="detail">
+                                <table class="table table-striped textalign-c tab1 bor-3">
+                                    <thead>
+                                    <tr class="even">
+                                        <th>
+                                            <input type="checkbox">
+                                        </th>
+                                        <th>药物名称</th>
+                                        <th>规格</th>
+                                        <th>药盒／随机号</th>
+                                        <th>当前库存数量</th>
+                                        <th>本次退还数量</th>
+                                        <th>单位</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            2
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>阿昔洛韦</td>
+                                        <td>12粒／盒</td>
+                                        <td>10001</td>
+                                        <td>1盒</td>
+                                        <td class="orangecolor">
+                                            <input type="text">
+                                        </td>
+                                        <td>粒</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-1 text-left padLR0">申请人：</div>
+                                <div class="col-md-5">
+                                    <input class="form-control width-100">
+                                </div>
+                                <div class="col-md-1 text-left padLR0">申请日期：</div>
+                                <div class="col-md-5">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="col-md-1 text-left padLR0">备注：</div>
+                                <div class="col-md-11">
+                                    <textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn  btn-primary">提交</button>
+                <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--是否确认全部退还-->
+<div class="modal" id="true"  aria-hidden="true"    role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog exitdialog">
+        <div class="modal-content exitcontent">
+            <div class="exitrow margin-top-20">
+                <p>是否确认全部退还？</p>
+            </div>
+            <div class="exitbtn"><i class="fa fa-check exitbtn-y" data-dismiss="modal"></i> <i
+                    class="fa fa-times exitbtn-n" data-dismiss="modal"></i></div>
+        </div>
+    </div>
+</div>
+<!--撤回后该申请将被删除，是否确认撤回？-->
+<div class="modal" id="cancel"  aria-hidden="true"    role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog exitdialog">
+        <div class="modal-content exitcontent">
+            <div class="exitrow margin-top-20">
+                <p>撤回后该申请将被删除，<br>是否确认撤回？</p>
+            </div>
+            <div class="exitbtn"><i class="fa fa-check exitbtn-y" data-dismiss="modal"></i> <i
+                    class="fa fa-times exitbtn-n" data-dismiss="modal"></i></div>
+        </div>
+    </div>
+</div>
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="assets/plugins/respond.min.js"></script>
+<script src="assets/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js"
+        type="text/javascript"></script>
+<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript"></script>
+<!--下拉框插件-->
+<script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="assets/scripts/app.js" type="text/javascript"></script>
+<script src="assets/scripts/index.js" type="text/javascript"></script>
+<script src="assets/scripts/tasks.js" type="text/javascript"></script>
+<!--日期选择器-->
+<script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+<script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        leftInit(); //加载菜单
+        App.init(); // initlayout and core plugins
+        Index.init();
+    });
+    $('.date-main tbody td:nth-child(5) div').popover({
+        html: true,
+        content: function () {
+            $('.popover').hide(); // 关闭其他的弹层 一次只显示一个
+            return '<div>' + this.innerText + '</div>';
+        },
+        container: 'body',
+        placement: 'bottom',
+
+    })
+    $('#tmodify tbody td:nth-child(8) div').popover({
+        html: true,
+        content: function () {
+            $('.popover').hide(); // 关闭其他的弹层 一次只显示一个
+            return '<div>' + this.innerText + '</div>';
+        },
+        container: 'body',
+        placement: 'bottom',
+
+    })
+    $('#tmodify').on('click','.close',function () {
+        $('.popover').hide(); // 关闭其他的弹层 一次只显示一个
+    })
+    $('.fa-star-o').onmousedown(function () {
+        $(this).removeClass('fa-star-o').addClass('fa-star')
+    }).onmouseup(function () {
+        $(this).removeClass('fa-star').addClass('fa-star-o')
+    })
+</script>
+<!-- END JAVASCRIPTS -->
+
+
+</body>
+<!-- END BODY -->
+</html>

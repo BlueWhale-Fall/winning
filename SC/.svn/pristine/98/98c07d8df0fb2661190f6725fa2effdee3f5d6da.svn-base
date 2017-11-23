@@ -1,0 +1,7 @@
+let Init = resolve => require(['@/template/template2/views/init/init.vue'], resolve)
+export default [
+  {
+    'path': '/',
+    component: Init
+  }
+]

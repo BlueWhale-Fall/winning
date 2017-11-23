@@ -1,0 +1,302 @@
+aside {
+    width: 228px;
+}
+
+
+/*asideBox*/
+
+.asideBox {
+    width: 228px;
+    height: 715px;
+    position: fixed;
+    right: -238px;
+    top: 220px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.asideBox,
+#asdClose {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.asideBox .oderWrap {
+    width: 100%;
+    height: 110px;
+    color: #fff;
+    background-color: #5D95FF;
+    position: relative;
+}
+
+.asideBox .oderWrap h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 15px;
+}
+
+.asideBox .oderWrap .onum {
+    color: #5D95FF;
+    font-size: 36px;
+    font-weight: normal;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -50px;
+    background-color: #fff;
+    -webkit-border: 3px solid #5D95FF;
+    -moz-border: 3px solid #5D95FF;
+    border: 3px solid #5D95FF;
+}
+
+.asideBox .content {
+    margin-top: 60px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.asideBox .content .odetail {
+    font-size: 28px;
+    font-weight: normal;
+    margin: 50px 20px 20px 15px;
+}
+
+.asideBox .content .font-md {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin: 50px 20px 20px 15px;
+}
+
+.asideBox .content .font-sm {
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    margin: 50px 20px 20px 15px;
+}
+
+.asideBox .content .pname {
+    font-size: 20px;
+}
+
+.asideBox .content .page {
+    margin-left: 10px;
+}
+
+.asideBox .content .odes {
+    font-size: 18px;
+    color: #ccc;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.asideBox time span {
+    display: inline-block;
+    width: 100%;
+}
+
+.asideBox time {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.asideBox time .h-m {
+    font-size: 28px;
+    padding: 5px 0;
+}
+
+.asideBox time .y-m-d {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.asideBox time .tdes {
+    color: #ccc;
+}
+
+#asdClose {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #666;
+    display: inline-block;
+    width: 100%;
+    height: 72px;
+    line-height: 70px;
+    -webkit-border-top: 1px solid #e0e0e0;
+    -moz-border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+
+#asdClose:hover {
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+
+/*doctor*/
+
+.doctor {
+    height: 395px;
+}
+
+.doctor .dcImg {
+    position: relative;
+}
+/*控制传入护士图片大小*/
+.doctor .dcImg img {
+	width: 228px;
+	height: 183px;
+}
+
+.doctor .dcDetails .txtWrap h2 {
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+    padding-left: 0;
+}
+
+.doctor .dcDetails .txtWrap {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    color: #FFF;
+    line-height: 24px;
+    padding: 5px 0 5px 15px;
+    -moz-text-shadow: 0 0 5px #ff0000;
+    -webkit-text-shadow: 0 0 5px #6b6b6b;
+    text-shadow: 0 0 5px #6b6b6b;
+}
+
+.doctor .dcDetails ul {
+    text-align: center;
+}
+
+.doctor .dcDetails ul li {
+    display: block;
+}
+
+.doctor .dcDetails ul .docName {
+    font-size: 28px;
+    color: #085FFF;
+    margin: 10px 0;
+    height: 24px;
+}
+
+.doctor .dcDetails ul .docPos {
+    font-size: 18px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.doctor .dcDetails ul .office {
+    font-size: 24px;
+    color: #666666;
+}
+
+.doctor .dcDetails ul .hosName {
+    font-size: 18px;
+    color: #999999;
+}
+
+
+/*topics*/
+
+.topic {
+    height: 405px!important;
+    position: relative;
+    background-color: #fff;
+}
+
+.topic .textWrap {
+    font-size: 18px;
+    color: #666;
+}
+
+.topic .textWrap .content {
+    text-align: justify;
+    padding: 20px;
+}
+
+.topic .textWrap .footTxt {
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    font-size: 16px;
+}
+
+.topic .textWrap .details,
+.topic .textWrap .time {
+    text-align: right;
+}
+
+.topic .dataTitle {
+	color: #FFF;
+    background-color: #FFAE1F;
+    border: none;
+}
+
+
+/*refreshBtn and changePlatform*/
+
+.changePlatform {
+    float: right;
+    width: 138px;
+}
+
+.changePlatform .changeBtn {
+    width: 100%;
+    height: 76px;
+    background: url(../img/changBtn.png) no-repeat;
+    background-size: 138px 76px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.changePlatform .changeBtn:hover {
+    background: url(../img/changBtnDown.png) no-repeat;
+    background-size: 138px 76px;
+}
+
+.changePlatform .changeBtn:focus {
+    background: url(../img/changBtnForbid.png) no-repeat;
+	background-size: 138px 76px;
+}
+
+.refresh {
+    float: left;
+    width: 86px;
+}
+
+.refresh .refreshBtn {
+    width: 100%;
+    height: 76px;
+    background: url(../img/refresh.png) no-repeat;
+    background-size: 86px 76px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.refresh .refreshBtn:hover {
+    background: url(../img/refreshDown.png) no-repeat;
+    background-size: 86px 76px;
+}
+
+.refresh .refreshBtn:focus {
+    background: url(../img/refreshForbid.png) no-repeat;
+    background-size: 86px 76px;
+}

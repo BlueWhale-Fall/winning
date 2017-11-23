@@ -1,0 +1,2100 @@
+{
+  "BQDM": "2914",
+  "KSDM": null,
+  "Title": "神内科护理大屏",
+  "HZInfos": [
+    {
+      "XSNR": "病人总数",
+      "RS": "46"
+    },
+    {
+      "XSNR": "入院",
+      "RS": "01"
+    },
+    {
+      "XSNR": "病危",
+      "RS": "02"
+    },
+    {
+      "XSNR": "病重",
+      "RS": "23"
+    },
+    {
+      "XSNR": "死亡",
+      "RS": "02"
+    },
+    {
+      "XSNR": "今日出院上午",
+      "RS": "83"
+    },
+    {
+      "XSNR": "今日出院下午",
+      "RS": "02"
+    },
+    {
+      "XSNR": "明日出院上午",
+      "RS": "02"
+    },
+    {
+      "XSNR": "明日出院下午",
+      "RS": "03"
+    },
+    {
+      "XSNR": "今日手术",
+      "RS": "03"
+    },
+    {
+      "XSNR": "明日手术数",
+      "RS": "02"
+    },
+    {
+      "XSNR": "动态血糖数",
+      "RS": "02"
+    },
+    {
+      "XSNR": "胰岛素泵数",
+      "RS": "03"
+    }
+  ],
+  "ZRZinfos": [
+    {
+      "ZRZXH": 1,
+      "ZRZMC": "责一组",
+      "ZRZYS": "医生姓名",
+      "YSZC": "医生职称",
+      "ZRZHS": "黄红梅",
+      "HSZC": "护士职称",
+      "RWinfos": [
+        {
+          "CH": "01",
+          "STATUS": null,
+          "RYRQ": "2017081616:06:00",
+          "CSRQ": "19381103",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": "0"
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "02",
+          "STATUS": 2,
+          "RYRQ": "2017081912:07:00",
+          "CSRQ": "19340217",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "79",
+              "RWName": "雾化吸入",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "218",
+              "ZTName": "疼痛评分"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "03",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "04",
+          "STATUS": 2,
+          "RYRQ": "2017082215:02:00",
+          "CSRQ": "19480101",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "05",
+          "STATUS": 2,
+          "RYRQ": "2017082317:45:00",
+          "CSRQ": "19490920",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "06",
+          "STATUS": 2,
+          "RYRQ": "2017082206:36:00",
+          "CSRQ": "19540521",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "60",
+              "RWName": "心电监护",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "154",
+              "RWName": "输液Q8H",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "221",
+              "ZTName": "GLASGON"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "33",
+              "ZTName": "病重明细"
+            }
+          ]
+        },
+        {
+          "CH": "07",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "08",
+          "STATUS": 2,
+          "RYRQ": "2017081810:43:00",
+          "CSRQ": "19530410",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "52",
+              "RWName": "测血糖晚餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "53",
+              "RWName": "测血糖晚餐后",
+              "STATUS": null
+            },
+            {
+              "RWXH": "54",
+              "RWName": "测血糖睡前",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "09",
+          "STATUS": 2,
+          "RYRQ": "2017081807:12:00",
+          "CSRQ": "19960101",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "10",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "11",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "12",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "13",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "14",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 2,
+      "ZRZMC": "责二组",
+      "ZRZYS": "医生姓名",
+      "YSZC": "医生职称",
+      "ZRZHS": "杨莹",
+      "HSZC": "护士职称",
+      "RWinfos": [
+        {
+          "CH": "+15",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+16",
+          "STATUS": 3,
+          "RYRQ": "2017082311:23:00",
+          "CSRQ": "19650802",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "211",
+              "ZTName": "二级护理"
+            }
+          ]
+        },
+        {
+          "CH": "17",
+          "STATUS": 2,
+          "RYRQ": "2017080717:13:00",
+          "CSRQ": "19520906",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "52",
+              "RWName": "测血糖晚餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "53",
+              "RWName": "测血糖晚餐后",
+              "STATUS": null
+            },
+            {
+              "RWXH": "54",
+              "RWName": "测血糖睡前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "77",
+              "RWName": "体液隔离",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "18",
+          "STATUS": 2,
+          "RYRQ": "2017081911:55:00",
+          "CSRQ": "19531209",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "19",
+          "STATUS": 2,
+          "RYRQ": "2017082217:29:00",
+          "CSRQ": "19520706",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "20",
+          "STATUS": 2,
+          "RYRQ": "2017082408:52:00",
+          "CSRQ": "19560514",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "21",
+          "STATUS": 2,
+          "RYRQ": "2017082110:09:00",
+          "CSRQ": "19400101",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "53",
+              "RWName": "测血糖晚餐后",
+              "STATUS": null
+            },
+            {
+              "RWXH": "54",
+              "RWName": "测血糖睡前",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "22",
+          "STATUS": 2,
+          "RYRQ": "2017082010:25:00",
+          "CSRQ": "19340101",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "23",
+          "STATUS": 2,
+          "RYRQ": "2017082322:59:00",
+          "CSRQ": "19690426",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "24",
+          "STATUS": 2,
+          "RYRQ": "2017060611:02:00",
+          "CSRQ": "19460424",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "79",
+              "RWName": "雾化吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "80",
+              "RWName": "肠内营养",
+              "STATUS": null
+            },
+            {
+              "RWXH": "81",
+              "RWName": "吸痰",
+              "STATUS": null
+            },
+            {
+              "RWXH": "104",
+              "RWName": "胃管护理",
+              "STATUS": null
+            },
+            {
+              "RWXH": "169",
+              "RWName": "肠内营养管",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "216",
+              "ZTName": "Brade评分（≤12）"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "43",
+          "STATUS": 2,
+          "RYRQ": "2017082417:35:00",
+          "CSRQ": "19411221",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "218",
+              "ZTName": "疼痛评分"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "44",
+          "STATUS": 2,
+          "RYRQ": "2017081622:21:00",
+          "CSRQ": "19460311",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 3,
+      "ZRZMC": "责三组",
+      "ZRZYS": "医生姓名",
+      "YSZC": "医生职称",
+      "ZRZHS": "方婷婷",
+      "HSZC": "护士职称",
+      "RWinfos": [
+        {
+          "CH": "+07",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+08",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+09",
+          "STATUS": 2,
+          "RYRQ": "2017082006:41:00",
+          "CSRQ": "19460820",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "+11",
+          "STATUS": 2,
+          "RYRQ": "2017082308:01:00",
+          "CSRQ": "19471108",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "25",
+          "STATUS": 2,
+          "RYRQ": "2017073015:13:00",
+          "CSRQ": "19631020",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "103",
+              "RWName": "尿管护理",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "26",
+          "STATUS": 2,
+          "RYRQ": "2017081708:25:00",
+          "CSRQ": "19360303",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "27",
+          "STATUS": 2,
+          "RYRQ": "2017082408:54:00",
+          "CSRQ": "19530630",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "52",
+              "RWName": "测血糖晚餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "53",
+              "RWName": "测血糖晚餐后",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "28",
+          "STATUS": 2,
+          "RYRQ": "2017082406:39:00",
+          "CSRQ": "19320101",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "29",
+          "STATUS": 2,
+          "RYRQ": "2017081909:10:00",
+          "CSRQ": "19470723",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "30",
+          "STATUS": 2,
+          "RYRQ": "2017081713:17:00",
+          "CSRQ": "19430101",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "52",
+              "RWName": "测血糖晚餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "54",
+              "RWName": "测血糖睡前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "141",
+              "RWName": "皮下注射",
+              "STATUS": null
+            },
+            {
+              "RWXH": "142",
+              "RWName": "皮下注射QD",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "31",
+          "STATUS": 2,
+          "RYRQ": "2017082109:06:00",
+          "CSRQ": "19600312",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "32",
+          "STATUS": 2,
+          "RYRQ": "2017082509:58:00",
+          "CSRQ": "19510101",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 4,
+      "ZRZMC": "责四组",
+      "ZRZYS": "医生姓名",
+      "YSZC": "医生职称",
+      "ZRZHS": "丁彦青",
+      "HSZC": "护士职称",
+      "RWinfos": [
+        {
+          "CH": "+01",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+02",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+03",
+          "STATUS": 2,
+          "RYRQ": "2017082202:17:00",
+          "CSRQ": "19390101",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "+04",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+10",
+          "STATUS": 2,
+          "RYRQ": "2017082222:05:00",
+          "CSRQ": "19660219",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "33",
+          "STATUS": 2,
+          "RYRQ": "2017082209:49:00",
+          "CSRQ": "19270925",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "34",
+          "STATUS": 2,
+          "RYRQ": "2017082208:39:00",
+          "CSRQ": "19671218",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "38",
+              "RWName": "测量血压QD",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "218",
+              "ZTName": "疼痛评分"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "35",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "36",
+          "STATUS": 2,
+          "RYRQ": "2017081915:30:00",
+          "CSRQ": "19490110",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "52",
+              "RWName": "测血糖晚餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "53",
+              "RWName": "测血糖晚餐后",
+              "STATUS": null
+            },
+            {
+              "RWXH": "54",
+              "RWName": "测血糖睡前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "141",
+              "RWName": "皮下注射",
+              "STATUS": null
+            },
+            {
+              "RWXH": "142",
+              "RWName": "皮下注射QD",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "37",
+          "STATUS": 2,
+          "RYRQ": "2017082110:27:00",
+          "CSRQ": "19350101",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "52",
+              "RWName": "测血糖晚餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "53",
+              "RWName": "测血糖晚餐后",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "38",
+          "STATUS": 2,
+          "RYRQ": "2017082310:17:00",
+          "CSRQ": "19320924",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "39",
+          "STATUS": 2,
+          "RYRQ": "2017082214:22:00",
+          "CSRQ": "19560601",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 5,
+      "ZRZMC": "责五组",
+      "ZRZYS": "医生姓名",
+      "YSZC": "医生职称",
+      "ZRZHS": "何菲菲",
+      "HSZC": "护士职称",
+      "RWinfos": [
+        {
+          "CH": "+05",
+          "STATUS": 2,
+          "RYRQ": "2017082009:26:00",
+          "CSRQ": "19630921",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "+06",
+          "STATUS": 2,
+          "RYRQ": "2017081811:03:00",
+          "CSRQ": "19740505",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "47",
+              "RWName": "测空腹血糖",
+              "STATUS": null
+            },
+            {
+              "RWXH": "48",
+              "RWName": "测血糖早餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "52",
+              "RWName": "测血糖晚餐前",
+              "STATUS": null
+            },
+            {
+              "RWXH": "54",
+              "RWName": "测血糖睡前",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "+12",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+13",
+          "STATUS": 2,
+          "RYRQ": "2017082108:31:00",
+          "CSRQ": "19700628",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "+14",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+17",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+18",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+19",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "+20",
+          "STATUS": 0,
+          "RYRQ": "",
+          "CSRQ": "",
+          "XB": "",
+          "CGHLInfos": [
+          ],
+          "BRZTInfos": [
+          ]
+        },
+        {
+          "CH": "40",
+          "STATUS": 2,
+          "RYRQ": "2017081815:15:00",
+          "CSRQ": "19490915",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            },
+            {
+              "RWXH": "82",
+              "RWName": "物理降温",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "41",
+          "STATUS": 2,
+          "RYRQ": "2017082108:53:00",
+          "CSRQ": "19440803",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "42",
+          "STATUS": 0,
+          "RYRQ": "2017080807:28:00",
+          "CSRQ": "19510604",
+          "XB": "男",
+          "CGHLInfos": [
+            {
+              "RWXH": "38",
+              "RWName": "测量血压QD",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "155",
+              "RWName": "输液Q12H",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 6,
+      "ZRZMC": "责六组",
+      "ZRZYS": "医生姓名",
+      "YSZC": "医生职称",
+      "ZRZHS": "王玲",
+      "HSZC": "护士职称",
+      "RWinfos": [
+        {
+          "CH": "13",
+          "STATUS": 2,
+          "RYRQ": "2017082509:59:00",
+          "CSRQ": "19571001",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "37",
+              "RWName": "测量血压BID",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "216",
+              "ZTName": "Brade评分（≤12）"
+            },
+            {
+              "RWXH": "218",
+              "ZTName": "疼痛评分"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        },
+        {
+          "CH": "14",
+          "STATUS": 2,
+          "RYRQ": "2017082313:24:00",
+          "CSRQ": "19680815",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "154",
+              "RWName": "输液Q8H",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "218",
+              "ZTName": "疼痛评分"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            },
+            {
+              "RWXH": "33",
+              "ZTName": "病重明细"
+            }
+          ]
+        },
+        {
+          "CH": "15",
+          "STATUS": 0,
+          "RYRQ": "2017081113:58:00",
+          "CSRQ": "19260511",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "41",
+              "RWName": "测量血压Q4H",
+              "STATUS": null
+            },
+            {
+              "RWXH": "60",
+              "RWName": "心电监护",
+              "STATUS": null
+            },
+            {
+              "RWXH": "78",
+              "RWName": "氧气吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "79",
+              "RWName": "雾化吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "103",
+              "RWName": "尿管护理",
+              "STATUS": null
+            },
+            {
+              "RWXH": "104",
+              "RWName": "胃管护理",
+              "STATUS": null
+            },
+            {
+              "RWXH": "154",
+              "RWName": "输液Q8H",
+              "STATUS": null
+            },
+            {
+              "RWXH": "155",
+              "RWName": "输液Q12H",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "215",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "216",
+              "ZTName": "Brade评分（≤12）"
+            },
+            {
+              "RWXH": "221",
+              "ZTName": "GLASGON"
+            },
+            {
+              "RWXH": "223",
+              "ZTName": "深静脉血栓"
+            }
+          ]
+        },
+        {
+          "CH": "16",
+          "STATUS": 2,
+          "RYRQ": "2017081319:07:00",
+          "CSRQ": "19450615",
+          "XB": "女",
+          "CGHLInfos": [
+            {
+              "RWXH": "43",
+              "RWName": "测量血压Q8H",
+              "STATUS": null
+            },
+            {
+              "RWXH": "60",
+              "RWName": "心电监护",
+              "STATUS": null
+            },
+            {
+              "RWXH": "79",
+              "RWName": "雾化吸入",
+              "STATUS": null
+            },
+            {
+              "RWXH": "80",
+              "RWName": "肠内营养",
+              "STATUS": null
+            },
+            {
+              "RWXH": "83",
+              "RWName": "24H出入量",
+              "STATUS": null
+            },
+            {
+              "RWXH": "104",
+              "RWName": "胃管护理",
+              "STATUS": null
+            },
+            {
+              "RWXH": "155",
+              "RWName": "输液Q12H",
+              "STATUS": null
+            },
+            {
+              "RWXH": "169",
+              "RWName": "肠内营养管",
+              "STATUS": null
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "214",
+              "ZTName": "Morse（≥25)"
+            },
+            {
+              "RWXH": "221",
+              "ZTName": "GLASGON"
+            },
+            {
+              "RWXH": "107",
+              "ZTName": "一级护理"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

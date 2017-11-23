@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>护理管理大屏展示系统</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/loading.css"/>
+    <link rel="stylesheet" type="text/css" href="css/DHNS.css">
+</head>
+
+<body>
+<!--遮罩层和加载动画-->
+<mark class="darkmask"></mark>
+<div id="loadWrap" class="loading"></div>
+<!--头部-->
+<header>
+    <h1>大华医院护理部管理平台</h1>
+    <ul>
+        <li>
+            <a href="allprofiles.html" data-num=1>全院病人概况</a>
+        </li>
+        <li class="active">
+            <a href="keyprofiles.html" data-num=2>重点病人概况</a>
+        </li>
+        <li>
+            <a href="personnel.html" data-num=3>病区一览</a>
+        </li>
+    </ul>
+    <time>
+        <span class="datehtml"></span>
+    </time>
+    <div class="changePage">
+        <a href="#">临床平台</a>
+    </div>
+</header>
+
+
+<!--内容-->
+<div class="keymain">
+    <div class="keyLeft">
+        <div class="iconcontainer">
+            <div class="fall optional current hidden">
+                <div class="imgContent">
+                    <img src="img/fall.png" alt="">
+                </div>
+                <span class="purnum">235</span>
+                <span class="purple">人</span>
+                <span class="title">跌倒评估</span>
+            </div>
+            <div class="sore optional hidden">
+                <div class="imgContent">
+                    <img src="img/sore.png" alt="" class="margin-top-7">
+                </div>
+                <span class="purnum">23</span>
+                <span class="purple">人</span>
+                <span class="title">压疮评估</span>
+            </div>
+            <div class="catheter optional hidden">
+                <div class="imgContent">
+                    <img src="img/catheter.png" alt="" class="margin-left-2">
+                </div>
+                <span class="purnum">23</span>
+                <span class="purple">人</span>
+                <span class="title">导管评估</span>
+            </div>
+            <div class="pain optional hidden">
+                <div class="imgContent">
+                    <img src="img/pain.png" alt="" class="margin-top-6">
+                </div>
+                <span class="purnum">23</span>
+                <span class="purple">人</span>
+                <span class="title">疼痛评估</span>
+            </div>
+            <div class="quarantine optional hidden">
+                <div class="imgContent">
+                    <img src="img/quarantine.png" alt="" class="margin-top-6">
+                </div>
+                <span class="purnum">23</span>
+                <span class="purple">人</span>
+                <span class="title">床边隔离</span>
+            </div>
+            <div class="today optional hidden">
+                <div class="imgContent">
+                    <img src="img/caresick.png" alt="" class="margin-top-6">
+                </div>
+                <span class="purnum">23</span>
+                <span class="purple">人</span>
+                <span class="title">今日出院</span>
+            </div>
+        </div>
+        <div class="echartsContainer">
+            <div style="width: 1200px; height: 620px" id="allprofiles-echarts"></div>
+            <div class="keyyname">科室</div>
+            <div class="keyxname">人数</div>
+        </div>
+    </div>
+    <div class="keyRight">
+        <div style="width: 300px; height: 300px" id="nursing"></div>
+        <div style="width: 300px; height: 300px" id="crisis"></div>
+    </div>
+</div>
+<!--底部-->
+<footer></footer>
+<!--JavaScript-->
+<script type="text/javascript" src="plugins/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="plugins/echarts/echarts.min.js"></script>
+<script src="js/firstdata.js"></script>
+<script>
+    $(function() {
+        var container = $('.iconcontainer'),
+            elements = container.children();
+        pageinit.init();
+        pageinit.profileInit(elements, 2)
+    })
+</script>
+</body>
+
+</html>

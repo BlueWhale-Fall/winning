@@ -1,0 +1,1088 @@
+{
+  "BQInfos": [
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张1",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张2",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张3",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张1",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张2",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张3",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张1",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张2",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张3",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张1",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张2",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张3",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张1",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张2",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张3",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    },
+    {
+      "BQDM": "2928",
+      "BQMC": "一西",
+      "NURSERS": 14,
+      "CWNum": 20,
+      "ZGRS": 8,
+      "SCALE": "30:50",
+      "KSInfos": [
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        },
+        {
+          "KSMC": "神经内科"
+        }
+      ],
+      "HSInfos":[
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        },
+        {
+          "HSName":"张三",
+          "HSDJ":"N1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "BQDM": "A2",
+  "BQTitle": "妇产科一病区综合信息平台",
+  "DateWeek": "2017-9-20 星期三",
+  "DBHS": "",
+  "HZInfos": [
+    {
+      "XSNR": "病人总数",
+      "RS": "12"
+    },
+    {
+      "XSNR": "新生儿",
+      "RS": "12"
+    },
+    {
+      "XSNR": "特级护理",
+      "RS": "22"
+    },
+    {
+      "XSNR": "I级护理",
+      "RS": "32"
+    },
+    {
+      "XSNR": "顺产",
+      "RS": "42"
+    },
+    {
+      "XSNR": "病危病重",
+      "RS": "52"
+    },
+    {
+      "XSNR": "今日手术",
+      "RS": "62"
+    },
+    {
+      "XSNR": "明日手术",
+      "RS": "72"
+    },
+    {
+      "XSNR": "择期手术",
+      "RS": "82"
+    },
+    {
+      "XSNR": "压疮",
+      "RS": "92"
+    },
+    {
+      "XSNR": "导管",
+      "RS": "10"
+    },
+    {
+      "XSNR": "跌倒",
+      "RS": "11"
+    }
+  ],
+  "FZinfos": [
+    {
+      "FZXH": 1,
+      "FZName": "出院",
+      "FZPX": 1,
+      "RWinfos": [
+        {
+          "RWXH": 55,
+          "RWName": "今日出院(上午)",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "13"
+            }
+          ]
+        },
+        {
+          "RWXH": 56,
+          "RWName": "今日出院(下午)",
+          "RWPX": 2,
+          "CWinfos": [
+            {
+              "CWDM": "11"
+            },
+            {
+              "CWDM": "14"
+            }
+          ]
+        },
+        {
+          "RWXH": 260,
+          "RWName": "明日出院",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "04"
+            },
+            {
+              "CWDM": "05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 4,
+      "FZName": "测血压",
+      "FZPX": 2,
+      "RWinfos": [
+        {
+          "RWXH": 101,
+          "RWName": "Q2H",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 103,
+          "RWName": "Q4H",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 105,
+          "RWName": "Q6H",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 106,
+          "RWName": "Q8H",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 94,
+          "RWName": "TID",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 91,
+          "RWName": "BID",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 90,
+          "RWName": "QD",
+          "RWPX": 7,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 15,
+      "FZName": "测脉搏",
+      "FZPX": 3,
+      "RWinfos": [
+        {
+          "RWXH": 291,
+          "RWName": "Q2H",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 292,
+          "RWName": "Q4H",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 293,
+          "RWName": "Q6H",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 294,
+          "RWName": "Q8H",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 295,
+          "RWName": "TID",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 296,
+          "RWName": "BID",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 297,
+          "RWName": "QD",
+          "RWPX": 7,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 2,
+      "FZName": "24H",
+      "FZPX": 4,
+      "RWinfos": [
+        {
+          "RWXH": 27,
+          "RWName": "尿量",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 26,
+          "RWName": "出入量",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 249,
+          "RWName": "引流量",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 5,
+      "FZName": "测心率",
+      "FZPX": 5,
+      "RWinfos": [
+        {
+          "RWXH": 218,
+          "RWName": "Q2H",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 220,
+          "RWName": "Q4H",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 222,
+          "RWName": "Q6H",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 223,
+          "RWName": "Q8H",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 211,
+          "RWName": "TID",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 208,
+          "RWName": "BID",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 207,
+          "RWName": "QD",
+          "RWPX": 7,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 6,
+      "FZName": "基础护理",
+      "FZPX": 6,
+      "RWinfos": [
+        {
+          "RWXH": 44,
+          "RWName": "口腔护理",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 298,
+          "RWName": "阴道擦洗",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 299,
+          "RWName": "阴道冲洗",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 300,
+          "RWName": "注意腹痛",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 301,
+          "RWName": "阴道流血",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 302,
+          "RWName": "督促小便",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 16,
+      "FZName": "会阴护理",
+      "FZPX": 7,
+      "RWinfos": [
+        {
+          "RWXH": 303,
+          "RWName": "QD",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 304,
+          "RWName": "BID",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 17,
+      "FZName": "酒精湿敷",
+      "FZPX": 8,
+      "RWinfos": [
+        {
+          "RWXH": 305,
+          "RWName": "QD",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 306,
+          "RWName": "BID",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 307,
+          "RWName": "TID",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 7,
+      "FZName": "三大监控",
+      "FZPX": 9,
+      "RWinfos": [
+        {
+          "RWXH": 315,
+          "RWName": "压疮(科室监控)",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 316,
+          "RWName": "压疮(护理部监控)",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 317,
+          "RWName": "跌倒(科室监控)",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 318,
+          "RWName": "跌倒(护理部监控)",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 319,
+          "RWName": "导管(科室监控)",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 320,
+          "RWName": "导管(护理部监控)",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 8,
+      "FZName": "药物过敏",
+      "FZPX": 10,
+      "RWinfos": [
+        {
+          "RWXH": 50,
+          "RWName": "青霉素类",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 268,
+          "RWName": "头孢类",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 269,
+          "RWName": "其他",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 9,
+      "FZName": "特殊导管",
+      "FZPX": 11,
+      "RWinfos": [
+        {
+          "RWXH": 270,
+          "RWName": "留置针",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 271,
+          "RWName": "深静脉",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 185,
+          "RWName": "胸腔引流",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 224,
+          "RWName": "腹腔引流",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 30,
+          "RWName": "PICC",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 33,
+          "RWName": "留置尿管",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 314,
+          "RWName": "拔尿管",
+          "RWPX": 7,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 10,
+      "FZName": "特殊治疗",
+      "FZPX": 12,
+      "RWinfos": [
+        {
+          "RWXH": 176,
+          "RWName": "心电监护",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "20"
+            }
+          ]
+        },
+        {
+          "RWXH": 321,
+          "RWName": "化疗",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 244,
+          "RWName": "吸氧",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 322,
+          "RWName": "特殊用药",
+          "RWPX": 4,
+          "CWinfos": [
+            {
+              "CWDM": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 19,
+      "FZName": "特殊检查",
+      "FZPX": 13,
+      "RWinfos": [
+        {
+          "RWXH": 275,
+          "RWName": "尿蛋白",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 193,
+          "RWName": "动态血压",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 194,
+          "RWName": "动态心电图",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 323,
+          "RWName": "糖筛",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 11,
+      "FZName": "其他",
+      "FZPX": 14,
+      "RWinfos": [
+        {
+          "RWXH": 324,
+          "RWName": "待产",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 325,
+          "RWName": "不规则",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 274,
+          "RWName": "卧床休息",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 326,
+          "RWName": "临床路径",
+          "RWPX": 4,
+          "CWinfos": [
+            {
+              "CWDM": "15"
+            }
+          ]
+        },
+        {
+          "RWXH": 64,
+          "RWName": "换床",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 327,
+          "RWName": "药流第三天",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 12,
+      "FZName": "测血糖",
+      "FZPX": 15,
+      "RWinfos": [
+        {
+          "RWXH": 261,
+          "RWName": "早餐前",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 262,
+          "RWName": "早餐后",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 263,
+          "RWName": "午餐前",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 264,
+          "RWName": "午餐后",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 265,
+          "RWName": "晚餐前",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 266,
+          "RWName": "晚餐后",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 267,
+          "RWName": "21:00",
+          "RWPX": 7,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 18,
+      "FZName": "新生儿",
+      "FZPX": 16,
+      "RWinfos": [
+        {
+          "RWXH": 308,
+          "RWName": "入室",
+          "RWPX": 1,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 309,
+          "RWName": "转院",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 310,
+          "RWName": "出院",
+          "RWPX": 3,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 311,
+          "RWName": "外出检查",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 312,
+          "RWName": "人工喂养",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 313,
+          "RWName": "24h新生儿",
+          "RWPX": 6,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 13,
+      "FZName": "入出转",
+      "FZPX": 18,
+      "RWinfos": [
+        {
+          "RWXH": 54,
+          "RWName": "新入院",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "15"
+            }
+          ]
+        },
+        {
+          "RWXH": 63,
+          "RWName": "转入",
+          "RWPX": 2,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 276,
+          "RWName": "出院",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "11"
+            },
+            {
+              "CWDM": "13"
+            },
+            {
+              "CWDM": "14"
+            }
+          ]
+        },
+        {
+          "RWXH": 62,
+          "RWName": "转出",
+          "RWPX": 4,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 17,
+          "RWName": "特级护理",
+          "RWPX": 5,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 18,
+          "RWName": "I级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "20"
+            }
+          ]
+        },
+        {
+          "RWXH": 71,
+          "RWName": "II级护理",
+          "RWPX": 7,
+          "CWinfos": [
+            {
+              "CWDM": "03"
+            },
+            {
+              "CWDM": "08"
+            },
+            {
+              "CWDM": "09"
+            },
+            {
+              "CWDM": "15"
+            },
+            {
+              "CWDM": "16"
+            },
+            {
+              "CWDM": "17"
+            },
+            {
+              "CWDM": "18"
+            },
+            {
+              "CWDM": "19"
+            }
+          ]
+        },
+        {
+          "RWXH": 284,
+          "RWName": "病危病重",
+          "RWPX": 8,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 59,
+          "RWName": "今日手术",
+          "RWPX": 9,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 60,
+          "RWName": "明日手术",
+          "RWPX": 10,
+          "CWinfos": [
+
+          ]
+        },
+        {
+          "RWXH": 290,
+          "RWName": "择期手术",
+          "RWPX": 11,
+          "CWinfos": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

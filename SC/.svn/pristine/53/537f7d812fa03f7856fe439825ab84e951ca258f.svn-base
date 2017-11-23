@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>header</title>
+    <meta name="keywords" content="XXXX">
+    <meta name="description" content="XXXX">
+    <meta name="autdor" content="autdor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+
+<body>
+   
+    <footer>
+        <div class="attention">
+            <p class="floatL"><span class="voice"></span>近期卫生局检查，不再接收加床病人，后续安排等通知。
+            </p>
+            <p class="floatR">上海市第六人民医院</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>基本信息维护</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css" />
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet" />
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+
+<body>
+    <!-- 头部开始 -->
+    <!-- BEGIN TOP NAVIGATION BAR -->
+    <div class="header navbar navbar-inverse navbar-static-top">
+        <div class="header-inner" id="topmenu">
+            <div style="width:195px;float:left">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" alt="logo" class="img-responsive pull-left margin-top-5" />
+                </a>
+            </div>
+            <div class="sidebar-toggler hidden-phone none-bg relative">
+                <i class="iconfont icon-list"></i>
+            </div>
+            <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <img src="assets/img/menu-toggler.png" alt="" />
+            </a>
+            <ul id="topmenu" class="nav navbar-nav nav-menu topmeau">
+                <li><a href="制度管理.html" id="a1">制度管理</a>
+                </li>
+                <li><a href="项目基本信息.html" id="a2">项目管理</a>
+                </li>
+                <li><a href="专业组-药物机构质控表.html" id="a3">质量管理</a>
+                </li>
+                <li><a class="cur" href="基本信息维护.html" id="a4">药物管理</a>
+                </li>
+                <li><a href="档案管理.html" id="a5">档案管理</a>
+                </li>
+                <li><a href="院内人员信息.html" id="a6">人员管理</a>
+                </li>
+                <li><a href="系统消息.html" id="a7">系统管理</a>
+                </li>
+            </ul>
+            <ul id="msgbox" class="nav navbar-nav pull-right">
+                <li class="dropdown" id="header_inbox_bar">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <i class="iconfont icon-msg font-20"></i><span class="badge">6</span> </a>
+                    <ul class="dropdown-menu extended inbox">
+                        <li>
+                            <ul class="dropdown-menu-list scroller" style="height: 250px;">
+                                <li><a data-toggle="modal" data-target="#myModal"><span class="subject"><span class="new"></span> 
+                                <span class="from">新消息名称</span>
+                                <span class="class">(消息)</span>
+                                
+                                </span><span class="message">请确认一下最新会议日程...</span></a>
+                                </li>
+                                <li><a data-toggle="modal" data-target="#myModal"><span class="subject"><span class="readed"></span><span class="from">新消息名称</span>
+                                 <span class="class">(通知)</span>
+                                </span><span class="message">请确认一下最新会议日程...</span></a>
+                                </li>
+                                <li><a data-toggle="modal" data-target="#myModal"><span class="subject"><span class="readed"></span><span class="from">新消息名称</span>
+                                <span class="class">(消息)</span>
+                                </span><span class="message">请确认一下最新会议日程...</span></a>
+                                </li>
+                                <li><a data-toggle="modal" data-target="#myModal"><span class="subject"><span class="readed"></span><span class="from">新消息名称</span>
+                                <span class="class">(消息)</span>
+                                </span><span class="message">请确认一下最新会议日程...</span></a>
+                                </li>
+                            </ul>
+                            <li>
+                                <p class="margin-top-10">您有<span style="color:#4b91ea;">6</span>条未读消息</p>
+                                <p style="color:#4b91ea;">查看全部消息</p>
+                            </li>
+                    </ul>
+                    </li>
+                    <li class="dropdown user"><a onclick="$('#offsidebar').toggleClass('closed');" class="dropdown-toggle"><em class="user-icon"></em></a>
+                    </li>
+            </ul>;
+        </div>
+        <!-- END TOP NAVIGATION BAR -->
+    </div>
+    <!-- 头部结束 -->
+    <div class="clearfix"></div>
+
+    <!-- 页面主体开始 -->
+    <div class="page-container">
+        <!-- 左侧菜单开始 -->
+        <div id="medicinemenu" class="page-sidebar navbar-collapse collapse">
+            <ul class="page-sidebar-menu">
+                <li class="open">
+                    <a href="javascript:;">
+                        <i class="iconfont icon-lxysp"></i>
+                        <span class="title">药物管理</span>
+                        <span class="arrow open"></span>
+                    </a>
+                    <ul class="sub-menu" style="display: block;">
+                        <li><a class="menuCur" href="基本信息维护.html">基本信息维护 </a>
+                        </li>
+                        <li><a href="验收入库.html">验收入库 </a>
+                        </li>
+                        <li><a href="发药.html">发药 </a>
+                        </li>
+                        <li><a href="药物回收.html">药物回收 </a>
+                        </li>
+                        <li><a href="药物退还.html">药物退还 </a>
+                        </li>
+                        <li><a href="药物有效期提醒.html">药物有效期提醒 </a>
+                        </li>
+                        <li><a href="药物库存.html">药物库存</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- 左侧菜单结束 -->
+        <!--右侧菜单开始-->
+        <div class="offsidebar closed ie" id="offsidebar">
+            <nav>
+                <div role="tabpanel">
+                    <div class="tab-content">
+                        <div id="app-settings" role="tabpanel">
+                            <div class="tab-title"> 用户</div>
+                            <div class="user-info">
+                                <span class="userinfobox username">王铁蛋</span> <span class="userinfobox userposition">主任医师 教授</span>
+                                <span class="usericonbox"> 
+    <a class="userbox-revise" data-toggle="modal" href="#revise"></a> 
+    <a class="userbox-exit margin-left-45" data-toggle="modal" href="#exit"></a> 
+    </span>
+                            </div>
+                            <div id="accordion2">
+                                <div id="panelbox" class="panel">
+                                    <div class="tab-title">皮肤</div>
+                                    <div class="theme-panel">
+                                        <div class="theme-options">
+                                            <div class="theme-option theme-colors clearfix">
+                                                <ul>
+                                                    <li data-style="default-head">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-blue"></div>
+                                                            <div class="themebox-right tcorlor-bluesp"></div>
+                                                            <div class="themebox-bottom tcorlor-white"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li data-style="blue-head">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-wathet"></div>
+                                                            <div class="themebox-right tcorlor-wathetsp"></div>
+                                                            <div class="themebox-bottom tcorlor-white"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li data-style="green-head">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-green"></div>
+                                                            <div class="themebox-right tcorlor-greensp"></div>
+                                                            <div class="themebox-bottom tcorlor-white"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li data-style="purple-head">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-purple"></div>
+                                                            <div class="themebox-right tcorlor-purplesp"></div>
+                                                            <div class="themebox-bottom tcorlor-white"></div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="margin-top-20">
+                                                    <li data-style="default">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-blue"></div>
+                                                            <div class="themebox-right tcorlor-bluesp"></div>
+                                                            <div class="themebox-bottom tcorlor-black"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li data-style="blue">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-wathet"></div>
+                                                            <div class="themebox-right tcorlor-wathetsp"></div>
+                                                            <div class="themebox-bottom tcorlor-black"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li data-style="green">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-green"></div>
+                                                            <div class="themebox-right tcorlor-greensp"></div>
+                                                            <div class="themebox-bottom tcorlor-black"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li data-style="purple">
+                                                        <div class="themebox">
+                                                            <div class="themebox-left tcorlor-purple"></div>
+                                                            <div class="themebox-right tcorlor-purplesp"></div>
+                                                            <div class="themebox-bottom tcorlor-black"></div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="theme-option"><span>盒子布局</span>
+                                                <input type="checkbox" class="ch_t" id="ch1" />
+                                                <label class="ch_label" for="ch1"></label>
+                                            </div>
+                                            <div class="theme-option"><span>头部悬浮</span>
+                                                <input type="checkbox" class="ch_t" id="ch2" />
+                                                <label class="ch_label" for="ch2"></label>
+                                            </div>
+                                            <div class="theme-option"><span>工具栏悬浮</span>
+                                                <input type="checkbox" class="ch_t" id="ch3" />
+                                                <label class="ch_label" for="ch3"></label>
+                                            </div>
+                                            <div class="theme-option"><span>底部悬浮</span>
+                                                <input type="checkbox" class="ch_t" id="ch4" />
+                                                <label class="ch_label" for="ch4"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--右侧菜单结束-->
+
+        <!-- 页面开始 -->
+        <div class="page-content project">
+            <!-- BEGIN PAGE HEADER-->
+            <div class="contenthead">
+                <div class="contenthead-title">基本信息维护</div>
+
+                <div class="pull-left" style="padding:5px 0 15px 0">
+                    <span class="contenthead-text pull-left">项目</span>
+                    <input class="form-control pull-left w200" style="height: 28px;" placeholder="" type="text">
+                    <span class="contenthead-text margin-left-40 pull-left">药物</span>
+                    <input class="form-control pull-left w200" style="height: 28px;" placeholder="" type="text">
+                    <span class="contenthead-text margin-left-40 pull-left">生产厂家</span>
+                    <input class="form-control pull-left w200" style="height: 28px;" placeholder="" type="text">
+                    <button type="button" class="btn btn-primary btn-sm margin-left-40" data-toggle="modal">
+                        <i class="fa fa-search"></i> 查询
+                    </button>
+                </div>
+            </div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN DASHBOARD STATS -->
+            <div class="date-main">
+                <div>
+                    <button type="button" class="btn btn-default btn-sm" data-target="#infoeditor" data-toggle="modal">
+                        <i class="fa fa-plus"></i>
+                        <span>新增</span>
+                    </button>
+                    <button type="button" class="btn btn-default btn-sm margin-left-10" data-toggle="modal">
+                        <i class="fa fa-trash-o"></i>
+                        <span>删除</span>
+                    </button>
+                </div>
+
+
+                <div class="margin-right-20 margin-top-10 ">
+                    <table class="table table-striped textalign-c tab1">
+                        <thead>
+                            <tr class="even">
+                                <th>
+                                    <input type="checkbox">
+                                </th>
+                                <th>项目编码</th>
+                                <th>项目名称</th>
+                                <th>药物编码</th>
+                                <th>药物名称</th>
+                                <th>规格</th>
+                                <th>剂量</th>
+                                <th>剂量单位</th>
+                                <th>制剂单位</th>
+                                <th>用途</th>
+                                <th>生产厂家</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td>A1005</td>
+                                <td>对乙酰氨基酚片</td>
+                                <td>0.5g/片</td>
+                                <td>1</td>
+                                <td>g</td>
+                                <td>盒</td>
+                                <td>口服</td>
+                                <td>卫宁健康制药有限公司</td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td>A1006</td>
+                                <td>甲氨蝶呤片</td>
+                                <td>2.5mg/片</td>
+                                <td>12.5</td>
+                                <td>mg</td>
+                                <td>盒</td>
+                                <td>口服</td>
+                                <td>卫宁中天制药有限公司</td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="checkbox">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i data-target="#infoeditor" data-toggle="modal" class="iconfont icon-edit font-22 color41"></i>
+                                    <i class="iconfont icon-delete font-22  color41" data-id="122"></i>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="margin-bottom-10" style="height:40px; float:right;">
+                        <ul class="pagination" style="visibility: visible;">
+                            <li class="prev disabled">
+                                <a href="#" title="Prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li><a href="#">2</a>
+                            </li>
+                            <li><a href="#">3</a>
+                            </li>
+                            <li><a href="#">4</a>
+                            </li>
+                            <li><a href="#">5</a>
+                            </li>
+                            <li><a href="#">6</a>
+                            </li>
+                            <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- END BUTTONS PORTLET-->
+
+        </div>
+        <!-- END DASHBOARD STATS -->
+    </div>
+    <!-- 页面结束 -->
+    </div>
+    <!-- 页面主体结束 -->
+    <!-- 底部开始 -->
+    <div class="footer">
+        <span>医院名称</span>
+        <span class="pull-right">© 2016 Winning health 版权所有</span>
+    </div>
+    <!-- 底部结束 -->
+    <div class="modal" id="out" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog">
+        <div class="modal-dialog exitdialog">
+            <div class="modal-content exitcontent">
+                <div class="exitrow margin-top-20">
+                    <p>受试者：XXX</p>
+                    <p>受试者电话：XXXXXXXXXXX</p>
+                </div>
+                <div class="exitbtn">
+                    <button class="btn btn-primary btn-sm pull-left margin-top-20">
+                        重新入组
+                    </button>
+                    <button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">
+                        取消
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="modal" id="infoeditor" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog wp60">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">药物基本信息</h4>
+                </div>
+                <div class="modal-body bgfb">
+                    <div class="row editorbody">
+                        <div class="scdj">
+                            <div class="middle" id="scdScroll">
+                                <!--药物基本信息-->
+                                <div class="editorbody">
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">药物名称</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                        <div class="col-md-2 text-right">药物编码</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">药盒号</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                        <div class="col-md-2 text-right">CFDA批件号/批准文号</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">规格</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                        <div class="col-md-2 text-right">剂量</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">计量单位</div>
+                                        <div class="col-md-4">
+                                            <select class="form-control infoselect">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2 text-right">制剂单位</div>
+                                        <div class="col-md-4">
+                                            <select class="form-control infoselect">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">用途</div>
+                                        <div class="col-md-4">
+                                            <select class="form-control infoselect">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2 text-right">生产厂家</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">储存条件</div>
+                                        <div class="col-md-9">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">最小包装单位</div>
+                                        <div class="col-md-4">
+                                            <select class="form-control infoselect">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2 text-right">最小包装数量</div>
+                                        <div class="col-md-4">
+                                            <input class="form-control infoselect">
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right"></div>
+                                        <div class="col-md-9">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="name1" class="mtp9">启用
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="name1" class="mtp9">停用
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">停用说明</div>
+                                        <div class="col-md-10">
+                                            <textarea class="form-control pull-width"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom-10 clearfix">
+                                        <div class="col-md-2 text-right">添加到项目</div>
+                                        <div class="col-md-9">
+                                            <select class="form-control infoselect">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn  btn-primary">保存</button>
+                        <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+    </div>
+
+    <!--修改密码-->
+    <div class="modal" id="revise" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog">
+        <div class="modal-dialog revisedialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">密码变更</h4> </div>
+                <div class="modal-body revisebody">
+                    <div class="row">
+                        <div class="col-md-3 reviselable textalign-r">当前密码</div>
+                        <div class="col-md-9 reviselable">
+                            <input class="form-control reviseinput" placeholder="请输出原密码" type="text"> </div>
+                        <div class="col-md-3 reviselable textalign-r">新密码</div>
+                        <div class="col-md-9 reviselable">
+                            <input class="form-control reviseinput" placeholder="请输出新密码" type="text"> </div>
+                        <div class="col-md-3 reviselable textalign-r">确认密码</div>
+                        <div class="col-md-9 reviselable">
+                            <input class="form-control reviseinput" placeholder="请确认新密码" type="text"> </div>
+                    </div>
+                </div>
+                <div class="modal-footer revisefooter">
+                    <button class="btn btn-primary margin-left-10">确认</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--注销登录-->
+    <div class="modal" id="exit" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog">
+        <div class="modal-dialog exitdialog">
+            <div class="modal-content exitcontent">
+                <div class="exitrow margin-top-20">
+                    <p>是否注销当前用户？</p>
+                </div>
+                <div class="exitbtn"> <i class="fa fa-check exitbtn-y" data-dismiss="modal"></i> <i class="fa fa-times exitbtn-n" data-dismiss="modal"></i> </div>
+            </div>
+        </div>
+    </div>
+    <!--邮件-->
+    <div class="modal" id="myModal" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-wide wp70">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">我的消息</h4>
+                </div>
+                <div class="modal-body pop-window" style="min-height:500px;">
+                    <ul class="left" id="msg-tab">
+                        <li data-key="writ" class="active"><a href="#"><i class="fa fa-pencil margin-right-10"></i>写消息</a>
+                        </li>
+                        <li data-key="rece">
+                            <a href="#"> <i class="fa fa-envelope margin-right-10"></i>收消息</a>
+                        </li>
+                        <li data-key="send">
+                            <a href="#"> <i class="fa fa-external-link margin-right-10"></i>已发送</a>
+                        </li>
+                        <li data-key="del">
+                            <a href="#"> <i class="fa fa-trash-o margin-right-10"></i>已删除</a>
+                        </li>
+                        <li data-key="note">
+                            <a href="#"> <i class="fa fa-file-o margin-right-10"></i>草稿箱</a>
+                        </li>
+                    </ul>
+                    <div class="right">
+
+                        <div class="writ-msg">
+                            <div class="crow-tab1">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs height-33" role="tablist">
+                                    <li role="presentation" class="height-33 active"><a href="#hof" class="height-33" role="tab" data-toggle="tab">消息</a>
+                                    </li>
+                                    <li role="presentation" class="height-33"><a href="#hos" class="height-33" role="tab" data-toggle="tab">通知</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab页 -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="hof">
+                                        <div class="msg-head margin-bottom-20">
+                                            <button type="button" class="btn btn-primary btn-sm margin-left-10"> <i class="fa fa-external-link margin-right-10"></i><span>发送</span>
+                                            </button>
+                                            <button type="button" class="btn btn-default btn-sm margin-left-5"> <i class="fa fa-save margin-right-10"></i><span>保存草稿</span>
+                                            </button>
+                                            <button type="button" class="btn btn-default btn-sm margin-left-5"><i class="fa fa-times-circle margin-right-10"></i><span>取消</span>
+                                            </button>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">收件人</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control form-control-rounded input-xlarge" type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">主题</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control form-control-rounded input-xlarge" type="text" />
+                                            </div>
+                                        </div>
+
+                                        <div class="word-edit">
+                                            <textarea class="ckeditor form-control" name="editor2" rows="6" data-error-container="#editor2_error"></textarea>
+                                            <div id="editor2_error"></div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="hos">
+
+                                        <div class="msg-head margin-bottom-20">
+                                            <button type="button" class="btn btn-primary btn-sm margin-left-10"> <i class="fa fa-external-link margin-right-10"></i><span>发送</span>
+                                            </button>
+                                            <button type="button" class="btn btn-default btn-sm margin-left-5"> <i class="fa fa-save margin-right-10"></i><span>保存草稿</span>
+                                            </button>
+                                            <button type="button" class="btn btn-default btn-sm margin-left-5"><i class="fa fa-times-circle margin-right-10"></i><span>取消</span>
+                                            </button>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">收件人</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control form-control-rounded input-xlarge" type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">主题</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control form-control-rounded input-xlarge" type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="add-file"> <a href="#"><i class="fa fa-chain margin-right-10"></i>添加附件</a>
+                                        </div>
+                                        <div class="word-edit">
+                                            <textarea class="ckeditor form-control" name="editor2" rows="6" data-error-container="#editor2_error"></textarea>
+                                            <div id="editor2_error"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="rece-msg hide">
+                            <div class="crow-tab1">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs height-33" role="tablist">
+                                    <li role="presentation" class="height-33 active"><a href="#msg1" role="tab" data-toggle="tab" class="height-33">消息</a>
+                                    </li>
+                                    <li role="presentation" class="height-33"><a href="#msg2" role="tab" data-toggle="tab" class="height-33">通知</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab页 -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="msg1">
+                                        <div class="msg-head">
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程消息</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg2">
+
+                                        <div class="msg-head">
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程通知</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg3">
+                                        <h4>这里是标签页3内容</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="send-msg hide">
+                            <div class="crow-tab1">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs height-33" role="tablist">
+                                    <li role="presentation" class="height-33 active"><a href="#msg1" role="tab" data-toggle="tab" class="height-33">消息</a>
+                                    </li>
+                                    <li role="presentation" class="height-33"><a href="#msg2" role="tab" data-toggle="tab" class="height-33">通知</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab页 -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="msg1">
+                                        <div class="msg-head">
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">1关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程消息</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg2">
+
+                                        <div class="msg-head">
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程通知</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg3">
+                                        <h4>这里是标签页3内容</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="del-msg hide">
+                            <div class="crow-tab1">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs height-33" role="tablist">
+                                    <li role="presentation" class="height-33 active"><a href="#msg1" role="tab" data-toggle="tab" class="height-33">消息</a>
+                                    </li>
+                                    <li role="presentation" class="height-33"><a href="#msg2" role="tab" data-toggle="tab" class="height-33">通知</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab页 -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="msg1">
+                                        <div class="msg-head">
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">1关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程消息</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg2">
+
+                                        <div class="msg-head">
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程通知</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg3">
+                                        <h4>这里是标签页3内容</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="note-msg hide">
+                            <div class="crow-tab1">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs height-33" role="tablist">
+                                    <li role="presentation" class="height-33 active"><a href="#msg1" role="tab" data-toggle="tab" class="height-33">消息</a>
+                                    </li>
+                                    <li role="presentation" class="height-33"><a href="#msg2" role="tab" data-toggle="tab" class="height-33">通知</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab页 -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="msg1">
+                                        <div class="msg-head">
+                                           <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-location-arrow margin-right-10"></i><span>发送</span>
+                                            </button>
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-pencil-square-o margin-right-10"></i><span>编辑</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">1关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关消息</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程消息</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg2">
+
+                                        <div class="msg-head">
+                                            <button type="button" class="btn btn-default btn-sm margin-left-10"><i class="fa fa-trash-o margin-right-10"></i><span>删除</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="rece-body">
+                                            <div class="rece-body-left">
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg-box">
+                                                    <div class="pull-left margin-right-10">
+                                                        <input type="checkbox"> </div>
+                                                    <div class="msg-title pull-left margin-right-10">
+                                                        <div class="font-14">关于药品审查流程的相关通知</div>
+                                                        <div class="msg-name">发件人：张卫东</div>
+                                                    </div>
+                                                    <div class="msg-time pull-right margin-right-10">09-26 17:30<span class="new"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="rece-body-right">
+                                                <div class="section1"> <strong>药品审查流程通知</strong>
+                                                    <time>2016-09-26 16:27</time>
+                                                    <div class="section2">
+                                                        <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                        <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="msg3">
+                                        <h4>这里是标签页3内容</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <!--下拉框插件-->
+    <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            App.init(); // initlayout and core plugins
+            Index.init();
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+
+
+</body>
+<!-- END BODY -->
+
+</html>

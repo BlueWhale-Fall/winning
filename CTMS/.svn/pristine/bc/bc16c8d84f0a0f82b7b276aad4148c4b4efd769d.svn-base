@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>项目人员信息</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+	 	<!-- 头部开始 -->
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="header navbar navbar-inverse navbar-static-top">
+            <div class="header-inner" id="topmenu">
+            <!--leftdata.js-->
+            </div>
+            <!-- END TOP NAVIGATION BAR -->
+        </div>
+        <!-- 头部结束 -->
+        <div class="clearfix"></div>
+
+        <!-- 页面主体开始 -->
+        <div class="page-container" >
+             <!-- 左侧菜单开始 -->
+             <div id="leftmenu" class="page-sidebar navbar-collapse collapse">
+
+            </div>
+            <!-- 左侧菜单结束 -->
+            <!--右侧菜单开始-->
+            <div class="offsidebar closed ie" id="offsidebar">
+
+            </div>
+            <!--右侧菜单结束-->
+           
+            <!-- 页面开始 -->
+            <div class="page-content research">
+            <!-- BEGIN PAGE HEADER-->
+                <div class="contenthead">
+                    <div class="contenthead-title">项目人员信息</div>
+                    <div class="pull-left" style="padding:5px 0 15px 0">
+                          	<span class="contenthead-text pull-left">项目名称</span>
+                              <input class="form-control pull-left w200" style="height: 28px;" placeholder="" type="text">
+                            <button class="btn btn-primary btn-sm pull-left margin-left-20">
+                                <i class="fa fa-search"></i>
+                               查询
+                               </button>         
+                    </div>
+                </div>
+            <!-- END PAGE HEADER-->
+                <!-- BEGIN DASHBOARD STATS -->
+
+                <div class="date-main">
+                    <div>
+                        <button type="button" class="btn btn-default btn-sm" data-target="#infoeditor" data-toggle="modal">
+                        <i class="fa fa-plus"></i>
+                        <span>人员新增与维护</span>
+                        </button>   
+                    </div>
+                    <div class="margin-right-20 margin-top-10 ">
+                        <table class="table table-hover textalign-c tab1 ">
+                           <thead>
+                              <tr class="even">
+                              	 <th>项目编号</th>
+                              	 <th>项目名称</th>
+                                 <th>角色</th>
+                                 <th>姓名</th>
+                                 <th>公司/科室</th>
+                                 <th>出生年月</th>
+                                 <th>性别</th>
+                                 <th>学历</th>
+                                 <th>联系方式</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                             <tr>
+                             	 <td></td>
+                                 <td></td>
+                                 <td>申办方</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                             <tr class="even">
+                             	 <td></td>
+                                 <td></td>
+                                 <td>CRA</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                             <tr>
+                             	 <td></td>
+                                 <td></td>
+                                 <td>CRC</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                             <tr class="even">
+                             	 <td></td>
+                                 <td></td>
+                                 <td>伦理委员会</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                             <tr>
+                             	 <td></td>
+                                 <td></td>
+                                 <td>机构秘书</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                             <tr class="even">
+                             	 <td></td>
+                                 <td></td>
+                                 <td>机构主任</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                             <tr>
+                             	 <td></td>
+                                 <td></td>
+                                 <td>机构质控员</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                             <tr class="even">
+                             	 <td></td>
+                                 <td></td>
+                                 <td>机构档案管理员</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                             </tr>
+                          </tbody>
+                        </table>
+                        <div class="margin-bottom-10" style="height:40px; float:right;">
+                        <ul class="pagination" style="visibility: visible;">
+                        <li class="prev disabled">
+                        <a href="#" title="Prev">
+                        <i class="fa fa-angle-left"></i>
+                        </a>
+                        </li>
+                        <li class="active">
+                        <a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+
+                </div>
+               <!-- END BUTTONS PORTLET-->      
+
+            </div>
+                <!-- END DASHBOARD STATS -->
+        </div>
+            <!-- 页面结束 -->
+        </div>
+        <!-- 页面主体结束 -->
+        <!-- 底部开始 -->
+        <div class="footer">
+            <span>医院名称</span>
+            <span class="pull-right">© 2016 Winning health 版权所有</span>
+        </div>
+        <!-- 底部结束 -->
+        <div class="modal" id="infoeditor" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog wp60">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">新增项目人员</h4>
+                            </div>
+                            <div class="modal-body bgfb">
+                                  <div class="pull-left pull-width" style="padding:5px 0 15px 0">
+                                        <span class="contenthead-text pull-left">项目名称</span>
+                                        <input class="form-control pull-left w100" style="height: 28px;" placeholder="" type="text">
+                                       <span class="contenthead-text margin-left-20 pull-left">选择人员角色</span>
+                                       <select class="ui-select pull-left w100">
+                                            <option value="申办方">申办方</option>
+                                            <option value="CRA">CRA</option>
+                                            <option value="CRC">CRC</option>
+                                            <option value="伦理委员会">伦理委员会</option>
+                                            <option value="机构秘书">机构秘书</option>
+                                            <option value="机构主任">机构主任</option>
+                                            <option value="机构质控员">机构质控员</option>
+                                            <option value="机构档案人员">机构档案人员</option>
+                                            <option value="机构药房人员">机构药房人员</option>
+                                            <option value="PI">PI</option>
+                                            <option value="研究者">研究者</option>
+                                            <option value="受试者">受试者</option>
+                                        </select>
+                                        <span class="contenthead-text pull-left margin-left-20">人员姓名</span>
+                                        <input class="form-control pull-left w100" style="height: 28px;" placeholder="" type="text">
+                                       <button class="btn btn-primary btn-sm pull-left margin-left-20">
+                                           <i class="fa fa-search"></i>
+                                          查询
+                                          </button>      
+                                   </div>
+                                  <div class="transfer row margin-left-5 margin-right-5">
+                                          <div class="transfer-left">
+                                            <table class="table table-hover textalign-c">
+                                              <caption>
+                                                <input name="" id="traValueLeft" value="L001,L002,L003" type="hidden">
+                                              </caption>
+                                               <thead>
+                                                    <tr class="even">
+                                                       <th>
+                                                          <input class="selectAllLeft" type="checkbox"> 
+                                                       </th>
+                                                       <th>项目编号</th>
+                                                       <th>项目名称</th>
+                                                       <th>项目来源</th>
+                                                       <th>项目类型</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                  
+                                                  
+                                                  
+                                                <tr>
+                                                    <td><input data-index="R001" type="checkbox"></td>
+                                                    <td>AL001</td>
+                                                    <td>CTMS</td>
+                                                    <td>药品部门</td>
+                                                    <td>B/S</td>
+                                                  </tr><tr>
+                                                    <td><input data-index="R002" type="checkbox"></td>
+                                                    <td>AL002</td>
+                                                    <td>CTMS</td>
+                                                    <td>药品部门</td>
+                                                    <td>B/S</td>
+                                                  </tr><tr>
+                                                    <td><input data-index="R003" type="checkbox"></td>
+                                                    <td>AL003</td>
+                                                    <td>CTMS</td>
+                                                    <td>药品部门</td>
+                                                    <td>B/S</td>
+                                                  </tr><tr>
+                                                    <td><input data-index="L001" type="checkbox"></td>
+                                                    <td>AL001</td>
+                                                    <td>CTMS</td>
+                                                    <td>药品部门</td>
+                                                    <td>B/S</td>
+                                                  </tr><tr>
+                                                    <td><input data-index="L002" type="checkbox"></td>
+                                                    <td>AL002</td>
+                                                    <td>CTMS</td>
+                                                    <td>药品部门</td>
+                                                    <td>B/S</td>
+                                                  </tr><tr>
+                                                    <td><input data-index="L003" type="checkbox"></td>
+                                                    <td>AL003</td>
+                                                    <td>CTMS</td>
+                                                    <td>药品部门</td>
+                                                    <td>B/S</td>
+                                                  </tr></tbody>
+                                            </table>
+                                          </div>
+                                          <div class="transfer-mdl">
+                                            <p class="mt50">
+                                              <a href="#" class="btn btn-primary" id="addRight"><i class="fa fa-chevron-right"></i></a>
+                                            </p>
+                                            <p>
+                                              <a href="#" class="btn btn-primary" id="addLeft"><i class="fa fa-chevron-left"></i></a>
+                                            </p>
+                                          </div>
+                                          <div class="transfer-right">
+                                            <table class="table table-hover textalign-c">
+                                               <caption><input name="" value="R001,R002,R003,L001,L002,L003" id="traValueRight" type="hidden"></caption>
+                                               <thead>
+                                                                <tr class="even">
+                                                                   <th>
+                                                                      <input class="selectAllRight" type="checkbox"> 
+                                                                   </th>
+                                                                   <th>项目编号</th>
+                                                                   <th>项目名称</th>
+                                                                   <th>项目来源</th>
+                                                                   <th>项目类型</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                              
+                                                              
+                                                              
+                                                            </tbody>
+                                            </table>
+                                          </div>
+                                  </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn  btn-primary">保存</button>
+                                <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>                        
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+      <!--修改密码-->
+      <div class="modal" id="revise" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+      <!--注销登录-->
+      <div class="modal" id="exit" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+      <!--邮件-->
+      <div class="modal" id="myModal" tabindex="-1"  aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel"></div>
+       
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+     <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+       <!--穿梭框-->
+        <script src="assets/scripts/transfer.js" type="text/javascript"></script> 
+    
+    <script type="text/javascript">
+      $(function() {
+        //左侧》》
+        _transfer.selectAll(".selectAllLeft",".transfer-left tbody input","#traValueLeft");
+        _transfer.chkEvent(".transfer-left tbody input","#traValueLeft",".selectAllLeft",".transfer-left tbody");
+        _transfer.toAside("#addRight",".transfer-left tbody input:checked","#traValueLeft",".transfer-right tbody");
+        //右侧《《
+        _transfer.selectAll(".selectAllRight",".transfer-right tbody input","#traValueRight");
+        _transfer.chkEvent(".transfer-right tbody input","#traValueRight",".selectAllRight",".transfer-right tbody");
+        _transfer.toAside("#addLeft",".transfer-right tbody input:checked","#traValueRight",".transfer-left tbody");
+      })
+      
+    </script>
+        <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            leftInit(); //加载菜单
+            App.init(); // initlayout and core plugins
+            Index.init();
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+
+
+</body>
+<!-- END BODY -->
+</html>

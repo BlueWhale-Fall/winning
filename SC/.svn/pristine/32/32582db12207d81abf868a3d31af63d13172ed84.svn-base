@@ -1,0 +1,280 @@
+/*header.css*/
+.head {
+    height: 72px;
+    line-height: 72px;
+    width: 100%;
+    background: #085DFF;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+}
+.headbox {
+    width: 162px;
+    height: 85px;
+    float: left;
+    padding: 0px;
+}
+.head .headtime {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    left: 20px;
+}
+
+.head .nurse {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 29px;
+    top: 0;
+}
+
+.headbody {
+    width: 100%;
+    height: 103px;
+    background: #fff;
+    -moz-box-shadow: 0px 3px 3px #e0e0e0;
+    -webkit-box-shadow: 0px 3px 3px #e0e0e0;
+    box-shadow: 0px 3px 3px #e0e0e0;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+}
+
+.headmain {
+    position: absolute;
+    left: 110px;
+    height: 95px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.headboxright {
+    width: 305px;
+    float: left;
+}
+
+.headbox {
+    height: 95px;
+    float: left;
+    padding: 0px;
+}
+
+.headborder {
+    -moz-border-right: 1px solid #DEDEDE;
+    -webkit-border-right: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    padding-right: 10px;
+}
+
+.headtextbox {
+    height: 45px;
+    float: left;
+    line-height: 46px;
+    width: 300px;
+}
+
+.headtext {
+    min-width: 72px;
+    float: left;
+    text-align: right;
+}
+
+.leftimg {
+    background: url('../img/people.png') center center no-repeat;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.middleimg {
+    width: 70px;
+    background: url(../img/hosin.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.rightimg {
+    width: 70px;
+    background: url(../img/follow.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.headline {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+.headhighline {
+    height: 95px;
+    line-height: 95px;
+    width: 100%;
+    float: left;
+}
+
+.lefttext {
+    font-size: 24px;
+    color: #3D414A;
+    float: left;
+}
+
+.righttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.lefttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.headnum {
+    font-size: 28px;
+    color: #1463F0;
+    float: left;
+    min-width: 40px;
+}
+
+.font-red {
+    color: #FF2A21;
+}
+/*header.css end*/
+.databody {
+    height: 872px;
+    box-sizing: border-box;
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#subpageDetails {
+    width: 1880px;
+    height: 834px;
+    position: relative;
+}
+
+#subpageDetails>h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+#screen {
+    width: 400px;
+    height: 32px;
+    right: 10px;
+    bottom: -5px;
+    text-align: right;
+    position: absolute;
+}
+
+#subpageDetails>a {
+	width: 80px;
+	height: 32px;
+	color: #666;
+    top: 11px;
+	right: 40px;
+	font-size: 20px;
+	line-height: 31px;
+	position: absolute;
+	display: inline-block;
+	background: #FAFAFA;
+	border-radius: 70px;
+	text-align: center;
+	font-weight: normal;
+	text-decoration:none;
+	border: 1px solid #E1E1E1;
+}
+
+#subpageDetails>a:hover {
+	color: #518DFF;
+	border-color: #518DFF;
+}
+
+#subpageDetails>a:active {
+	color: #F9F9F9;
+	border-color: #6d6d6d;
+	background-color: #6d6d6d;
+}
+
+
+#subpage>div {
+    width: 100%;
+    height: 55px;
+    overflow: auto;
+}
+#subpage .infoList>li {
+    height:55px!important;
+}
+
+#subpage .infoList>li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#subpage {
+    width: 1880px;
+    overflow: hidden;
+    line-height: 55px;
+    float: left;
+}
+
+#subpage .infoList .slide {
+    float: left;
+    width: 1710px;
+    height: 55px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#subpage .infoList .slide li{
+	float: left;
+}
+
+.slide_section ul {
+    float: left;
+    width: 1460px;
+    text-align: left;
+}
+
+.slide_section ul li .num {
+    margin: 0 10px;
+}
+
+#scheduleDetails .scheduleList li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+/*footer*/
+
+footer {
+    color: #fff;
+    width: 100%;
+    height: 38px;
+    float: left;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 20px;
+    background: #1463F0;
+    box-sizing: border-box;
+}
+.lefttext1{
+    width: 72px;
+    font-size: 18px;
+    color: #3D414A;
+    float: left;
+    text-align: right;
+}
+.lefttextnum1{
+    font-size: 28px;
+    float: left;
+    color: #1463F0;
+}
+.headhighline1 {
+    height: 38px;
+    line-height: 50px;
+    width: 100%;
+    float: left;
+    /*width: 146px;*/
+}

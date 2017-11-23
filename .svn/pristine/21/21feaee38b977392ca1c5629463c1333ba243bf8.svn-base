@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>表单验证-demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+        <!-- 头部开始 -->
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="header navbar navbar-inverse navbar-static-top">
+            <div class="header-inner" id="topmenu">
+            <!--leftdata.js-->
+            </div>
+            <!-- END TOP NAVIGATION BAR -->
+        </div>
+        <!-- 头部结束 -->
+        <div class="clearfix"></div>
+
+        <!-- 页面主体开始 -->
+        <div class="page-container" >
+             <!-- 左侧菜单开始 -->
+             <div id="medicinemenu" class="page-sidebar navbar-collapse collapse">
+
+            </div>
+            <!-- 左侧菜单结束 -->
+            <!--右侧菜单开始-->
+            <div class="offsidebar closed ie" id="offsidebar">
+
+            </div>
+            <!--右侧菜单结束-->
+           
+            <!-- 页面开始 -->
+            <div class="page-content project">
+            <!-- BEGIN PAGE HEADER-->
+                <div class="contenthead">
+                    <div class="contenthead-title">表单验证</div>
+                </div>
+            <!-- END PAGE HEADER-->
+                <!-- BEGIN DASHBOARD STATS -->
+                <div class="date-main">
+                    <div class="margin-right-20 margin-top-10 ">
+                        <form id="signupForm" method="get" action="" autocomplete="off">
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">必填项</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="required">
+                                </div>
+                                <div class="col-md-2 text-right">电子邮件项(email)</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="email">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">网址项(url)</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="url">
+                                </div>
+                                <div class="col-md-2 text-right">合法的信用卡号</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="creditcard">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">数字项</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="number">
+                                </div>
+                                <div class="col-md-2 text-right">整数项</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="digits">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">长度为6到8的密码项</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" type="password" name="psd" id="psd">
+                                </div>
+                                <div class="col-md-2 text-right">确认密码项</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect"  type="password" name="equalTo">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">输入长度最多为5的字符串</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="maxlength">
+                                </div>
+                                <div class="col-md-2 text-right">输入长度最少为10的字符串</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="minlength">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">输入长度介于5和10之间的的字符串</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="rangelength">
+                                </div>
+                                <div class="col-md-2 text-right">输入值介于5和10之间</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="range">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">输入值不大于5</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="max">
+                                </div>
+                                <div class="col-md-2 text-right">输入值不小于10</div>
+                                <div class="col-md-4">
+                                    <input class="form-control infoselect" name="min">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-offset-1 col-md-9">
+                                    <button class="btn btn-primary">提交</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+               <!-- END BUTTONS PORTLET-->      
+
+            </div>
+                <!-- END DASHBOARD STATS -->
+        </div>
+            <!-- 页面结束 -->
+        </div>
+        <!-- 页面主体结束 -->
+        <!-- 底部开始 -->
+        <div class="footer">
+            <span>医院名称</span>
+            <span class="pull-right">© 2016 Winning health 版权所有</span>
+        </div>
+        <!-- 底部结束 -->
+        <div class="modal" id="out" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog">
+            <div class="modal-dialog exitdialog">
+                <div class="modal-content exitcontent">
+                    <div class="exitrow margin-top-20">
+                        <p>受试者：XXX</p>
+                        <p>受试者电话：XXXXXXXXXXX</p>
+                    </div>
+                    <div class="exitbtn">
+                        <button class="btn btn-primary btn-sm pull-left margin-top-20">
+                               重新入组
+                        </button>
+                        <button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">
+                               取消
+                        </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+            <!--修改密码-->
+            <div class="modal" id="revise" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+            <!--注销登录-->
+            <div class="modal" id="exit" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+            <!--邮件-->
+            <div class="modal" id="myModal" tabindex="-1"  aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+             </div>
+
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+     <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <script src="assets/plugins/validate/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/validate/messages_zh.js" type="text/javascript" charset="utf-8"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            /*加载菜单设置当前菜单*/
+            leftInit(); 
+            var _current=$("#sub1",$("#leftmenu"));
+            _current.addClass("open").find("ul").css("display","block");
+            _current.find("span.arrow").addClass("open");
+            $("a[href='组织管理.html']",$("#leftmenu")).addClass("menuCur");
+            App.init(); // initlayout and core plugins
+            Index.init();
+            /*表单验证*/
+            $("#signupForm").validate({
+                rules: {
+                    required: {
+                        required: true, 
+                        minlength:5
+                    },
+                    email: {
+                        email: true
+                    },
+                    url :{
+                        url:true
+                    },
+                    number :{
+                        number:true
+                    },
+                    digits :{
+                        digits:true
+                    },
+                    creditcard :{
+                        creditcard:true
+                    },
+                    psd :{
+                        required: true,
+                        rangelength:[6,8]
+                    },
+                    equalTo :{
+                        required: true,
+                        equalTo:"#psd"
+                    },
+                    maxlength :{
+                        maxlength:5
+                    },
+                    minlength :{
+                        minlength:10
+                    },
+                    rangelength :{
+                        rangelength:[5,10]
+                    },
+                    max :{
+                        max:5
+                    },
+                    min :{
+                        min:10
+                    },
+                    range :{
+                        range:[5,10]
+                    }
+                },
+                messages:  {
+                    required: {
+                        required: "这是必填字段"
+                    },
+                    email: {
+                        email: "请输入有效的电子邮件地址"
+                    },
+                    url :{
+                        url: "请输入有效的网址"
+                    },
+                    number :{
+                        number: "请输入有效的数字"
+                    },
+                    digits :{
+                        digits: "只能输入整数"
+                    },
+                    creditcard :{
+                        creditcard: "请输入有效的信用卡号码"
+                    },
+                    psd :{
+                        required: "这是必填字段",
+                        rangelength:"密码长度在6至8位之间"
+                    },
+                    equalTo :{
+                        required: "这是必填字段",
+                        equalTo: "你的输入不相同"
+                    },
+                    maxlength :{
+                        maxlength:"最多可输入五个字符"
+                    },
+                    minlength :{
+                        minlength:"最少输入10个字符"
+                    },
+                    rangelength :{
+                        rangelength:"请输入长度在5到10之间的字符串"
+                    },
+                    max :{
+                        max:"请输入不大于5的数值"
+                    },
+                    min :{
+                        min:"请输入不小于10的数值"
+                    },
+                    range :{
+                        range:"请输入长度在5到10之间的数值"
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+
+
+</body>
+<!-- END BODY -->
+</html>

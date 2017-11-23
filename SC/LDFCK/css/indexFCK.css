@@ -1,0 +1,801 @@
+body {
+    font-family: "Microsoft YaHei";
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 18px !important;
+    direction: ltr;
+    cursor: default;
+    min-width: 1920px;
+    overflow-x: hidden;
+}
+
+/*header.css*/
+.head {
+    height: 72px;
+    line-height: 72px;
+    width: 100%;
+    background: #085DFF;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+}
+
+.head .headtime {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    left: 20px;
+}
+
+.head .nurse {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 29px;
+    top: 0;
+}
+
+.headbody {
+    width: 100%;
+    height: 95px;
+    background: #fff;
+    -moz-box-shadow: 0px 3px 3px #e0e0e0;
+    -webkit-box-shadow: 0px 3px 3px #e0e0e0;
+    box-shadow: 0px 3px 3px #e0e0e0;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+}
+
+.headmain {
+    position: absolute;
+    left: 142px;
+    height: 110px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.headboxright {
+    width: 305px;
+    float: left;
+}
+
+.headbox {
+    width: 180px;
+    height: 85px;
+    float: left;
+    padding: 0px;
+}
+
+.headborder {
+    -moz-border-right: 1px solid #DEDEDE;
+    -webkit-border-right: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    padding-right: 10px;
+}
+.lefttext1{
+    width: 72px;
+    font-size: 18px;
+    color: #3D414A;
+    float: left;
+    text-align: right;
+}
+.lefttextnum1{
+    font-size: 28px;
+    float: left;
+    color: #1463F0;
+}
+.headtextbox {
+    height: 43px;
+    float: left;
+    line-height: 45px;
+    width: 300px;
+}
+
+.headtext {
+    min-width: 72px;
+    float: left;
+    text-align: right;
+}
+
+.leftimg {
+    background: url('../img/people.png') center center no-repeat;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.middleimg {
+    width: 70px;
+    background: url(../img/hosin.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.rightimg {
+    width: 70px;
+    background: url(../img/follow.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.headline {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+.headhighline {
+    height: 85px;
+    line-height: 85px;
+    width: 100%;
+    float: left;
+}
+.headhighline1 {
+    height: 38px;
+    line-height: 50px;
+    width: 100%;
+    float: left;
+}
+.lefttext {
+    font-size: 24px;
+    color: #3D414A;
+    float: left;
+}
+
+.righttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.lefttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.headnum {
+    font-size: 28px;
+    color: #1463F0;
+    float: left;
+    min-width: 40px;
+}
+
+.font-red {
+    color: #FF2A21;
+}
+/*header.css end*/
+
+.databody {
+    width: 100%;
+    height: 880px;
+    position: relative;
+    box-sizing: border-box;
+    background: #F1F2F7;
+    padding: 0 0px 20px 20px;
+}
+
+.databox,
+.longdatabox {
+    height: 405px;
+    float: left;
+    background: #fff;
+    margin-top: 24px;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.databox {
+    width: 392px;
+}
+
+.longdatabox {
+	width: 1056px;
+}
+
+/*通用样式*/
+a {
+    text-decoration: none;
+}
+
+.fontover {
+	line-height: 24px !important;
+}
+
+.detaildata ul {
+	overflow: hidden;
+}
+
+.detaildata ul li {
+	float: left;
+	margin-right: 4px;
+}
+
+.dataTitle {
+    cursor: pointer;
+	font-size: 22px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #4688FF;
+}
+
+.secTitle,
+.detailtitle {
+	font-size: 18px;
+}
+
+.dbline>div:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.dbline {
+	width: 100%;
+	overflow: hidden;
+}
+
+.secTitle {
+	text-align: center;
+}
+
+.line {
+	width: 100%;
+	overflow: hidden;
+}
+
+.line>div:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.line>div {
+	overflow: hidden;
+	border-top: 1px solid #E5E5E5;
+}
+
+
+.line .detailtitle {
+    float: left;
+    width: 108px;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.dbline {
+    width: 100%;
+    overflow: hidden;
+}
+
+.dbline .detaildata {
+    padding: 0px 0px 0px 10px;
+}
+
+.line .detaildata {
+    float: left;
+    box-sizing: border-box;
+    padding: 1px 0px 0px 8px;
+    box-sizing: border-box;
+}
+
+/*出院*/
+#leavehospital .numbox ul li .num {
+	margin: 10px 7px 7px 15px;
+}
+
+#leavehospital .detailtitle {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #F8F8F8;
+}
+
+#leavehospital .numbox {
+	width: 100%;
+	height: 82px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+#leavehospital .numbox ul li {
+	float: left;
+	width: 63.33px;
+	height: 62px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*测血糖*/
+.taskname ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+#testBS .num {
+    margin: 6px 7px 7px 4px
+}
+
+.taskname ul li:nth-child(even),
+.taskBox div ul li:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.taskname ul li {
+    float: left;
+    width: 12.5%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 17px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.taskBox {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 317px !important;
+}
+
+.taskBox div ul {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.taskBox div ul li {
+    float: left;
+    width: 12.5%;
+    height: 51.8px;
+    line-height: 51px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+
+}
+
+/*24H和血氧饱和度*/
+#allday {
+    width: 168px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#allday .dataTitle,
+#control .dataTitle {
+    border-right: 1px solid #e5e5e5;
+}
+
+#allday .dbline>div,
+#control .dbline>div,
+#allergy .dbline>div {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+#allday .dbline .secTitle,
+#bloodoxygen .dbline .secTitle,
+#control .dbline .secTitle,
+#allergy .dbline .secTitle {
+    height: 45px;
+    line-height: 45px;
+}
+
+#allday .numbox,
+#bloodoxygen .numbox,
+#control .numbox,
+#allergy .numbox {
+    height: 319px;
+}
+
+#bloodoxygen {
+    width: 224px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#bloodoxygen .dbline>div {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+/*测血压 + 测心率 + 基础护理*/
+.topbox {
+    height: 202px;
+}
+
+#heartrate {
+    width: 196px;
+    height: 202px;
+    float: left;
+    box-sizing: border-box;
+}
+#control{
+    width: 187px;
+    height: 202px;
+    float: left;
+    box-sizing: border-box;
+}
+#allergy{
+    width: 188px;
+    height: 202px;
+    float: left;
+    box-sizing: border-box;
+}
+#perineum{
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+}
+#SpecialTreatment{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+#alcohol{
+    width: 60%;
+    box-sizing: border-box;
+    float: right;
+}
+#SpecialInspection{
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+}
+.width{
+    overflow: hidden;
+    border-top: 1px solid  #E5E5E5;
+}
+#bloodpressure,#heartRate,#basic_care,.width,#others{
+    width: 392px;
+    box-sizing: border-box;
+}
+#heartrate .dbline>div{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+#bloodpressure .dbline>div,
+#pulse .dbline>div,
+#heartRate .dbline>div{
+    width: 14.28571%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+#basic_care .dbline>div,#others .dbline>div{
+    width: 16.6666666667%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+#perineum .dbline>div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+#SpecialTreatment .dbline>div,#SpecialInspection  .dbline>div{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+#alcohol .dbline>div{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+#bloodpressure .dataTitle,
+#heartRate .dataTitle,
+#perineum  .dataTitle,
+#SpecialTreatment  .dataTitle
+{
+    border-right: 1px solid #e5e5e5;
+}
+
+#heartrate .dbline .secTitle,
+#bloodpressure .dbline .secTitle,
+#pulse .dbline .secTitle,
+#heartRate .dbline .secTitle,
+#basic_care .dbline .secTitle,
+#perineum .dbline .secTitle,
+#alcohol .dbline .secTitle,
+#SpecialTreatment .dbline .secTitle,
+#SpecialInspection  .dbline .secTitle,
+#others   .dbline .secTitle
+{
+    height: 45px;
+    line-height: 45px;
+}
+
+#heartrate .numbox,
+#bloodpressure .numbox,
+#pulse .numbox,
+#heartRate .numbox,
+#basic_care .numbox,
+#perineum .numbox,
+#alcohol .numbox,
+#SpecialTreatment .numbox,
+#SpecialInspection .numbox,
+#others  .numbox
+{
+    height: 116px;
+}
+
+#pulse {
+    border-top: 1px solid #e5e5e5;
+}
+
+.airtube {
+    padding: 0 5px;
+    line-height: 22px !important;
+}
+
+/*三大监控 + 药物过敏*/
+.penicillin {
+    padding: 0 8px;
+    line-height: 22px !important;
+}
+
+/*特殊导管*/
+#duct .dbline>div,
+#cure .dbline>div,
+#other .dbline>div {
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+#duct .dbline>div {
+    width:14.28571%;
+}
+
+#cure .dbline>div {
+    width: 14.28%;
+}
+
+#other .dbline>div {
+    width: 16.66%;
+}
+
+#duct .dbline .secTitle,
+#cure .dbline .secTitle,
+#other .dbline .secTitle {
+    height: 45px;
+    line-height: 45px;
+}
+
+#duct .numbox,
+#cure .numbox,
+#other .numbox {
+    width: 100%;
+    height: 319px;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+/*其他*/
+.protein {
+    font-size: 17px !important;
+    line-height: 22px !important;
+    padding: 0 5px;
+}
+
+/*
+*
+num边距样式
+*
+*/
+
+/*24H + 血氧饱和度 + 特殊治疗*/
+#allday .numbox ul li .num,
+#bloodoxygen .numbox ul li .num,
+#cure .numbox ul li .num {
+    margin: 6px 7px 7px 8px;
+}
+
+/*测血压 + 测心率*/
+#bloodpressure .numbox ul li .num,
+#heartrate .numbox ul li .num {
+    margin: 9px 7px 7px 4px;
+}
+
+/*基础护理*/
+#pulse .numbox ul li .num {
+    margin: 10px 4px 7px 4px;
+}
+
+/*三大监控 + 药物过敏 + 其他*/
+#control .numbox ul li .num,
+#allergy .numbox ul li .num,
+#other .numbox ul li .num {
+    margin: 6px 7px 7px 13px;
+}
+
+/*特殊导管*/
+/*#duct .numbox ul li .num {*/
+    /*margin: 6px 7px 7px 19px;*/
+/*}*/
+
+/*责任护士*/
+#nurse {
+    right: 0;
+    width:249px;
+    height: 405px;
+    overflow: hidden;
+}
+
+.nurseTitle {
+    color: #fff;
+    border: none;
+    height: 40px;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FFAE1F;
+}
+
+.dutynurse {
+    width: 100%;
+    height: 182px;
+    overflow: hidden;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.dutynurse .nursename {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.nurseduty {
+    /*margin-top: 40px;*/
+    height: 132px;
+    overflow-y: scroll;
+}
+
+.nurseduty ul li {
+    float: left;
+    width: 100px;
+    height: 42.5px;
+    color: #3D414A;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 10px;
+}
+#allday{
+    width: 392px;
+    box-sizing: border-box;
+}
+/*footer*/
+footer {
+    color: #fff;
+    width: 100%;
+    height: 38px;
+    float: left;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 20px;
+    background: #1463F0;
+    box-sizing: border-box;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+#newbaby{
+    width:249px;
+}
+.dataContent{
+    width: 100%;
+}
+.dataContent >div{
+    width: 100%;
+    overflow: hidden;
+}
+.dataContent >div .secTitle{
+    width: 25%;
+    float: left;
+    border-right: 1px solid #E5E5E5;
+}
+.dataContent >div .numbox{
+    width: 74.2%;
+    float: left;
+    border-bottom: 1px solid #E5E5E5;
+}
+#newbaby .dataContent >div .secTitle{
+    width: 32%;
+    float: left;
+    border-right: 1px solid #E5E5E5;
+}
+#newbaby  .dataContent >div .numbox{
+    width: 67.2%;
+    float: left;
+    border-bottom: 1px solid #E5E5E5;
+}
+#all_day .dataContent >div .secTitle{
+    height: 53px;
+    line-height: 53px;
+    overflow: auto;
+}
+#all_day .dataContent >div .numbox{
+    height: 53px;
+    line-height: 53px;
+}
+#sugerBlood .dataContent >div .secTitle{
+    height: 51.5px;
+    line-height: 51.5px;
+}
+#sugerBlood .dataContent >div .numbox{
+    height: 51.5px;
+    line-height: 51.5px;
+}
+#newbaby .dataContent >div .secTitle{
+    height: 60.2px;
+    line-height: 60.2px;
+}
+#newbaby .dataContent >div .numbox{
+    height: 60.2px;
+    line-height: 60.2px;
+}
+#others .dataTitle{
+    border-top: 1px solid #E5E5E5 ;
+}
+#leavehospital{
+    width: 375px;
+}
+#SpecialTreatment .numbox ul li,#SpecialInspection .numbox ul li{
+    margin-left: -3px;
+}
+
+#control .numbox ul li,#allergy .numbox ul li{
+    margin-left: -3px;
+}
+#perineum .numbox ul li,#alcohol .numbox ul li{
+    margin-left: 12px;
+}
+#newbaby #newbaby6 .secTitle{
+    line-height: 30px;!important;
+}
+#basic_care .dbline .secTitle{
+    line-height: 22px;!important;
+}
+#duct .dbline #duct3 .secTitle,#duct .dbline #duct4 .secTitle,#duct .dbline #duct6 .secTitle{
+    line-height: 22px;!important;
+}
+#SpecialTreatment .dbline #SpecialTreatment1 .secTitle{
+    line-height: 22px;!important;
+}
+#SpecialTreatment .dbline #SpecialTreatment4 .secTitle{
+    line-height: 22px;!important;
+}
+#SpecialInspection .dbline #SpecialInspection2 .secTitle{
+    line-height: 22px;!important;
+}
+#SpecialInspection .dbline #SpecialInspection1 .secTitle{
+    line-height: 22px;!important;
+}
+#SpecialInspection .dbline #SpecialInspection3 .secTitle{
+    font-size: 16px;
+    line-height: 20px;!important;
+}
+#others  .dbline #others6 .secTitle,#others  .dbline #others3 .secTitle,#others  .dbline #others4 .secTitle{
+    line-height: 22.5px;!important;
+}
+.margin-right-15{
+    margin-right: 15px;
+}

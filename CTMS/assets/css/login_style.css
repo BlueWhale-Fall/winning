@@ -1,0 +1,212 @@
+body {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    background-color: #fff;
+}
+
+.easebg {
+    -moz-transition: background 0.35s ease-in-out;
+    -webkit-transition: background 0.35s ease-in-out;
+    transition: background 0.35s ease-in-out;
+}
+.easeborder {
+    -moz-transition: border 0.35s ease-in-out;
+    -webkit-transition: border 0.35s ease-in-out;
+    transition: border 0.35s ease-in-out;
+}
+
+/*headr*/
+
+header {
+    margin: 26px 0 0 40px;
+    overflow: auto;
+}
+
+header img {
+    float: left;
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    color: #666;
+    letter-spacing: 0px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+
+/*mainbody_center*/
+
+.mainbody {
+    width: 995px;
+    height: 304px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -152px;
+    margin-left: -490px;
+}
+
+
+.mainbody .left-ani {
+    width: 680px;
+    height: 304px;
+    margin-right: 10px;
+    float: left;
+    background: url(../img/bg.png) no-repeat center center;
+    position: relative;
+}
+
+/*login_box*/
+
+.mainbody .right-login {
+    width: 305px;
+    height: 304px;
+    float: right;
+}
+
+#fm {
+    width: 305px;
+    height: 304px;
+    -moz-border: 1px solid #E0E0E0;
+    -webkit-border: 1px solid #E0E0E0;
+    border: 1px solid #E0E0E0;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    position: relative;
+    -moz-box-shadow: 0 0 4px #E0E0E0;
+    box-shadow: 0 0 4px #E0E0E0;
+    box-shadow: 0 0 4px #E0E0E0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#fm .line
+{
+    width: 255px;
+    height: 1px;
+    background-color: #E0E0E0;
+    position: absolute;
+    top: 43px;
+    left: 24px;
+    z-index: -1;
+}
+#fm h2 {
+    width: 70px;
+    height: 26px;
+    margin: 25px auto;
+    margin-top: 30px;
+    line-height: 26px;
+    color: #333;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: "Microsoft Yahei";
+    font-weight: normal;
+    cursor: default;
+    z-index: 1001;
+    background-color: #fff;
+}
+
+#fm input {
+    width: 255px;
+    height: 40px;
+    margin-bottom: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#username,
+#userpw,
+#submit {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#username,
+#userpw {
+    font-size: 14px;
+    padding-left: 47px;
+    -moz-border: 1px solid #E0E0E0;
+    -webkit-border: 1px solid #E0E0E0;
+    border: 1px solid #E0E0E0;
+}
+
+#username:hover,
+#username:focus,
+#userpw:hover,
+#userpw:focus {
+    -moz-border: 1px solid #9bcdff;
+    -webkit-border: 1px solid #9bcdff;
+    border: 1px solid #9bcdff;
+}
+
+#username {
+    background: url(../img/loginuser.png) no-repeat left 15px center;
+}
+
+#userpw {
+    margin-bottom: 0!important;
+    background: url(../img/loginpsw.png) no-repeat left 15px center;
+}
+
+#fm .backtxt {
+    display: inline-block;
+    width: 100%;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    text-align: left;
+    color: #666;
+    margin: 14px 0 16px 25px;
+    cursor: default;
+}
+
+#submit {
+    color: #fff;
+    letter-spacing: 12px;
+    padding-left: 12px;
+    font-size: 16px;
+    border: 0px;
+    background-color: #48A3FF;
+    cursor: pointer;
+}
+
+#submit:hover,
+#submit:focus {
+    background-color: #4095eb;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 56px;
+    font-size: 12px;
+    color: #929292;
+    line-height: 56px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 32px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default;
+    overflow: auto;
+}
+
+footer .hosname {
+    float: left;
+}
+
+footer .copyright {
+    float: right;
+}

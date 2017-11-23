@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>项目结题申请</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="MobileOptimized" content="320">
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--迭代样式-->
+    <link href="assets/css/iteration.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style type="text/css">
+        .modal-body {
+            height: 600px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部开始 -->
+    <div class="header navbar navbar-inverse navbar-static-top clearfix">
+        <div class="header-inner" id="topmenu">
+        <!--leftdata.js-->
+        </div>
+    </div>
+    <!-- 页面主体开始 -->
+    <div class="page-container" >
+         <!-- 左侧菜单开始 -->
+         <div id="institution" class="page-sidebar navbar-collapse collapse">
+        </div>
+        <!--右侧菜单开始-->
+        <div class="offsidebar closed ie" id="offsidebar">
+        </div>
+        <!-- 页面开始 -->
+        <div class="page-content project">
+            <div class="contenthead">
+                <div class="contenthead-title">试验前资料交接</div>
+            </div>
+            <div class="date-main">
+                <button type="button" class="btn  btn-primary" data-target="#reports" data-toggle="modal">结题报告</button>
+                <button type="button" class="btn  btn-primary" data-target="#saveFile" data-toggle="modal">保存文件</button>
+                <button type="button" class="btn  btn-primary" data-target="#drugDevice" data-toggle="modal">药物/器械分中心小结</button>
+                <button type="button" class="btn  btn-primary" data-target="#diagnostic" data-toggle="modal">诊断试剂分中心小结</button>
+            </div>
+        </div>
+    </div>
+    <!-- 底部开始 -->
+    <div class="footer">
+        <span>医院名称</span>
+        <span class="pull-right">© 2016 Winning health 版权所有</span>
+    </div>
+    <!--结题报告-->
+    <div class="modal fade" id="reports" tabindex="-1" role="dialog">
+        <div class="modal-dialog drug-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">结题报告</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12 col-lg-12">
+                        <h3 class="text-center">结题报告</h3>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <td>项目</td>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td>项目来源</td>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td>方案版本号</td>
+                                    <td><input type="text" class="drug-control no-border"/> </td>
+                                    <td>方案版本日期</td>
+                                    <td><input type="text" class="drug-control no-border"/> </td>
+                                </tr>
+                                <tr>
+                                    <td>知情同意书版本号</td>
+                                    <td><input type="text" class="drug-control no-border"/> </td>
+                                    <td>知情同意书版本日期</td>
+                                    <td><input type="text" class="drug-control no-border"/> </td>
+                                </tr>
+                                <tr>
+                                    <td>伦理审查批件号</td>
+                                    <td><input type="text" class="drug-control no-border"/> </td>
+                                    <td>主要研究者</td>
+                                    <td><input type="text" class="drug-control no-border"/> </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <h4>受试者信息</h4>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <td style="width: 200px;">合同研究总例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>筛选例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>入组例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>完成观察例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>提前退出例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>方案偏移例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>不良反应例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>严重不良反应例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>已报告的严重不良事件例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <h4>研究情况</h4>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <td style="width: 200px;">合同研究总例数</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>研究开始日期</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>最后1例出组日期</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>是否存在与研究干预相关的，非预期的严重不良事件</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>研究中是否存在影响受试者权益的问题</td>
+                                    <td><inpu type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>严重不良事件或方案规定必须报告的重要医学事件已经及时报告</td>
+                                    <td>
+                                        <label><input type="radio" name="aa"/>不适用</label>
+                                        <label><input type="radio" name="aa"/>是</label>
+                                        <label><input type="radio" name="aa"/>否</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <h4>审批程序</h4>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <td>
+                                        申请人（PI）签名：<input type="text" class="drug-control"/>
+                                        日期：<input type="text" class="drug-control"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>机构办公室审核意见：核对报告信息与原始记录</p>
+                                        <p>
+                                            <label><input type="radio"/>一致</label>
+                                            <label><input type="radio"/>不一致</label>
+                                        </p>
+                                        <p>
+                                            机构办公室审核人1签名：<input type="text" class="drug-control"/>
+                                            日期：<input type="text" class="drug-control"/>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>机构办公室审核意见：核对报告信息与原始记录</p>
+                                        <p>
+                                            <label><input type="radio"/>一致</label>
+                                            <label><input type="radio"/>不一致</label>
+                                        </p>
+                                        <p>
+                                            机构办公室审核人2签名：<input type="text" class="drug-control"/>
+                                            日期：<input type="text" class="drug-control"/>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                   <td>
+                                       <p>机构办公室送审伦理意见</p>
+                                       <p>
+                                           <label><input type="radio"/>同意</label>
+                                           <label><input type="radio"/>不同意</label>
+                                       </p>
+                                       <p>
+                                           机构办公室负责人签名：<input type="text" class="drug-control"/>
+                                           日期：<input type="text" class="drug-control"/>
+                                       </p>
+                                   </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>我院伦理委员会已收到上述资料，并决定：</p>
+                                        <p>
+                                            <label><input type="radio"/>受理</label>
+                                            <label><input type="radio"/>不受理</label>
+                                        </p>
+                                        <p>
+                                            伦理办公室受理人签名：<input type="text" class="drug-control"/>
+                                            日期：<input type="text" class="drug-control"/>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>建议审查方式：</p>
+                                        <p>
+                                            <label><input type="radio"/>同意备案</label>
+                                            <label><input type="radio"/>快速备案</label>
+                                            <label><input type="radio"/>会议备案</label>
+                                        </p>
+                                        <p>
+                                            并指定主审委员：<input type="text" class="drug-control"/>
+                                        </p>
+                                        <p>
+                                            伦理委员会主任/副主任委员签名：<input type="text" class="drug-control"/>
+                                            日期：<input type="text" class="drug-control"/>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-primary">保存</button>
+                    <button type="button" class="btn  btn-primary">提交</button>
+                    <button type="button" class="btn  btn-primary">撤回</button>
+                    <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--保存文件-->
+    <div class="modal fade" id="saveFile" tabindex="-1" role="dialog">
+        <div class="modal-dialog drug-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">试验前资料交接单</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <h3 class="text-center">药物临床试验前提供资料交接单</h3>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <label><span class="label-width">项目名称：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室负责人：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <th style="width: 50px">序号</th>
+                                    <th>内容</th>
+                                    <th style="width: 50px">结果</th>
+                                    <th>不适用</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>研究者手册(盖红章)(版本号：<input type="text" class="drug-control">，版本日期：<input type="text" class="drug-control">)</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>试验方案及其修正案(盖红章、已签名)(版本号：<input type="text" class="drug-control">，版本日期：<input type="text" class="drug-control">)</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>研究病历（样表）（盖红章）(版本号：<input type="text" class="drug-control">，版本日期：<input type="text" class="drug-control">)</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>病例报告表（样表）（盖红章）(版本号：<input type="text" class="drug-control">，版本日期：<input type="text" class="drug-control">)</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>知情同意书（样表）（盖红章）(版本号：<input type="text" class="drug-control">，版本日期：<input type="text" class="drug-control">)</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>患者日记卡、问卷（样表）（盖红章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>财务规定</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>多方协议（已签名）（研究者、申办者、合同研究组织）、CRC协议</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>伦理委员会批件（组长+本中心）（盖章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>临床试验申请表</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td></td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>国家食品药品监督管理局批件、公示平台编号（盖红章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+
+                                <tr>
+                                    <td>13</td>
+                                    <td>科技部批件（盖红章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>委托书（盖红章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>申办方、CRO证照（盖红章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>研究者履历、授权表及相关文件</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>临床试验有关的实验室检测正常值范围、中心实验室检验结果清单</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>医学或实验室操作的质控证明</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>试验用药品的标签（盖红章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>试验用药品与试验相关物资的运货单、冷链记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>试验药物的药检证明、说明书（盖红章）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>招募广告</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>保险</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>辅助用器械的资质证明</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>辅助用药物的资质证明</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>修正案审查申请</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>严重不良事件报告、出院小结、死亡证明</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>方案违背等伦理备案记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>中期或年度报告</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>受试者鉴认代码表</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>31</td>
+                                    <td>受试者筛选表与入选表</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>32</td>
+                                    <td>研究者签名样张</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>33</td>
+                                    <td>试验用药品登记表、处方</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>34</td>
+                                    <td>试验用药销毁证明</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>35</td>
+                                    <td>完成试验受试者编码目录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>36</td>
+                                    <td>检查员访视报告</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>37</td>
+                                    <td>稽查证明件</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>38</td>
+                                    <td>结题报告、分中心小结确认表、EDC数据确认表、自查报告</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>39</td>
+                                    <td>分中心小结表（版本号：<input type="text" class="drug-control"/>,版本日期：<input type="text" class="drug-control"/> ）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>总结报告（版本号：<input type="text" class="drug-control"/>,版本日期：<input type="text" class="drug-control"/> ）</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>41</td>
+                                    <td>受试者交通费发放清单</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>42</td>
+                                    <td>温度记录、生物样板冰箱出入记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>43</td>
+                                    <td>生物样本快递单、生物样本处理记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>44</td>
+                                    <td>中心实验室接受样本记录清单、发送报告清单</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>45</td>
+                                    <td>方案设计讨论会议记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>46</td>
+                                    <td>项目临床试验方案培训记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>47</td>
+                                    <td>中期分析讨论会议记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>48</td>
+                                    <td>机构对项目的抽查及整改记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>49</td>
+                                    <td>质疑表应答记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>50</td>
+                                    <td>数据审核会议记录</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>51</td>
+                                    <td>设盲实验的破盲规程</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>52</td>
+                                    <td>总随机表</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>53</td>
+                                    <td>治疗分配与破盲证明</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>54</td>
+                                    <td>SAE电子版本已上传安全网</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>55</td>
+                                    <td>AE电子版本已上传安全网</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>56</td>
+                                    <td>流程确认单</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>57</td>
+                                    <td>所有资料电子版</td>
+                                    <td><input type="checkbox"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">科室资料递交人签字：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">科室负责人签字：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构接收验收人签字：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构审核人签字：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-primary">保存</button>
+                    <button type="button" class="btn  btn-primary">提交</button>
+                    <button type="button" class="btn  btn-primary">撤回</button>
+                    <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--药物/器械分中心小结-->
+    <div class="modal fade" id="drugDevice" tabindex="-1" role="dialog">
+        <div class="modal-dialog drug-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">药物/器械临床试验分中心小结表确认表</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <h3 class="text-center">药物/器械临床试验分中心小结表确认表</h3>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <label><span class="label-width">项目名称：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室负责人：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table">
+                                <tr>
+                                    <td style="width: 175px;">核对内容</td>
+                                    <td style="width: 90px">本中心实际完成结果</td>
+                                    <td style="width: 90px">分中心小结记录结果</td>
+                                    <td class="text-center">备注</td>
+                                </tr>
+                                <tr>
+                                    <td>筛选病例数</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>入组病例数</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>完成病例数</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>脱落病例数</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>第一例入组时间</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>最后一例出组时间</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>监察次数</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4"><span class="font-bold">原始记录与分中心小结表结果是否一致</span></td>
+                                </tr>
+                                <tr>
+                                    <td>AE列表</td>
+                                    <td colspan="2">
+                                        <lalbe><input type="radio"/>是，</lalbe><input type="text" class="drug-control" style="width: 50px"/>例
+                                        <br/>
+                                        <label><input type="radio"/>否</label><label><input type="radio"/>不适用</label>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>SAE列表</td>
+                                    <td colspan="2">
+                                        <lalbe><input type="radio"/>是，</lalbe><input type="text" class="drug-control" style="width: 50px"/>例
+                                        <br/>
+                                        <label><input type="radio"/>否</label><label><input type="radio"/>不适用</label>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>筛选入选表</td>
+                                    <td colspan="2">
+                                        <lalbe><input type="radio"/>是，</lalbe>
+                                        <label><input type="radio"/>否</label>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>研究者职责分工CRO/申办者签名样张</td>
+                                    <td colspan="2">
+                                        <lalbe><input type="radio"/>是，</lalbe>
+                                        <label><input type="radio"/>否</label><label>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">本中心负责CRO/申办者签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">本中心负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构质控员1签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构质控员2签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-primary">保存</button>
+                    <button type="button" class="btn  btn-primary">提交</button>
+                    <button type="button" class="btn  btn-primary">撤回</button>
+                    <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--诊断/试剂分中心小结-->
+    <div class="modal fade" id="diagnostic" tabindex="-1" role="dialog">
+        <div class="modal-dialog drug-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">药物/器械临床试验分中心小结表确认表</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <h3 class="text-center">药物/器械临床试验分中心小结表确认表</h3>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <label><span class="label-width">项目名称：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">科室负责人：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-12 col-lg-12">
+                            <table class="drug-table text-center">
+                                <tr>
+                                    <td style="width: 175px;" colspan="2">核对内容</td>
+                                    <td style="width: 90px">本中心实际完成结果</td>
+                                    <td style="width: 90px">临床试验报告记录结果</td>
+                                    <td class="text-center">备注</td>
+                                </tr>
+                                <tr>
+                                    <td  rowspan="4" style="width: 58px">试剂</td>
+                                    <td>规格</td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>批号</td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>有效期</td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>保存条件</td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td  rowspan="3" style="width: 45px">主要研究人员</td>
+                                    <td>主要研究者</td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>参加人员</td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>统计人员</td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="text-left font-bold">检验系统与临床试验报告记录结果是否一致</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="5">样本信息</td>
+                                    <td>样本号</td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>年龄</td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>性别</td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>标本类型</td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>临床诊断</td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="text-left font-bold">原始数据与临床试验报告记录结果是否一致</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">试剂</td>
+                                    <td>考核试剂</td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                                <tr>
+                                    <td>参比试剂</td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><label><input type="radio"/>是</label><label><input type="radio"/>否</label></td>
+                                    <td><input type="text" class="drug-control no-border"/></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">本中心负责CRO/申办者签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">本中心负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构质控员1签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构质控员2签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width w125">机构负责人签名：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <label><span class="label-width">日期：</span><input type="text" class="drug-control md"/></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  btn-primary">保存</button>
+                    <button type="button" class="btn  btn-primary">提交</button>
+                    <button type="button" class="btn  btn-primary">撤回</button>
+                    <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+    <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            leftInit(); //加载菜单
+            App.init(); // initlayout and core plugins
+            Index.init();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大屏展示系统</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/boxstyle.css">
+</head>
+<body>
+<div class="container">
+    <mark class="darkmask" onclick="area.maskClick(this)"></mark>
+    <header>
+        <div class="changeArea">
+            <div class="changeInput">华东第一病区</div>
+            <div class="changeUl"></div>
+        </div>
+        <h1></h1>
+        <time>
+            <p class="headtime"></p>
+        </time>
+    </header>
+    <section class="headbody">
+        <article class="conWrap">
+            <article class="pNums"><img src="img/people.png" class="leftimg">
+                <ul style="float:left;">
+                    <li search="BRZS-病人总数">
+                        <span class="font-weight"></span>
+                        <span class="totoal pNum"></span>
+                    </li>
+                </ul>
+                <ul style="float: left;width: 270px">
+                    <li class="spanbtn" search="RY-入院" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="innum pNum"></span></li>
+                    <li class="spanbtn" search="BW-病危" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="dgernum pNum"></span></li>
+                    <li class="spanbtn" search="BZ-病重" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="hardnum pNum"></span></li>
+                    <li class="spanbtn" search="SW-死亡-all" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="deathnum pNum"></span></li>
+                </ul>
+            </article>
+            <article class="tinOut"><img src="img/post.png" class="middleimg">
+                <h2>今日出院</h2>
+                <ul>
+                    <li class="spanbtn" search="JRCYSW-今日出院（上午）-all" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="ttout pNum"></span></li>
+                    <li class="spanbtn" search="JRCYXW-今日出院（下午）-all" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="tbout pNum"></span></li>
+                </ul>
+                <h2>明日出院</h2>
+                <ul>
+                    <li class="spanbtn" search="MRCYSW-明日出院（上午）-all" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="ytout pNum"></span></li>
+                    <li class="spanbtn" search="MRCYXW-明日出院（下午）-all" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="ybout pNum"></span></li>
+                </ul>
+            </article>
+            <article class="operation"><img src="img/operation.png" class="rightimg">
+                <ul>
+                    <li class="spanbtn" search="JRSS-今日手术-all" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="toper pNum"></span></li>
+                    <li class="spanbtn" search="MRSS-明日手术-all" onclick="area.showbedsHeader(this)"><span></span><span
+                            class="yoper pNum"></span></li>
+                </ul>
+            </article>
+            <article class="xtyds">
+            </article>
+        </article>
+        <span class="shadowline"></span>
+    </section>
+    <section class="careBox">
+        <article>
+            <nav>
+                <ul>
+                    <li class="bednum"><span>床号</span>
+                    </li>
+                    <li class="status"><span class="stdetails">病人状态</span>
+                    </li>
+                    <li class="nm-care"><span>护理任务</span>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+        <!--内容-->
+        <article class="txtScroll-screen">
+            <article class="hd">
+                <ul id="screen" class="screens">
+                </ul>
+            </article>
+            <article class="bd">
+                <ul class="infoList1">
+                </ul>
+            </article>
+        </article>
+    </section>
+    <div class="page-content">
+    </div>
+    <footer>
+        <span>合肥市第一人民医院</span>
+        <span> &copy; 2017 Winning Health 版权所有</span>
+    </footer>
+</div>
+<article class="aside_nav navshadow">
+    <ul>
+        <li><a href="index.html" target="_self">主屏幕</a>
+        </li>
+        <li><a href="child.html" target="_self">病人信息</a>
+        </li>
+        <li><a href="information.html" target="_self">任务信息</a>
+        </li>
+    </ul>
+    <span class="arrow arrowL"></span>
+</article>
+<aside id="bedsnum" class="bedsbox" style="opacity: 1; z-index: 100001; transform: scale(1); display: none"></aside>
+<aside id="pdetails" class="pdetails" style="opacity: 1; z-index: 100001; transform: scale(1); display: none"></aside>
+</body>
+<!--js-->
+<script src="plugins/jquery.min.js"></script>
+<script src="plugins/jquery.SuperSlide.2.1.1.js"></script>
+<script src="plugins/echarts.min.js"></script>
+<script src="js/area.js"></script>
+<script>
+    area.init({
+        displayContainer: '.changeInput',
+        listContainer: '.changeUl',
+        arrowBox: '.arrowBox',
+        zoomUrl: 'data/zoomname.json',//切换大屏
+        dataUrl: 'data/data.json',//子页面 头部 出入院 人数 ／病人状态 护理任务 信息
+        bedspyUrl: 'data/beds.json',//点击病人状态等出现床号弹窗
+        bedsxhUrl: 'data/beds.json',//点击病人状态等出现床号弹窗
+        pbedsurl: 'data/listdata.json',//  子页面点击床号病人介绍 诊断 检查 检验 护理计划 护理记录 弹窗
+        schartUrl: 'data/schart.json', /*风险评估schart*/
+        chartUrl: 'data/chart.json'    /*生命体征charts*/
+    });
+</script>
+</html>

@@ -1,0 +1,181 @@
+<!--
+* @author wining
+* @date 2017-11-20
+* @module 模板
+* @explain 模板文件，便于开发
+-->
+<template>
+  <div class="v-header">
+    <header>
+      <p>耳鼻喉头颈外科护理工作日志</p>
+      <time>
+        <p class="headtime">{{message}}</p>
+      </time>
+    </header>
+    <div class="headContain">
+      <div class="headContain-left">
+        <div class="leftNum">
+          <div class="leftNum-top">51</div>
+          <div class="leftNum-bot">病人总数</div>
+        </div>
+        <div class="rightNum">
+          <img src="../assets/img/1icon.svg">
+          <div class="rightNum-top">23</div>
+          <div class="rightNum-bot">特级护理</div>
+
+        </div>
+      </div>
+      <div class="headContain-center"></div>
+      <div class="headContain-right"></div>
+    </div>
+  </div>
+</template>
+<script>
+  export default {
+    //数据
+    data() {
+      return {
+        message: new Date().toLocaleString()
+      }
+    },
+    //创建实例调用
+    created() {
+    },
+    //方法
+    methods: {},
+    //计算属性
+    computed: {},
+    //过滤器
+    filters: {},
+    //组件注册
+    components: {}
+  }
+</script>
+<!--CSS-PAGE-->
+<style lang="less" scoped>
+
+  /*1366*/
+  @media screen and (max-width: 1366px) {
+  }
+
+  /*1024*/
+  @media screen and (max-width: 1024px) {
+  }
+
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: #085DFF;
+
+  }
+
+  header p {
+    font-size: 22px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .headtime {
+    position: absolute;
+    right: 60px;
+    line-height: 50px;
+    top: 0;
+  }
+
+  .headContain {
+    width: 100%;
+    height: 140px;
+    background: #ccc;
+    margin-top: 6px;
+
+  }
+
+  .headContain-left {
+    position: relative;
+    float: left;
+    width: 385px;
+    height: 140px;
+    background: pink;
+    margin-left: 10px;
+
+
+  }
+  .leftNum{
+    width:50%;
+    height:100%;
+    background: tomato;
+    position: relative;
+    float: left;
+  }
+  .rightNum{
+    width:50%;
+    height:100%;
+    background: yellow;
+    position: relative;
+    float: right;
+
+  }
+
+  .leftNum-top{
+    font-family:"FuturaBT-Medium";
+    font-size:55px;
+    color: #1463ef;
+    position: absolute;
+    top:15px;
+    left:57px;
+  }
+
+ .leftNum-bot{
+    position: absolute;
+    top:92px;
+    left:58px;
+    font-size:14px;
+    color: #333333;
+  }
+
+
+
+  .rightNum img{
+    position: absolute;
+    top: 40px;
+    right:124.3px;
+    width: 30px;
+
+  }
+  .rightNum-top{
+    font-family:"FuturaBT-Medium";
+    font-size:48px;
+    color: #1463ef;
+    position: absolute;
+    top:15px;
+    right:58px;
+  }
+  .rightNum-bot{
+    position: absolute;
+    top:92px;
+    right:58px;
+    font-size:14px;
+    color: #333333;
+  }
+  .headContain-center {
+    float: left;
+    position: relative;
+    width: 945px;
+    height: 140px;
+    background: tomato;
+    margin-left: 10px;
+
+  }
+
+  .headContain-right {
+    float: left;
+    position: relative;
+    width: 550px;
+    height: 140px;
+    background: yellow;
+    margin-left: 10px;
+
+  }
+
+</style>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>药物回收</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+   <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+       <!-- 头部开始 -->
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="header navbar navbar-inverse navbar-static-top">
+            <div class="header-inner" id="topmenu">
+            <!--leftdata.js-->
+            </div>
+            <!-- END TOP NAVIGATION BAR -->
+        </div>
+        <!-- 头部结束 -->
+        <div class="clearfix"></div>
+
+        <!-- 页面主体开始 -->
+        <div class="page-container" >
+             <!-- 左侧菜单开始 -->
+             <div id="medicinemenu" class="page-sidebar navbar-collapse collapse">
+
+            </div>
+            <!-- 左侧菜单结束 -->
+            <!--右侧菜单开始-->
+            <div class="offsidebar closed ie" id="offsidebar">
+
+            </div>
+            <!--右侧菜单结束-->
+           
+            <!-- 页面开始 -->
+            <div class="page-content project">
+            <!-- BEGIN PAGE HEADER-->
+                <div class="contenthead1">
+                    <div class="contenthead-title">药物回收</div>
+                                
+                    <div class="pull-left" style="padding:5px 0 15px 0">
+                           <span class="contenthead-text pull-left">受试者</span>
+                           <input class="form-control pull-left w200" style="height: 28px;" placeholder="" type="text">
+                           <span class="contenthead-text margin-left-20 pull-left">药物名称</span>
+                           <input class="form-control pull-left w200" style="height: 28px;" placeholder="" type="text">
+                            <button type="button" class="btn btn-primary btn-sm margin-left-20"  data-toggle="modal">
+                                <i class="fa fa-search"></i>
+                               查询
+                            </button> 
+                    </div>
+                </div>
+            <!-- END PAGE HEADER-->
+                <!-- BEGIN DASHBOARD STATS -->
+                <div class="date-main1">
+                    <div class="margin-right-20 margin-top-10 ">
+                        <table class="table table-striped textalign-c tab1 bor-3">
+                            <thead>
+                              <tr class="even">
+                                 <th>受试者姓名</th>
+                                 <th>药物名称</th>
+                                 <th>规格</th>
+                                 <th>随机号</th>
+                                 <th>发放数量</th>
+                                 <th>发放单位</th>
+                                 <th>发放日期</th>
+                                 <th>已回收总数量</th>
+                                 <th>回收单位</th>
+                                 <th>回收备注</th>
+                                 <th>操作</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                 <td>张三</td>
+                                 <td>阿昔洛韦</td>
+                                 <td>12粒/盒</td>
+                                 <td>10010</td>
+                                 <td>1</td>
+                                 <td>盒</td>
+                                 <td>2017/12/23</td>
+                                 <td>10</td>
+                                 <td>粒</td>
+                                 <td title="一二三四五六七八九十一二三四五六七八九十">一二三四五六七八九十...</td>
+                                 <td>
+                                     <span class="recall"   data-toggle="modal" data-target="#recall"></span>
+                                 </td>
+                              </tr>
+                              <tr>
+                                  <td>张三</td>
+                                  <td>阿昔洛韦</td>
+                                  <td>12粒/盒</td>
+                                  <td>10010</td>
+                                  <td>1</td>
+                                  <td>盒</td>
+                                  <td>2017/12/23</td>
+                                  <td>10</td>
+                                  <td>粒</td>
+                                 <td title="一二三四五六七八九十一二三四五六七八九十">一二三四五六七八九十</td>
+                                 <td>
+                                     <span class="recall"   data-toggle="modal" data-target="#recall"></span>
+                                 </td>
+                              </tr>
+
+                           </tbody>
+                        </table>
+                        <div class="margin-bottom-10" style="height:40px; float:right;">
+                        <ul class="pagination" style="visibility: visible;">
+                        <li class="prev disabled">
+                        <a href="#" title="Prev">
+                        <i class="fa fa-angle-left"></i>
+                        </a>
+                        </li>
+                        <li class="active">
+                        <a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+
+                </div>
+               <!-- END BUTTONS PORTLET-->      
+
+            </div>
+                <!-- END DASHBOARD STATS -->
+        </div>
+            <!-- 页面结束 -->
+        </div>
+        <!-- 页面主体结束 -->
+        <!-- 底部开始 -->
+        <div class="footer">
+            <span>医院名称</span>
+            <span class="pull-right">© 2016 Winning health 版权所有</span>
+        </div>
+        <!-- 底部结束 -->
+        <!--<div class="modal" id="out" tabindex="-1" aria-hidden="true"   role="dialog">-->
+            <!--<div class="modal-dialog exitdialog">-->
+                <!--<div class="modal-content exitcontent">-->
+                    <!--<div class="exitrow margin-top-20">-->
+                        <!--<p>受试者：XXX</p>-->
+                        <!--<p>受试者电话：XXXXXXXXXXX</p>-->
+                    <!--</div>-->
+                    <!--<div class="exitbtn">-->
+                        <!--<button class="btn btn-primary btn-sm pull-left margin-top-20">-->
+                               <!--重新入组-->
+                        <!--</button>-->
+                        <!--<button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">-->
+                               <!--取消-->
+                        <!--</button>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; /.modal-content &ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash; /.modal-dialog &ndash;&gt;-->
+        <!--</div>-->
+     <div class="modal" id="recall" tabindex="-1" aria-hidden="true"  role="dialog" aria-labelledby="myModalLabel" >
+            <div class="modal-dialog wp30" >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close"  aria-hidden="true"></button>
+                        <h4 class="modal-title">药物回收</h4>
+                    </div>
+                    <div class="modal-body bgfb">
+                        <div class="row editorbody">
+                            <div class="scdj">
+
+                                    <!--药物回收-->
+                                    <div class="editorbody">
+                                        <div class="margin-bottom-10 clearfix">
+                                            <div class="col-md-3 text-right">已回收总数量：</div>
+                                            <div class="col-md-6">
+                                                <input class="form-control pull-width">
+                                            </div><span class="redcolor">  *</span>粒
+                                        </div>
+
+                                        <div class="margin-bottom-10 clearfix">
+                                            <div class="col-md-3 text-right">备注：</div>
+                                            <div class="col-md-6">
+                                               <textarea class="form-control pull-width"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn  btn-primary">保存</button>
+                        <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+            </div>
+    </div>
+
+            <!--修改密码-->
+            <div class="modal" id="revise" tabindex="-1" aria-hidden="true"   role="dialog"></div>
+            <!--注销登录-->
+            <div class="modal" id="exit" tabindex="-1" aria-hidden="true"   role="dialog"></div>
+            <!--邮件-->
+            <div class="modal" id="myModal" tabindex="-1"  aria-hidden="true"   role="dialog" aria-labelledby="myModalLabel">
+             </div>
+
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+     <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            leftInit(); //加载菜单
+            App.init(); // initlayout and core plugins
+            Index.init();
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

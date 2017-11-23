@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main markdown">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont icon-xmzk"></i>
+                    <div class="name">项目质控</div>
+                    <div class="fontclass">.icon-xmzk</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-blsj"></i>
+                    <div class="name">不良事件管理</div>
+                    <div class="fontclass">.icon-blsj</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-jgry"></i>
+                    <div class="name">机构人员质控</div>
+                    <div class="fontclass">.icon-jgry</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-edit"></i>
+                    <div class="name">编辑</div>
+                    <div class="fontclass">.icon-edit</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-jsgl"></i>
+                    <div class="name">角色管理</div>
+                    <div class="fontclass">.icon-jsgl</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-ctms"></i>
+                    <div class="name">ctms</div>
+                    <div class="fontclass">.icon-ctms</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-qxgl"></i>
+                    <div class="name">权限管理</div>
+                    <div class="fontclass">.icon-qxgl</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-lxys"></i>
+                    <div class="name">立项与审批</div>
+                    <div class="fontclass">.icon-lxys</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-pxgl"></i>
+                    <div class="name">培训管理</div>
+                    <div class="fontclass">.icon-pxgl</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-ryzz"></i>
+                    <div class="name">人员资质管理</div>
+                    <div class="fontclass">.icon-ryzz</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-delete"></i>
+                    <div class="name">删除</div>
+                    <div class="fontclass">.icon-delete</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-list"></i>
+                    <div class="name">目录</div>
+                    <div class="fontclass">.icon-list</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-sjzd"></i>
+                    <div class="name">数据字典</div>
+                    <div class="fontclass">.icon-sjzd</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-syjh"></i>
+                    <div class="name">实验计划实施</div>
+                    <div class="fontclass">.icon-syjh</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-syjt"></i>
+                    <div class="name">实验结题</div>
+                    <div class="fontclass">.icon-syjt</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-syqz"></i>
+                    <div class="name">实验前准备</div>
+                    <div class="fontclass">.icon-syqz</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-xmzk1"></i>
+                    <div class="name">项目质控</div>
+                    <div class="fontclass">.icon-xmzk1</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-msg"></i>
+                    <div class="name">消息</div>
+                    <div class="fontclass">.icon-msg</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-yhzg"></i>
+                    <div class="name">用户组管理</div>
+                    <div class="fontclass">.icon-yhzg</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-yjjz"></i>
+                    <div class="name">研究进展报告</div>
+                    <div class="fontclass">.icon-yjjz</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-yhgl"></i>
+                    <div class="name">用户管理</div>
+                    <div class="fontclass">.icon-yhgl</div>
+                </li>
+            
+        </ul>
+    </div>
+</body>
+</html>

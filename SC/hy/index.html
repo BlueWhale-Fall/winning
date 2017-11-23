@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大屏展示系统</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="changeArea">
+            <div class="changeInput">华东第一病区</div>
+            <div class="changeUl"></div>
+        </div>
+        <h1></h1>
+        <time>
+            <p class="headtime"></p>
+        </time>
+    </header>
+    <div class="entry-content clear">
+    </div>
+    <div class="insurance-content"></div>
+    <div class="nurse-content">
+        <table width="100%" cellspacing="0px">
+            <thead>
+            <tr>
+
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="total-content">
+    </div>
+    <footer>
+        <span>合肥市第一人民医院</span>
+        <span> &copy; 2017 Winning Health 版权所有</span>
+    </footer>
+    <article class="aside_nav navshadow">
+        <ul>
+            <li><a href="index.html" target="_self">主屏幕</a>
+            </li>
+            <li><a href="child.html" target="_self">病人信息</a>
+            </li>
+            <li><a href="information.html" target="_self">任务信息</a>
+            </li>
+        </ul>
+        <span class="arrow arrowL"></span>
+    </article>
+</div>
+
+</body>
+<!--js-->
+<script src="plugins/jquery.min.js"></script>
+<script src="plugins/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/area.js"></script>
+<script>
+    area.init({
+        displayContainer: '.changeInput',
+        listContainer: '.changeUl',
+        arrowBox: '.arrowBox',
+        zoomUrl: 'data/zoomname.json',//切换大屏
+        workListUrl: 'data/worklist.json',// 首页 护理等级
+        listUrl: 'data/list.json',//首页头部出入院／医保 ／病人总数护士信息 等信息
+        dataUrl: 'data/data.json',//子页面 头部 出入院 人数 ／病人状态 护理任务 信息
+    });
+</script>
+</html>

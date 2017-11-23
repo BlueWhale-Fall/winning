@@ -1,0 +1,2193 @@
+{
+  "BQDM": "2904",
+  "Title": "A病区大屏信息交互系统",
+  "HZInfos": [
+    {
+      "XSNR": "病人总数",
+      "RS": "43"
+    },
+    {
+      "XSNR": "入院",
+      "RS": "7"
+    },
+    {
+      "XSNR": "病危",
+      "RS": "0"
+    },
+    {
+      "XSNR": "病重",
+      "RS": "0"
+    },
+    {
+      "XSNR": "死亡",
+      "RS": "0"
+    },
+    {
+      "XSNR": "今日出院上午",
+      "RS": "0"
+    },
+    {
+      "XSNR": "今日出院下午",
+      "RS": "7"
+    },
+    {
+      "XSNR": "明日出院上午",
+      "RS": "7"
+    },
+    {
+      "XSNR": "明日出院下午",
+      "RS": "0"
+    },
+    {
+      "XSNR": "今日手术",
+      "RS": "0"
+    },
+    {
+      "XSNR": "明日手术",
+      "RS": "0"
+    },
+    {
+      "XSNR": "昨日手术",
+      "RS": "0"
+    },
+    {
+      "XSNR": "动态血糖",
+      "RS": "22"
+    },
+    {
+      "XSNR": "胰岛素泵",
+      "RS": "2"
+    },
+    {
+      "XSNR": "心电监测",
+      "RS": "1"
+    }
+  ],
+  "ZRZinfos": [
+    {
+      "ZRZXH": 3,
+      "ZRZMC": "责一组",
+      "ZRZYS": "孟祥英",
+      "YSZC": "主治医师",
+      "ZRZHS": "陆慧",
+      "HSZC": "N1护士",
+      "RWinfos": [
+        {
+          "CH": "01",
+          "RYRQ": "2017081109:36:00",
+          "CSRQ": "19470917        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "02",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "03",
+          "RYRQ": "2017081810:12:00",
+          "CSRQ": "19521023        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "04",
+          "RYRQ": "2017081410:22:00",
+          "CSRQ": "19431210        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "05",
+          "RYRQ": "2017080810:11:00",
+          "CSRQ": "19600326        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "20",
+              "ZTName": "床边隔离"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "+1",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "06",
+          "RYRQ": "2017081114:15:00",
+          "CSRQ": "19630608        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "07",
+          "RYRQ": "2017081509:10:00",
+          "CSRQ": "19500210        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "08",
+          "RYRQ": "2017082009:05:00",
+          "CSRQ": "19270727        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "182",
+              "RWName": "气垫床",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "22",
+              "RWName": "测量体温QID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 4,
+              "ZXSJ": "06:00,14:00,18:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "47",
+              "ZTName": "压疮评估"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "09",
+          "RYRQ": "2017081213:18:00",
+          "CSRQ": "19330412        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "10",
+          "RYRQ": "2017082110:06:00",
+          "CSRQ": "19480331        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "+2",
+          "RYRQ": "2017082208:02:00",
+          "CSRQ": "19700102        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            },
+            {
+              "RWXH": "68",
+              "RWName": "胰岛素泵"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "54",
+              "ZTName": "入院"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 4,
+      "ZRZMC": "责二组",
+      "ZRZYS": "肖倩",
+      "YSZC": "主治医师",
+      "ZRZHS": "李明玉",
+      "HSZC": "N2护师",
+      "RWinfos": [
+        {
+          "CH": "11",
+          "RYRQ": "2017081311:12:00",
+          "CSRQ": "19570810        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(测三餐前后+22:00+3:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "12",
+          "RYRQ": "2017081913:44:00",
+          "CSRQ": "19620418        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "13",
+          "RYRQ": "2017081809:22:00",
+          "CSRQ": "19550118        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "14",
+          "RYRQ": "2017082108:35:00",
+          "CSRQ": "19520718        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(测三餐前后+22:00+3:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "15",
+          "RYRQ": "2017081610:42:00",
+          "CSRQ": "19500713        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(测三餐前后+22:00+3:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            },
+            {
+              "RWXH": "69",
+              "ZTName": "关注"
+            }
+          ]
+        },
+        {
+          "CH": "+3",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "31",
+          "RYRQ": "2017080409:50:00",
+          "CSRQ": "19440709        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "32",
+          "RYRQ": "2017081013:32:00",
+          "CSRQ": "19370312        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "33",
+          "RYRQ": "2017081708:25:00",
+          "CSRQ": "19490211        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "34",
+          "RYRQ": "2017073113:48:00",
+          "CSRQ": "19540714        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "35",
+          "RYRQ": "2017081809:20:00",
+          "CSRQ": "19570727        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "+7",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 5,
+      "ZRZMC": "责三组",
+      "ZRZYS": "陈建杨",
+      "YSZC": "主治医师",
+      "ZRZHS": "韩越",
+      "HSZC": "N2护师",
+      "RWinfos": [
+        {
+          "CH": "16",
+          "RYRQ": "2017081414:07:00",
+          "CSRQ": "19571021        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "17",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "18",
+          "RYRQ": "2017082108:46:00",
+          "CSRQ": "19480721        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            },
+            {
+              "RWXH": "68",
+              "RWName": "胰岛素泵"
+            }
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "19",
+          "RYRQ": "2017081913:24:00",
+          "CSRQ": "19330601        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "20",
+          "RYRQ": "2017080109:19:00",
+          "CSRQ": "19421226        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "+4",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "26",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "27",
+          "RYRQ": "2017081010:52:00",
+          "CSRQ": "19630309        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "107",
+              "RWName": "葡萄糖测定QD(三餐前+三餐后2h+22:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "28",
+          "RYRQ": "2017081010:25:00",
+          "CSRQ": "19540529        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "22",
+              "RWName": "测量体温QID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 4,
+              "ZXSJ": "06:00,14:00,18:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "29",
+          "RYRQ": "                ",
+          "CSRQ": "                ",
+          "XB": "    ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "30",
+          "RYRQ": "2017081010:36:00",
+          "CSRQ": "19850326        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "+6",
+          "RYRQ": "2017081113:15:00",
+          "CSRQ": "19760228        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "50",
+              "ZTName": "青霉素(+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 6,
+      "ZRZMC": "责四组",
+      "ZRZYS": "陈建杨",
+      "YSZC": "主治医师",
+      "ZRZHS": "钱霞",
+      "HSZC": "N0护士",
+      "RWinfos": [
+        {
+          "CH": "21",
+          "RYRQ": "2017082209:39:00",
+          "CSRQ": "19571201        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "71",
+              "RWName": "Ⅱ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "64",
+              "ZTName": "转床"
+            },
+            {
+              "RWXH": "54",
+              "ZTName": "入院"
+            }
+          ]
+        },
+        {
+          "CH": "22",
+          "RYRQ": "2017080710:06:00",
+          "CSRQ": "19431219        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "107",
+              "RWName": "葡萄糖测定QD(监测空腹血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "50",
+              "ZTName": "青霉素(+)"
+            }
+          ]
+        },
+        {
+          "CH": "23",
+          "RYRQ": "2017082110:57:00",
+          "CSRQ": "19290130        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "182",
+              "RWName": "气垫床",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "47",
+              "ZTName": "压疮评估"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            },
+            {
+              "RWXH": "50",
+              "ZTName": "青霉素(+)"
+            }
+          ]
+        },
+        {
+          "CH": "24",
+          "RYRQ": "2017080709:11:00",
+          "CSRQ": "19600330        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "25",
+          "RYRQ": "2017081008:37:00",
+          "CSRQ": "19511217        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(三餐前+三餐后2h+22:00+03:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "+5",
+          "RYRQ": "2017082210:05:00",
+          "CSRQ": "19360204        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "90",
+              "RWName": "测量血压QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 1,
+              "ZXSJ": "08:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "118",
+              "RWName": "葡萄糖测定Q2H",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "171",
+              "RWName": "血酮体快速测定Q4H"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            },
+            {
+              "RWXH": "54",
+              "ZTName": "入院"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZRZXH": 7,
+      "ZRZMC": "责五组",
+      "ZRZYS": "陈峰",
+      "YSZC": "副主任医师",
+      "ZRZHS": "程轶玲",
+      "HSZC": "N2护师",
+      "RWinfos": [
+        {
+          "CH": "36",
+          "RYRQ": "2017081009:58:00",
+          "CSRQ": "19340225        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+
+          ]
+        },
+        {
+          "CH": "37",
+          "RYRQ": "2017081708:30:00",
+          "CSRQ": "19231026        ",
+          "XB": "男  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "182",
+              "RWName": "气垫床",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "47",
+              "ZTName": "压疮评估"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "38",
+          "RYRQ": "2017073108:17:00",
+          "CSRQ": "19270217        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "182",
+              "RWName": "气垫床",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "34",
+              "RWName": "鼻饲",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "43",
+              "RWName": "一般专项护理(会阴冲洗)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "44",
+              "RWName": "一般专项护理(口腔冲洗)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "94",
+              "RWName": "测量血压TID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 3,
+              "ZXSJ": "08:00,12:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "141",
+              "RWName": "膀胱冲洗QD",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(测三餐前后+22:00+3:00)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "47",
+              "ZTName": "压疮评估"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            },
+            {
+              "RWXH": "70",
+              "ZTName": "危急值"
+            },
+            {
+              "RWXH": "50",
+              "ZTName": "青霉素(+)"
+            }
+          ]
+        },
+        {
+          "CH": "39",
+          "RYRQ": "2017082108:45:00",
+          "CSRQ": "19330523        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "182",
+              "RWName": "气垫床",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "47",
+              "ZTName": "压疮评估"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "40",
+          "RYRQ": "2017081708:32:00",
+          "CSRQ": "19310207        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "182",
+              "RWName": "气垫床",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "47",
+              "ZTName": "压疮评估"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "41",
+          "RYRQ": "2017073108:38:00",
+          "CSRQ": "19360427        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            },
+            {
+              "RWXH": "57",
+              "ZTName": "明上出院"
+            }
+          ]
+        },
+        {
+          "CH": "42",
+          "RYRQ": "2017082009:09:00",
+          "CSRQ": "19301009        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "119",
+              "RWName": "葡萄糖测定Q3H(监测三餐前+三餐后2h+22:00+03:00血糖)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 8,
+              "ZXSJ": "03:00,06:30,09:00,10:30,13:00,16:30,19:00,22:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+            {
+              "RWXH": "67",
+              "RWName": "动态血糖"
+            }
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "43",
+          "RYRQ": "2017080913:04:00",
+          "CSRQ": "19280505        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "91",
+              "RWName": "测量血压BID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 2,
+              "ZXSJ": "08:00,16:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "212",
+              "RWName": "红外线治疗",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        },
+        {
+          "CH": "+8",
+          "RYRQ": "2017082010:48:00",
+          "CSRQ": "19220716        ",
+          "XB": "女  ",
+          "CGHLInfos": [
+            {
+              "RWXH": "18",
+              "RWName": "Ⅰ级护理",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "176",
+              "RWName": "心电监测",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "22",
+              "RWName": "测量体温QID",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 4,
+              "ZXSJ": "06:00,14:00,18:00,22:00",
+              "STATUS": -1
+            },
+            {
+              "RWXH": "26",
+              "RWName": "记出入量",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "33",
+              "RWName": "留置尿管",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "43",
+              "RWName": "一般专项护理(会阴冲洗)",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 0,
+              "ZXSJ": "",
+              "STATUS": 0
+            },
+            {
+              "RWXH": "103",
+              "RWName": "测量血压Q4H",
+              "TAG": 0,
+              "ZXCS": 0,
+              "ZXZS": 6,
+              "ZXSJ": "00:00,04:00,08:00,12:00,16:00,20:00",
+              "STATUS": -1
+            }
+          ],
+          "ZKHLInfos": [
+
+          ],
+          "BRZTInfos": [
+            {
+              "RWXH": "47",
+              "ZTName": "压疮评估"
+            },
+            {
+              "RWXH": "46",
+              "ZTName": "跌倒评估"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "BWLInfos": [
+    {
+      "Content": ""
+    }
+  ]
+}

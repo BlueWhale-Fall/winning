@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>历史记录-药物</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css" />
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/tag/bootstrap-tagsinput.css" rel="stylesheet" type="text/css" />
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <!--<link href="assets/css/ctms1.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet" />
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+
+<body>
+
+    <!-- 头部开始 -->
+    <!-- BEGIN TOP NAVIGATION BAR -->
+    <!--<div class="header navbar navbar-inverse navbar-static-top">-->
+        <!--<div class="header-inner" id="topmenu">-->
+            <!--&lt;!&ndash;leftdata.js&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash; END TOP NAVIGATION BAR &ndash;&gt;-->
+    <!--</div>-->
+    <!-- 头部结束 -->
+    <div class="clearfix"></div>
+
+    <!-- 页面主体开始 -->
+    <div class="page-container">
+        <!-- 左侧菜单开始 -->
+        <!--<div id="leftmenu" class="page-sidebar navbar-collapse collapse">-->
+
+        <!--</div>-->
+        <!-- 左侧菜单结束 -->
+        <!--右侧菜单开始-->
+        <div class="offsidebar closed ie" id="offsidebar">
+
+        </div>
+        <!--右侧菜单结束-->
+
+        <!-- 页面开始 -->
+        <div class="page-content1 project">
+            <!-- BEGIN PAGE HEADER-->
+            <div class="contenthead1">
+                <div class="contenthead-title">历史记录</div>
+                <div class="" style="padding:5px 0 15px 0">
+
+                    <span class="contenthead-text pull-left ">受试者:</span>
+                    <span class="contenthead-text pull-left  ">张三</span>
+
+                </div>
+                <br>
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#yw" data-toggle="tab">药物或器械</a></li>
+                    <li><a href="#jc" data-toggle="tab">检查申请</a></li>
+                    <li><a href="#jy" data-toggle="tab">检验申请</a></li>
+                </ul>
+
+
+            </div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN DASHBOARD STATS -->
+
+            <div class="tab-content">
+                <div class="date-main1 tab-pane fade in active" id="yw">
+
+                    <div class="margin-right-20 margin-top-10">
+                        <!--药品-->
+                        <table class="table table-hover textalign-c tab1 bor-3">
+                            <thead>
+                                <tr class="even">
+                                    <th>访视阶段</th>
+                                    <th>处方日期</th>
+                                    <th>药物/器械名称</th>
+                                    <th>规格</th>
+                                    <th>剂量</th>
+                                    <th>用法</th>
+                                    <th>频次</th>
+                                    <th>发放数量</th>
+                                    <th>发放单位</th>
+
+                                    <th>状态</th>
+                                    <th>药盒/随机号</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>访0</td>
+                                    <td>2017/12/23</td>
+                                    <td>阿昔洛韦</td>
+                                    <td>12粒/盒</td>
+                                    <td>9粒</td>
+                                    <td>口服</td>
+                                    <td>Bid</td>
+                                    <td>6</td>
+                                    <td>
+                                        盒
+                                    </td>
+                                    <td class="greencolor">已发放</td>
+                                    <td>
+                                        <span class="clear" id="clear" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" title="查看"></span>
+
+                                    </td>
+
+                                    <td>
+                                        <span class="return" data-toggle="modal" data-target="#cancel" title="撤回"></span>
+                                    </td>
+                                    
+                                </tr>
+                                <tr class="collapse textalign-l" id="collapseExample">
+                                    <td class="well" colspan=12>
+                                        <input type="text" name="tagsinput"/>
+                                        <a href="#" class="btn btn-primary add-right"><i class="fa fa-plus"></i></a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+
+                                    <td>访0</td>
+                                    <td>2017/12/23</td>
+                                    <td>阿昔洛韦</td>
+                                    <td>12粒/盒</td>
+                                    <td>9粒</td>
+                                    <td>口服</td>
+                                    <td>Bid</td>
+                                    <td>6</td>
+                                    <td>
+                                        盒
+                                    </td>
+                                    <td class="redcolor">未发放</td>
+                                    <td>
+                                       一
+
+                                    </td>
+
+                                    <td>
+                                        <span class="return" data-toggle="modal" data-target="#cancel" title="撤回"></span>
+                                    </td>
+                                    
+                                </tr>
+                                <tr class="collapse textalign-l" id="collapseExample1">
+                                    <td class="well" colspan=12>
+                                        <input type="text" name="tagsinput"/>
+                                        <a href="#" class="btn btn-primary add-right"><i class="fa fa-plus"></i></a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+
+                                    <td>访0</td>
+                                    <td>2017/12/23</td>
+                                    <td>阿昔洛韦</td>
+                                    <td>12粒/盒</td>
+                                    <td>9粒</td>
+                                    <td>口服</td>
+                                    <td>Bid</td>
+                                    <td>6</td>
+                                    <td>
+                                        盒
+                                    </td>
+                                    <td>已作废</td>
+                                    <td>
+                                        <span class="clear" id="clear" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample" title="查看"></span>
+
+                                    </td>
+
+                                    <td>
+
+                                    </td>
+                                    
+                                </tr>
+                                <tr class="collapse textalign-l" id="collapseExample2">
+                                    <td class="well" colspan=12>
+                                        <input type="text" name="tagsinput"/>
+                                        <a href="#" class="btn btn-primary add-right"><i class="fa fa-plus"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
+                        <div class="margin-bottom-10" style="height:40px; float:right;">
+                            <ul class="pagination" style="visibility: visible;">
+                                <li class="prev disabled">
+                                    <a href="#" title="Prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">1</a>
+                                </li>
+                                <li><a href="#">2</a>
+                                </li>
+                                <li><a href="#">3</a>
+                                </li>
+                                <li><a href="#">4</a>
+                                </li>
+                                <li><a href="#">5</a>
+                                </li>
+                                <li><a href="#">6</a>
+                                </li>
+                                <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="date-main1 tab-pane fade in " id="jc">
+
+                    <div class="margin-right-20 margin-top-10">
+                        <!--药品-->
+                        <table class="table table-hover textalign-c tab1 bor-3">
+                            <thead>
+                                <tr class="even">
+
+                                    <th>访视阶段</th>
+                                    <th>申请日期</th>
+
+                                    <th>申请人</th>
+                                    <th>检查类别</th>
+                                    <th>检查项目</th>
+                                    <th>执行状态</th>
+
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>访0</td>
+                                    <td>2017/12/23</td>
+                                    <td>张三</td>
+                                    <td>心电图</td>
+                                    <td>常规心电图</td>
+                                    <td>已执行</td>
+
+                                    <td>
+
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>访0</td>
+                                    <td>2017/12/23</td>
+                                    <td>张三</td>
+                                    <td>心电图</td>
+                                    <td>常规心电图</td>
+                                    <td>未执行</td>
+
+                                    <td>
+                                        <span class="return" data-toggle="modal" data-target="#cancel"></span>
+                                    </td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                        
+                        
+                        <div class="margin-bottom-10" style="height:40px; float:right;">
+                            <ul class="pagination" style="visibility: visible;">
+                                <li class="prev disabled">
+                                    <a href="#" title="Prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">1</a>
+                                </li>
+                                <li><a href="#">2</a>
+                                </li>
+                                <li><a href="#">3</a>
+                                </li>
+                                <li><a href="#">4</a>
+                                </li>
+                                <li><a href="#">5</a>
+                                </li>
+                                <li><a href="#">6</a>
+                                </li>
+                                <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="date-main1 tab-pane fade in " id="jy">
+
+                    <div class="margin-right-20 margin-top-10">
+                        <!--药品-->
+                        <table class="table table-hover textalign-c bor-3">
+                            <thead>
+                                <tr class="even">
+
+                                    <th>访视阶段</th>
+                                    <th>申请日期</th>
+
+                                    <th>申请人</th>
+                                    <th>检查类别</th>
+                                    <th>检查项目</th>
+                                    <th>标本</th>
+                                    <th>执行状态</th>
+
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>访0</td>
+                                    <td>2017/12/23</td>
+                                    <td>张三</td>
+                                    <td>心电图</td>
+                                    <td>常规心电图</td>
+                                    <td>血</td>
+                                    <td>已执行</td>
+
+                                    <td>
+
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>访0</td>
+                                    <td>2017/12/23</td>
+                                    <td>张三</td>
+                                    <td>心电图</td>
+                                    <td>常规心电图</td>
+                                    <td>血</td>
+                                    <td>未执行</td>
+
+                                    <td>
+                                        <span class="return" data-toggle="modal" data-target="#cancel"></span>
+                                    </td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                        <!--检查申请-->
+
+                        <!--检验申请-->
+
+                        <!--合并用药-->
+
+                        <div class="margin-bottom-10" style="height:40px; float:right;">
+                            <ul class="pagination" style="visibility: visible;">
+                                <li class="prev disabled">
+                                    <a href="#" title="Prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">1</a>
+                                </li>
+                                <li><a href="#">2</a>
+                                </li>
+                                <li><a href="#">3</a>
+                                </li>
+                                <li><a href="#">4</a>
+                                </li>
+                                <li><a href="#">5</a>
+                                </li>
+                                <li><a href="#">6</a>
+                                </li>
+                                <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- END BUTTONS PORTLET-->
+
+        </div>
+        <!-- END DASHBOARD STATS -->
+    </div>
+    <!-- 页面结束 -->
+</div>
+<!-- 页面主体结束 -->
+<!-- 底部开始 -->
+<div class="footer">
+    <span>医院名称</span>
+    <span class="pull-right">© 2016 Winning health 版权所有</span>
+</div>
+
+<!-- 底部结束 -->
+<div class="modal" id="out" tabindex="-1" aria-hidden="true"   role="dialog">
+    <div class="modal-dialog exitdialog">
+        <div class="modal-content exitcontent">
+            <div class="exitrow margin-top-20">
+                <p>受试者：XXX</p>
+                <p>受试者电话：XXXXXXXXXXX</p>
+            </div>
+            <div class="exitbtn">
+                <button class="btn btn-primary btn-sm pull-left margin-top-20">
+                    重新入组
+                </button>
+                <button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">
+                    取消
+                </button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal" id="infoeditor" tabindex="-1" aria-hidden="true"   role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog wp60">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">添加受试者</h4>
+            </div>
+            <div class="modal-body bgfb">
+                1
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn  btn-primary">保存</button>
+                <button type="button" class="btn  btn-default">提交</button>
+                <button type="button" class="btn  btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+</div>
+<!-- 撤回弹框-->
+<div class="modal" id="cancel" aria-hidden="true"   role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog exitdialog">
+        <div class="modal-content exitcontent">
+            <div class="exitrow margin-top-20">
+                <p>撤回后该申请将被删除
+                    <br>是否确认撤回？</p>
+                </div>
+                <div class="exitbtn"><i class="fa fa-check exitbtn-y" data-dismiss="modal"></i> <i class="fa fa-times exitbtn-n" data-dismiss="modal"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--修改密码-->
+    <div class="modal" id="revise" tabindex="-1" aria-hidden="true"   role="dialog"></div>
+    <!--注销登录-->
+    <div class="modal" id="exit" tabindex="-1" aria-hidden="true"   role="dialog"></div>
+    <!--邮件-->
+    <div class="modal" id="myModal" tabindex="-1" aria-hidden="true"   role="dialog" aria-labelledby="myModalLabel"></div>
+
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript"></script>
+<!--下拉框插件-->
+<script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+<script src="assets/plugins/tag/bootstrap-tagsinput.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="assets/scripts/app.js" type="text/javascript"></script>
+<script src="assets/scripts/index.js" type="text/javascript"></script>
+<script src="assets/scripts/tasks.js" type="text/javascript"></script>
+<!--日期选择器-->
+<script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+<script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        var activeTagInput;
+        jQuery(document).ready(function () {
+            leftInit(); //加载菜单
+            App.init(); // initlayout and core plugins
+            Index.init();
+
+            $('input[name=tagsinput]').tagsinput('input');
+        });
+
+
+        $(function () {
+            $('.add-right').popover({
+                html: true,
+                content: function () {
+                    return `<div>
+        <input type="text" class="expiryDate-detail-input1 infoselects" value="" name="a"><i class="fa fa-search1"></i>
+        <div class="editorbody1">
+            <table class="table table-striped textalign-c tab1">
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>2</td>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                            </td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                            </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                            </td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox">
+                            </td>
+                            <td>6</td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn  btn-primary" id="save">保存</button>
+            <button type="button" class="btn  btn-default" data-dismiss="modal" id="cancel">取消</button>
+        </div>
+    </div>`;
+                },
+                container: 'body',
+                placement: 'top',
+
+            }).on('show.bs.popover', function () {
+                $('.popover').hide(); // 关闭其他的弹层 一次只显示一个
+                activeTagInput = $(this).parent().find('input[name=tagsinput]');
+            });
+        });
+        $(document.body).delegate('#cancel', 'click', function () {
+            $('.popover').hide();
+        });
+
+        $(document.body).delegate('#save', 'click', function () {
+            var child = $(this).parent('.modal-footer').prev('.editorbody1').find('tbody tr')
+            child.each(function (index, element) {
+                if ($(element).find('td:first input').attr("checked")) {
+                    var checkedValue = $(this).children('td:nth-child(2)').text();
+
+                    activeTagInput.tagsinput('add', checkedValue);
+                }
+            });
+            $('.popover').hide();
+        });
+        $(document.body).delegate('.clear', 'click', function () {
+            console.log('Clicked clear ');
+            $('.popover').hide();
+        })
+    </script>
+<!-- END JAVASCRIPTS -->
+
+
+</body>
+<!-- END BODY -->
+
+</html>

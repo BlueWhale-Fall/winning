@@ -1,0 +1,181 @@
+.initwrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 20002;
+    background-color: #fff;
+}
+.initwrap nav {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    border: 0;
+}
+.initwrap nav .logo {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 60px;
+    margin: 10px 30px 10px 50px;
+    background: url(../img/logo.png) no-repeat center center;
+    background-size: contain;
+}
+.initwrap nav h1 {
+    top: -8px;
+}
+.initwrap nav h1, .initwrap nav h2 {
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 240px;
+}
+.initwrap nav h2 {
+    top: 17px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.64);
+    font-weight: normal;
+}
+.initwrap nav h1, .initwrap nav h2 {
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 240px;
+}
+.initwrap header {
+    position: absolute;
+    height: 508px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    margin-top: -240px;
+    left: 50%;
+    margin-left: -254px;
+}
+.initwrap header h2 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    font-family: "黑体";
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.initwrap header p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.63);
+}
+.initbox {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    margin-left: -342.5px;
+    left: 50%;
+    margin-top: -10px;
+    z-index: 3;
+}
+.initbox input {
+    width: 440px;
+    height: 56px;
+    font-size: 16px;
+    padding: 5px 10px 5px 25px;
+    -webkit-border: 3px solid #FDE368;
+    -moz-border: 3px solid #FDE368;
+    border: 3px solid #FDE368;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.bradius-100 {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.initbox button {
+    padding: 0 10px 0 28px;
+    width: 180px;
+    height: 56px;
+    text-align: center;
+    line-height: 40px;
+    color: #A98400;
+    font-size: 20px;
+    background-color: #FFE88F;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 0.8em;
+}
+.initbox .listwrap {
+    width: 440px;
+    max-height: 280px;
+    background-color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 76px;
+    overflow: hidden;
+    -webkit-border: 1px solid #efefef;
+    -moz-border: 1px solid #efefef;
+    border: 1px solid #efefef;
+    border-top: none;
+}
+.initbox .zoomlist {
+    max-height: 224px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.initbox .zoomlist li {
+    font-size: 14px;
+    color: #666;
+    width: 440px;
+    height: 56px;
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+    line-height: 56px;
+    -webkit-border-bottom: 1px solid #efefef;
+    -moz-border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+}
+.initwrap .bgimg {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.png) no-repeat top center;
+}
+.initwrap footer {
+    width: 100%;
+    height: 56px;
+    font-size: 12px;
+    color: #929292;
+    line-height: 56px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 32px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default;
+    overflow: hidden;
+    border: 0;
+    box-shadow: none;
+}
+.initwrap footer .hosname {
+    float: left;
+}
+.initwrap footer .copyright {
+    float: right;
+}
+.initbox .zoomlist li:hover {
+    color: #4095eb;
+}

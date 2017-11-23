@@ -1,0 +1,156 @@
+@charset "utf-8";
+input {
+    outline:none;
+    text-align: center;
+}
+.main {
+    width: 1024px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.main h1 {
+    text-align: center;
+}
+/*表头*/
+.title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.titlename {
+    float: left;
+}
+.titlename input{
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #333;
+}
+.date input {
+    width: 60px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #333;
+}
+.date {
+    float: right;
+}
+/*主体表格*/
+.maintable {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+table {
+    width: 100%;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+}
+table tr th,
+table tr td{
+    text-align: center;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+}
+.maintable table tr th {
+    width: 40px;
+    height: 65px;
+}
+table tr td {
+    width: 90px;
+    height: 64px;
+}
+table input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+}
+/*下部表格*/
+.tablebox {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+}
+.border-right {
+    top: 0px;
+    right: -1px;
+    width: 1px;
+    height: 702px;
+    position: absolute;
+    border-right: 2px solid #333;
+}
+.border-bottom {
+    bottom: -1px;
+    right: 0px;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    border-top: 2px solid #333;
+}
+.tablebox table {
+    border-top: none;
+}
+.tablebox table tr th {
+    height: 50px;
+}
+.tablebox .ltable {
+    float: left;
+    width: 49.5%;
+}
+.tablebox .ltable table {
+    border-left: none;
+}
+.tablebox .rtable {
+    width: 49.5%;
+    float: right;
+}
+/*制表人*/
+.lister {
+    margin-top: 15px;
+    text-align: right;
+}
+.lister input {
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #333;
+}
+/*打印按钮*/
+#print {
+    right: 90px;
+}
+
+#print,
+#return{
+    top: 30px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    color: #085DFF;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #085DFF;
+    transition: all 0.35s ease-in-out;
+}
+
+#print:hover,
+#return:hover{
+    color: #fff;
+    background-color: #085DFF;
+}
+
+/*返回按钮*/
+#return {
+    text-decoration: none;
+    right: 0px;
+}

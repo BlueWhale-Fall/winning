@@ -1,0 +1,14 @@
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100001;
+    background:url(../img/loading.gif) no-repeat center center rgb(254,254,254);
+    opacity: 1;
+    -moz-transition: all 0.85s ease-in-out;
+    -webkit-transition: all 0.85s ease-in-out;
+    transition: all 0.85s ease-in-out;
+    opacity: 1;
+}

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>大屏展示系统</title>
+    <meta name="keywords" content="XXXX">
+    <meta name="description" content="XXXX">
+    <meta name="autdor" content="autdor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/aside.css">
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNK.css">
+</head>
+
+<body>
+<div id="loadWrap" class="loading">
+    <div class="showresult">
+        正在更新数据，请稍后......
+    </div>
+</div>
+<header id="header"></header>
+<!--content-->
+<section class="databody">
+    <!--出院-->
+    <article id="leavehospital" class="databox margin-right-20">
+        <div class="dataTitle" data-id="12"></div>
+        <div id="tdOut" class="leavedetail">
+            <div class="detailtitle"></div>
+            <div class="numbox">
+
+            </div>
+        </div>
+        <div id="tmOut" class="leavedetail">
+            <div class="detailtitle"></div>
+            <div class="numbox">
+
+            </div>
+        </div>
+    </article>
+    <!--测血糖-->
+    <article id="sugerBlood" class="databox margin-right-20">
+        <div class="dataTitle" data-id="15"></div>
+        <div class="dataContent">
+            <div id="sugerBlood1">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="sugerBlood2">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="sugerBlood3">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="sugerBlood4">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="sugerBlood5">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="sugerBlood6">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="sugerBlood7">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--24H和血氧饱和度-->
+    <article class="databox margin-right-20">
+        <div id="allday">
+            <div class="dataTitle" data-id="2"></div>
+            <div class="dbline">
+                <div id="allday1">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="allday2">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="allday3">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bloodoxygen">
+            <div class="dataTitle" data-id="3"></div>
+            <div class="dbline">
+                <div id="bloodoxygen1">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="bloodoxygen2">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="bloodoxygen3">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="bloodoxygen4">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--测血压和测心率和基础护理-->
+    <article class="databox margin-right-20">
+        <div class="topbox">
+            <div id="bloodpressure">
+                <div class="dataTitle" data-id="4"></div>
+                <div class="dbline">
+                    <div id="bloodpressure1">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                    <div id="bloodpressure2">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                    <div id="bloodpressure3">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                    <div id="bloodpressure4">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="heartrate">
+                <div class="dataTitle" data-id="5"></div>
+                <div class="dbline">
+                    <div id="heartrate1">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                    <div id="heartrate2">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                    <div id="heartrate3">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                    <div id="heartrate4">
+                        <div class="secTitle"></div>
+                        <div class="numbox">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="basic">
+            <div class="dataTitle" data-id="6"></div>
+            <div class="dbline">
+                <div id="basic1">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="basic2">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="basic3">
+                    <div class="secTitle airtube"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="basic4">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--责任护士-->
+    <article id="nurse" style="" class="databox margin-right-20">
+        <div class="nurseTitle">责任护士</div>
+        <div id="topic">
+
+        </div>
+    </article>
+    <!--三大监控和药物过敏-->
+    <article class="databox margin-right-20">
+        <div id="control">
+            <div class="dataTitle" data-id="7"></div>
+            <div class="dbline">
+                <div id="control1">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="control2">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="control3">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="allergy">
+            <div class="dataTitle" data-id="8"></div>
+            <div class="dbline">
+                <div id="allergy1">
+                    <div class="secTitle penicillin"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="allergy2">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+                <div id="allergy3">
+                    <div class="secTitle"></div>
+                    <div class="numbox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--特殊导管-->
+    <article id="duct" class="databox margin-right-20">
+        <div class="dataTitle" data-id="9"></div>
+        <div class="dbline">
+            <div id="duct1">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="duct2">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="duct3">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="duct4">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="duct5">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--特殊治疗-->
+    <article id="cure" class="databox margin-right-20">
+        <div class="dataTitle" data-id="10"></div>
+        <div class="dbline">
+            <div id="cure1">
+                <div class="secTitle penicillin"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="cure2">
+                <div class="secTitle penicillin"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="cure3">
+                <div class="secTitle penicillin"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="cure4">
+                <div class="secTitle penicillin"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="cure5">
+                <div class="secTitle penicillin"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="cure6">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="cure7">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--其他-->
+    <article id="other" class="databox margin-right-20">
+        <div class="dataTitle" data-id="11"></div>
+        <div class="dbline">
+            <div id="other1">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="other2">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="other3">
+                <div class="secTitle"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="other4">
+                <div class="secTitle penicillin"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="other5">
+                <div class="secTitle penicillin"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+            <div id="other6">
+                <div class="secTitle protein"></div>
+                <div class="numbox">
+
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+<footer>上海市宝山区罗店医院</footer>
+<!--JavaScript-->
+<script src="js/jquery.1.42.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.js"></script>
+<script src="js/firstData.js"></script>
+<script>
+    $(function () {
+        //主页加载
+        $('#loadWrap').css({'opacity': 0, 'z-index': -1});
+        _init.NKinit('data/LDNKdata.json', '1000');
+        /*责任护士*/
+        _init.NKstaffInit('data/LDNKnurse.json', '2928', '#topic')
+        $('.dataTitle').click(function () {
+            var url = 'data/LDNKdata.json',
+                num = $(this).attr('data-id'),
+                bqdm = '2919';
+            localStorage.setItem('url', url);
+            localStorage.setItem('num', num);
+            localStorage.setItem('bqdm', bqdm);
+            window.location.href = 'subpage.html';
+        })
+    })
+</script>
+</body>
+
+</html>

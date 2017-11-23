@@ -1,0 +1,1471 @@
+{
+  "BQDM": "2928",
+  "BQTitle": "09东五官科",
+  "DateWeek": "2017-4-20 星期四",
+  "DBHS": "",
+  "BRCount": 58,
+  "XRY": 0,
+  "CY": 9,
+  "BZ":1,
+  "ZR": 0,
+  "ZC": 0,
+  "SS": 5,
+  "TJHL": 0,
+  "BW": 0,
+  "YJHL": 12,
+  "EJHL": 30,
+  "TBGZ": 2,
+  "YC": 0,
+  "DG": 2,
+  "DD": 0,
+  "FZinfos": [
+    {
+      "FZXH": 9,
+      "FZName": "出院",
+      "FZPX": 1,
+      "RWinfos": [
+        {
+          "RWXH": 11,
+          "RWName": "今日出院(下午)",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "009"
+            },
+            {
+              "CWDM": "014"
+            },
+            {
+              "CWDM": "015"
+            },
+            {
+              "CWDM": "108"
+            },
+            {
+              "CWDM": "110"
+            }
+          ]
+        },
+        {
+          "RWXH": 12,
+          "RWName": "明日出院(上午)",
+          "RWPX": 2,
+          "CWinfos": [
+            {
+              "CWDM": "029"
+            },
+            {
+              "CWDM": "102"
+            },
+            {
+              "CWDM": "109"
+            },
+            {
+              "CWDM": "112"
+            }
+          ]
+        },
+        {
+          "RWXH": 83,
+          "RWName": "今日出院(上午)",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "030"
+            },
+            {
+              "CWDM": "031"
+            },
+            {
+              "CWDM": "032"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 13,
+      "FZName": "生命体征",
+      "FZPX": 2,
+      "RWinfos": [
+        {
+          "RWXH": 143,
+          "RWName": "BP(QD)",
+          "RWPX": 1,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 144,
+          "RWName": "BP(BID)",
+          "RWPX": 2,
+          "CWinfos": [
+            {
+              "CWDM": "006"
+            },
+            {
+              "CWDM": "007"
+            },
+            {
+              "CWDM": "019"
+            },
+            {
+              "CWDM": "020"
+            },
+            {
+              "CWDM": "022"
+            },
+            {
+              "CWDM": "033"
+            },
+            {
+              "CWDM": "041"
+            },
+            {
+              "CWDM": "044"
+            }
+          ]
+        },
+        {
+          "RWXH": 145,
+          "RWName": "BP(TID)",
+          "RWPX": 3,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 147,
+          "RWName": "注意呼吸",
+          "RWPX": 5,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "010"
+            }
+          ]
+        },
+        {
+          "RWXH": 148,
+          "RWName": "意识血压脉搏呼吸",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "023"
+            },
+            {
+              "CWDM": "035"
+            },
+            {
+              "CWDM": "037"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 149,
+          "RWName": "出血观察",
+          "RWPX": 7,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 14,
+      "FZName": "特殊检查项目",
+      "FZPX": 3,
+      "RWinfos": [
+        {
+          "RWXH": 141,
+          "RWName": "CPAP",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 15,
+      "FZName": "基础/专科护理",
+      "FZPX": 4,
+      "RWinfos": [
+        {
+          "RWXH": 153,
+          "RWName": "气道湿化",
+          "RWPX": 1,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 33,
+          "RWName": "雾化吸入",
+          "RWPX": 2,
+          "CWinfos": [
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "023"
+            },
+            {
+              "CWDM": "037"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 155,
+          "RWName": "比哈微博",
+          "RWPX": 3,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 156,
+          "RWName": "颈部冲洗",
+          "RWPX": 4,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 157,
+          "RWName": "口腔冲洗",
+          "RWPX": 5,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 158,
+          "RWName": "卧位护理",
+          "RWPX": 6,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 159,
+          "RWName": "鼻微波(QID)",
+          "RWPX": 7,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 160,
+          "RWName": "耳微波",
+          "RWPX": 8,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 153,
+          "RWName": "气道湿化（NS60ml+糜蛋白酶12000u气道湿化BID）",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "023"
+            },
+            {
+              "CWDM": "037"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 153,
+          "RWName": "气道湿化（NS100ml+糜蛋白酶4000u气道湿化QD）",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "023"
+            },
+            {
+              "CWDM": "037"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 16,
+      "FZName": "药物过敏",
+      "FZPX": 5,
+      "RWinfos": [
+        {
+          "RWXH": 38,
+          "RWName": "青霉素",
+          "RWPX": 1,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 40,
+          "RWName": "磺胺",
+          "RWPX": 2,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 39,
+          "RWName": "头孢",
+          "RWPX": 3,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 100,
+          "RWName": "银杏叶",
+          "RWPX": 4,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 166,
+          "RWName": "洁霉素",
+          "RWPX": 5,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 126,
+          "RWName": "喹诺酮",
+          "RWPX": 6,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 167,
+          "RWName": "链霉素",
+          "RWPX": 7,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 112,
+          "RWName": "可乐必妥",
+          "RWPX": 8,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 168,
+          "RWName": "双黄连",
+          "RWPX": 9,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 169,
+          "RWName": "苯巴比妥",
+          "RWPX": 10,
+          "CWinfos": []
+        }
+      ]
+    },
+    {
+      "FZXH": 16,
+      "FZName": "特殊治疗",
+      "FZPX": 6,
+      "RWinfos": [
+        {
+          "RWXH": 38,
+          "RWName": "青霉素",
+          "RWPX": 1,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 40,
+          "RWName": "磺胺",
+          "RWPX": 2,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 39,
+          "RWName": "头孢",
+          "RWPX": 3,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 100,
+          "RWName": "银杏叶",
+          "RWPX": 4,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 166,
+          "RWName": "洁霉素",
+          "RWPX": 5,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 126,
+          "RWName": "喹诺酮",
+          "RWPX": 6,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 167,
+          "RWName": "链霉素",
+          "RWPX": 7,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 112,
+          "RWName": "可乐必妥",
+          "RWPX": 8,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 168,
+          "RWName": "双黄连",
+          "RWPX": 9,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 169,
+          "RWName": "苯巴比妥",
+          "RWPX": 10,
+          "CWinfos": []
+        }
+      ]
+    },
+    {
+      "FZXH": 17,
+      "FZName": "安全管理",
+      "FZPX": 7,
+      "RWinfos": [
+        {
+          "RWXH": 136,
+          "RWName": "导管",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "037"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 134,
+          "RWName": "压疮",
+          "RWPX": 2,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 135,
+          "RWName": "跌倒",
+          "RWPX": 3,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 165,
+          "RWName": "VTE",
+          "RWPX": 4,
+          "CWinfos": []
+        }
+      ]
+    },
+    {
+      "FZXH": 18,
+      "FZName": "治疗",
+      "FZPX": 8,
+      "RWinfos": [
+        {
+          "RWXH": 161,
+          "RWName": "佳维体",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 162,
+          "RWName": "瑞代",
+          "RWPX": 2,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 163,
+          "RWName": "胰岛素",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "033"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FZXH": 19,
+      "FZName": "导管",
+      "FZPX": 9,
+      "RWinfos": [
+        {
+          "RWXH": 48,
+          "RWName": "负吸",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "035"
+            },
+            {
+              "CWDM": "040"
+            },
+            {
+              "CWDM": "035"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 41,
+          "RWName": "胃管",
+          "RWPX": 2,
+          "CWinfos": [
+            {
+              "CWDM": "037"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 42,
+          "RWName": "尿管",
+          "RWPX": 3,
+          "CWinfos": []
+        },{
+          "RWXH": 164,
+          "RWName": "鼻饲",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "037"
+            },
+            {
+              "CWDM": "040"
+            }
+          ]
+        },
+        {
+          "RWXH": 51,
+          "RWName": "PICC",
+          "RWPX": 2,
+          "CWinfos": []
+        }
+      ]
+    },
+    {
+      "FZXH": 12,
+      "FZName": "24H",
+      "FZPX": 10,
+      "RWinfos": [
+        {
+          "RWXH": 154,
+          "RWName": "出入量",
+          "RWPX": 3,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 130,
+          "RWName": "尿量",
+          "RWPX": 4,
+          "CWinfos": []
+        }
+      ]
+    },
+    {
+      "FZXH": 1,
+      "FZName": "入出转",
+      "FZPX": 11,
+      "RWinfos": [
+        {
+          "RWXH": 75,
+          "RWName": "新入院",
+          "RWPX": 1,
+          "CWinfos": [
+            {
+              "CWDM": "x01"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "004"
+            },
+            {
+              "CWDM": "005"
+            },
+            {
+              "CWDM": "006"
+            },
+            {
+              "CWDM": "007"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "009"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "011"
+            },
+            {
+              "CWDM": "012"
+            },
+            {
+              "CWDM": "013"
+            },
+            {
+              "CWDM": "014"
+            },
+            {
+              "CWDM": "015"
+            },
+            {
+              "CWDM": "016"
+            },
+            {
+              "CWDM": "017"
+            },
+            {
+              "CWDM": "018"
+            },
+            {
+              "CWDM": "019"
+            },
+            {
+              "CWDM": "020"
+            },
+            {
+              "CWDM": "021"
+            },
+            {
+              "CWDM": "022"
+            },
+            {
+              "CWDM": "023"
+            },
+            {
+              "CWDM": "024"
+            },
+            {
+              "CWDM": "025"
+            },
+            {
+              "CWDM": "026"
+            },
+            {
+              "CWDM": "027"
+            },
+            {
+              "CWDM": "028"
+            },
+            {
+              "CWDM": "029"
+            },
+            {
+              "CWDM": "x30"
+            }
+          ]
+        },
+        {
+          "RWXH": 77,
+          "RWName": "转入",
+          "RWPX": 2,
+          "CWinfos": []
+        },
+        {
+          "RWXH": 76,
+          "RWName": "出院",
+          "RWPX": 3,
+          "CWinfos": [
+            {
+              "CWDM": "c01"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "004"
+            },
+            {
+              "CWDM": "005"
+            },
+            {
+              "CWDM": "006"
+            },
+            {
+              "CWDM": "007"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "009"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "011"
+            },
+            {
+              "CWDM": "012"
+            },
+            {
+              "CWDM": "013"
+            },
+            {
+              "CWDM": "014"
+            },
+            {
+              "CWDM": "c15"
+            }
+          ]
+        },
+        {
+          "RWXH": 78,
+          "RWName": "转出",
+          "RWPX": 4,
+          "CWinfos": [
+            {
+              "CWDM": "z01"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "004"
+            },
+            {
+              "CWDM": "005"
+            },
+            {
+              "CWDM": "006"
+            },
+            {
+              "CWDM": "007"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "009"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "011"
+            },
+            {
+              "CWDM": "012"
+            },
+            {
+              "CWDM": "013"
+            },
+            {
+              "CWDM": "014"
+            },
+            {
+              "CWDM": "z15"
+            }
+          ]
+        },
+        {
+          "RWXH": 79,
+          "RWName": "特级护理",
+          "RWPX": 5,
+          "CWinfos": [
+            {
+              "CWDM": "t01"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "004"
+            },
+            {
+              "CWDM": "005"
+            },
+            {
+              "CWDM": "006"
+            },
+            {
+              "CWDM": "007"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "009"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "011"
+            },
+            {
+              "CWDM": "012"
+            },
+            {
+              "CWDM": "013"
+            },
+            {
+              "CWDM": "014"
+            },
+            {
+              "CWDM": "t15"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "Ⅰ01"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "Ⅰ03"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 80,
+          "RWName": "Ⅰ级护理",
+          "RWPX": 6,
+          "CWinfos": [
+            {
+              "CWDM": "001"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            }
+          ]
+        },
+        {
+          "RWXH": 81,
+          "RWName": "Ⅱ级护理",
+          "RWPX": 7,
+          "CWinfos": [
+            {
+              "CWDM": "Ⅱ01"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "004"
+            },
+            {
+              "CWDM": "013"
+            },
+            {
+              "CWDM": "014"
+            },
+            {
+              "CWDM": "015"
+            },
+            {
+              "CWDM": "002"
+            },
+            {
+              "CWDM": "003"
+            },
+            {
+              "CWDM": "004"
+            },
+            {
+              "CWDM": "005"
+            },
+            {
+              "CWDM": "008"
+            },
+            {
+              "CWDM": "009"
+            },
+            {
+              "CWDM": "010"
+            },
+            {
+              "CWDM": "011"
+            },
+            {
+              "CWDM": "012"
+            },
+            {
+              "CWDM": "013"
+            },
+            {
+              "CWDM": "014"
+            },
+            {
+              "CWDM": "Ⅱ15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "KSXTinfos": [
+    {
+      "CWDM": "007",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "022",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "033",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "041",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 1
+    },
+    {
+      "CWDM": "022",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "033",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "041",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 1
+    },
+    {
+      "CWDM": "022",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "033",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "041",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 1
+    },
+    {
+      "CWDM": "022",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "033",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "041",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 1
+    },
+    {
+      "CWDM": "022",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "033",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 0
+    },
+    {
+      "CWDM": "041",
+      "ZCQ": 0,
+      "ZWCQ": 0,
+      "SCH2H": 1,
+      "SQ": 1
+    }
+  ]
+}

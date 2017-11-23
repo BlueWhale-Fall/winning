@@ -1,0 +1,12 @@
+.font-family-Microsoft{
+  font-family: "Microsoft YaHei";
+}
+.font-family-FuturaBT{
+  font-family: "FuturaBT-Medium";
+}
+.font-size-37{
+  font-size: 37px;
+}
+.font-size-13{
+  font-size: 13px;
+}

@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8"/>
+    <title>验收入库</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!--[if IE 8]>
+    <style type=”text/css”>
+        .ch_t {
+            display: inline-block;
+        }
+
+        .ch_label {
+            display: none;
+        }
+    </style>
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+
+<body>
+<!-- 头部开始 -->
+<!-- BEGIN TOP NAVIGATION BAR -->
+<div class="header navbar navbar-inverse navbar-static-top">
+    <div class="header-inner" id="topmenu">
+        <!--leftdata.js-->
+    </div>
+    <!-- END TOP NAVIGATION BAR -->
+</div>
+<!-- 头部结束 -->
+<div class="clearfix"></div>
+
+<!-- 页面主体开始 -->
+<div class="page-container">
+    <!-- 左侧菜单开始 -->
+    <div id="medicinemenu" class="page-sidebar navbar-collapse collapse">
+
+    </div>
+    <!-- 左侧菜单结束 -->
+    <!--右侧菜单开始-->
+    <div class="offsidebar closed ie" id="offsidebar">
+
+    </div>
+    <!--右侧菜单结束-->
+
+    <!-- 页面开始 -->
+    <div class="page-content project">
+        <!-- BEGIN PAGE HEADER-->
+        <div class="contenthead">
+            <div class="contenthead-title">验收入库</div>
+            <div class="pull-left" style="padding:5px 0 15px 0">
+                <span class="contenthead-text margin-left-20 pull-left">物资名称</span>
+                <input class="form-control pull-left w70" style="height: 28px;" placeholder="" type="text">
+                <span class="contenthead-text margin-left-20 pull-left">入库单号</span>
+                <input class="form-control pull-left w70" style="height: 28px;" placeholder="" type="text">
+                <span class="contenthead-text pull-left margin-left-20">入库日期</span>
+                <input class="form-control pull-left w70 Wdate" onClick="WdatePicker();" type="text"/>
+                <span class="pull-left pro-line">-</span>
+                <input class="form-control pull-left w70 Wdate" onClick="WdatePicker()" type="text"/>
+                <span class="contenthead-text margin-left-20 pull-left">状态</span>
+                <select name="drop2" class="ui-select pull-left">
+                    <option value="0">已审核</option>
+                    <option value="1">未审核</option>
+                </select>
+                <button type="button" class="btn btn-primary btn-sm margin-left-20" data-toggle="modal">
+                    <i class="fa fa-search"></i>
+                    查询
+                </button>
+            </div>
+        </div>
+        <!-- END PAGE HEADER-->
+        <!-- BEGIN DASHBOARD STATS -->
+        <div class="date-main">
+            <div>
+                <button type="button" class="btn btn-default btn-sm" data-target="#add" data-toggle="modal">
+                    <i class="fa fa-plus"></i>
+                    <span>新增</span>
+                </button>
+                <button type="button" class="btn btn-default btn-sm margin-left-10" data-toggle="modal"
+                        data-target="#infoeditor">
+                    <i class="fa fa-star-o"></i>
+                    <span>复核</span>
+                </button>
+            </div>
+
+            <div class="margin-right-20 margin-top-10 ">
+                <table class="table  table-striped textalign-c tab1">
+                    <thead>
+                    <tr class="even">
+                        <th>
+                            <input type="checkbox">
+                        </th>
+                        <th>入库单号</th>
+                        <th>物资名称</th>
+                        <th>规格</th>
+                        <th>批号</th>
+                        <th>入库数量</th>
+                        <th>入库日期</th>
+                        <th>发放人</th>
+                        <th>入库人</th>
+                        <th>核对人</th>
+                        <th>状态</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td>20170923105411</td>
+                        <td>阿昔洛韦</td>
+                        <td>12粒/盒</td>
+                        <td>1131134</td>
+                        <td>40盒</td>
+                        <td>2017/09/23</td>
+                        <td>张三</td>
+                        <td>李四</td>
+                        <td>-</td>
+                        <td>未审核</td>
+                        <td>
+                            <i data-target="#modify"
+                               data-toggle="modal"
+                               class="iconfont icon-edit font-22 color41"></i>
+                            <i class="iconfont icon-delete font-22  color41"
+                               data-id="122"
+                               data-target="#delete"
+                               data-toggle="modal"
+                            ></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <i data-target="#modify"
+                               data-toggle="modal"
+                               class="iconfont icon-edit font-22 color41"
+                            ></i>
+                            <i class="iconfont icon-delete font-22  color41"
+                               data-id="122"
+                               data-target="#delete"
+                               data-toggle="modal"
+                            ></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <i data-target="#modify" data-toggle="modal"
+                               class="iconfont icon-edit font-22 color41"></i>
+                            <i class="iconfont icon-delete font-22  color41"
+                               data-id="122"
+                               data-target="#delete"
+                               data-toggle="modal"
+                            ></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <i data-target="#modify" data-toggle="modal"
+                               class="iconfont icon-edit font-22 color41"></i>
+                            <i class="iconfont icon-delete font-22  color41"
+                               data-id="122"
+                               data-target="#delete"
+                               data-toggle="modal"
+                            ></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <i data-target="#modify" data-toggle="modal"
+                               class="iconfont icon-edit font-22 color41"></i>
+                            <i class="iconfont icon-delete font-22  color41"
+                               data-id="122"
+                               data-target="#delete"
+                               data-toggle="modal"
+                            ></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <i data-target="#modify" data-toggle="modal"
+                               class="iconfont icon-edit font-22 color41"></i>
+                            <i class="iconfont icon-delete font-22  color41"
+                               data-id="122"
+                               data-target="#delete"
+                               data-toggle="modal"
+                            ></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <i data-target="#modify" data-toggle="modal"
+                               class="iconfont icon-edit font-22 color41"></i>
+                            <i class="iconfont icon-delete font-22  color41"
+                               data-id="122"
+                               data-target="#delete"
+                               data-toggle="modal"
+                            ></i>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="margin-bottom-10" style="height:40px; float:right;">
+                    <ul class="pagination" style="visibility: visible;">
+                        <li class="prev disabled">
+                            <a href="#" title="Prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li>
+                            <a href="#">5</a>
+                        </li>
+                        <li>
+                            <a href="#">6</a>
+                        </li>
+                        <li class="next">
+                            <a href="#" title="Next"><i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- END BUTTONS PORTLET-->
+
+    </div>
+    <!-- END DASHBOARD STATS -->
+</div>
+<!-- 页面结束 -->
+</div>
+<!-- 页面主体结束 -->
+<!-- 底部开始 -->
+<div class="footer">
+    <span>医院名称</span>
+    <span class="pull-right">© 2016 Winning health 版权所有</span>
+</div>
+<!-- 底部结束 -->
+<div class="modal" id="out" tabindex="-1" aria-hidden="true"     role="dialog">
+    <div class="modal-dialog exitdialog">
+        <div class="modal-content exitcontent">
+            <div class="exitrow margin-top-20">
+                <p>受试者：XXX</p>
+                <p>受试者电话：XXXXXXXXXXX</p>
+            </div>
+            <div class="exitbtn">
+                <button class="btn btn-primary btn-sm pull-left margin-top-20">
+                    重新入组
+                </button>
+                <button data-dismiss="modal" class="btn btn-default btn-sm pull-left margin-left-40 margin-top-20">
+                    取消
+                </button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--新增药物入库-->
+<div class="modal" id="add" tabindex="-1" aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog wp60">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">新增药物入库凭证</h4>
+            </div>
+            <div class="modal-body bgfb">
+                <div class="row editorbody">
+                    <div class="scdj">
+
+                        <!--药物基本信息-->
+                        <div class="editorbody">
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">入库单号：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">物资编码：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">物资名称：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">物资类型：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">规格：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库单位：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">批号：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库数量：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">生产日期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                                <div class="col-md-2 text-right">有效期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">发放人：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">货品状态：</div>
+                                <div class="col-md-3">
+                                    <select name="" id="" class="infoselect1">
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">备注：</div>
+                                <div class="col-md-8">
+                                    <textarea name="" style="width: 100%;max-width: 100%;max-height: 100px;" ></textarea>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">入库人：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库日期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row editorbody">
+                    <div class="col-md-2 text-center">请导入本批入库的随机号:</div>
+                    <div class="col-md-3 text-center">
+                        <div class="editorbody1 bor">
+                            <table class="table table-striped textalign-c tab1">
+
+                                <tbody>
+                                <tr>
+                                    <td>1131134</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>00131</td>
+
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <button type="button" class="btn  btn-primary" style="margin-top: 60px">导入</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn  btn-primary">保存</button>
+                <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--药物复核-->
+<div class="modal" id="infoeditor" tabindex="-1" aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog wp60">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">药物入库凭证</h4>
+            </div>
+            <div class="modal-body bgfb">
+                <div class="row editorbody">
+                    <div class="scdj">
+
+                        <!--药物基本信息-->
+                        <div class="editorbody">
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">入库单号：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">物资编码：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">物资名称：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">物资类型：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">规格：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库单位：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">批号：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库数量：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">生产日期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                                <div class="col-md-2 text-right">有效期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">发放人：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">货品状态：</div>
+                                <div class="col-md-3">
+                                    <select name="" id="" class="infoselect1">
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">备注：</div>
+                                <div class="col-md-8">
+                                    <textarea name="" style="width: 100%;max-width: 100%;max-height: 100px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">入库人：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库日期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">核对人：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">核对日期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row editorbody">
+                    <div class="col-md-2 text-center">请导入本批入库的随机号:</div>
+                    <div class="col-md-3 text-center">
+                        <div class="editorbody1 bor">
+                            <table class="table table-striped textalign-c tab1">
+
+                                <tbody>
+                                <tr>
+                                    <td>1131134</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>00131</td>
+
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <button type="button" class="btn  btn-primary" style="margin-top: 60px">导入</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="auditing" type="button" class="btn  btn-default">审核</button>
+                <button id="removeAud" type="button" class="btn  btn-default">取消审核</button>
+                <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--药物修改-->
+<div class="modal" id="modify" tabindex="-1" aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog wp60">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">修改药物入库凭证</h4>
+            </div>
+            <div class="modal-body bgfb">
+                <div class="row editorbody">
+                    <div class="scdj">
+
+                        <!--药物基本信息-->
+                        <div class="editorbody">
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">入库单号：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">物资编码：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">物资名称：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">物资类型：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">规格：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库单位：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">批号：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库数量：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">生产日期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                                <div class="col-md-2 text-right">有效期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">发放人：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">货品状态：</div>
+                                <div class="col-md-3">
+                                    <select name="" id="" class="infoselect1">
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">备注：</div>
+                                <div class="col-md-8">
+                                    <textarea name="" style="width: 100%;max-width: 100%;max-height: 100px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-10 clearfix">
+                                <div class="col-md-2 text-right">入库人：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control infoselect1">
+                                </div>
+                                <div class="col-md-2 text-right">入库日期：</div>
+                                <div class="col-md-3">
+                                    <input class="form-control pull-width Wdate" onclick="WdatePicker();" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row editorbody">
+                    <div class="col-md-2 text-center">请导入本批入库的随机号:</div>
+                    <div class="col-md-3 text-center">
+                        <div class="editorbody1 bor">
+                            <table class="table table-striped textalign-c tab1">
+
+                                <tbody>
+                                <tr>
+                                    <td>1131134</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>00131</td>
+
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                <tr>
+                                    <td>00131</td>
+
+                                </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <button type="button" class="btn  btn-primary" style="margin-top: 60px">导入</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn  btn-primary">保存</button>
+                <button type="button" class="btn  btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--删除-->
+<div class="modal" id="delete" tabindex="-1" aria-hidden="false"     role="dialog">
+    <div class="modal-dialog exitdialog">
+        <div class="modal-content exitcontent">
+            <div class="exitrow margin-top-20">
+                <p>是否删除此条记录？</p>
+            </div>
+            <div class="exitbtn"><i class="fa fa-check exitbtn-y" data-dismiss="modal"></i> <i
+                    class="fa fa-times exitbtn-n" data-dismiss="modal"></i></div>
+        </div>
+    </div>
+</div>
+<!--修改密码-->
+<div class="modal" id="revise" tabindex="-1" aria-hidden="true"     role="dialog"></div>
+<!--注销登录-->
+<div class="modal" id="exit" tabindex="-1" aria-hidden="true"     role="dialog"></div>
+<!--邮件-->
+<div class="modal" id="myModal" tabindex="-1" aria-hidden="true"     role="dialog"
+     aria-labelledby="myModalLabel">
+</div>
+
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="assets/plugins/respond.min.js"></script>
+<script src="assets/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js"
+        type="text/javascript"></script>
+<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript"></script>
+<!--下拉框插件-->
+<script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="assets/scripts/app.js" type="text/javascript"></script>
+<script src="assets/scripts/index.js" type="text/javascript"></script>
+<script src="assets/scripts/tasks.js" type="text/javascript"></script>
+<!--日期选择器-->
+<script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+<script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        leftInit(); //加载菜单
+        App.init(); // initlayout and core plugins
+        Index.init();
+    });
+    //审核过后禁用表单元素，不能修改
+    $('#auditing').click(function () {
+        $('#infoeditor input').attr('disabled', true);
+    })
+    //取消审核后，解除表单禁用
+    $('#removeAud').click(function () {
+        $('#infoeditor input').attr('disabled', false);
+    })
+</script>
+<!-- END JAVASCRIPTS -->
+
+</body>
+<!-- END BODY -->
+
+</html>

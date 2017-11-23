@@ -1,0 +1,675 @@
+body {
+    font-family: "Microsoft YaHei";
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 18px !important;
+    direction: ltr;
+    cursor: default;
+    min-width: 1920px;
+    overflow-x: hidden;
+}
+
+.databody {
+    width: 100%;
+    height: 809px;
+    background: #F1F2F7;
+    padding: 20px;
+}
+
+.databox {
+    width: 393px;
+    height: 395px;
+    float: left;
+    background: #fff;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.leftdatabox,
+.rightdatabox {
+    width: 228px;
+    float: left;
+}
+
+
+/*checkOut*/
+
+
+/*cO Animation*/
+
+.cOnums>div {
+    width: 325px;
+    height: 55px;
+    margin: 10px auto;
+}
+
+.cOnums .slide {
+    width: 342px;
+    overflow: hidden;
+}
+
+.cOnums p {
+    margin: 0px auto;
+    width: 330px;
+}
+
+.operTitle li {
+    width: 92px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.optspt span {
+    display: inline-block;
+    width: 92px;
+    text-align: center;
+    height: 51px;
+}
+
+#checkOut .num {
+    display: block;
+    float: left;
+}
+
+#checkOut .cOdetails {
+    font-size: 20px;
+    color: #3D414A;
+    padding-left: 23px;
+    line-height: 41px;
+    height: 41px;
+    background: #F7F7F7;
+    -moz-border-top: 1px solid #E5E5E5;
+    -webkit-border-top: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    -moz-border-bottom: 1px solid #E5E5E5;
+    -webkit-border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.cOnums {
+    text-align: center;
+    width: 393px;
+}
+
+.cOnums .numsList li {
+    float: left;
+}
+
+
+/*operation */
+
+.operation .secTitle li,
+.operation .operItem li {
+    width: 85px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #555;
+    float: left;
+}
+
+.operation .secTitle li:nth-child(2) {
+    width: 115px;
+}
+
+.operation .secTitle li:nth-child(3) {
+    width: 91px;
+}
+
+.operation .secTitle li:nth-child(4) {
+    width: 102px;
+    border-right: 0px;
+}
+
+.operation .operList:nth-child(even) {
+    background-color: #F7F7F7;
+}
+
+.operation .num span {
+    background-color: #ECF3FF;
+}
+
+#operation .operItem {
+    width: 100%;
+    height: 51px;
+}
+
+#operation .operList {
+    height: 51px;
+    overflow: hidden;
+}
+
+#operation .operName {
+    width: 115px;
+}
+
+#operation .clysis {
+    width: 91px;
+}
+
+#operation .defInstru {
+    width: 102px;
+}
+
+
+/*bloodSugar */
+
+#time .timeList {
+    width: 65.5px;
+    height: 122px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bloodSugar .secTitle {
+    height: 56px;
+    line-height: 56px;
+}
+
+.bloodSugar .secTitle li {
+    width: 65.5px;
+    height: 56px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bloodSugar .secTitle .fontover li {
+    height: 28px;
+}
+
+#kf,
+#kf .tempWrap,
+#bf_2h,
+#bf_2h .tempWrap,
+#af_2h,
+#af_2h .tempWrap,
+#pm9,
+#pm9 .tempWrap,
+#pm10,
+#pm10 .tempWrap,
+#am3,
+#am3 .tempWrap {
+    width: 65.5px!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#QXH .secTitle {
+    overflow: inherit;
+}
+
+#QXH .secTitle {
+    width: 65.5px;
+    height: 44px;
+}
+
+#QXH .secTitle li {
+    height: 44px;
+    line-height: 44px;
+    -webkit-border-right: 1px solid #E5E5E5;
+    -moz-border-right: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+#QXH .tempWrap,
+#bs_q2h,
+#bs_q4h,
+#bs_q6h,
+#bs_q8h {
+    height: 44px!important;
+}
+
+#bs_q2h,
+#bs_q4h,
+#bs_q6h,
+#bs_q8h {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#QXH .num {
+    margin: 2px 10px;
+}
+
+#QXH .qxhList {
+    overflow: auto;
+    padding: 0 40px;
+}
+
+#QXH .qxhList li {
+    float: left;
+}
+
+#QXH .rollWrap {
+    width: 327.5px;
+}
+
+
+/*bloodPressure*/
+
+.bloodPressure .secTitle li {
+    height: 55px;
+    line-height: 55px;
+    width: 65.5px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bloodPressure .amountTitle li {
+    height: 26px;
+    line-height: 26px;
+    width: 65.16px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#bloodPressure .bpressList {
+    width: 65.5px;
+    height: 129px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#bloodPressure .outInList {
+    width: 65.16px;
+    height: 117px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#bloodPressure .bpressList .bpressName {
+    height: 51px;
+    width: 100%;
+    line-height: 51px;
+}
+
+#bloodPressure .heart-care,
+#bloodPressure .order {
+    width: 98.25px;
+    height: 169px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#bloodPressure .outIn{
+	width: 196.5px;
+    height: 169px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#bloodPressure h2 {
+    font-size: 18px;
+    color: #3D414A;
+    height: 51px;
+    width: 100%;
+    font-weight: normal;
+    line-height: 51px;
+    padding-left: 0px;
+}
+
+#bloodPressure .htorderList li {
+    float: left;
+    width: 45px;
+}
+
+#bp_qd .tempWrap,
+#bp_bid .tempWrap,
+#bp_q2h .tempWrap,
+#bp_q4h .tempWrap,
+#bp_q6h .tempWrap,
+#bp_q8h .tempWrap {
+    width: 65.5px!important;
+}
+
+#bp_qd,
+#bp_bid,
+#bp_q2h,
+#bp_q4h,
+#bp_q6h,
+#bp_q8h {
+    box-sizing: border-box;
+    width: 65.5px;
+    height: 130px;
+}
+
+#oa_in,
+#oa_out,
+#oa_urine {
+	box-sizing: border-box;
+    width: 65.16px;
+    height: 117px;
+}
+
+.databoxleft {
+    float: left;
+    -moz-border-right: 10px solid #f1f2f7;
+    -webkit-border-right: 10px solid #f1f2f7;
+    border-right: 10px solid #f1f2f7;
+    -moz-box-shadow: -5px 0px 4px 0px #e0e0e0;
+    -webkit-box-shadow: -5px 0px 4px 0px #e0e0e0;
+    box-shadow: -5px 0px 4px 0px #e0e0e0;
+}
+
+.databoxright {
+    float: right;
+    -moz-border-left: 10px solid #f1f2f7;
+    -webkit-border-left: 10px solid #f1f2f7;
+    border-left: 10px solid #f1f2f7;
+    -moz-box-shadow: 5px 0px 4px 0px #e0e0e0;
+    -webkit-box-shadow: 5px 0px 4px 0px #e0e0e0;
+    box-shadow: 5px 0px 4px 0px #e0e0e0;
+}
+
+.dataline {
+    -moz-border-bottom: 1px solid #e5e5e5;
+    -webkit-border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333;
+    float: left;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.dataleft {
+    position: relative;
+    left: 33%;
+}
+
+.dataimgbox {
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+
+.dataimg {
+    width: 160px;
+    height: 120px;
+    float: left;
+    margin-top: 20px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.datadcbox {
+    margin: 20px 0 0 30px;
+}
+
+.dctitle {
+    font-size: 18px;
+    color: #2a2a2a;
+}
+
+.dcline {
+    height: 2px;
+    background: url('../img/line.png') center center no-repeat;
+    margin: 10px 0 10px 0;
+}
+
+.dcname {
+    color: #085FFF;
+    font-size: 28px;
+}
+
+.dcposition {
+    color: #999;
+    font-size: 18px;
+}
+
+
+/*allergy*/
+
+#alName1,
+#alName2,
+#alName3 {
+    height: 51px;
+    overflow: hidden;
+}
+
+#allergy {
+    width: 293px;
+    overflow: hidden;
+}
+
+#allergy .allergyList {
+    width: 293px;
+    height: 51px;
+    padding: 0 15px;
+}
+#allergy>div
+{
+    height: 51px;
+    overflow: hidden;
+}
+
+#allergy .allergyList li {
+    float: left;
+}
+
+#allergy .allergyList .num {
+    margin: 6px 10px;
+}
+
+.secTitle>li:nth-child(even),
+.amountTitle>li:nth-child(even),
+#time>div:nth-child(even),
+#QXH .rollWrap>div:nth-child(even),
+#bloodPressure .topWrap>div:nth-child(even),
+#special>div:nth-child(odd),
+.special .secTitle>li:nth-child(odd),
+#allergy>div:nth-child(even),
+#conduit>div:nth-child(even) {
+    background-color: #F7F7F7;
+}
+
+.special .secTitle>li:nth-child(even) {
+    background-color: transparent!important;
+}
+
+.allergy .allerName {
+    font-size: 20px;
+    width: 80px;
+    line-height: 51px;
+    color: #555;
+    -moz-border-bottom: 1px solid #E5E5E5;
+    -webkit-border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.allergy .allerName:last-child {
+    -webkit-border-bottom: 0;
+    -moz-border-bottom: 0;
+    border-bottom: 0;
+    -webkit-border-right: 1px solid #E5E5E5;
+    -moz-border-right: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.allergy .secTitle,
+.allergy .secTitle li {
+    width: 100px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*special*/
+
+.special .secTitle li {
+    width: 61px;
+    float: left;
+    height: 56px;
+    line-height: 56px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.special .fontover li {
+    height: 28px;
+    line-height: 28px;
+}
+
+.special .secTitle .wash,
+#special .wash {
+    width: 88px!important;
+}
+
+#special .specialList .specialName {
+    font-size: 20px;
+    color: #555;
+    width: 61px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+#special .wash .secName {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#special .wash .secList {
+    width: 50%;
+    height: 298px;
+    box-sizing: border-box;
+}
+
+#special .wash .secList .num {
+    margin: 10px 0;
+}
+
+#cx {
+    width: 88px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cx .num {
+    margin: 5px 0;
+}
+
+#fq,
+#fq .tempWrap,
+#pg,
+#pg .tempWrap {
+    width: 43.5px!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 260px;
+}
+
+#zsRi,
+#zsRi .tempWrap,
+#cnyy,
+#cnyy .tempWrap,
+#whxx,
+#whxx .tempWrap,
+#wb,
+#wb .tempWrap,
+#qy,
+#qy .tempWrap {
+    width: 61px!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 298px;
+}
+
+
+/*conduit*/
+
+.conduit {
+    width: 805px;
+}
+
+.conduit .secTitle li {
+    width: 67.05px;
+    height: 56px;
+    line-height: 56px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.conduit .secTitle .fontover li {
+    height: 28px;
+    line-height: 28px;
+}
+
+#conduit .tempWrap,
+#wg,
+#ng,
+#tg,
+#fqiu,
+#bdg,
+#bcg,
+#gccg,
+#fqyl,
+#fx,
+#vsd,
+#cvc,
+#picc {
+    width: 67.05px!important;
+    height: 298px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#conduit .conduitList {
+    width: 67.05px;
+    height: 298px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+#conduit .conduitList .condName {
+    font-size: 20px;
+    color: #555;
+    width: 74px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.fontover {
+    line-height: 28px!important;
+}
+
+.secTitle li:last-child {
+    border-right: 0;
+}
+/*预约检查背景颜色*/
+#order{
+	background-color: #F7F7F7;
+}

@@ -1,0 +1,787 @@
+body {
+    font-family: "Microsoft YaHei";
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 18px !important;
+    direction: ltr;
+    cursor: default;
+    min-width: 1920px;
+    overflow-x: hidden;
+}
+
+/*header.css*/
+.head {
+    height: 72px;
+    line-height: 72px;
+    width: 100%;
+    background: #085DFF;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+}
+
+.head .headtime {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    left: 20px;
+}
+
+.head .nurse {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 29px;
+    top: 0;
+}
+
+.headbody {
+    width: 100%;
+    height: 95px;
+    background: #fff;
+    -moz-box-shadow: 0px 3px 3px #e0e0e0;
+    -webkit-box-shadow: 0px 3px 3px #e0e0e0;
+    box-shadow: 0px 3px 3px #e0e0e0;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+}
+
+.headmain {
+    position: absolute;
+    left: 75px;
+    height: 110px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.headboxright {
+    width: 305px;
+    float: left;
+}
+
+.headbox {
+    height: 85px;
+    float: left;
+    padding: 0px;
+}
+
+.headborder {
+    -moz-border-right: 1px solid #DEDEDE;
+    -webkit-border-right: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    padding-right: 10px;
+}
+
+.headtextbox {
+    height: 43px;
+    float: left;
+    line-height: 45px;
+    width: 300px;
+}
+
+.headtext {
+    min-width: 72px;
+    float: left;
+    text-align: right;
+}
+
+.leftimg {
+    background: url('../img/people.png') center center no-repeat;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.middleimg {
+    width: 70px;
+    background: url(../img/hosin.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.rightimg {
+    width: 70px;
+    background: url(../img/follow.png) center right no-repeat;
+    margin-right: 10px;
+}
+
+.headline {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+.headhighline {
+    height: 85px;
+    line-height: 85px;
+    width: 100%;
+    float: left;
+}
+
+.lefttext {
+    font-size: 24px;
+    color: #3D414A;
+    float: left;
+}
+
+.righttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.lefttextnum {
+    float: left;
+    font-size: 42px;
+    color: #1463F0;
+}
+
+.headnum {
+    font-size: 28px;
+    color: #1463F0;
+    float: left;
+    min-width: 40px;
+}
+
+.font-red {
+    color: #FF2A21;
+}
+/*header.css end*/
+
+.databody {
+    width: 100%;
+    height: 904px;
+    position: relative;
+    box-sizing: border-box;
+    background: #F1F2F7;
+    padding: 0 0px 20px 20px;
+}
+
+.databox,
+.longdatabox {
+    height: 405px;
+    float: left;
+    background: #fff;
+    margin-top: 12px;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.databox {
+    width: 392px;
+}
+
+.longdatabox {
+	width: 644px;
+}
+
+.rightdatabox {
+    width: 228px;
+    margin-top: 12px;
+    float: left;
+    background-color: #fff;
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/*通用样式*/
+.fontover {
+	line-height: 25px !important;
+}
+
+.detaildata ul {
+	overflow: hidden;
+}
+
+.detaildata ul li {
+	float: left;
+	margin-right: 4px;
+}
+
+.dataTitle {
+	font-size: 22px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #4688FF;
+}
+
+.secTitle,
+.detailtitle {
+	font-size: 18px;
+}
+
+.dbline>div:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.dbline {
+	width: 100%;
+	overflow: hidden;
+}
+
+.secTitle {
+	text-align: center;
+}
+
+.line {
+	width: 100%;
+	overflow: hidden;
+}
+
+.line>div:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.line>div {
+	overflow: hidden;
+	border-top: 1px solid #E5E5E5;
+}
+
+
+.line .detailtitle {
+    float: left;
+    width: 108px;
+    height: 57px;
+    line-height: 57px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*出院*/
+#leavehospital .numbox ul li .num {
+	margin: 10px 7px 7px 15px;
+}
+
+#leavehospital .detailtitle {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #F8F8F8;
+}
+
+#leavehospital .numbox {
+	width: 100%;
+	height: 142px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+#leavehospital .numbox ul li {
+	float: left;
+	width: 63.33px;
+	height: 50px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*手术准备 + 血糖*/
+#bloodsugar1 {
+    height: 150px;
+    overflow: hidden;
+}
+
+#bloodsugar1 .detailtitle {
+    width: 90px;
+    height: 150px !important;
+    line-height: 150px !important;
+}
+
+#bloodsugar1 .numbox {
+    height: 150px;
+    width: 280px;
+}
+
+
+#bloodsugar .numbox ul li .num {
+    margin: 20.5px 6px 7px 9px;
+}
+
+#bloodsugar .secTitle {
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+#bloodsugar .detaildata ul li .num {
+    margin: 5px 7px 5px 7px;
+}
+
+/*测胰岛素and测血糖*/
+
+#BS1,
+#BS2,
+#BS3,
+#BS4,
+#BS5 {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+#bloodsugar .dbline>div,
+#specialcure .dbline>div,
+#security .dbline>div {
+    border-left: 1px solid #E5E5E5;
+}
+
+
+
+
+/*生命体征*/
+#VS .numbox {
+    width: 100%;
+    height: 108px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#VS .numbox ul li .num {
+    margin: 9px 7px 7px 15px;
+}
+
+#VS .numbox ul li {
+    float: left;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+}
+
+#VS .line .detailtitle {
+    height: 69px;
+    line-height: 69px;
+}
+
+#VS .line .detaildata {
+    padding-top: 7px;
+}
+
+#VS .detaildata ul,
+#special .detaildata ul {
+    height: 54px;
+}
+
+#VS .dbline ul {
+    width: 120px;
+}
+
+.dbline {
+    width: 100%;
+    overflow: hidden;
+}
+
+#VS .dbline>div:nth-child(2) {
+    background-color: #F8F8F8;
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+#VS .dbline .secTitle {
+    height: 45px;
+    line-height: 45px;
+}
+
+.secTitle {
+    text-align: center;
+}
+
+.dbline .detaildata {
+    padding: 0px 0px 0px 10px;
+}
+
+#BPqd,
+#BPbid,
+#BPtid {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#VS .line ul,
+#security .line ul,
+#cure .line ul {
+    width: 240px;
+}
+
+.line {
+    width: 100%;
+    overflow: hidden;
+}
+
+.line>div:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.line>div {
+    overflow: hidden;
+    border-top: 1px solid #E5E5E5;
+}
+
+.line .detaildata {
+    float: left;
+    box-sizing: border-box;
+    padding: 1px 0px 0px 8px;
+    box-sizing: border-box;
+}
+
+/*特殊检查 + 功能试验*/
+
+#expecailcheck .dbline .secTitle,
+#funtrial .dbline .secTitle {
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid #E5E5E5;
+}
+
+#expecailcheck .dbline>div,
+#funtrial .dbline>div {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+
+#funtrial .numbox ul li,
+#expecailcheck .numbox ul li{
+    float: left;
+    width: 45px;
+    height: 65px;
+    text-align: center;
+}
+
+#funtrial .numbox ul li .num,
+#expecailcheck .numbox ul li .num {
+    margin: 16px 7px 7px 7px;
+}
+
+#funtrial .numbox,
+#expecailcheck .numbox {
+    width: 100%;
+    height: 135px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/*药物过敏 + 安全管理*/
+#allergy .dbline .secTitle,
+#tend .dbline .secTitle,
+#duct .dbline .secTitle{
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px solid #E5E5E5;
+}
+
+#tend .dbline>div,
+#duct .dbline>div,
+#allergy .dbline>div {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #E5E5E5;
+}
+
+#tend .numbox ul li .num,
+#allergy .numbox ul li .num {
+    margin: 6px 7px 2px 20px;
+}
+
+#tend .numbox,
+#allergy .numbox {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*安全管理*/
+#security1,
+#security2,
+#security3,
+#security4,
+#security5,
+#security6 {
+    width: 16.66%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#security .line>div {
+    height: 46px;
+}
+
+#security .line .detailtitle {
+    height: 46px;
+}
+
+#security .detaildata  ul li .num {
+    margin: 2px 7px 2px 7px;
+}
+
+#security .detaildata ul {
+    height: 46px;
+}
+
+/*基础专科护理 + 治疗 + 体内植入物*/
+
+#implant .dataTitle,
+#cure .dataTitle,
+#security .dataTitle {
+    border-top: 1px solid #E5E5E5;
+}
+#cure .line .detailtitle,
+#implant .line .detailtitle {
+    height: 73px;
+    line-height: 73px;
+}
+#cure .detaildata ul li .num,
+#implant .detaildata ul li .num {
+    margin: 16px 7px 7px 7px;
+}
+
+/*心电监护*/
+/*移动器械和固定器械*/
+#ward .box ul li .num {
+    margin: 10px 7px 7px 7px;
+}
+
+.box,
+.bottomBox {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box ul li {
+    float: left;
+    width: 65.3px;
+    height: 85px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.box .leftBox ul li:nth-child(odd) {
+    background-color: #F8F8F8;
+}
+
+.box .rightBox ul li:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.box .secTitle {
+    border-right: 1px solid #E5E5E5;
+}
+
+.leftBox {
+    width: 261.3px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.rightBox {
+    width: 130.6px;
+    float: left;
+    box-sizing: border-box;
+}
+
+/*导管*/
+#duct .numbox {
+    width: 100%;
+    height: 178px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#duct .numbox ul li .num {
+    margin: 13px 7px 2px 20px;
+}
+
+/*责任护士*/
+#nurse,
+#doctor {
+    position: relative;
+}
+
+/*责任护士*/
+#topic>div:nth-child(odd) {
+    background-color: #F8F8F8;
+}
+
+#doctor .dataTitle {
+    color: #fff;
+    background-color: #FFAE1F;
+    border: none;
+}
+
+#doctor .dutynurse:last-child .nursename {
+    font-size: 15px;
+}
+
+.dutynurse {
+    width: 100%;
+    height: 42.5px;
+    overflow: hidden;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.nursename {
+    float: left;
+    width: 76px;
+    height: 42.5px;
+    color: #3D414A;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.nurseduty {
+    float: left;
+    width: 150px;
+}
+
+.nurseduty ul li {
+    float: left;
+    width: 80px;
+    height: 42.5px;
+    color: #3D414A;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 10px;
+}
+
+.boxline {
+    top: 40px;
+    left: 76px;
+    width: 1px;
+    height: 365px;
+    position: absolute;
+    border-left: 1px solid #E5E5E5;
+}
+
+
+/*测体温and过敏药物*/
+#temperature .line .detailtitle {
+	height: 60px;
+	line-height: 60px;
+}
+
+#temperature .detaildata ul li .num {
+	margin: 10px 7px 7px 10px;
+}
+
+/*特殊治疗和24H*/
+#specialcure {
+	float: left;
+	width: 66.66%;
+}
+
+#specialcure .secTitle {
+	height: 78px;
+	font-size: 16px;
+	line-height: 27px;
+	text-align: center;
+	padding: 11px 10px 0 10px;
+	box-sizing: border-box;
+}
+
+#SC1,
+#SC2,
+#SC3,
+#SC4 {
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+}
+
+#allday {
+	float: right;
+	width: 33.33%;
+}
+
+#allday .dataTitle {
+	border-left: 1px solid #E5E5E5;
+}
+
+#allday1,
+#allday2 {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+
+#allday .secTitle {
+	height: 77px;
+	font-size: 16px;
+	line-height: 77px;
+	text-align: center;
+	padding: 0 5px 0 5px;
+}
+
+
+#allday .numbox ul li .num,
+#specialcure .numbox ul li .num {
+	margin: 9px 7px 7px 13px;
+}
+
+#allday .numbox,
+#specialcure .numbox {
+	height: 287px;
+}
+
+/*预约检查背景颜色*/
+#order{
+	background-color: #F7F7F7;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 10px;
+    line-height: 10px;
+    float: left;
+    background: #1463F0;
+    color: #fff;
+}
+
+/*切换子页面按钮*/
+.changepage {
+    bottom: 6px;
+    left: 22px;
+    position: absolute;
+}
+
+.changepage ul li a {
+    width: 132px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 34px;
+    color: #085DFF;
+    text-decoration: none;
+    display: inline-block;
+    background: #FBFBFB;
+    border: 1px solid #DBDFE6;
+    border-radius: 8px;
+}
+
+.changepage ul li:last-child a {
+    margin-right: 0;
+}
+
+.changepage ul li a:active {
+    color: #FAFAFA;
+    background: #085DFF;
+}
+
+.changepage ul li a.prohibit {
+    cursor: default;
+    color: #BDBDBD;
+    background: #E8E8E8;
+}

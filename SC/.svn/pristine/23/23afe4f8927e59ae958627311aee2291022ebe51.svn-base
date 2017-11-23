@@ -1,0 +1,88 @@
+#zs,
+#cnyy,
+#whxs,
+#fq,
+#pg,
+#wb,
+#qy {
+    width: 100%;
+    height: 55px;
+    overflow: auto;
+}
+
+.databody {
+    padding: 20px 20px 15px 20px;
+    background: #F1F2F7;
+    overflow: auto;
+}
+
+#specialDetails {
+    width: 1630px;
+    height: 814px;
+}
+
+#specialDetails h2 {
+    font-size: 24px;
+    color: #1463F0;
+    height: 55px;
+    line-height: 55px;
+}
+
+#specialTitles {
+    width: 170px;
+    float: left;
+}
+
+#specialTitles li {
+    width: 170px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    font-size: 22px;
+    padding-left: 18px;
+}
+
+#specialSlide .infoList>li:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+
+#specialSlide {
+    width: 1630px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+}
+
+
+#specialDetails .specialList .title {
+    font-size: 22px;
+    color: #333;
+    width: 100px;
+    text-align: left;
+    float: left;
+    padding-left: 70px;
+}
+
+.specialList {
+    float: left;
+    width: 100%;
+}
+
+#specialDetails .specialList li {
+    height: 55px;
+    line-height: 55px;
+    float: left;
+}
+
+.slide_section ul {
+    float: left;
+    width: 1460px;
+}
+
+#specialDetails .specialList .num {
+    margin: 0 10px;
+}
+#specialDetails .infoList .slide {
+    float: left;
+    width: 1460px;
+}

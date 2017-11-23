@@ -1,0 +1,45 @@
+﻿/** 
+ @Name: myskin
+ @Date: 2016.11.28
+ @Author: jinxl
+**/
+
+html #layui_layer_skinsmyskinstylecss {
+    display: none;
+    position: absolute;
+    width: 1989px;
+}
+
+body .layer-ext-jinxl {
+    min-width: 100px;
+}
+
+body .layer-ext-jinxl .layui-layer-content {
+    padding: 12px 25px;
+}
+body .layer-ext-jinxl.layui-layer-dialog .layui-layer-padding {
+    padding: 20px 20px 20px 55px;
+}
+body .layer-ext-jinxl.layui-layer-tips .layui-layer-content {
+    padding: 5px 10px;
+}
+body .layer-ext-jinxl.layui-layer-border {
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 4px rgba(0,0,0,.25);
+}
+body .layer-ext-jinxl .layui-layer-content.layui-layer-padding {
+    text-align: left;
+}
+body .layer-ext-jinxl .layui-layer-btn {
+    text-align: center;
+}
+body .layer-ext-jinxl .layui-layer-btn .layui-layer-btn0 {
+    color: #fff;
+    background-color: #dc3f3f;
+    border: 1px solid #dc3f3f;
+}
+body .layer-ext-jinxl .layui-layer-btn .layui-layer-btn1 {
+    color: #dc3f3f;
+    background-color: #fff;
+    border: 1px solid #dc3f3f;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>制度管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- 字体库 -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont/iconfont.css"/>
+    <!-- bootstrap -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- 主要布局、主题样式 -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!--迭代样式-->
+    <link href="assets/css/iteration.css" rel="stylesheet"/>
+    <!--页头icon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+        <!-- 头部开始 -->
+        <div class="header navbar navbar-inverse navbar-static-top">
+            <div class="header-inner" id="topmenu">
+            <!--leftdata.js-->
+            </div>
+        </div>
+        <!-- 头部结束 -->
+        <div class="clearfix"></div>
+
+        <!-- 页面主体开始 -->
+        <div class="page-container" >
+             <!-- 左侧菜单开始 -->
+             <div id="institution" class="page-sidebar navbar-collapse collapse">
+
+            </div>
+            <!--右侧菜单开始-->
+            <div class="offsidebar closed ie" id="offsidebar">
+            </div>
+            <!-- 页面开始 -->
+            <div class="page-content project">
+                <div class="contenthead">
+                    <div class="contenthead-title">首页</div>
+                </div>
+                <div class="date-main">
+                    <div class="index-page">
+                        <div class="index-page-filter-top">
+                            <button type="button" class="btn  btn-primary" id="save">添加项目</button>
+                            <ul class="index-page-filter-top-left">
+                                <li><input type="text" class="form-control" placeholder="请输入内容"/><i class="fa fa-search search"></i></li>
+                                <li class="margin-left-20">项目类型：</li>
+                                <li>
+                                    <select class="form-control">
+                                        <option>全部</option>
+                                        <option>全部</option>
+                                        <option>全部</option>
+                                        <option>全部</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="index-page-filter-bottom clearfix">
+                            <span id="open"><span>收起</span><i class="fa fa-angle-double-down"></i></span>
+                            <ul id="item-more">
+                                <li data-conditions="1全面项目">1全面项目<span>50</span></li>
+                                <li data-conditions="2全面项目">2全面项目<span>50</span></li>
+                                <li data-conditions="3全面项目">3全面项目<span>50</span></li>
+                                <li data-conditions="4全面项目">4全面项目<span>50</span></li>
+                                <li data-conditions="5全面项目">5全面项目<span>50</span></li>
+                                <li data-conditions="6全面项目">6全面项目<span>50</span></li>
+                                <li data-conditions="7全面项目">7全面项目<span>50</span></li>
+                                <li data-conditions="8全面项目">8全面项目<span>50</span></li>
+                                <li data-conditions="9全面项目">9全面项目<span>50</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- 底部开始 -->
+        <div class="footer">
+            <span>医院名称</span>
+            <span class="pull-right">© 2016 Winning health 版权所有</span>
+        </div>
+        <!--修改密码-->
+        <div class="modal" id="revise" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+        <!--注销登录-->
+        <div class="modal" id="exit" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog"></div>
+        <!--邮件-->
+        <div class="modal" id="myModal" tabindex="-1"  aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+         </div>
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/ctms.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+    <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            leftInit(); //加载菜单
+            App.init(); // initlayout and core plugins
+            Index.init();
+
+            //搜索
+            $('i.search').click(function () {
+                alert("搜索");
+            });
+            //展开收缩
+            $("#open").click(function () {
+                var _this = $(this);
+                if(_this.find('span').text()=='收起'){
+                    _this.find('span').text('展开');
+                    _this.find('i').removeClass('fa-angle-double-up  fa-angle-double-down')
+                        .addClass('fa-angle-double-up');
+                    $('#item-more').removeClass('more');
+                }else{
+                    _this.find('span').text('收起');
+                    _this.find('i').removeClass('fa-angle-double-up  fa-angle-double-down')
+                        .addClass('fa-angle-double-down');
+                    $('#item-more').addClass('more');
+                }
+            });
+            //条件切换
+            $('#item-more >li').click(function(){
+                $(this).toggleClass("active");
+                var result = [];
+                $('#item-more >li.active').map(function (index,item) {
+                   result.push(item.getAttribute('data-conditions'));
+                });
+                alert(result);
+            });
+        });
+    </script>
+</body>
+</html>

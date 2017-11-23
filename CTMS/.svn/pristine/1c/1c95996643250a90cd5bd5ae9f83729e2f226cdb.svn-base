@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>CTMS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/ctms.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/pages/tasks.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+    <!--下拉框样式-->
+    <link href="assets/plugins/jquery-select/css/drop-down.css" rel="stylesheet"/>
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if IE 8]> 
+        <style type=”text/css”>
+        .ch_t{
+            display:inline-block;
+        }
+        .ch_label{
+            display: none;
+        }
+        </style> 
+    <![endif]-->
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+	 	<!--删除提示-->
+		<div class="tip-content" data-tip>
+			<p class="tip-word">你确定删除此条信息吗？<img src="assets/img/tip-del.png"/></p>
+			<div class="tip-btn">
+				<a href="#" class="cancel">取消</a><a href="#" class="ok">确认</a>
+			</div>
+		</div>
+		<div class="tip-mask" data-tip>
+		</div>
+        <!-- 头部开始 -->
+        <div class="header navbar navbar-inverse navbar-static-top">
+            <!-- BEGIN TOP NAVIGATION BAR -->
+            <div class="header-inner">
+                <div style="width:225px;float:left">
+                <!-- BEGIN LOGO -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" alt="logo" class="img-responsive pull-left margin-top-5" />
+                </a>
+                <!-- END LOGO -->
+                </div>
+                <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                <div class="sidebar-toggler hidden-phone"></div>
+                <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <img src="assets/img/menu-toggler.png" alt="" />
+                </a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <ul id="topmenu" class="nav navbar-nav nav-menu topmeau">
+                    <li><a href="#" id="a2" >制度管理</a></li>
+                    <li><a href="#" id="a2" >项目管理</a></li>
+                    <li><a href="#" id="a2" >质量管理</a></li>
+                    <li><a href="#" id="a2" >药物管理</a></li>
+                    <li><a href="#" id="a2" >档案管理</a></li>
+                    <li><a href="#" id="a2" >人员管理</a></li>
+                    <li><a href="#" id="a2" >系统管理</a></li>
+                </ul>
+                <!-- BEGIN TOP NAVIGATION MENU -->
+                <ul class="nav navbar-nav pull-right">
+                    <!-- BEGIN TODO DROPDOWN -->
+                    <li class="dropdown">
+                        <a onclick="$('#searchDiv').toggleClass('searchShow');" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                    <!-- END TODO DROPDOWN -->
+                    <!-- BEGIN INBOX DROPDOWN -->
+                    <li class="dropdown" id="header_inbox_bar">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                           data-close-others="true">
+                            <i class="fa fa-envelope"></i>
+                            <span class="badge">6</span>
+                        </a>
+                        <ul class="dropdown-menu extended inbox">
+                            <li>
+                                <ul class="dropdown-menu-list scroller" style="height: 250px;">
+                                    <li>
+                                        <a data-toggle="modal" data-target="#myModal">
+                                            <span class="subject">
+                                                <span class="new"></span>
+                                                <span class="from">新消息名称</span>
+                                            </span>
+                                            <span class="message">
+                                                请确认一下最新会议日程...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#myModal">
+                                            <span class="subject">
+                                                <span class="readed"></span>
+                                                <span class="from">新消息名称</span>
+                                            </span>
+                                            <span class="message">
+                                                请确认一下最新会议日程...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#myModal">
+                                            <span class="subject">
+                                                <span class="readed"></span>
+                                                <span class="from">新消息名称</span>
+                                            </span>
+                                            <span class="message">
+                                                请确认一下最新会议日程...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#myModal">
+                                            <span class="subject">
+                                                <span class="readed"></span>
+                                                <span class="from">新消息名称</span>
+                                            </span>
+                                            <span class="message">
+                                                请确认一下最新会议日程...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#myModal">
+                                            <span class="subject">
+                                                <span class="readed"></span>
+                                                <span class="from">新消息名称</span>
+                                            </span>
+                                            <span class="message">
+                                                请确认一下最新会议日程...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#myModal">
+                                            <span class="subject">
+                                                <span class="readed"></span>
+                                                <span class="from">新消息名称</span>
+                                            </span>
+                                            <span class="message">
+                                                请确认一下最新会议日程...
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p class="margin-top-10">您有<span style="color:#4b91ea;">6</span>条未读消息</p>
+                                <p style="color:#4b91ea;">查看全部消息</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- END INBOX DROPDOWN -->
+
+                    <!-- BEGIN USER LOGIN DROPDOWN -->
+                    <li class="dropdown user" >
+                        <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true"> -->
+                        <a onclick="$('#offsidebar').toggleClass('closed');" class="dropdown-toggle">
+                            <em class="user-icon"></em>
+                        </a>
+                    </li>
+                    <!-- END USER LOGIN DROPDOWN -->
+                </ul>
+                <!-- END TOP NAVIGATION MENU -->
+
+            <!--搜索框开始-->
+            <form role="search" ID="searchDiv" class="navbar-form searchShow">
+               <div class="form-group has-feedback pull-width">
+                  <input type="text" placeholder="请输入搜索内容后按下回车 ..." style="height:60px; border-bottom:1px solid #e0e0e0 !important;" class="form-control searchbox pull-height pull-width">
+                  <div onclick="$('#searchDiv').toggleClass('searchShow');" class="fa fa-times form-control-feedback"></div>
+               </div>
+               <button type="submit" class="hidden btn btn-default">Submit</button>
+            </form>
+             <!-- 搜索框结束-->    
+            </div>
+            <!-- END TOP NAVIGATION BAR -->
+        </div>
+        <!-- 头部结束 -->
+        <div class="clearfix"></div>
+
+        <!-- 页面主体开始 -->
+        <div class="page-container" >
+            <!-- 左侧菜单开始 -->
+            <div class="page-sidebar navbar-collapse collapse">
+                <!-- BEGIN SIDEBAR MENU -->
+                <ul class="page-sidebar-menu">
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i>
+                            <span class="title">立项与审批</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="项目基本信息.html">
+                                    项目基本信息    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    项目研究阶段
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    研究阶段详细信息
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    立项初审申请
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    立项复审申请
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    立项修改申请
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="伦理审查信息查询.html">
+                                    伦理审查信息查询
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    伦理批件有效期提醒
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    立项审查汇总查询
+                                </a>
+                            </li>    
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i>
+                            <span class="title">试验前准备</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">
+                                    院内人员信息
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    申办方人员信息
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i>
+                            <span class="title">试验计划实施</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">
+                                    制度与SOP维护
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    制度与SOP审核
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    制度与SOP更新记录
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    制度与SOP查阅
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    制度与SOP查阅痕迹
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    制度与SOP发布
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i>
+                            <span class="title">试验结题</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">
+                                    经费管理
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    受试者登记
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    受试者查询
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    项目计划实施
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    立项审核
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    项目信息管理
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    研究计划定义
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    立项申请
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i>
+                            <span class="title">质量管理</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">
+                                    项目流程质控
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    机构人员质控
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    不良事件管理
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    研究进展报告
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    项目质控
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    监查反馈
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    质控表单模板管理
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i>
+                            <span class="title">药物管理</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">
+                                    基本信息维护
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    新增/编辑药物信息
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    发药
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa fa-home"></i>
+                            <span class="title">档案管理</span>
+                            <span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">
+                                    档案登记
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    档案借阅
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    档案归还
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    档案借阅归还记录
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    档案模板维护
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- END SIDEBAR MENU -->
+            </div>
+            <!-- 左侧菜单结束 -->
+           <!--右侧菜单开始-->
+           <div class="offsidebar closed ie" id="offsidebar">
+                    <!-- START Off Sidebar (right)-->
+                    <nav>
+                       <div role="tabpanel">
+                          <!-- Nav tabs-->
+                          <!-- Tab panes-->
+                      <div class="tab-content">
+                      <div id="app-settings" role="tabpanel">
+                       <div class="tab-title">
+                          用户设置
+                       </div>         
+                      <!--账号-->
+                         <div id="accordion2">
+                          <div id="panelbox" class="panel-right">
+                             <div id="panletitle" href="#collapseOne" class="paneltitle">
+                                <a>账号</a>
+                             </div>
+                             <div id="collapseOne" class="panel-collapse">
+                                <div class="panel-body">
+                                  <ul class="nav">
+                                      <li class="menu">
+                                         <a data-toggle="modal" data-target="#myModal" href="#">
+                                            <em class="icon-16"></em>
+                                            <span>密码更改</span>
+                                         </a>
+                                      </li>
+                                      <li class="menu">
+                                         <a href="#">
+                                            <em class="icon-17"></em>
+                                            <span>注销登录</span>
+                                         </a>
+                                      </li>
+                                   </ul>
+                                </div>
+                             </div>
+                          </div>
+
+                       <!--业务设置-->
+
+
+
+                        <!--皮肤-->
+                          <div id="panelbox" class="panel">
+                             <div id="panletitle" href="#collapsethree" class="paneltitle">
+                             <a>皮肤</a>
+                              </div>
+                             <div class="theme-panel">
+                                
+                                <div class="theme-options">
+                                    <div class="theme-option theme-colors clearfix">
+                                        <ul>
+                                            <li class="color-black current color-default" data-style="default"></li>
+                                            <li class="color-blue" data-style="blue"></li>
+                                            <li class="color-brown" data-style="brown"></li>
+                                            <li class="color-purple" data-style="purple"></li>
+                                            <li class="color-grey" data-style="grey"></li>
+                                            <li class="color-white color-light" data-style="light"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="theme-option">
+                                        <span>盒子布局</span>
+                                        <input type="checkbox" class="ch_t" id="ch1"/>
+                                        <label class="ch_label" for="ch1"></label>
+                                    </div>
+                                    <div class="theme-option">
+                                        <span>头部悬浮</span>
+                                        <input type="checkbox" class="ch_t" id="ch2"/>
+                                        <label class="ch_label" for="ch2"></label>
+                                    </div>
+                                    <div class="theme-option">
+                                        <span>工具栏悬浮</span>
+                                        <input type="checkbox" class="ch_t" id="ch3"/>
+                                        <label class="ch_label" for="ch3"></label>
+                                    </div>
+                                    <div class="theme-option">
+                                        <span>底部悬浮</span>
+                                        <input type="checkbox" class="ch_t" id="ch4"/>
+                                        <label class="ch_label" for="ch4"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--<![endif]--> 
+                        
+                       </div>
+                     </div>
+                             
+                          </div>
+                       </div>
+                    </nav>
+                    <!-- END Off Sidebar (right)-->
+           </div>
+           <!--右侧菜单结束-->
+           
+            <!-- 页面开始 -->
+            <div class="page-content">
+            <!-- BEGIN PAGE HEADER-->
+                <div class="contenthead">
+                    <div class="contenthead-title">CIS门诊医生站</div>
+                    <div class="pull-left" style="padding:5px 0 15px 0">
+                          <span class="contenthead-text pull-left">查询条件</span>
+                             <select name="drop2" class="ui-select">
+                                  <option value="">全部</option>
+                                  <option value="1">某某某条件</option>
+                                  <option value="2">某某某条件</option>
+                                  <option value="3">某某某条件</option>
+                              </select>
+                               <div class="pull-left">
+                                   <input class="form-control pull-left margin-left-20" style="height: 28px;" placeholder="关键字查询" type="text"> 
+                                   <button class="btn btn-primary btn-sm pull-left margin-left-10">
+                                    <i class="fa fa-search"></i>
+                                   查询
+                                   </button>
+                               </div>         
+                    </div>
+                </div>
+            <!-- END PAGE HEADER-->
+                <!-- BEGIN DASHBOARD STATS -->
+
+                <div class="date-main">
+                    <div style="margin:-20px 0 0 -30px;">
+                        <ul id="myTabs" class="nav nav-tabs fourlevelmeau">
+                          <li class="active" data-index=".tab1"><a href="#1" data-toggle="tab">研究阶段定义</a></li>
+                          <li class="" data-index=".tab2"><a href="#2" data-toggle="tab">阶段实施计划定义</a></li>
+                          <li class="" data-index=".tab3"><a href="#3" data-toggle="tab">研究阶段定义</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-default btn-sm" data-target="#infoeditor" data-toggle="modal">
+                        <i class="fa fa-plus"></i>
+                        <span>添加</span>
+                        </button>
+
+                        <button type="button" class="btn btn-default btn-sm margin-left-10">
+                        <i class="fa fa-trash-o"></i>
+                        <span>删除</span>
+                        </button>   
+                    </div>
+                    <div class="margin-right-20 margin-top-10 ">
+                        <table class="table table-hover textalign-c tab1 ">
+                           <thead>
+                              <tr class="even">
+                                 <th>
+                                    <input type="checkbox"> 
+                                 </th>
+                                 <th>系统代码</th>
+                                 <th>系统名称</th>
+                                 <th>系统描述</th>
+                                 <th>版本</th>
+                                 <th>开发商</th>
+                                 <th>图标文件名</th>
+                                 <th>启动路径</th>
+                                 <th>启动程序命</th>
+                                 <th>技术架构</th>
+                                 <th>编辑/删除</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>001</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="fa fa-edit font-18 margin-right-10"></i>
+                                  <i  class="fa fa-trash-o font-18 infodel" data-id="122"></i>
+                                 </td>
+                              </tr>
+                              <tr class="even">
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>001</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr> 
+                                <tr>
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>001</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                              </tr>
+                              <tr class="even">
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>001</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr> 
+                               <tr>
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>001</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr>
+                               <tr class="even">
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>001</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                                 <tr>
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>001</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr>
+                               <tr class="even">
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>001</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                                  <tr>
+                                   <td>
+                                      <div>
+                                        <input type="checkbox">
+                                      </div>
+                                   </td>
+                                   <td>EMR</td>
+                                   <td>CIS门诊医生站</td>
+                                   <td>001</td>
+                                   <td>5.0</td>
+                                   <td>卫宁</td>
+                                   <td>门诊医生站.png</td>
+                                   <td>D:/门诊医生站</td>
+                                   <td>WinningHis.exe</td>
+                                   <td>C/S</td>
+                                   <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                           </tbody>
+                        </table>
+                        <table class="table table-hover textalign-c tab2 hide">
+                           <thead>
+                              <tr class="even">
+                                 <th>
+                                    <input type="checkbox"> 
+                                 </th>
+                                 <th>系统代码</th>
+                                 <th>系统名称</th>
+                                 <th>系统描述</th>
+                                 <th>版本</th>
+                                 <th>开发商</th>
+                                 <th>图标文件名</th>
+                                 <th>启动路径</th>
+                                 <th>启动程序命</th>
+                                 <th>技术架构</th>
+                                 <th>编辑/删除</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>002</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="fa fa-edit font-18 margin-right-10"></i>
+                                  <i  class="fa fa-trash-o font-18 infodel" data-id="122"></i>
+                                 </td>
+                              </tr>
+                              <tr class="even">
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>002</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr> 
+                                <tr>
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>002</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                              </tr>
+                              <tr class="even">
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>002</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr> 
+                               <tr>
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>002</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr>
+                               <tr class="even">
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>002</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                                 <tr>
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>002</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr>
+                               <tr class="even">
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>002</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                                  <tr>
+                                   <td>
+                                      <div>
+                                        <input type="checkbox">
+                                      </div>
+                                   </td>
+                                   <td>EMR</td>
+                                   <td>CIS门诊医生站</td>
+                                   <td>002</td>
+                                   <td>5.0</td>
+                                   <td>卫宁</td>
+                                   <td>门诊医生站.png</td>
+                                   <td>D:/门诊医生站</td>
+                                   <td>WinningHis.exe</td>
+                                   <td>C/S</td>
+                                   <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                           </tbody>
+                        </table>
+                        <table class="table table-hover textalign-c tab3 hide">
+                           <thead>
+                              <tr class="even">
+                                 <th>
+                                    <input type="checkbox"> 
+                                 </th>
+                                 <th>系统代码</th>
+                                 <th>系统名称</th>
+                                 <th>系统描述</th>
+                                 <th>版本</th>
+                                 <th>开发商</th>
+                                 <th>图标文件名</th>
+                                 <th>启动路径</th>
+                                 <th>启动程序命</th>
+                                 <th>技术架构</th>
+                                 <th>编辑/删除</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>003</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td>
+                                  <i data-target="#infoeditor" data-toggle="modal" class="fa fa-edit font-18 margin-right-10"></i>
+                                  <i  class="fa fa-trash-o font-18 infodel" data-id="122"></i>
+                                 </td>
+                              </tr>
+                              <tr class="even">
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>003</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr> 
+                                <tr>
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>003</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                              </tr>
+                              <tr class="even">
+                                 <td>
+                                    <div>
+                                      <input type="checkbox">
+                                    </div>
+                                 </td>
+                                 <td>EMR</td>
+                                 <td>CIS门诊医生站</td>
+                                 <td>003</td>
+                                 <td>5.0</td>
+                                 <td>卫宁</td>
+                                 <td>门诊医生站.png</td>
+                                 <td>D:/门诊医生站</td>
+                                 <td>WinningHis.exe</td>
+                                 <td>C/S</td>
+                                 <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr> 
+                               <tr>
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>003</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr>
+                               <tr class="even">
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>003</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                                 <tr>
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>003</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                               </tr>
+                               <tr class="even">
+                                  <td>
+                                     <div>
+                                       <input type="checkbox">
+                                     </div>
+                                  </td>
+                                  <td>EMR</td>
+                                  <td>CIS门诊医生站</td>
+                                  <td>003</td>
+                                  <td>5.0</td>
+                                  <td>卫宁</td>
+                                  <td>门诊医生站.png</td>
+                                  <td>D:/门诊医生站</td>
+                                  <td>WinningHis.exe</td>
+                                  <td>C/S</td>
+                                  <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                                  <tr>
+                                   <td>
+                                      <div>
+                                        <input type="checkbox">
+                                      </div>
+                                   </td>
+                                   <td>EMR</td>
+                                   <td>CIS门诊医生站</td>
+                                   <td>003</td>
+                                   <td>5.0</td>
+                                   <td>卫宁</td>
+                                   <td>门诊医生站.png</td>
+                                   <td>D:/门诊医生站</td>
+                                   <td>WinningHis.exe</td>
+                                   <td>C/S</td>
+                                   <td><i class="fa fa-edit font-18 margin-right-10"></i><i class="fa fa-trash-o font-18"></i></td>
+                                </tr> 
+                           </tbody>
+                        </table>
+                        <div class="margin-bottom-10" style="height:40px; float:right;">
+                        <ul class="pagination" style="visibility: visible;">
+                        <li class="prev disabled">
+                        <a href="#" title="Prev">
+                        <i class="fa fa-angle-left"></i>
+                        </a>
+                        </li>
+                        <li class="active">
+                        <a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li class="next"><a href="#" title="Next"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+
+                </div>
+               <!-- END BUTTONS PORTLET-->      
+
+            </div>
+                <!-- END DASHBOARD STATS -->
+        </div>
+            <!-- 页面结束 -->
+        </div>
+        <!-- 页面主体结束 -->
+        <!-- 底部开始 -->
+        <div class="footer">
+            <span>医院名称</span>
+            <span class="pull-right">© 2016 Winning health 版权所有</span>
+        </div>
+        <!-- 底部结束 -->
+        <div class="modal" id="infoeditor" tabindex="-1" aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title">院内人员基本信息维护</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row editorbody">
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">科室</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>            
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">姓名</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">性别</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <select class="form-control infoselect">
+                                    <option>男</option>
+                                    <option>女</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">出生年月</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                <input class="form-control infoselect Wdate" type="text" onClick="WdatePicker()" placeholder="请选择日期">
+                                
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">学历</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <select class="form-control infoselect">
+                                    <option>高中以下</option>
+                                    <option>高中</option>
+                                    <option>大专</option>
+                                    <option>本科</option>
+                                    <option>研究生</option>
+                                    <option>博士</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">学位</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">职称</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">手机</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                            <div class="margin-bottom-15 pull-left pull-width">
+                                <div class="pull-left col-md-3 text-right">电话</div>
+                                <div class="pull-left col-md-7 margin-left-20">
+                                    <input class="form-control infoselect">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">保存</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+        <div class="modal" id="myModal" tabindex="-1"  aria-hidden="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-wide wp70" >
+            <div class="modal-content" >
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">我的消息</h4>
+              </div>
+              <div class="modal-body pop-window" style="min-height:500px;">
+                 <ul class="left" id="msg-tab">
+                    <li data-key="writ" class="active"><a href="#">
+                    <i class="fa fa-pencil margin-right-10"></i>写邮件</a></li>
+                    <li data-key="rece"><a href="#">
+                    <i class="fa fa-envelope margin-right-10"></i>收件箱</a></li>
+                    <li><a href="#">
+                    <i class="fa fa-external-link margin-right-10"></i>已发送</a></li>
+                    <li><a href="#">
+                    <i class="fa fa-trash-o margin-right-10"></i>已删除</a></li>
+                    <li><a href="#">
+                    <i class="fa fa-file-o margin-right-10"></i>草稿箱</a></li>
+                    <li><a href="#">
+                    <i class="fa fa-briefcase margin-right-10"></i>已归档</a></li>
+                 </ul>
+                 <div class="right">
+                    <!--写邮件-->
+                    <div class="writ-msg">
+                        <div class="msg-head margin-bottom-20">
+                            <button type="button" class="btn btn-primary btn-sm">
+                            <i class="fa fa-external-link margin-right-10"></i>
+                            <span>发送</span></button>
+
+                            <button type="button" class="btn btn-default btn-sm">
+                            <i class="fa fa-save margin-right-10"></i>
+                            <span>保存草稿</span></button>
+                            <button type="button" class="btn btn-default btn-sm">
+                            <i class="fa fa-times-circle margin-right-10"></i><span>取消</span>
+                            </button>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">收件人</label>
+                            <div class="col-sm-10">
+                                <input class="form-control form-control-rounded input-xlarge" type="text" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">主题</label>
+                            <div class="col-sm-10">
+                                <input class="form-control form-control-rounded input-xlarge" type="text" />
+                            </div>
+                        </div>
+                        <div class="add-file">
+                            <a href="#">
+                            <i class="fa fa-chain margin-right-10"></i>添加附件</a>
+                        </div>
+                        <div class="word-edit">
+                            <textarea class="ckeditor form-control" name="editor2" rows="6" data-error-container="#editor2_error"></textarea>
+                            <div id="editor2_error"></div>
+                        </div>
+                    </div>
+                    <!--收件箱-->
+                    <div class="rece-msg hide">
+                        <div class="msg-head">
+                            <button type="button" class="btn btn-default btn-sm">
+                            <i class="fa fa-trash-o margin-right-10"></i>
+                            <span>删除</span></button>
+                        </div>
+                        <div class="rece-body">
+                            <div class="rece-body-left">
+                               <div class="panel-group accordion" id="accordion1">
+                                <div class="panel panel-default no-radius noborder-l noborder-r">
+                                    <div class="panel-heading textalign-c" data-toggle="collapse" data-parent="#accordion1" href="#collapse_1">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle">今天</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse_1" class="panel-collapse in" style="height: auto;">
+                                        <div class="panel-body">
+                                          <div class="pull-left margin-right-10">
+                                            <input type="checkbox">
+                                          </div>
+                                          <div class="pull-left margin-right-10" style="min-width:150px">
+                                                <div class="font-14" style="color:#666;">关于药品审查流程的相关通知</div>
+                                                <div  style="color:#ccc; margin-top:5px;">发件人：张卫东</div>
+                                          </div>
+                                          <div class="pull-right margin-right-10" style="color:#ccc;">09-26 17:30</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default no-radius noborder-l noborder-r">
+                                    <div class="panel-heading textalign-c"  data-toggle="collapse" data-parent="#accordion1" href="#collapse_2">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed">昨天</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse_2" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                          <div class="pull-left margin-right-10">
+                                            <input type="checkbox">
+                                          </div>
+                                          <div class="pull-left margin-right-10" style="min-width:150px">
+                                                <div class="font-14" style="color:#666;">关于药品审查流程的相关通知</div>
+                                                <div  style="color:#ccc; margin-top:5px;">发件人：张卫东</div>
+                                          </div>
+                                          <div class="pull-right margin-right-10" style="color:#ccc;">09-26 17:30</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default no-radius noborder-l noborder-r">
+                                    <div class="panel-heading textalign-c" data-toggle="collapse" data-parent="#accordion1" href="#collapse_3">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed">更久</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse_3" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                          <div class="pull-left margin-right-10">
+                                            <input type="checkbox">
+                                          </div>
+                                          <div class="pull-left margin-right-10" style="min-width:150px">
+                                                <div class="font-14" style="color:#666;">关于药品审查流程的相关通知</div>
+                                                <div style="color:#ccc; margin-top:5px;">发件人：张卫东</div>
+                                          </div>
+                                          <div class="pull-right margin-right-10" style="color:#ccc;">09-26 17:30</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="rece-body-right">
+                                <div class="section1">
+                                    <strong>药品审查流程通知</strong>
+                                    <time>2016-09-26 16:27</time>
+                                <div class="section2">
+                                    <p>人民网9月30日电 据台湾《联合报》报道，大陆“十一”长假即将到来，不过陆客来台数量恐将腰斩。陆委会昨（29）日表示，9月截至25日，陆客入境总人数比去年同期，其中团客减少65.4%，创单月最大减幅。</p>
+                                    <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                    <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                    <p>邱垂正指出，若以520至9月25日计算，陆客入境人数减少27.2%，其中团客减少44%，自由行减少0.3%，台当局将持续努力打造优质、安全、友善的旅游环境，也持续欢迎陆客来台。邱垂正指出，若以520至9月25、友善的旅游环境，也持续欢迎陆客来台。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2" >打开第二层模态窗口</button>-->
+              </div>
+              <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>-->
+            </div>
+          </div>
+        </div>
+       
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript" ></script>
+    <!--下拉框插件-->
+     <script src="assets/plugins/jquery-select/js/select-widget-min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+    <script src="assets/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/scripts/tasks.js" type="text/javascript"></script>
+    <script src="assets/scripts/leftdata.js" type="text/javascript"></script>
+    <!--日期选择器-->
+    <script src="assets/plugins/DateSelect/WdatePicker.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+
+      <script type="text/javascript">
+          $(function(){
+	            //改变div的高度
+	            $(".page-container").height($(document).height()-90);
+                $(".page-sidebar-menu").height($(document).height()-90);
+
+	            //消息切换
+				$("#msg-tab li").click(function(){
+				    $(this).addClass("active").siblings("li").removeClass("active");
+				    $("."+$(this).data("key")+"-msg").removeClass("hide").siblings("div").addClass("hide");
+				});
+				//取消默认事件
+				$(".pagination a[href='#']").click(function(event){
+					alert($(this).text());
+					event.preventDefault();
+				});
+				//tab研究阶段
+				$("#myTabs li").click(function(){
+					var _tabIndex=$(this).data("index");
+					$(_tabIndex).removeClass("hide").siblings("table").addClass("hide");
+					//$(_tabIndex).removeClass("hide").fadeIn("slow").siblings("table").fadeOut(300);
+				});
+				$(".infodel").click(function(){
+					$("[data-tip]").fadeIn();
+				});
+				//关闭遮罩
+				$(".tip-btn>a.cancel").click(function(){
+					$("[data-tip]").fadeOut();
+				});
+          });
+
+    </script>
+
+
+        <!--树形控件-->
+      <script type="text/javascript">
+        　　$(function(){
+        　　$('.tree li:has(ul)').addClass('parent_li').find(' > span').attr('title', 'Collapse this branch');
+        　　$('.tree li.parent_li > span').on('click', function (e) {
+           　　 var children = $(this).parent('li.parent_li').find(' > ul > li');
+            　　if (children.is(":visible")) {
+                　　children.hide('fast');
+                　　$(this).attr('title', 'Expand this branch').find(' > i').addClass('fa-plus').removeClass('fa-minus');
+            　　} else {
+                　　children.show('fast');
+                　　$(this).attr('title', 'Collapse this branch').find(' > i').addClass('fa-minus').removeClass('fa-plus');
+            　　}
+            　　e.stopPropagation();
+        　　});
+        　　});
+      </script>
+         <!--数字输入框-->
+      <script type="text/javascript">
+      (function ($) {
+      $('.spinner .btn:first-of-type').on('click', function() {
+        $('.spinner input').val( parseInt($('.spinner input').val(), 10) + 1);
+      });
+      $('.spinner .btn:last-of-type').on('click', function() {
+        $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
+      });
+      })(jQuery);
+    </script>
+    <!--下拉框-->
+        <script>
+        $(document).ready(function () {
+            $(".ui-select").selectWidget({
+                change: function (changes) {
+                    return changes;
+                },
+                effect: "slide",
+                keyControl: true,
+                speed: 200,
+                scrollHeight: 250
+            });
+        });     
+    
+    </script>
+
+    <script>
+        jQuery(document).ready(function () {
+            App.init(); // initlayout and core plugins
+            Index.init();
+            Index.initJQVMAP(); // init index page's custom scripts
+            Index.initCalendar(); // init index page's custom scripts
+            Index.initCharts(); // init index page's custom scripts
+            Index.initChat();
+            Index.initMiniCharts();
+            Index.initDashboardDaterange();
+            //Index.initIntro();
+            //Tasks.initDashboardWidget();
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+
+
+</body>
+<!-- END BODY -->
+</html>
